@@ -60,6 +60,12 @@ a:hover {
   animation-direction: alternate;
 }
 
+.picture {
+  margin-top: 1em;
+  width: 100%;
+  max-width: 1000px;
+}
+
 .description {
   font-size: .75em;
   font-family: Helvetica, Arial, sans-serif;
