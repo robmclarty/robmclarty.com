@@ -1,0 +1,44 @@
+---
+title: Art // Rob McLarty
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/art.css" rel="stylesheet" type="text/css">
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    <div class="artwork" id="artwork">
+      <header class="art-header">
+        <h1>{{ title }}</h1>
+        <p>
+          by <a href="/">Rob McLarty</a>
+        </p>
+
+        <!--
+        <nav>
+          <ul>
+            <li><a class="selected" href="/art">All</a></li>
+            <li><a class="" href="/tagged/digital">Digital</a></li>
+            <li><a class="" href="/tagged/sketch">Sketch</a></li>
+            <li><a class="" href="/tagged/ink">Ink</a></li>
+            <li><a class="" href="/tagged/chalk">Chalk</a></li>
+            <li><a class="" href="/tagged/paint">Paint</a></li>
+            <li><a class="" href="/tagged/color">Color</a></li>
+            <li><a class="" href="/tagged/bw">B&amp;W</a></li>
+            <li><a class="" href="/tagged/design">Design</a></li>
+          </ul>
+        </nav>
+        -->
+      </header>
+
+      {{ content | safe }}
+
+    </div>
+  </body>
+</html>

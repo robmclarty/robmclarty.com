@@ -1,0 +1,233 @@
+body.no-scroll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden !important;
+}
+
+#infscr-loading {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+.artwork {
+  margin: 0;
+  padding: 0;
+  background: #adadad url("/images/bg_light_grey_noise.png");
+}
+
+.artwork a {
+  color: #e65a49;
+  text-decoration: none;
+}
+
+.artwork a:hover {
+  color: #e65a49;
+  text-decoration: underline;
+}
+
+.artwork .pagination {
+  padding: 40px;
+}
+
+.artwork .infinitescroll-loading {
+  color: #999999;
+}
+
+.art-header {
+  position: relative;
+  padding: 40px 40px 0 40px;
+}
+
+.art-header h1 {
+  margin: 0;
+  color: #000000;
+}
+
+.art-header p {
+  margin-bottom: 0;
+}
+
+.art-header nav {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.art-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.art-header nav ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.art-header nav ul li a {
+  display: block;
+  padding: 8px 16px 6px 16px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.art-header nav ul li a:hover {
+  text-decoration: none;
+  background: #9f9f9f;
+  color: #000000;
+}
+
+.art-header nav ul li a.selected {
+  background: #e65a49;
+  color: #ffffff;
+}
+
+.art-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 35px;
+}
+
+.art-grid li {
+  flex: 1 1 256px;
+  margin: 5px;
+  padding: 0;
+  max-width: 400px;
+  font-size: 0;
+}
+
+.art-grid li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  outline: none;
+}
+
+.art-grid li a img {
+  width: 100%;
+  border: 0;
+}
+
+.artviewer-container {
+  z-index: 500;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  background-color: rgba(255, 255, 255, 0.75);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.artviewer-container:hover {
+  cursor: pointer;
+}
+
+a.artviewer-bg-close {
+  z-index: 10;
+  display: block;
+  position: fixed;
+  background-color: red;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.artviewer-content {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  z-index: 80;
+  background-color: #fff;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 160px;
+  padding: 80px;
+  text-align: left;
+  box-shadow: 0 5px 60px rgba(0, 0, 0, 0.5);
+  cursor: default;
+  font-size: 16px;
+  line-height: 26px;
+  color: #808080;
+}
+
+.artviewer-content .artviewer-image,
+.artviewer-content .artviewer-image img {
+  max-width: 100%;
+}
+
+.artviewer-content .name {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  font-weight: bold;
+  color: #000000;
+}
+
+.artviewer-content .description {
+  margin: 0.5em 0;
+}
+
+.artviewer-content .copyright {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.artviewer-content .copyright a {
+  color: #ccc;
+}
+
+a.artviewer-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: normal;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 25px;
+  background-color: #333;
+  color: #fff;
+  outline: none;
+}
+
+a.artviewer-close-button:hover {
+  background-color: #333;
+  color: #fff;
+}
