@@ -1,0 +1,16 @@
+---
+layout: art.layout
+title: Art // Rob McLarty
+---
+
+<ul class="art-grid">
+  {% for art in collections.arts %}
+    {% if art.data.published %}
+  <li>
+    <a class="artwork-link" href="/images/art/{{ art.data.filename }}">
+      <img alt="{{art.data.title}}" src="/images/art/{{ art.data.thumbnail }}">
+    </a>
+  </li>
+    {% endif %}
+  {% endfor %}
+</ul>
