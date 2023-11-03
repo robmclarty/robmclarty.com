@@ -1,5 +1,4 @@
 /* Nintendoid font from https://www.splintered.co.uk/experiments/132/ */
-
 @font-face {
   font-family: 'Nintendoid1';
   font-style: normal;
@@ -9,37 +8,104 @@
 
 html {
   background: #111;
-  padding: 1em;
   font-size: 16px;
-  color: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ccc;
   line-height: 1;
 }
 
-main {
-  max-width: 800px;
+html, body {
+  margin: 0;
+  padding: 0 0 5rem 0;
 }
 
-h1 {
-  font-size: 3em;
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+  text-align: left;
+}
+
+/*h1 {
+  font-size: 3rem;
   width: 100%;
   margin-bottom: 0;
 }
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 2em;
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 475px) {
   h1 {
-    font-size: 1em;
+    font-size: 1rem;
   }
+}*/
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-image: url('../images/glitchworld.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner > .logo {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  font-size: 2rem;
+  font-family: Nintendoid1, Helvatica, Arial, sans-serif;
+  color: #fff;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, .5));
+}
+
+.banner > .name {
+  position: relative;
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.name > h1 {
+  position: absolute;
+  bottom: -2.9rem;
+  padding: 0;
+  margin: 0;
+  margin-left: -10px;
+  color: #000;
+/*  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, .5));*/
+  font-size: 8.5rem;
+  font-weight: lighter;
+/*  font-weight: lighter;*/
+}
+
+.name > h1 > strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+h1 > strong {
+  font-weight: bold;
 }
 
 a {
   background-color: transparent;
-  color: #eee;
+  color: #fff;
+/*  font-weight: bold;*/
   text-decoration: none;
   padding: 3px 4px 2px 4px;
   margin-left: -3px;
@@ -50,26 +116,24 @@ a:hover {
   color: #111;
 }
 
-.glitch {
+/*.glitch {
   font-family: Nintendoid1;
-  letter-spacing: 0.125em;
+  letter-spacing: 0.125rem;
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
   animation-duration: 0.01s;
   animation-name: textflicker;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
+}*/
 
-.picture {
-  margin-top: 1em;
+/*.picture {
+  margin-top: 1rem;
   width: 100%;
   max-width: 1000px;
-}
+}*/
 
 .description {
-  font-size: .75em;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #aaa;
+  margin-top: 3rem;
 }
 
 @keyframes textflicker {
@@ -79,4 +143,39 @@ a:hover {
   to {
     text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
   }
+}
+
+nav {
+  font-size: 1.5rem;
+  color: #666;
+  margin: 3rem 0;
+}
+
+nav > a {
+  margin: 0 1rem;
+}
+
+nav > a:first-child {
+  margin-left: 0;
+}
+
+.details {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+/*  text-align: center;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.details > .left {
+
+}
+
+.details > .middle {
+
+}
+
+.details > .right {
+
 }
