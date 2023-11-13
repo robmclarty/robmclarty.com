@@ -10,6 +10,7 @@ module.exports = eleventyConfig => {
   // Manually copy static assets.
   eleventyConfig.addPassthroughCopy('src/stylesheets')
   eleventyConfig.addPassthroughCopy('src/images')
+  eleventyConfig.addPassthroughCopy("src/javascripts");
   eleventyConfig.addPassthroughCopy('src/favicon.ico')
 
   // Exclude from tagList.
