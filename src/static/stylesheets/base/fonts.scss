@@ -1,0 +1,83 @@
+// Custom Fonts
+// All static font assets will be copied to the target directory
+// under `/fonts` and then the stylesheet will be compiled into `/main.css`
+@font-face {
+  font-family: 'Sohne Bold Three Quarter';
+  src: local('Sohne Bold Three Quarter'), local('Sohne_BoldThreeQuarter'),
+       url('/fonts/Sohne-BoldThreeQuarter.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sohne Bold Three Quarter Italic';
+  src: local('Sohne Bold Three Quarter Italic'), local('Sohne_BoldThreeQuarter_Italic'),
+       url('/fonts/Sohne-BoldThreeQuarterItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sohne Book';
+  src: local('Sohne Book'), local('Sohne_Book'),
+       url('/fonts/Sohne-Book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro Regular';
+  src: local('Source Serif Pro Regular'), local('SourceSerifPro_Regular'),
+       url('/fonts/SourceSerifPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro Bold';
+  src: local('Source Serif Pro Bold'), local('SourceSerifPro_Bold'),
+       url('/fonts/SourceSerifPro-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro Italic';
+  src: local('Source Serif Pro Italic'), local('SourceSerifPro_Italic'),
+       url('/fonts/SourceSerifPro-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro Regular';
+  src: local('Source Code Pro Regular'), local('SourceCodePro_Regular'),
+       url('/fonts/SourceCodePro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro Bold';
+  src: local('Source Code Pro Bold'), local('SourceCodePro_Bold'),
+       url('/fonts/SourceCodePro-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro Italic';
+  src: local('Source Code Pro Italic'), local('SourceCodePro_Italic'),
+       url('/fonts/SourceCodePro-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,33 @@
+@use 'sass:color';
+@use 'sass:map';
+
+$brand: (
+  'pink': #EB726B,
+  'dark-pink': #6E5554,
+  'teal': #56B8C1,
+  'yellow': #F8DCA7,
+  'biege': #fae8bb,
+  'white': #fff
+);
+
+$primary: (
+  'main': map.get($brand, 'teal'),
+  'light': color.scale(map.get($brand, 'teal'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'teal'), $lightness: -15%),
+  'text': #fff,
+  'text-dark': color.scale(map.get($brand, 'teal'), $lightness: -40%)
+);
+
+$secondary: (
+  'main': map.get($brand, 'pink'),
+  'light': color.scale(map.get($brand, 'pink'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'pink'), $lightness: -15%),
+  'text': map.get($brand, 'dark-pink')
+);
+
+$error: (
+  'main': map.get($brand, 'pink'),
+  'light': color.scale(map.get($brand, 'pink'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'pink'), $lightness: -15%),
+  'text': map.get($brand, 'dark-pink')
+);

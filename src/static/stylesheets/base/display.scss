@@ -1,0 +1,40 @@
+@use '../sizes';
+@use '../fonts';
+
+// Body
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100vw; // main body should fill the entire viewport
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: fonts.$article_body;
+  font-size: sizes.$unit; // sets size for 1em
+  font-weight: normal;
+}
+
+// Only for screenreaders. Otherwise hidden for regular views.
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

@@ -1,0 +1,21 @@
+/**
+ * Root Stylesheet
+ *
+ * @see https://sass-lang.com/documentation/cli/dart-sass
+ * @see https://github.com/sass/dart-sass
+ * @see https://sass-lang.com/documentation/js-api/
+ * @see https://sass-lang.com/documentation/js-api/interfaces/Options
+ * @see https://dev.to/stefaniefluin/the-new-sass-module-system-out-with-import-in-with-use-g3m
+ */
+@use 'base';
+// @use 'animations';
+// @use '../app';
+// @use './fonts';
+
+.words-article {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 1.5rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

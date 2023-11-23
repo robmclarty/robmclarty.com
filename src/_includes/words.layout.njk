@@ -1,18 +1,23 @@
----
-title: Words // Rob McLarty
----
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/stylesheets/words.css" rel="stylesheet" type="text/css">
-    <title>{{ title }}</title>
+    <title>{{ title }} :: Words :: Rob McLarty</title>
   </head>
 
   <body>
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
+    <header>
+      Words :: <a href="/">Rob McLarty</a>
+    </header>
+
+    <article class="words-article">
+      {{ content | safe }}
+    </article>
+
+    <footer>
+      &copy; Rob McLarty 1997-2023
+    </footer>
   </body>
 </html>
