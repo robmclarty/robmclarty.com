@@ -15,7 +15,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy({ 'src/static/images': 'images' })
   eleventyConfig.addPassthroughCopy({ 'src/static/javascripts': 'javascripts' })
   eleventyConfig.addPassthroughCopy({ 'src/static/fonts': 'fonts' })
-  eleventyConfig.addPassthroughCopy({ 'src/words/articles/**/*.jpg': 'images/words/articles' })
+  eleventyConfig.addPassthroughCopy({ 'src/words/articles/**/*.jpg': 'images/words/articles' }) // how to preserve folder structure?
 
   // Create and use .scss extension and output as transformed .css
   // eleventyConfig.addTemplateFormats('scss')

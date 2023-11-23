@@ -12,10 +12,16 @@
 // @use '../app';
 // @use './fonts';
 
+.words {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+
 .words-article {
   width: 100%;
   max-width: 680px;
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 4rem 1.5rem;
   overflow-wrap: break-word;
   word-break: break-word;
 }
