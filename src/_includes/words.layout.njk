@@ -7,19 +7,39 @@
     <title>{{ title }} :: Words :: Rob McLarty</title>
   </head>
 
-  <body>
+  <body class="words">
     <header>
-      Words :: <a href="/">Rob McLarty</a>
+      <nav>
+        <a href="/words">words</a>
+      </nav>
+
+      <div class="name">
+        rob<strong>mclarty</strong>
+      </div>
     </header>
 
-    <section class="words">
-      <article class="words-article">
+    <section>
+      <article>
+        <header>
+          <h1>{{ title }}</h1>
+
+          <ul>
+            {% for tag in tags %}
+              {% if tag != "articles" %}
+                <li>
+                  <a href="/tags/{{ tag }}">{{ tag }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </header>
+
         {{ content | safe }}
       </article>
     </section>
 
     <footer>
-      &copy; Rob McLarty 1997-2023
+      &copy; 1997-2023 Rob McLarty
     </footer>
   </body>
 </html>

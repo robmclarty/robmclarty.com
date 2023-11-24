@@ -8,9 +8,6 @@ tags:
   - payments
 ---
 
-Stripe VS Paypal
-================
-
 Both Stripe and Paypal provide payment processing services to help
 you accept money through your website. But in my opinion, Stripe is
 easier to use and understand, simpler to setup, more flexible, and

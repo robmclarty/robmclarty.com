@@ -43,7 +43,7 @@ $words: (
   'main': map.get($brand, 'blue'),
   'light': color.scale(map.get($brand, 'blue'), $lightness: 15%),
   'dark': color.scale(map.get($brand, 'blue'), $lightness: -15%),
-  'text': map.get($brand, 'blue')
+  'text': color.scale(map.get($brand, 'blue'), $lightness: -40%)
 );
 
 $code: (

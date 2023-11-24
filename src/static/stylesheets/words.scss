@@ -7,21 +7,82 @@
  * @see https://sass-lang.com/documentation/js-api/interfaces/Options
  * @see https://dev.to/stefaniefluin/the-new-sass-module-system-out-with-import-in-with-use-g3m
  */
+@use 'sass:color';
+@use 'sass:map';
 @use 'base';
 // @use 'animations';
 // @use '../app';
-// @use './fonts';
+@use './fonts';
+@use './colors';
 
-.words {
+$header_height: 60px;
+
+.words > header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $header_height;
+  padding: 1rem;
+  background-color: map.get(colors.$words, 'main');
+  font-size: 2.5rem;
+  line-height: 1.2rem;
+  color: white;
+  overflow: hidden;
+
+  nav {
+    float: right;
+
+    a {
+      text-decoration: none;
+      font-family: fonts.$article_semibold;
+      border: 0;
+      color: map.get(colors.$words, 'text');
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: map.get(colors.$words, 'dark');
+      }
+    }
+  }
+
+  .name {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 1rem;
+    font-size: 6.5rem;
+    font-family: fonts.$article_title_light;
+    line-height: 1rem;
+    color: map.get(colors.$words, 'dark');
+    opacity: 0.5;
+
+    strong {
+      font-family: fonts.$article_title;
+    }
+  }
+}
+
+.words > footer {
+  width: 100%;
+  padding: 2rem;
+  background-color: #ddd;
+  color: #666;
+  font-family: fonts.$article_title_light;
+}
+
+.words > section {
   display: grid;
   width: 100%;
   justify-content: center;
-}
+  padding-top: $header_height;
+  padding-bottom: 4rem;
 
-.words-article {
-  width: 100%;
-  max-width: 680px;
-  margin: 0 1.5rem 4rem 1.5rem;
-  overflow-wrap: break-word;
-  word-break: break-word;
+  & > article {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 1.5rem 4rem 1.5rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
 }

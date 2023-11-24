@@ -20,6 +20,24 @@
 }
 
 @font-face {
+  font-family: 'Sohne Light';
+  src: local('Sohne Light'), local('Sohne_Light'),
+       url('/fonts/Sohne-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sohne Semi Bold';
+  src: local('Sohne Semi Bold'), local('Sohne_SemiBold'),
+       url('/fonts/Sohne-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Sohne Book';
   src: local('Sohne Book'), local('Sohne_Book'),
        url('/fonts/Sohne-Book.woff2') format('woff2');
