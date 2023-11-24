@@ -1,6 +1,5 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const rss = require('@11ty/eleventy-plugin-rss')
-const sass = require('sass')
 
 const excludedTags = ['articles', 'arts', 'all']
 
@@ -16,20 +15,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy({ 'src/static/javascripts': 'javascripts' })
   eleventyConfig.addPassthroughCopy({ 'src/static/fonts': 'fonts' })
   eleventyConfig.addPassthroughCopy({ 'src/words/articles/**/*.jpg': 'images/words/articles' }) // how to preserve folder structure?
-
-  // Create and use .scss extension and output as transformed .css
-  // eleventyConfig.addTemplateFormats('scss')
-  // eleventyConfig.addExtension('scss', {
-  //   outputFileExtension: 'css', // default: "html"
-
-  //   // `compile` is called once per .scss file in the input directory
-  //   compile: async inputContent => {
-  //     let result = sass.compileString(inputContent)
-
-  //     // This is the render function, `data` is the full data cascade
-  //     return async data => result.css
-  //   }
-  // })
 
   // Exclude from tagList.
   eleventyConfig.addCollection('tagList', collection => {

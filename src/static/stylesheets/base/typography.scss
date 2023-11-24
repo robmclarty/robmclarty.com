@@ -7,6 +7,7 @@ body {
   font-family: fonts.$article_body;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  background-color: #f6f6f6;
 }
 
 strong,
@@ -37,6 +38,10 @@ h6 {
   }
 }
 
+.meta {
+  font-family: fonts.$article_meta;
+}
+
 code {
   font-family: fonts.$article_code;
 
@@ -51,25 +56,45 @@ code {
   }
 }
 
-.meta {
-  font-family: fonts.$article_meta;
+blockquote {
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+  font-family: fonts.$article_body_italic;
+  background-color: #eee;
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+p {
+  margin: 1rem 0;
 }
 
 a {
-  color: map.get(colors.$primary, 'main');
+  padding: 0 0.25rem;
+  color: map.get(colors.$words, 'dark');
   text-decoration: underline;
 
   &:visited {
-    color: map.get(colors.$primary, 'dark');
+    color: map.get(colors.$words, 'main');
   }
 
   &:hover,
-  &:focus {
-    color: map.get(colors.$primary, 'light');
+  &:focus,
+  &:active {
+    color: white;
+    background-color: map.get(colors.$words, 'main');
+    border-bottom: 2px solid color.scale(map.get(colors.$words, 'main'), $lightness: -25%);
+    text-decoration: none;
   }
 
   &:active {
-    color: color.scale(map.get(colors.$primary, 'light'), $lightness: -5%);
+    background-color: map.get(colors.$words, 'dark');
   }
 }
 
@@ -101,6 +126,8 @@ h6 {
   color: #777;
 }
 
-p {
-  margin: 1rem 0;
+ol, ul {
+  li + li {
+    margin-top: 1rem;
+  }
 }

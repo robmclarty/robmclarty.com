@@ -1,33 +1,82 @@
 @use 'sass:color';
 @use 'sass:map';
 
+////////////////////////////////////////////////////////////////////////////////
+
 $brand: (
-  'pink': #EB726B,
-  'dark-pink': #6E5554,
-  'teal': #56B8C1,
-  'yellow': #F8DCA7,
-  'biege': #fae8bb,
-  'white': #fff
+  'red': #cb4949,
+  'blue': #6fbce8,
+  'green': #7be356,
+  'pink': #c654ac,
+  'orange': #ee9547,
+  'purple': #7f74a4
 );
 
-$primary: (
-  'main': map.get($brand, 'teal'),
-  'light': color.scale(map.get($brand, 'teal'), $lightness: 15%),
-  'dark': color.scale(map.get($brand, 'teal'), $lightness: -15%),
-  'text': #fff,
-  'text-dark': color.scale(map.get($brand, 'teal'), $lightness: -40%)
+////////////////////////////////////////////////////////////////////////////////
+
+// $primary: (
+//   'main': map.get($brand, 'teal'),
+//   'light': color.scale(map.get($brand, 'teal'), $lightness: 15%),
+//   'dark': color.scale(map.get($brand, 'teal'), $lightness: -15%),
+//   'text': #fff,
+//   'text-dark': color.scale(map.get($brand, 'teal'), $lightness: -40%)
+// );
+
+// $secondary: (
+//   'main': map.get($brand, 'pink'),
+//   'light': color.scale(map.get($brand, 'pink'), $lightness: 15%),
+//   'dark': color.scale(map.get($brand, 'pink'), $lightness: -15%),
+//   'text': map.get($brand, 'dark-pink')
+// );
+
+// $error: (
+//   'main': map.get($brand, 'pink'),
+//   'light': color.scale(map.get($brand, 'pink'), $lightness: 15%),
+//   'dark': color.scale(map.get($brand, 'pink'), $lightness: -15%),
+//   'text': map.get($brand, 'dark-pink')
+// );
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+$words: (
+  'main': map.get($brand, 'blue'),
+  'light': color.scale(map.get($brand, 'blue'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'blue'), $lightness: -15%),
+  'text': map.get($brand, 'blue')
 );
 
-$secondary: (
+$code: (
+  'main': map.get($brand, 'red'),
+  'light': color.scale(map.get($brand, 'red'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'red'), $lightness: -15%),
+  'text': map.get($brand, 'red')
+);
+
+$art: (
   'main': map.get($brand, 'pink'),
   'light': color.scale(map.get($brand, 'pink'), $lightness: 15%),
   'dark': color.scale(map.get($brand, 'pink'), $lightness: -15%),
-  'text': map.get($brand, 'dark-pink')
+  'text': map.get($brand, 'pink')
 );
 
-$error: (
-  'main': map.get($brand, 'pink'),
-  'light': color.scale(map.get($brand, 'pink'), $lightness: 15%),
-  'dark': color.scale(map.get($brand, 'pink'), $lightness: -15%),
-  'text': map.get($brand, 'dark-pink')
+$web: (
+  'main': map.get($brand, 'orange'),
+  'light': color.scale(map.get($brand, 'orange'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'orange'), $lightness: -15%),
+  'text': map.get($brand, 'orange')
+);
+
+$bikes: (
+  'main': map.get($brand, 'green'),
+  'light': color.scale(map.get($brand, 'green'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'green'), $lightness: -15%),
+  'text': map.get($brand, 'green')
+);
+
+$photos: (
+  'main': map.get($brand, 'purple'),
+  'light': color.scale(map.get($brand, 'purple'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'purple'), $lightness: -15%),
+  'text': map.get($brand, 'purple')
 );

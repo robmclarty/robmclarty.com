@@ -46,26 +46,30 @@ complex payment gateways, merchant bank accounts, and PCI compliance
 What other people are saying
 ----------------------------
 
-> Call it a coincidence but since we switched to our new payments platform
-> a month ago, sales have gone up.
+> "Call it a coincidence but since we switched to our new payments platform
+> a month ago, sales have gone up."
+>
 > — [CenterNetworks](http://www.centernetworks.com/stripe-from-paypal-google-checkout/)
 
-> 'Using Stripe is almost as easy as embedding a YouTube
+> "'Using Stripe is almost as easy as embedding a YouTube
 > video into a website,' says Mike Moritz, a venture capitalist with
-> Sequoia Capital.
+> Sequoia Capital."
+>
 > — [Business Week](https://www.businessweek.com/articles/2012-02-23/stripe-aims-to-reinvent-e-payments)
 
-> Stripe has no setup fees, no monthly fees, no minimum
+> "Stripe has no setup fees, no monthly fees, no minimum
 > charges, no validation fees, and no card storage fees. There’s also no
 > charge for failed payments. You’ll never have to decipher a complex
-> statement, because you know what you’re charged in advance.
-> — [apppulp](http://www.apppulp.com/article/stripe-vs-paypal-online-payment-disrupt/)
+> statement, because you know what you’re charged in advance."
+>
+> — [AppPulp](http://www.apppulp.com/article/stripe-vs-paypal-online-payment-disrupt/)
 
-> [I] realized the biggest mistake I’ve made...to-date.
+> "[I] realized the biggest mistake I’ve made...to-date.
 > What I found was that a number of customers filled in our order form,
 > went off to Paypal or Google Checkout, but never completed the
 > order...Call it a coincidence but since we switched to our new payments
-> platform a month ago, sales have gone up.
+> platform a month ago, sales have gone up."
+>
 > — [CenterNetworks](http://www.centernetworks.com/stripe-from-paypal-google-checkout)
 
 
@@ -131,7 +135,7 @@ Support
 - email can take days to get a solution to a problem
 - some customers have had their accounts frozen for silly reasons
 
-> All three of PayPal, Google, and Amazon suck, but I will honestly say that
+> "All three of PayPal, Google, and Amazon suck, but I will honestly say that
 > PayPal is probably the worst developer experience I've had in that same time
 > period. And this was for a very simple implementation of a single product
 > one-time purchase.
@@ -157,7 +161,7 @@ Support
 >   put more thought into (and produce better documentation for) my
 >   opensource projects. Useless crap websites like Foursquare can come up
 >   with solid APIs, there's no excuse for a company that handles actual
->   money to be this janky.
+>   money to be this janky."
 >
 > — [stickfigure](http://news.ycombinator.com/item?id=3331556)
 
@@ -167,14 +171,15 @@ Support
 - chatroom with real developers and business staff you can talk to directly
 - they talk with you until your problem is solved and your technology is *working*
 
-> When a customer of ours had an issue placing his order, I
+> "When a customer of ours had an issue placing his order, I
 > wrote Stripe to see if they could offer any insight as to what errors
 > they might be seeing on their end. While the error was unrelated to
 > Stripe itself, they were so awesome that they actually took the
 > initiative to browse through our checkout page and point out the spot
 > that they thought to be the issue. A company that stands beside you when
 > debugging your checkout page, maintaining swift response times on an
-> issue that isn't even theirs? That's customer support.
+> issue that isn't even theirs? That's customer support."
+>
 > — [michaelschade](http://news.ycombinator.com/item?id=3331556)
 
 

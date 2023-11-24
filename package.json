@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:styles": "npx sass --style=compressed --no-source-map ./src/static/stylesheets/words.scss ./build/stylesheets/words.css",
-    "build:styles:watch": "npx sass --style=expanded --source-map --watch --load-path=./build ./src/static/stylesheets/words.scss ./build/stylesheets/words.css",
+    "build:styles:watch": "npx sass --style=expanded --source-map --watch ./src/static/stylesheets/words.scss ./build/stylesheets/words.css",
     "build": "npm run build:styles && npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --port=3001",
     "test": "echo \"Error: no test specified\" && exit 1"
