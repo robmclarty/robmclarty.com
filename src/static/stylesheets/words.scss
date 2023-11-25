@@ -16,6 +16,8 @@
 @use './colors';
 
 $header_height: 60px;
+$max_content_width: 680px;
+$max_content_responsive_width: $max_content_width + 60px;
 
 .words > header {
   position: sticky;
@@ -31,7 +33,10 @@ $header_height: 60px;
   overflow: hidden;
 
   nav {
-    float: right;
+    z-index: 2;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.1rem;
 
     a {
       text-decoration: none;
@@ -48,9 +53,10 @@ $header_height: 60px;
   }
 
   .name {
+    z-index: 1;
     position: absolute;
-    bottom: 0.75rem;
-    left: 1rem;
+    bottom: 0.5rem;
+    left: 1.5rem;
     font-size: 6.5rem;
     font-family: fonts.$article_title_light;
     line-height: 1rem;
@@ -75,14 +81,76 @@ $header_height: 60px;
   display: grid;
   width: 100%;
   justify-content: center;
-  padding-top: $header_height;
+  padding-top: 2rem;
   padding-bottom: 4rem;
 
   & > article {
     width: 100%;
-    max-width: 680px;
+    max-width: $max_content_width;
     margin: 0 1.5rem 4rem 1.5rem;
     overflow-wrap: break-word;
     word-break: break-word;
+    font-size: 1.25rem;
+
+    header {
+      h1 {
+        margin-bottom: 0;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0 0 2rem 0;
+        padding: 0;
+
+        li {
+          display: inline-block;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: $max_content_responsive_width) {
+  .words > header {
+    nav {
+      right: 1rem;
+    }
+
+    .name {
+      bottom: 0.05rem;
+      left: 1rem;
+      font-size: 3rem;
+    }
+  }
+
+  .words > section {
+    display: block;
+    justify-content: normal;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    & > article {
+      width: auto;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+      h1 {
+        font-size: 3rem;
+        line-height: 2.25rem;
+        margin-bottom: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding-top: 1.75rem;
+      }
+    }
   }
 }

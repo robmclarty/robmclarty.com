@@ -3,7 +3,6 @@ title: Stripe VS Paypal
 date: 2013-07-22
 tags:
   - tech
-  - article
   - review
   - payments
 ---
