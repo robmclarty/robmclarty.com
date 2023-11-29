@@ -5,6 +5,7 @@ tags:
   - tech
   - review
   - payments
+banner: stripe_vs_paypal_banner.jpg
 ---
 
 Both Stripe and Paypal provide payment processing services to help
