@@ -200,7 +200,7 @@ API
 Interface and Analytics
 -----------------------
 
-![Stripe VS Paypal Dashboards](stripe_vs_paypal_dashboards.jpg)
+![Stripe VS Paypal Dashboards](/images/words/articles/stripe_vs_paypal_dashboards.jpg)
 
 I'd hardly even call what Paypal has an interface. It's just a bunch
 of tables of text that don't make a lot of sense. Stripe, on the other
