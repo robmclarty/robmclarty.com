@@ -193,12 +193,13 @@ Here's a real token example. You can use this nice service [jwt.io](https://jwt.
 to easily inspect the token if you want to see what's inside it.
 
 ```
-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5v
-cmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsIm5iZ
-iI6MTM1NzAwMDAwMCwiZXhwIjoxNDA3MDE5NjI5LCJqdGkiOiJpZDEyMzQ1NiIsInR5cC
-I6Imh0dHBzOi8vZXhhbXBsZS5jb20vcmVnaXN0ZXIiLCJjdXN0b20tcHJvcGVydHkiOiJ
-mb28iLCJuYW1lIjoiUm9iIE1jTGFydHkiLCJpZCI6Nzh9.-3BnaA1XRiKh8e7zy9ZRTET
-f8VngoypqrVW98oQnH4w
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZX
+hhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiO
+jEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwiZXhwIjoxNDA3MDE5NjI5
+LCJqdGkiOiJpZDEyMzQ1NiIsInR5cCI6Imh0dHBzOi8vZXhhbXBsZS5jb20
+vcmVnaXN0ZXIiLCJjdXN0b20tcHJvcGVydHkiOiJmb28iLCJuYW1lIjoiUm
+9iIE1jTGFydHkiLCJpZCI6Nzh9.-3BnaA1XRiKh8e7zy9ZRTETf8Vngoypq
+rVW98oQnH4w
 ```
 
 The server takes information from the token's payload (e.g., like a "userId")

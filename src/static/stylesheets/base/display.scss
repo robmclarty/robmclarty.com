@@ -25,6 +25,11 @@ body {
   font-weight: normal;
 }
 
+img {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
 // Only for screenreaders. Otherwise hidden for regular views.
 .sr-only {
   position: absolute;
