@@ -21,16 +21,17 @@
     <article>
       <section class="content">
         <header>
-          <h1>{{ title }}</h1>
-
           <p class="date">
             {{ date.toLocaleDateString('en-CA', { year: "numeric", month: "long", day: "numeric" }) }}
           </p>
 
+          <h1>{{ title }}</h1>
+
           <ul>
             <li>
-              <a href="/words">words</a> ::
+              <a href="/words">words</a>
             </li>
+            <li>::</li>
 
             {% for tag in tags %}
               {% if tag != "articles" %}

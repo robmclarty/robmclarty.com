@@ -76,6 +76,7 @@ p {
 
 a {
   padding: 0 0.25rem;
+  margin: 0 -0.25rem;
   color: map.get(colors.$words, 'dark');
   text-decoration: underline;
 
@@ -99,7 +100,7 @@ a {
 
 h1 {
   font-size: 3.5rem;
-  line-height: 2.5rem;
+  line-height: 3.5rem;
   margin-bottom: 3rem;
 }
 
