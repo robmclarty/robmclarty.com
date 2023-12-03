@@ -105,25 +105,26 @@ $banner_height: 100px;
 
 @media screen and (max-width: $max_content_responsive_width) {
   .words .banner {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
+    bottom: auto;
     width: 100%;
     height: $banner-height;
-    // background-color: #808080;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: center center;
+    overflow: hidden;
   }
 
   .words > article {
-    margin: $banner-height 0 0 0;
-    padding-top: 1rem;
+    margin: 0;
+    padding-top: $banner-height;
 
     .content {
       width: auto;
-      margin: 0 auto;
+      margin-top: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
       font-size: 1.1rem;
       line-height: 1.5rem;
 
@@ -149,7 +150,8 @@ $banner_height: 100px;
 @media screen and (max-width: ($max_content_width + 60px)) {
   .words > article {
     .content {
-      margin: 0 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
   }
 }
