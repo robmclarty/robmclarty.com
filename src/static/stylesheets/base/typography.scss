@@ -93,7 +93,7 @@ h1 {
 h2 {
   font-size: 1.75rem;
   line-height: 1.75rem;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ddd;
   padding-top: 2rem;
 }
 
@@ -113,6 +113,8 @@ h6 {
 }
 
 ol, ul {
+  padding-left: 1rem;
+
   li + li {
     margin-top: 1rem;
   }
