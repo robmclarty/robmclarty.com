@@ -8,16 +8,40 @@
   </head>
 
   <body class="words">
-    <article>
-      <section class="content">
+    <section class="content">
+      <article>
         <header>
-          <p class="date">
-            {{ date.toLocaleDateString('en-CA', { year: "numeric", month: "long", day: "numeric" }) }}
-          </p>
-
           <h1>{{ title }}</h1>
 
-          <ul>
+          {% if subtitle %}
+            <p>{{ subtitle }}</p>
+          {% endif %}
+
+          <div class="meta">
+            <span>Published in</span>
+
+            <ul class="tags">
+              {% for tag in tags %}
+                {% if tag != "articles" %}
+                  <li>
+                    <a href="/tags/{{ tag }}">{{ tag }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+
+            <span>·</span>
+
+            <time datetime="{{ date }}">
+              {{ date.toLocaleDateString('en-CA', { year: "numeric", month: "short", day: "numeric" }) }}
+            </time>
+          </div>
+        </header>
+
+        {{ content | safe }}
+
+        <footer>
+          <ul class="tags">
             <li>
               <a href="/words">words</a>
             </li>
@@ -31,21 +55,27 @@
               {% endif %}
             {% endfor %}
           </ul>
-        </header>
-
-        {{ content | safe }}
-
-        <footer>
-          <a href="/words">Back to Words</a>
-          <br />
-          <br />
-          &copy; 1997-2023 Rob McLarty
         </footer>
-      </section>
-    </article>
+      </article>
 
-    <aside class="banner" style="background-image: url('/images/words/articles/{{ banner }}')">
+      <footer class="content-footer">
+        <div>
+          <ul class="more">
+            <li>Another Article</li>
+            <li>Yet Another Article</li>
+            <li>And One More</li>
+            <li>More Still Yet</li>
+          </ul>
+
+          <p>
+            &copy; 1997-2023 Rob McLarty
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <section class="banner" style="background-image: url('/images/words/articles/{{ banner }}')">
       <a class="back" href="/words" title="Back to Words">Back to Words</a>
-    </aside>
+    </section>
   </body>
 </html>

@@ -1,11 +1,14 @@
 ---
 title: What is a JSON Web Token?
+subtitle: Securely transfer claims between two parties
 date: 2015-12-15
+updated: 2020-11-14
+banner: what_is_a_jwt_banner.jpg
+thumbnail: what_is_a_jwt_thumb.jpg
 tags:
   - tech
   - security
   - auth
-banner: what_is_a_jwt_banner.jpg
 ---
 
 > "A [JSON Web Token (JWT)](https://tools.ietf.org/html/rfc7519), pronounced 'jot',
