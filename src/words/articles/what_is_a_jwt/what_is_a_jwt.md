@@ -3,6 +3,7 @@ title: What is a JSON Web Token?
 subtitle: Securely transfer claims between two parties
 date: 2015-12-15
 updated: 2020-11-14
+prefix: what_is_a_jwt
 banner: what_is_a_jwt_banner.jpg
 thumbnail: what_is_a_jwt_thumb.jpg
 tags:
@@ -20,7 +21,7 @@ tags:
 How we used to do authentication
 --------------------------------
 
-![Basic Auth Flow](/images/words/articles/what_is_a_jwt_flow_basic.jpg)
+![Basic Auth Flow](flow_basic.jpg)
 
 HTTP is a *stateless* protocol. That means it doesn't remember anything from
 request to request. If you login for one request, you'll be forgotten, and will
@@ -39,7 +40,7 @@ is implemented in two parts:
 Cookie-based Auth
 -----------------
 
-![Cookie-based Auth Flow](/images/words/articles/what_is_a_jwt_flow_cookie_session.jpg)
+![Cookie-based Auth Flow](flow_cookie_session.jpg)
 
 If a user visits a web page (makes a request) and the server detects a session
 cookie, it will check if it currently has a session stored with the ID from the
@@ -71,7 +72,7 @@ since we've been visiting web sites that do most of their "thinking" on the
 server side. Typically this has been a conversation between the user's frontend
 browser and a corresponding backend server in a one-to-one relationship.
 
-![Multi-server Cookie Auth Flow is Broken](/images/words/articles/what_is_a_jwt_multiserver_cookie.jpg)
+![Multi-server Cookie Auth Flow is Broken](multiserver_cookie.jpg)
 
 This setup still works, but these days we have many different situations that
 require different setups (e.g., multiple mobile native apps alongside large
@@ -84,7 +85,7 @@ sent) to another server (let alone the problems that get created with CORS).
 Drawbacks With Cookie-based Auth
 --------------------------------
 
-![Complex Multi-server Cookie Auth Flow](/images/words/articles/what_is_a_jwt_multiserver_cookie2.jpg)
+![Complex Multi-server Cookie Auth Flow](multiserver_cookie2.jpg)
 
 - **Multiple Backends**: What if your app needs to talk to a database backend as
   well as a separate image processing backend? more and more, our digital world
@@ -119,7 +120,7 @@ JSON Web Tokens Are Better
 JWTs don't use sessions, have no problem with native apps, and actually don't
 even need special CSRF protections, and they works like a charm with CORS.
 
-![JWT Auth Flow](/images/words/articles/what_is_a_jwt_flow_jwt.jpg)
+![JWT Auth Flow](flow_jwt.jpg)
 
 With JWT you register yourself with an app (much the same way you would with an
 old-school app) and you login with your credentials (e.g., username/password, or 3rd party OAuth).
@@ -134,7 +135,7 @@ manager's office. And, like a hotel key, when your stay has ended, you're simply
 left with a useless piece of plastic (i.e., the token doesn't do anything
 anymore after it's expired).
 
-![Multi-server JWT Auth Flow](/images/words/articles/what_is_a_jwt_multiserver_jwt.jpg)
+![Multi-server JWT Auth Flow](multiserver_jwt.jpg)
 
 In a multi-server setup, you could also imagine a JWT akin to a
 "Festival Pass" like you would get at a film or music festival. Whereas

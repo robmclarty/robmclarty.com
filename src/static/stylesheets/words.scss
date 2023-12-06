@@ -20,6 +20,7 @@ $max_content_width: 680px;
 $max_content_responsive_width: $max_content_width + 250px;
 $banner_width: 20%;
 $banner_height: 100px;
+$thumbnail_height: 150px;
 
 .words {
 }
@@ -34,6 +35,7 @@ $banner_height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
 
   a.back {
     z-index: 10;
@@ -94,25 +96,6 @@ $banner_height: 100px;
       font-size: 1.5rem;
       color: #6b6b6b;
     }
-
-    .meta {
-      font-family: fonts.$article_subtitle;
-      font-weight: normal;
-      font-size: 0.9rem;
-      color: #6b6b6b;
-
-      time {
-        display: inline-block;
-        margin-top: 0.75rem;
-        margin-bottom: 0rem;
-        margin-left: 0.2rem;
-      }
-
-      ul.tags {
-        display: inline-block;
-        margin-left: 0.1rem;
-      }
-    }
   }
 
   img {
@@ -124,11 +107,28 @@ $banner_height: 100px;
     padding-top: 2rem;
     margin-top: 2rem;
   }
+}
+
+.meta {
+  font-family: fonts.$article_subtitle;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #6b6b6b;
+
+  time {
+    display: inline-block;
+    margin-top: 0.75rem;
+    margin-bottom: 0rem;
+    margin-left: 0.2rem;
+  }
 
   ul.tags {
+    display: inline-block;
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-left: 0.2rem;
     line-height: 1rem;
 
     li {
@@ -136,6 +136,75 @@ $banner_height: 100px;
       margin: 0 0.25rem 0 0;
     }
   }
+}
+
+ul.words-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  list-style: none;
+  margin: 1rem 0 3rem 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+
+  & > li {
+    display: block;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  & > li > a,
+  & > li > h3 a,
+  & > li > p a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+
+    .thumbnail {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: $thumbnail_height;
+      background-color: #808080;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: transparent;
+      border: 0;
+      color: inherit;
+    }
+  }
+
+  .meta {
+    margin-top: -0.75rem;
+
+    ul.tags {
+      margin-left: 0;
+    }
+  }
+}
+
+.small {
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 @media screen and (max-width: $max_content_responsive_width) {

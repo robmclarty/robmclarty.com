@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/stylesheets/words.css" rel="stylesheet" type="text/css">
-    <title>{{ title }} :: Words :: Rob McLarty</title>
+    <title>{{ title }} :: words :: Rob McLarty</title>
   </head>
 
   <body class="words">
@@ -40,7 +40,7 @@
 
         {{ content | safe }}
 
-        <footer>
+<!--         <footer>
           <ul class="tags">
             <li>
               <a href="/words">words</a>
@@ -55,26 +55,61 @@
               {% endif %}
             {% endfor %}
           </ul>
-        </footer>
+        </footer> -->
       </article>
 
       <footer class="content-footer">
         <div>
-          <ul class="more">
-            <li>Another Article</li>
-            <li>Yet Another Article</li>
-            <li>And One More</li>
-            <li>More Still Yet</li>
+          <h4>More articles you might like</h4>
+
+          <ul class="words-list">
+            {% for article in collections.articles.slice(0, 4) %}
+              {% if article.data.published %}
+                <li>
+                  <a href="{{ article.url }}">
+                    <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
+                  </a>
+
+                  <h3>
+                    <a href="{{ article.url }}">{{ article.data.title }}</a>
+                  </h3>
+
+                  {% if article.data.subtitle %}
+                    <p>
+                      <a href="{{ article.url }}">{{ article.data.subtitle }}</a>
+                    </p>
+                  {% endif %}
+
+                  <div class="meta">
+                    <ul class="tags">
+                      {% for tag in article.data.tags %}
+                        {% if tag != "articles" %}
+                          <li>
+                            <a href="/words/tags/{{ tag }}">{{ tag }}</a>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+
+                    <span>·</span>
+
+                    <time datetime="{{ date }}">
+                      {{ date.toLocaleDateString('en-CA', { year: "numeric", month: "short", day: "numeric" }) }}
+                    </time>
+                  </div>
+                </li>
+              {% endif %}
+            {% endfor %}
           </ul>
 
-          <p>
+          <p class="small">
             &copy; 1997-2023 Rob McLarty
           </p>
         </div>
       </footer>
     </section>
 
-    <section class="banner" style="background-image: url('/images/words/articles/{{ banner }}')">
+    <section class="banner" style="background-image: url('{{ banner }}')">
       <a class="back" href="/words" title="Back to Words">Back to Words</a>
     </section>
   </body>

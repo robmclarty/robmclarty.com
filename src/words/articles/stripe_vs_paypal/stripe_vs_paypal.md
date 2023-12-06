@@ -6,6 +6,7 @@ tags:
   - review
   - payments
 banner: stripe_vs_paypal_banner.jpg
+thumbnail: stripe_vs_paypal_thumb.jpg
 ---
 
 Both Stripe and Paypal provide payment processing services to help
@@ -92,14 +93,14 @@ Setup
 
 ### Paypal
 
-![Paypal Signup Process](/images/words/articles/stripe_vs_paypal_paypal_signup_process.jpg)
+![Paypal Signup Process](paypal_signup_process.jpg)
 
 Paypal's setup process is lengthy and confusing. I felt like I just
 got the manual for a fusion reactor. I didn't look forward to completing it...
 
 ### Stripe
 
-![Stripe Signup Process](/images/words/articles/stripe_vs_paypal_stripe_signup_process.jpg)
+![Stripe Signup Process](stripe_signup_process.jpg)
 
 Email, password, password confirmation, done. How easy is that? It
 was so fast I still retained some of my initial excitement and wanted to push
@@ -114,7 +115,7 @@ Each has similar costs, but Paypal has a lot of fine-print extras
 that Stripe doesn't have. Stripe is a simple transactional cost of
 **2.9% + 30 cents** (only for successful transactions) and nothing more.
 
-![Stripe VS Paypal Costs](/images/words/articles/stripe_vs_paypal_costs.jpg)
+![Stripe VS Paypal Costs](costs.jpg)
 
 
 Support
@@ -200,7 +201,7 @@ API
 Interface and Analytics
 -----------------------
 
-![Stripe VS Paypal Dashboards](/images/words/articles/stripe_vs_paypal_dashboards.jpg)
+![Stripe VS Paypal Dashboards](dashboards.jpg)
 
 I'd hardly even call what Paypal has an interface. It's just a bunch
 of tables of text that don't make a lot of sense. Stripe, on the other

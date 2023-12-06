@@ -1,0 +1,9 @@
+<ul class="tags">
+  {% for tag in tags %}
+    {% if tag != "articles" %}
+      <li>
+        <a href="/tags/{{ tag }}">{{ tag }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

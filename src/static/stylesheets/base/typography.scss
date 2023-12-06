@@ -22,10 +22,7 @@ i {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   margin: 2rem 0;
   padding: 0;
   font-family: fonts.$article_title;
@@ -34,6 +31,20 @@ h6 {
   em,
   i {
     font-family: fonts.$article_title_italic;
+  }
+}
+
+h4,
+h5,
+h6 {
+  margin: 2rem 0;
+  padding: 0;
+  font-family: fonts.$article_subtitle;
+  font-weight: normal;
+
+  em,
+  i {
+    font-family: fonts.$article_subtitle_italic;
   }
 }
 
