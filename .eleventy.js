@@ -25,15 +25,23 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('tagList', collection => {
     const tagSet = new Set()
 
-    collection.getAll().forEach(item => {
-      if (!item.data.tags) return
+    collection.getAll().forEach(el => {
+      if (!el.data.tags) return
 
-      item.data.tags
+      el.data.tags
         .filter(tag => !excludedTags.includes(tag))
         .forEach(tag => tagSet.add(tag))
     })
 
     return Array.from(tagSet).sort()
+  })
+
+  eleventyConfig.addFilter('morePublishedWords', (arr, collectionName, currentUrl, limit = 4) => {
+    return arr
+      .filter(el => el.data.published)
+      .filter(el => el.data.tags.includes(collectionName))
+      .filter(el => el.url !== currentUrl)
+      .slice(0, limit)
   })
 
   return {
