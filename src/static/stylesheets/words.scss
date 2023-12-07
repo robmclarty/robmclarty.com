@@ -64,6 +64,7 @@ $thumbnail_height: 150px;
 
 .content-footer {
   margin: 6rem 0 0 0;
+  padding: 3rem 0;
   color: #666;
   background-color: #eee;
   font-family: fonts.$article_title_light;
@@ -71,7 +72,10 @@ $thumbnail_height: 150px;
   & > div {
     max-width: $max_content_width;
     margin: 0 auto;
-    padding: 2rem 0;
+  }
+
+  h4 {
+    margin-bottom: 2rem;
   }
 }
 
@@ -93,7 +97,8 @@ $thumbnail_height: 150px;
       margin-top: 0.5rem;
       font-family: fonts.$article_subtitle;
       font-weight: normal;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
       color: #6b6b6b;
     }
   }

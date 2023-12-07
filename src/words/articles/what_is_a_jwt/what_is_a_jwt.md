@@ -2,8 +2,7 @@
 title: What is a JSON Web Token?
 subtitle: Securely transfer claims between two parties
 date: 2015-12-15
-updated: 2020-11-14
-prefix: what_is_a_jwt
+updated: 2019-11-14
 banner: what_is_a_jwt_banner.jpg
 thumbnail: what_is_a_jwt_thumb.jpg
 tags:

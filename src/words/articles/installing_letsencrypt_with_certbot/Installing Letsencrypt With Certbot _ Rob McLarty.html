@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en"><script type="text/javascript" async="" src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/ga.js"></script><script type="module" src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/hook.js"></script><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app211.us.archive.org';v.server_ms=246;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://robmclarty.com/blog/installing-letsencrypt-with-certbot","20190718072945","http://web.archive.org/","web","/_static/",
+	      "1563434985");
+</script>
+<link rel="stylesheet" type="text/css" href="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8">
+<title>Installing Letsencrypt With Certbot // Rob McLarty</title>
+<meta content="Let&amp;#39;s Encrypt now has a plethora of clients available to help you make it as painless as possible to install free SSL(TLS) certificates on all of your websites. That is, there is really no good reason why your website doesn&amp;#39;t have https now. Do eet!" name="description">
+<meta content="Rob McLarty" name="application-name">
+<meta content="Rob McLarty" name="author">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="IE-edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="no" http-equiv="MSThemeCompatible">
+<link href="http://web.archive.org/web/20190718072945/http://robmclarty.com/feed" rel="alternate" title="RLog-Feed" type="application/atom+xml">
+<link href="http://web.archive.org/web/20190718072945im_/http://robmclarty.com/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link href="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/application-4bf5c58eeb36f7ffe772634b49b3ee56.css" media="all" rel="stylesheet">
+
+<meta content="authenticity_token" name="csrf-param">
+<meta content="i2mr8gXXBzd673OLgnwrtLpaiXm2tl0pX2MZCcPg2ts=" name="csrf-token">
+
+</head>
+<body class=""><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" style="display: block; direction: ltr;" lang="en">
+</div><div id="wm-ipp-print">The Wayback Machine - http://web.archive.org/web/20190718072945/http://robmclarty.com/blog/installing-letsencrypt-with-certbot</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/donate.html" scrolling="no" style="width:100%; height:100%" frameborder="0">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","http://robmclarty.com/blog/installing-letsencrypt-with-certbot","20190718072945",1996,"/_static/",["/_static/css/banner-styles.css?v=omkqRugM","/_static/css/iconochive.css?v=qtvMKcIJ"], "False");
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<header class="global-header" style="background-image: url('/web/20190718072945im_/http://robmclarty.com/system/posts/banners/19/padlocks-337569_1920b_large.jpg?1483633718');">
+<h1 class="logo">Rob McLarty</h1>
+<a alt="Back to Homepage" class="main-button" href="http://web.archive.org/web/20190718072945/http://robmclarty.com/blog" id="main-button" title="Back to Homepage">
+Installing Letsencrypt With Certbot Banner
+</a>
+</header>
+<div class="main">
+
+<article class="post" id="post-19">
+<h1 id="post-title">Installing Letsencrypt With Certbot</h1>
+<h2>Let's Encrypt now has a <a href="http://web.archive.org/web/20190718072945/https://letsencrypt.org/docs/client-options">plethora of clients</a>
+ available to help you make it as painless as possible to install free 
+SSL(TLS) certificates on all of your websites. That is, there is really 
+no good reason why your website doesn't have https now. Do eet!</h2>
+<h3>Getting Started</h3>
+
+<p><img src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/certbot-logo-1A_large.jpg" alt="certbot logo"></p>
+
+<p>The first thing you'll want to do is install one of the Letsencrypt clients on your server system. Here, I'm using <a href="http://web.archive.org/web/20190718072945/https://certbot.eff.org/">Certbot</a>
+ (by EFF) on Ubuntu 14.04 (trusty) with nginx 1.10 and openssl 1.0.1f. 
+Certbot has great guides on how to install it on many different systems.
+ Check out its site for more details.</p>
+
+<p>Because I'm on Ubuntu 14.04 and it doesn't come with the Certbot package, I need to install the <code>certbot-auto</code> script. On newer systems (e.g., Ubuntu 16) Certbot comes in an easily installable package (e.g., <code>apt-get install letsencrypt</code>). But for me on my slightly older system, I do this:</p>
+
+<pre><code>wget https://dl.eff.org/certbot-auto
+chmod a+x certbot-auto</code></pre>
+
+
+<p>I just put this in my home directory, but feel free to put this wherever you like.</p>
+
+<h3>Get New Certs</h3>
+
+<p>Next, run the script with the necessary options. On my server, I have
+ two websites being served by nginx from two independent directories 
+under <code>/srv/opt</code>. Other common locations might be <code>/var/www/html</code> or <code>/usr/share/nginx/html</code>.
+ The point is, you need the full path to wherever you store your static 
+web files so that Certbot can create some temporary files there and 
+allow the Letsencrypt servers to verify that you do indeed own the 
+domain(s) for which you're requesting a cert.</p>
+
+<p>I'm going to use the <code>certonly</code> flag along with the <a href="http://web.archive.org/web/20190718072945/https://certbot.eff.org/docs/using.html#webroot">webroot plugin</a>. By using webroot's <code>--webroot-path</code> flag (simply <code>-w</code> for short) you can specify multiple domains all in one command like this:</p>
+
+<pre><code>/path/to/certbot-auto certonly --webroot -w /srv/opt/example -d example.com -d www.example.com -w /srv/opt/otherstuff -d otherstuff.io -d m.otherstuff.io</code></pre>
+
+
+<p>This command will get a single cert for example.com, www.example.com,
+ otherstuff.io, and m.otherstuff.io. It does this by first placing some 
+temporary files under <code>/srv/opt/example</code> (which your web server should serve to the the outside world) to prove you control the first two domains, and then under <code>/srv/opt/otherstuff</code> for the second pair of domains.</p>
+
+<p>Here is a real-world example I just did on one of my own servers 
+which runs a simple chat app I'm working on along with a separate 
+authentication server:</p>
+
+<pre><code>~/certbot-auto certonly --webroot -w /srv/opt/chat -d chat.robmclarty.com -w /srv/opt/auth -d auth.robmclarty.com</code></pre>
+
+
+<p>What you'll see after executing this command is a bunch of stuff 
+scroll past your screen and finally an interactive session. This will 
+prompt you for an email address (for urgent notices and lost key 
+recovery) and it will ask you to agree to the Letsencrypt ToS. Once 
+done, it will install your new cert, and chain, under <code>/etc/letsencrypt</code> in a folder named for the first domain you used (e.g., <code>/etc/letsencrypt/live/www.example.com</code>). This cert will contain all of the domains you specified, so you can use the same cert for each of them.</p>
+
+<p><img src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/certbot_install_large.jpg" alt="enter image description here"></p>
+
+<p>After obtaining the cert, you will have the following PEM-encoded files all found under <code>/etc/letsencrypt/live/www.example.com/</code>:</p>
+
+<ul>
+<li><strong>cert.pem</strong>: your domain's certificate</li>
+<li><strong>chain.pem</strong>: the Letsencrypt chain certificate</li>
+<li><strong>fullchain.pem</strong>: <code>cert.pem</code> and <code>chain.pem</code> combined</li>
+<li><strong>privkey.pem</strong>: your certifcate's private key</li>
+</ul>
+
+
+<p>What's actually going on is that the cert files themselves are stored under <code>/etc/letsencrypt/archive</code> (with appropriate permissions) and symbolic links are created under <code>/etc/letsencrypt/live/www.example.com</code>.
+ This way, once you've configured your web server to point to these 
+symbolic links, every time Certbot updates the certs, it will simply 
+update to where those symbolic links point and your web server will be 
+none the wiser. Easy.</p>
+
+<p>Since these files are locked down under strict permission settings, 
+your regular user account won't be able to access the directory where 
+they're stored. You can check that the files exist by running this 
+command (substituting in your own domain name):</p>
+
+<pre><code>sudo ls -l /etc/letsencrypt/live/www.example.com</code></pre>
+
+
+<p>The output should show a list of the 4 files described above.</p>
+
+<p>Before configuring your web server, and to further enhance security, 
+it's a good idea to create a strong Diffie-Hellman group. To generate a 
+2048-bit key, use this command:</p>
+
+<pre><code>sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048</code></pre>
+
+
+<p>This will take a while (especially if you want to use something more 
+than 2048 bits... I like using 4096 bits on all my servers, which takes 
+like over 20 minutes sometimes, depending on the entropy already on the 
+system). So grab a coffee and come back later when all the dots are 
+finished dotting (you'll see). In the end, you'll get a new file located
+ at <code>/etc/ssl/certs/dhparam.pem</code>.</p>
+
+<p><img src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/dots_large.jpg" alt="dhparam dots"></p>
+
+<h3>Configure Your Web Server (Nginx)</h3>
+
+<p>Now you can setup your web server for SSL/TLS just as you normally 
+would, only using the file locations you created above. The 3 files 
+you're concerned with here are <code>fullchain.pem</code>, <code>privkey.pem</code>, and <code>dhparam.pem</code>.</p>
+
+<p>I'm not going to go into all the details of configuring Nginx here, 
+but assuming you already have an existing setup, the lines you'll want 
+to modify are as follows:</p>
+
+<pre><code>ssl_certificate /etc/letsencrypt/live/www.example.com/fullchain.pem;  
+ssl_certificate_key /etc/letsencrypt/live/www.example.com/privkey.pem;  
+ssl_dhparam /etc/ssl/certs/dhparam.pem;</code></pre>
+
+
+<p>...and, if you're using <code>ssl_stapling</code>, you'll want to modify this line too:</p>
+
+<pre><code>ssl_trusted_certificate /etc/letsencrypt/live/www.example.com/fullchain.pem;</code></pre>
+
+
+<h3>Automated Renewal</h3>
+
+<p>You can setup Certbot to automatically renew your certificates before
+ they expire. Letsencrypt certificates only last for 90 days (but it's 
+free, so you can just get new ones whenver you need them). You can do it
+ manually if you <em>want</em> but who wants to remember to log into 
+their server every 90 days and renew their certs when you can just tell 
+the server to do it by itself?</p>
+
+<p>You can test automatic renewal for your certificates by running this command:</p>
+
+<pre><code>/path/to/certbot-auto renew --dry-run</code></pre>
+
+
+<p>If that worked, you can setup a <code>cron</code> or <code>systemd</code> job which runs the following command:</p>
+
+<pre><code>/path/to/certbot-auto renew --quiet --no-self-upgrade</code></pre>
+
+
+<p>You can read more about the <a href="http://web.archive.org/web/20190718072945/https://certbot.eff.org/docs/using.html#renewal">details on auto-renewal</a> on EFF's site.</p>
+
+<p>EFF recommends running your cron or systemd job twice per day! 
+Basically the idea is that it won't do anything until your certs are 
+legitimately due for renewal (Letsencrypt just ignores the renewal 
+request if your cert is still good) but this increased frequency ensures
+ that your site has a chance of staying online in case Letsencrypt 
+intiates a revocation for some reason or their servers are unavailable. 
+It is recommended therefore to choose a random minute within the hour 
+for running your renewals (so everyone isn't hammering the server at 
+exactly the top of the hour).</p>
+
+<p>So, if you're using cron, you would first edit the crontab for the root user like this:</p>
+
+<pre><code>sudo crontab -e</code></pre>
+
+
+<p>Then add the following lines:</p>
+
+<pre><code>48 3,15 * * * /path/to/certbot-auto renew &gt;&gt; /var/log/letsencrypt-renew.log  
+53 3,15 * * * /etc/init.d/nginx reload</code></pre>
+
+
+<p>Note that I'm using randomly chosen minutes as recommended by EFF and
+ renewing at 3:48am and 3:48pm every day (along with restarting nginx 5 
+minutes after initiating each renewal to give it some time to complete 
+before restarting the server). Renewal logs are sent to <code>/var/log/letsencrypt-renew.log</code> so you can check that it's working (or not). You can name the log file whatever you like.</p>
+
+<p>That's it. Now you can sleep at night knowing your website is secured
+ for all your users and that it will automatically renew its certs as 
+long as your server is online. Enjoy your pretty new green lock icon 
+beside your domain name :)</p>
+
+<h3>References</h3>
+
+<ul>
+<li><a href="http://web.archive.org/web/20190718072945/https://letsencrypt.org/">Letsencrypt</a></li>
+<li><a href="http://web.archive.org/web/20190718072945/https://certbot.eff.org/">Certbot</a></li>
+<li><a href="http://web.archive.org/web/20190718072945/https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04">DO Ubuntu 14.04 Tutorial</a></li>
+</ul>
+
+
+</article>
+
+<footer class="global-footer">
+♡
+2019
+by <strong>Rob McLarty</strong>. Copying is an act of love. Please copy.
+<br>
+<br>
+<a href="http://web.archive.org/web/20190718072945/http://robmclarty.com/" style="margin-right: 10px;">Homepage</a>
+<a class="icon twitter button small" href="http://web.archive.org/web/20190718072945/http://twitter.com/robmclarty" style="margin-right: 10px;">Twitter</a>
+<a class="icon github button small" href="http://web.archive.org/web/20190718072945/http://github.com/robmclarty" style="margin-right: 10px;">Github</a>
+<a class="icon email button small" href="http://web.archive.org/web/20190718072945/mailto:%72@%72%6f%62%6d%63%6c%61%72%74%79.%63%6f%6d" style="margin-right: 10px;">Email</a>
+
+</footer>
+</div>
+
+<script src="Installing%20Letsencrypt%20With%20Certbot%20_%20Rob%20McLarty_files/application-53836c59083b4056c599af386f0d9334.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-72855-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'http://web.archive.org/web/20190718072945/https://ssl' : 'http://web.archive.org/web/20190718072945/http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body></html>
+<!--
+     FILE ARCHIVED ON 07:29:45 Jul 18, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:56:45 Sep 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 87.488
+  exclusion.robots: 0.153
+  exclusion.robots.policy: 0.146
+  RedisCDXSource: 37.53
+  esindex: 0.008
+  LoadShardBlock: 27.535 (3)
+  PetaboxLoader3.datanode: 36.9 (4)
+  CDXLines.iter: 19.945 (3)
+  load_resource: 153.12
+  PetaboxLoader3.resolve: 120.674
+-->

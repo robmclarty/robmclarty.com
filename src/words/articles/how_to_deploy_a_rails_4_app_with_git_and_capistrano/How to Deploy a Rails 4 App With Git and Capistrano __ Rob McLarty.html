@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/ga.js"></script><script src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=252;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://robmclarty.com:80/blog/how-to-deploy-a-rails-4-app-with-git-and-capistrano","20190331194655","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1554061615");
+</script>
+<link rel="stylesheet" type="text/css" href="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8">
+<title>How to Deploy a Rails 4 App With Git and Capistrano // Rob McLarty</title>
+<meta content="Setup your local Rails app to deploy to your production server using Capistrano and Git so your deployment process is automated, fast,  and your brain hurts less." name="description">
+<meta content="Rob McLarty" name="application-name">
+<meta content="Rob McLarty" name="author">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="IE-edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="no" http-equiv="MSThemeCompatible">
+<link href="https://web.archive.org/web/20190331194655/http://robmclarty.com/feed" rel="alternate" title="RLog-Feed" type="application/atom+xml">
+<link href="https://web.archive.org/web/20190331194655im_/http://robmclarty.com/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link href="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/application-4bf5c58eeb36f7ffe772634b49b3ee56.css" media="all" rel="stylesheet">
+
+<meta content="authenticity_token" name="csrf-param">
+<meta content="z82ORbFbCvtscnVk7FxH/cCmB9DgB0QTMdWj+CAJ0kA=" name="csrf-token">
+
+</head>
+<body class=""><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 67px;">
+</div><div id="wm-ipp-print">The Wayback Machine - 
+https://web.archive.org/web/20190331194655/http://robmclarty.com:80/blog/how-to-deploy-a-rails-4-app-with-git-and-capistrano</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(700,27,25,2,"web","http://robmclarty.com/blog/how-to-deploy-a-rails-4-app-with-git-and-capistrano","20190331194655",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt","https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<header class="global-header" style="background-image: url('/web/20190331194655im_/http://robmclarty.com/system/posts/banners/11/ford-model-t-assembly-line_large.jpg?1368558925');">
+<h1 class="logo">Rob McLarty</h1>
+<a alt="Back to Homepage" class="main-button" href="https://web.archive.org/web/20190331194655/http://robmclarty.com/blog" id="main-button" title="Back to Homepage">
+How to Deploy a Rails 4 App With Git and Capistrano Banner
+</a>
+</header>
+<div class="main">
+
+<article class="post" id="post-11">
+<h1 id="post-title">How to Deploy a Rails 4 App With Git and Capistrano</h1>
+<h2>Setup your local Rails app to deploy to your production server using
+ Capistrano and Git so your deployment process is automated, fast,  and 
+your brain hurts less.</h2>
+<p>I think the two key aspects of any deployment process are <em>speed</em> and <em>consistency</em>.
+ Speed means you can iterate and fix bugs fast and keep your production 
+code in sync with your development code. Consistency means you know it's
+ going to do the same thing every time so you're not afraid to actually 
+do it and stay up to date. Using a revision control system like <a href="https://web.archive.org/web/20190331194655/http://git-scm.com/">Git</a> along with automated deployment recipes with <a href="https://web.archive.org/web/20190331194655/http://capistranorb.com/">Capistrano</a> satisfies these criteria easily and gives your <a href="https://web.archive.org/web/20190331194655/http://rubyonrails.org/">Rails</a> app a little more oomph.</p>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/bttf_large.jpg" alt="Back to the Future on Rails"></p>
+
+<p>This article assumes you're using a setup like I outlined in my article on <a href="https://web.archive.org/web/20190331194655/http://robmclarty.com/blog/how-to-setup-a-production-server-for-rails-4">how to setup a production server</a>. That is, a Unix server with SSH access using Phusion Passenger and Apache serving a Ruby on Rails app.</p>
+
+<h3>Knowing is half the battle</h3>
+
+<p>Back when I was first learning Rails as a wide-eyed noob, I had no 
+idea how to get from this thing that was working on my dev machine onto a
+ real web server that other people could actual use. All this Unix CLI 
+stuff seemed like black magic to me (probably, partly because my 
+terminal is black) and I felt like I needed a PhD in Rocket Surgery to 
+make it happen. Rails made app development so easy! Surely there was a 
+way of deploying my creations that didn't make my head explode.</p>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/screaming_large.jpg" alt="Head explosion"></p>
+
+<p>Well, there is and there isn't. Services like <a href="https://web.archive.org/web/20190331194655/https://www.heroku.com/">Heroku</a>
+ are trying to take a lot of the pain out of deploying web apps, and 
+they're doing a good job of it. But when I was trying to learn for the 
+first time I felt those services made even less sense to me TBH. I felt 
+that at least on the CLI, <em>I</em> was in control and could see with 
+my own eyes what was happening (or not happening). And so I slowly 
+picked up some understanding of how my mysterious web server worked and 
+how I could make it do what I wanted.</p>
+
+<p>I did everything manually at first (copying files, migrating 
+databases, installing gems, restarting services). But I quickly found 
+out why nobody does this. First, it's terribly error-prone to be typing 
+all those commands with my clumsy human hands. Second, sometimes things 
+exploded and I didn't know why, and would need to spend hours of 
+figuring out where that one ampersand I missed was. The moral of the 
+story is: figure out how to do it once, then save it in a script that 
+can be repeated flawlessly (computers are apparently really good and 
+doing the same thing over and over again; who knew?). And this is why I 
+use Capistrano and Git.</p>
+
+<h3>Your App</h3>
+
+<p>To start off, you're going to need something to actually deploy. I'm 
+not going to presume to know the awesomeness that is your particular 
+app, so I'm just going to use a simple demo here (the deployment process
+ should pretty much be the same regardless of what's going on in your 
+app). My goal, here, is to explain a very simple (sortof) method for 
+automating your Rails deployments to give you a place to start. This 
+isn't the fastest way or the fanciest way, but it'll make your process 
+consistent, and it will definitely be a lot faster than doing it 
+manually. My thinking is that if it at least  <em>works</em> you can afford the time to work your way up to more advanced techniques. This is a post I wish I had myself five years ago!</p>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/Untitled-4_large.jpg" alt="Ilya at his computer"></p>
+
+<p>So, here's a little to-do app I made when I tested my server 
+installation (using MySQL because that's what I installed on my server):</p>
+
+<pre><code>rails new todoapp -d mysql
+cd todoapp
+bundle install
+rails g scaffold todo name:string finished:boolean
+</code></pre>
+
+<p>Edit your <code>database.yml</code> file to configure it for your development and production database, then try it out locally at <code>http://localhost:3000</code> to make sure it's working properly (test production after deployment).</p>
+
+<pre><code>rake db:migrate
+rails s
+</code></pre>
+
+<p>This hardly does anything useful, but you should be able to make new 
+todos and mark them as "finished". Not the most advanced app, but an app
+ nonetheless.</p>
+
+<h3>Git that sh*t under version control!</h3>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/git_logo_large.jpg" alt="Git Logo"></p>
+
+<p>Before we get into actual deployment, it's pretty important that you 
+get your code into a version control system. Being a human and not a 
+machine, I mess stuff up a lot. I feel a lot better knowing I can always
+ go back to a working version of my code without having to decipher the 
+mess I just made ;) And using a centralized version control system like 
+Git makes it super easy to share your code with your friends so they can
+ help you out. So, first order of business is to gittify your code.</p>
+
+<p><a href="https://web.archive.org/web/20190331194655/http://git-scm.com/downloads">Download Git</a></p>
+
+<p>There are binaries for various platforms as well as the source code 
+(if you want to compile it yourself). I'm running Mac OS 10.8 on my dev 
+machine and haven't had any issues with the convenient <code>.dmg</code>
+ binary that's available (I'm running Git version 1.7.9.6). It's up to 
+you what works best for your system. The source code is as easy as <code>config</code>, <code>make</code>, <code>make install</code> so don't be scared of it ;)</p>
+
+<p>Once you've got it installed, the first thing to do is configure some settings so Git knows who you are when you make commits.</p>
+
+<pre><code>git config --global user.name "Your name"
+git config --global user.email "your_email@example.com"
+</code></pre>
+
+<p>Every time you commit some code it will tag your name and email to it
+ in the repository (so, like, if you were participating in some open 
+source badassery and want other badasses to know where that awesome 
+contribution of yours came from, this is how you do it).</p>
+
+<p>With everything setup now you're going to go to your Rails app directory and put it into its own local repository.</p>
+
+<pre><code>cd /your/project/folder
+git init
+touch .gitignore
+</code></pre>
+
+<p>After initializing a new Git repository for your app, before you make
+ any commits, the first thing you'll want to do is setup your <code>.gitignore</code>
+ file (Rails generates this for new projects so you probably don't need 
+to make it yourself anymore). This file contains a list of files (and 
+patterns of files) to ignore and <em>not</em> include in your repository. This is useful so you don't include stupid stuff like <code>.DS_Store</code> but also to keep sensitive files like <code>database.yml</code>
+ out of it so you're not storing passwords where everybody (well, those 
+who have access to your repository) can see them. You can include other 
+stuff as you see fit (e.g., I like to exclude any sqlite databases I 
+might be using as well as static asset files that I've generated for 
+testing but which aren't part of my app) but you at least want to add 
+these: database config, Mac junk, log files, and temp files.</p>
+
+<pre><code>/config/database.yml
+.DS_Store
+/log/*
+/tmp/*
+</code></pre>
+
+<p>Now you can make your first commit and put all your code into the neat little box you just made.</p>
+
+<pre><code>git add .
+git commit -m 'first commit'
+</code></pre>
+
+<p>This adds everything from your current location (which should be your
+ app's root) and commits all those files to the repository. The <code>-m</code>
+ flag is for "message" so you can briefly describe what just happened. 
+Any subsequent changes you make can be added like this and you can log 
+messages of what you did so when you browse your commits you have an 
+idea of what's going on in there.</p>
+
+<h3>Remote repository and Github</h3>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/Octocat_large.jpg" alt="Octocat"></p>
+
+<p>It's a huge convenience to store your repository in the cloud so 
+other people can access it and contribute, as well as make it easier to 
+run deployments from any computer. This also serves as an offsite backup
+ for all your work (bonus). I store all my projects on <a href="https://web.archive.org/web/20190331194655/https://github.com/">Github</a>
+ because it has made this process super easy and has a bunch of really 
+great documentation for when you get stuck. But I've stored my remotes 
+on my own servers in the past, so don't feel obligated to use a paid 
+service if you don't want to. Regardless of how you store your remotes, 
+you're going to need to hookup your local repository to the remote so 
+you can sync the two. Once you've created your remote repository (if 
+you're using Github, <a href="https://web.archive.org/web/20190331194655/https://help.github.com/articles/create-a-repo">read this</a>) save its path as one of your local repository's remotes (this is still from your app's root).</p>
+
+<pre><code>git remote add origin git@github.com:username/your-repo-name.git
+</code></pre>
+
+<p>or</p>
+
+<pre><code>git remote add origin https://github.com/username/your-repo-name.git
+</code></pre>
+
+<p>I'm calling the new remote "origin" here, which is just a convention, but you could call it whatever you want.</p>
+
+<p>Next, push your local code to the remote to sync the two together (this command pushes your local <code>master</code> branch to the <code>origin</code> remote):</p>
+
+<pre><code>git push origin master
+</code></pre>
+
+<p>Git does a lot of other great stuff that you should <a href="https://web.archive.org/web/20190331194655/http://git-scm.com/documentation">read about</a>,
+ like forking, branching, merging, and tagging. But I'm just going to 
+leave at that for the sake of this post so we can get our hands dirty 
+with some deployment processes.</p>
+
+<h3>Server Environment</h3>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/Untitled-3_large.jpg" alt="Inter-Tubes"></p>
+
+<p>Add a group to your remote server called "deployers" that will have 
+permissions to deploy to the server and run stuff without requiring full
+ root/sudo access.</p>
+
+<pre><code>sudo groupadd deployers
+</code></pre>
+
+<p>Create a user (if you haven't already) that will be added to the 
+"deployers" group for making all your deployments. This user should have
+ super-user privileges (I cover creating a new user in <a href="https://web.archive.org/web/20190331194655/http://robmclarty.com/blog/how-to-setup-a-production-server-for-rails-4">my post about server setup</a>). Then add the user you want to use for deployments to that group (the last argument is the username you want to add).</p>
+
+<pre><code>sudo usermod -a -G deployers bill
+</code></pre>
+
+<p>Then, update permissions on your deployment path where you want your 
+app's code to go (here, I'm assuming the user "bill" owns that path). 
+This will give the "deployers" group read and write access to all files 
+and directories beneath <code>/deploy/to/path</code>.</p>
+
+<pre><code>sudo chown -R bill:deployers /deploy/to/path
+sudo chmod -R g+w /deploy/to/path
+</code></pre>
+
+<h3>Capify</h3>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/capistrano_logo_large.jpg" alt="Capistrano Logo"></p>
+
+<p>Capistrano is a Ruby gem that makes your deployment life <em>a lot</em>
+ easier. I used to manually copy files, logon to my servers, run 
+deployment tasks off the CLI, and usually ended up causing a lot more 
+problems than I was solving because my stupid human hands don't always 
+type everything perfectly. I spent many long nights fixing problems 
+caused by my manual deployment processes. Capistrano changes all this by
+ formalizing and automating these tasks because computers can talk to 
+each other a lot more clearly than you can mash buttons and repeat the 
+same (workable) tasks over and over again with zero errors (well, at 
+least I hope there are zero errors!) You can read more details about 
+setting up Capistrano in the <a href="https://web.archive.org/web/20190331194655/https://github.com/leehambley/capistrano-handbook/blob/master/index.markdown">Capistrano Handbook</a>.</p>
+
+<p>Installing Capistrano is as easy as adding it to your app's <code>Gemfile</code> and running <code>bundle install</code>. You don't need it on the production server, so you can just add it under the "development" group in your <code>Gemfile</code>. For reference, I'm using version 2.14.2.</p>
+
+<pre><code>group :development do
+    gem 'capistrano'
+end
+</code></pre>
+
+<p>And install with bundler (from your app's root).</p>
+
+<pre><code>bundle install
+</code></pre>
+
+<p>Once installed, you'll need to "capify" your project. This will generate a few files (namely <code>/config/deploy.rb</code> and <code>/Capfile</code>). The <code>deploy.rb</code>
+ is where you can add or write custom scripts to help automate your 
+deployment tasks and save your carpal tunnel for more important 
+application programming.</p>
+
+<pre><code>cd /path/to/your/project
+capify .
+</code></pre>
+
+<h3>Capistrano settings</h3>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/patterns_large.jpg" alt="Connections in space"></p>
+
+<p>Once your project is capified, open up your <a href="https://web.archive.org/web/20190331194655/http://www.sublimetext.com/2">editor of choice</a> and modify <code>/config/deploy.rb</code> (here's <a href="https://web.archive.org/web/20190331194655/http://robmclarty.com/static/example-deploy-recipes/deploy.rb">the final example</a>). There's a bunch of stuff in there, but first I'm going to focus on the top-most settings, denoted with various <code>set</code> commands.</p>
+
+<p>First, you need to tell Capistrano your app's name and the clone path to your app's remote repository.</p>
+
+<pre><code>set :application, "YourApplicationName"
+set :repository, "git@github.com:your-username/your-repository-name.git"
+</code></pre>
+
+<p>Next, tell it where your app needs to be installed on your production
+ server (this is the path to where you want your app to live, starting 
+from your server's root). The path will be the location you pointed your
+ server to that I covered in my <a href="https://web.archive.org/web/20190331194655/http://robmclarty.com/blog/how-to-setup-a-production-server-for-rails-4">previous post</a>. You can leave this out if you want to deploy to Capistrano's default location of <code>/u/apps/#{ application }</code>.</p>
+
+<pre><code>set :deploy_to, "/path/to/your/app"
+</code></pre>
+
+<p>Set the type of repository you're using (e.g., GIT, SVN, etc.) and which branch you want to deploy from (usually "master").</p>
+
+<pre><code>set :scm, :git
+set :branch, "master"
+</code></pre>
+
+<p>Set the user you want to use for your server's deploys.</p>
+
+<pre><code>set :user, "bill"
+</code></pre>
+
+<p>Now, you <em>could</em> use the <code>scm_passphrase</code> setting 
+to tell Capistrano the password to use for your deployment user, but I 
+don't like the idea of storing my server password in a file I want to 
+keep in my repository. This is why I setup my server with RSA keys that 
+allow my dev machine access without the need for entering a password 
+every time. But if you want to put it in your deployment script without 
+using keys, you'd do it like this (although not recommended):</p>
+
+<pre><code>set :scm_passphrase, "password"
+</code></pre>
+
+<p>I change another setting called <code>use_sudo</code> to false so 
+commands are executed with the user's permissions unless I specify 
+otherwise. If you added your user to the "deployers" group (which has 
+write-access to your app's directory tree) you probably won't need to 
+use <code>sudo</code> much, if at all.</p>
+
+<pre><code>set :use_sudo, false
+</code></pre>
+
+<p>Set your rails environment (this is deploying to the production 
+server, so I'm setting it to "production", but you might want to deploy 
+to a staging server with a custom environment). You can re-use this 
+variable in your scripts whenever you need to specify the environment so
+ you only need to change it in one place to keep things DRY.</p>
+
+<pre><code>set :rails_env, "production"
+</code></pre>
+
+<p>Tell Capistrano how you'd like to make updates. There are many 
+different ways of doing it, but for simplicity's sake, I'm going to 
+stick with the most straight-forward method, namely <code>copy</code>. 
+This will clone your entire repository (download it from the remote to 
+your local machine) and then upload the entire app to your server.</p>
+
+<pre><code>set :deploy_via, :copy
+</code></pre>
+
+<p>You could alternatively use a faster method like <code>remote_cache</code> which will run a <code>fetch</code>
+ from your server to your remote repository and only update what's 
+changed, but that requires some additional authentication between your 
+server and the remote repository. I just want to get you up and running 
+first. Worry about optimizing the process later.</p>
+
+<p>Next, you need to tell Capistrano about any special SSH options it 
+should be aware of. For instance, my server is setup to use a custom 
+port number and uses RSA keys for authentication to my Github account. 
+So, I need to specify the port, and use what's called "agent forwarding"
+ to connect to my remote repository (it sounds weird, but agent 
+forwarding will make your life easier by using your local keys rather 
+than those installed on your server). <a href="https://web.archive.org/web/20190331194655/https://help.github.com/articles/using-ssh-agent-forwarding">Read more about agent forwarding</a> with this great article from Github.</p>
+
+<pre><code>set :ssh_options, { :forward_agent =&gt; true, :port =&gt; 4321 }
+</code></pre>
+
+<p>You can also specify how many releases Capistrano should store on 
+your server's harddrive. This is handy in case you ever want to rollback
+ to a previous version quickly in case your newly deployed code blew 
+something up and you need to put out the fires. But you probably want 
+this to be a finite number so you don't fill up your disk with inactive 
+versions of your app. I keep five releases.</p>
+
+<pre><code>set :keep_releases, 5
+</code></pre>
+
+<p>Next, you should use the following setting to ensure any needed 
+password prompts from SSH show up in your terminal so you can handle 
+them.</p>
+
+<pre><code>default_run_options[:pty] = true
+</code></pre>
+
+<p>The last setting you need to handle is where on the internet 
+Capistrano can find your server. This could be your domain name or the 
+IP address. I'm assuming this deployment is for a smallish MVP-type app 
+where everything is on the same machine (database, app, server, etc.). 
+In this case you can use Capistrano's <code>server</code> setting.</p>
+
+<pre><code>server "www.example.com", :app, :web, :db, :primary =&gt; true
+</code></pre>
+
+<p>If you want to do fancier deployments by splitting things up for 
+scaling (like separating your database from your application server), 
+you'll want to use Capistrano's "roles" to point it to the different 
+places where things are installed. Use multiple roles instead of the <code>server</code> command (it accomplishes the same thing with greater granularity).</p>
+
+<pre><code>role :web, "web.example.com"
+role :app, "app.example.com"
+role :db, "db.somethingelse.com", :primary =&gt; true
+</code></pre>
+
+<p>That <code>:primary =&gt; true</code> part of the database role tells Capistrano that this is the location of your primary database. Read more about this in <a href="https://web.archive.org/web/20190331194655/https://github.com/capistrano/capistrano/wiki/2.x-DSL-Configuration-Roles-Role">greater detail</a>.</p>
+
+<h3>Connect</h3>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/invitation_front_large.jpg" alt="Connections"></p>
+
+<p>Before we get into the individual deployment tasks, check that all the settings you've just saved in <code>deploy.rb</code> are working properly. Run this command in a terminal from your app's root.</p>
+
+<pre><code>cap deploy:setup
+</code></pre>
+
+<p>This will SSH to your server and create some directories in the folder you specified with <code>deploy_to</code>
+ where Capistrano will store your releases, and your shared files (e.g.,
+ logs, configs, static assets like uploads, etc.). If something goes 
+wrong with permissions or SSH access, you'll see some error messages. 
+Fix these before proceeding so you know you can actually make a 
+connection to your server.</p>
+
+<p>This should setup the following directories (if you've specified to install your app in <code>/var/www/example.com/</code>):</p>
+
+<pre><code>/var/www/example.com/current
+/var/www/example.com/shared
+/var/www/example.com/releases
+</code></pre>
+
+<p>The <code>releases</code> directory is where copies of all your actual code are stored. <code>shared</code> is a place where you can put common, shared files like logs, static assets, and in our case, config files like <code>database.yml</code>. <code>current</code> is simply a symbolic link that points to the current release inside the <code>releases</code> directory (Capistrano updates this for you on each deploy, so don't worry about it).</p>
+
+<p>If <code>deploy:setup</code> works, the next thing you can do is run the <code>deploy:check</code>
+ command. This will check your local environment and your server and try
+ to locate any possible issues. If you see any errors, fix them first, 
+and then run the command again until you don't have any more errors.</p>
+
+<pre><code>cap deploy:check
+</code></pre>
+
+<p>Any number of things could go wrong here, but the most likely issues 
+will be some sort of authentication or file permission issues with your 
+server and the user you're logging in with SSH (I've lost count of the 
+number of times I've wanted to punch my computer due to some unknown 
+error only to discover I had set the file permissions incorrectly).</p>
+
+<h3>Database.yml</h3>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/_MG_1065_large.jpg" alt="Ice Cream"></p>
+
+<p>Let's take a break here and talk about your <code>database.yml</code> file. If you've been following along, you excluded it from your repository by adding it to your <code>.gitignore</code>
+ file. This is good (don't store sensitive data like passwords in your 
+repository). However, when you run Capistrano to update your server, it 
+only copies the files that are in your repository (and Rails actually 
+needs to use that <code>database.yml</code> file to hook up to your 
+server's database, unless you don't plan on storing any data 
+whatsoever). So, the problem is: we need to get that config file onto 
+the server somehow, securely, and make sure Rails knows where to find 
+it.</p>
+
+<p>There are many different solutions out there for handling this issue,
+ but I always like to keep things simple so I understand what's going on
+ without too much magic. For this, I just manually put the file on my 
+server in a shared location that only I (and the app) have read-access 
+to.</p>
+
+<p>First, make a new <code>config</code> directory in the <code>shared</code> directory that Capistrano created.</p>
+
+<pre><code>ssh bill@example.com -p 4321
+mkdir /var/www/example.com/shared/config
+</code></pre>
+
+<p>Leave the server and back on your local machine, in your app's root directory, copy the <code>database.yml</code> file to the server (NOTE: unintuitively, you need to specify the port number with a capital P when using the <code>scp</code> command).</p>
+
+<pre><code>scp -P 4321 ./config/database.yml  bill@example.com:/var/www/example.com/shared/config/database.yml
+</code></pre>
+
+<p>Note, the above command is one long line (in case it's wrapping in your browser).</p>
+
+<p>I then hook it up to the app with a simple symbolic link that I create in my deployment script inside <code>deploy.rb</code> (see below).</p>
+
+<h3>Tasks</h3>
+
+<p>Now for the fun stuff. You can make all kinds of cool programming 
+logic for different needs that you can run each time you deploy your app
+ so it's all nicely automated (I like not thinking too hard :).</p>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/designedBlob_large.jpg" alt="enter image description here"></p>
+
+<p>I put all my deployment tasks under the "deploy" namespace inside my <code>deploy.rb</code>
+ file. You could make up your own namespaces if you want, to help you 
+organize things. But I'm just going to go over some basic stuff, so I'll
+ group all these tasks under "deploy". The format of the tasks looks 
+like this:</p>
+
+<pre><code>namespace :deploy do
+    desc "Human readable description of task"
+    task :name_of_task_command do
+        # do stuff
+    end
+end
+</code></pre>
+
+<p>The string defined by the <code>desc</code> command is what will show up when you run <code>cap -T</code> from the CLI on your application (this lists all the deployment tasks available in your app).</p>
+
+<p>The basic deployment tasks you need to accomplish are as follows:</p>
+
+<ol>
+<li>Update application code</li>
+<li>Precompile assets</li>
+<li>Update custom symlinks</li>
+<li>Restart the server</li>
+<li>Cleanup unneeded files</li>
+</ol>
+
+
+<p>I used to need to make custom tasks for a lot of this stuff, but 
+lucky for you, these days most of this is baked into Capistrano to make 
+your life that much easier! I'll go over each task one by one. You can 
+also tack on other things you need to do on deploy (like refresh your 
+sitemap, restart/reindex your search engine, etc.) but I'm just going to
+ stick with the basics for now (this article is already crazy long!)</p>
+
+<p><strong>1. Update Application Code</strong><br>
+You don't need a special task for this. This is Capistrano's primary function. When you run <code>cap deploy</code> it will first update your code. However, if you want to <em>only</em> update your code and not do anything else, you can use the<br>
+<code>cap deploy:update_code</code> command to do it.</p>
+
+<p><strong>2. Precompile assets</strong><br>
+Here's another freebie. I was handling asset compilation on my own until
+ I started writing this article and discovered that this, too, is now 
+baked into Capistrano (win). So instead of dealing with file-permission 
+issues for generating asset files, all you have to do is uncomment this 
+one line (that should already exist from when you capified your project)
+ in the <code>/Capfile</code> file.</p>
+
+<pre><code>load 'deploy/assets'
+</code></pre>
+
+<p>This tells Capistrano to precompile assets on each deploy (it's 
+commented out because for some reason there are other people out there 
+using Capistrano for projects built with different frameworks than Ruby 
+on Rails and don't need to run this task; go figure).</p>
+
+<p>However, I ran into a Rails 4 gotcha in that Capistrano barfs while looking for a file called <code>/path-to-app/shared/assets/manifest.yml</code>
+ on your server (at least as of version 2.14.2 which I'm using). Rails 
+has changed the format of the manifest file to use JSON now in the 
+format of<br>
+<code>manifest-a5247d24f7c66d27d9b50f5c7e640bca.json</code>. To get 
+around this error, I simply created an empty version of the file 
+Capistrano wants to see in the place it's looking for it. <a href="https://web.archive.org/web/20190331194655/https://github.com/capistrano/capistrano/issues/362">Read more about this issue</a>.</p>
+
+<p>On your remote server:</p>
+
+<pre><code>touch /path-to-your-app/shared/assets/manifest.yml
+</code></pre>
+
+<p><strong>3. Update custom symlinks</strong><br>
+This could be a link to some static assets you want to store outside 
+your repository or something, but the main thing you need to do here is 
+hook up your <code>database.yml</code> file so Rails can find it!</p>
+
+<p>Rails expects to see <code>/path/to/your/app/config/database.yml</code>. But the file is now stored in <code>/deploy_to/shared/config/database.yml</code>. What to do? Here comes the magic of symbolic links. Add this task to your <code>deploy.rb</code> file.</p>
+
+<pre><code>desc "Symlink shared config files"
+task :symlink_config_files do
+    run "#{ try_sudo } ln -s #{ deploy_to }/shared/config/database.yml #{ current_path }/config/database.yml"
+end
+</code></pre>
+
+<p><strong>4. Restart the server</strong><br>
+Since the server is setup to run with Passenger, you'll need to override Capistrano's default <code>restart</code> task with one specific to Passenger (i.e., you want to <code>touch /tmp/restart.txt</code> from inside your app's root. This is pretty simple by adding this task to the "deploy" namespace in <code>deploy.rb</code>.</p>
+
+<pre><code>desc "Restart Passenger app"
+task :restart do
+    run "#{ try_sudo } touch #{ File.join(current_path, 'tmp', 'restart.txt') }"
+end
+</code></pre>
+
+<p><strong>5. Cleanup unneeded files</strong><br>
+This one comes baked in too, but I just wanted to highlight it because I
+ sometimes forget :P If you don't run cleanup, the worst thing that will
+ happen is that all your old releases stay stored on your server. But 
+you might not want this as it's taking up disk space. This task is run 
+from <code>deploy:cleanup</code>.</p>
+
+<h3>After Deploy</h3>
+
+<p>The final step in setting up your deployment script is to add your 
+custom tasks to run after deployment (i.e., after all the files are 
+copied to the server and the <code>current_path</code> has been updated 
+to the latest release). All you need to do is tell Capistrano what tasks
+ you want to run in the order you want to run them <em>outside</em> the <code>deploy</code> namespace block.</p>
+
+<pre><code>after "deploy", "deploy:symlink_config_files"
+after "deploy", "deploy:restart"
+after "deploy", "deploy:cleanup"
+</code></pre>
+
+<p>Since precompiling assets and updating the code are baked in, you 
+don't need to specify those tasks. If you add any other tasks to your 
+deployment process, you can just add them here to get executed.</p>
+
+<h3>Deploy!</h3>
+
+<p>Phew! Ok, now to actually do stuff. You should have a remote Git 
+repository with the latest version of your code in it, Capistrano setup 
+and checked, and your deployment tasks written and ready to run. So 
+let's run it:</p>
+
+<pre><code>cap deploy
+</code></pre>
+
+<p>Sit back and watch all those characters flow over your terminal and 
+feel good inside knowing the computer is saving you hours of frustration
+ (if you aren't frustrated already, haha).</p>
+
+<p>Oh, and if you need to simply migrate your database, Capistrano has a task for that too.</p>
+
+<pre><code>cap deploy:migrate
+</code></pre>
+
+<p>And if something goes horribly wrong (which <em>will</em> happen), you can quickly and easily rollback to the previous release (which is hopefully a working version).</p>
+
+<pre><code>cap deploy:rollback
+</code></pre>
+
+<p>Run this multiple times to go back through additional past releases.</p>
+
+<p><img src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/Untitled-1_large.jpg" alt="Computer screens"></p>
+
+<p>Your regular routine can now be something like this:</p>
+
+<ol>
+<li>change some stuff in your code</li>
+<li><code>git add .</code> it to your local repo queue</li>
+<li><code>git commit -m 'my new commit'</code> it to your local repo</li>
+<li><code>git push origin master</code> to sync it to your remote</li>
+<li><code>cap deploy</code> to update your production server with your changes</li>
+</ol>
+
+
+<p>I wanted to go over installing ImageMagick with Paperclip for all 
+your uploading needs, but I think I'll save that for a future post (I've
+ already written too much). Thanks for reading, and like always, if you 
+notice anything that could be improved, please <a href="mailto:r@robmclarty.com">let me know</a>!</p>
+
+<p><strong>Update</strong>: This post was featured in <a href="https://web.archive.org/web/20190331194655/http://rubyweekly.com/archive/146.html">Ruby Weekly</a>. Thanks!</p>
+
+</article>
+
+<footer class="global-footer">
+♡
+2019
+by <strong>Rob McLarty</strong>. Copying is an act of love. Please copy.
+<br>
+<br>
+<a href="https://web.archive.org/web/20190331194655/http://robmclarty.com/" style="margin-right: 10px;">Homepage</a>
+<a class="icon twitter button small" href="https://web.archive.org/web/20190331194655/http://twitter.com/robmclarty" style="margin-right: 10px;">Twitter</a>
+<a class="icon github button small" href="https://web.archive.org/web/20190331194655/http://github.com/robmclarty" style="margin-right: 10px;">Github</a>
+<a class="icon email button small" href="https://web.archive.org/web/20190331194655/mailto:%72@%72%6f%62%6d%63%6c%61%72%74%79.%63%6f%6d" style="margin-right: 10px;">Email</a>
+
+</footer>
+</div>
+
+<script src="How%20to%20Deploy%20a%20Rails%204%20App%20With%20Git%20and%20Capistrano%20__%20Rob%20McLarty_files/application-53836c59083b4056c599af386f0d9334.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-72855-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://web.archive.org/web/20190331194655/https://ssl' : 'https://web.archive.org/web/20190331194655/http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body></html>
+<!--
+     FILE ARCHIVED ON 19:46:55 Mar 31, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:44:00 Dec 06, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 134.923 (11)
+  exclusion.robots: 0.184
+  exclusion.robots.policy: 0.174
+  cdx.remote: 0.061
+  esindex: 0.009
+  LoadShardBlock: 108.596 (3)
+  PetaboxLoader3.datanode: 169.127 (4)
+  load_resource: 110.173
+  PetaboxLoader3.resolve: 28.755
+-->
