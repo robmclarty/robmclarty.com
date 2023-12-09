@@ -86,7 +86,7 @@ $thumbnail_height: 150px;
   word-break: break-word;
 
   header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 
     h1 {
       margin-bottom: 0.75rem;
@@ -95,6 +95,7 @@ $thumbnail_height: 150px;
 
     p {
       margin-top: 0.5rem;
+      margin-bottom: 1.3rem;
       font-family: fonts.$article_subtitle;
       font-weight: normal;
       font-size: 1.4rem;
@@ -103,8 +104,8 @@ $thumbnail_height: 150px;
     }
   }
 
-  img {
-    width: 100%;
+  & > p > img {
+    margin-top: 0.5rem;
   }
 
   footer {
@@ -123,8 +124,6 @@ $thumbnail_height: 150px;
 
   time {
     display: inline-block;
-    margin-top: 0.75rem;
-    margin-bottom: 0rem;
     margin-left: 0.2rem;
   }
 
@@ -162,6 +161,7 @@ ul.words-list {
   h3 {
     font-size: 1.25rem;
     line-height: 1.5rem;
+    margin-top: 0.75rem;
     margin-bottom: 0.5rem;
     color: #000;
   }
@@ -199,7 +199,7 @@ ul.words-list {
   }
 
   .meta {
-    margin-top: -0.75rem;
+    //margin-top: -0.75rem;
 
     ul.tags {
       margin-left: 0;

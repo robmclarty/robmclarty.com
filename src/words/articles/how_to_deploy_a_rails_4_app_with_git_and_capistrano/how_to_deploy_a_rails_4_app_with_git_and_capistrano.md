@@ -2,8 +2,8 @@
 title: How to Deploy a Rails 4 App With Git and Capistrano
 subtitle: A Fast, Consistent, and Automated Process for Your Deployment Pipeline
 date: 2015-10-07
-banner: how_to_deploy_rails_4_banner.jpg
-thumbnail: how_to_deploy_rails_4_thumb.jpg
+banner: ford-model-t-assembly-line_large.jpg
+thumbnail: ford-model-t-assembly-line_thumb.jpg
 tags:
   - tech
   - automation
