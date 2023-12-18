@@ -36,13 +36,12 @@ module.exports = eleventyConfig => {
     return Array.from(tagSet).sort()
   })
 
-  eleventyConfig.addFilter('morePublishedWords', (arr, collectionName, currentUrl, limit = 4) => {
+  eleventyConfig.addFilter('morePublishedWords', (arr, collectionName, currentUrl, limit = undefined) => {
     return arr
       .filter(el => el.data.published)
       .filter(el => el.data.tags.includes(collectionName))
       .filter(el => el.url !== currentUrl)
       .slice(0, limit)
-      .reverse()
   })
 
   return {

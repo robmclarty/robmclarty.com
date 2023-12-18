@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/words.css" rel="stylesheet" type="text/css">
+    <title>articles :: words :: Rob McLarty</title>
+  </head>
+
+  <body class="words-list-body">
+    <section class="words-list-container">
+      <header>
+        <h1>Articles</h1>
+        <p><a href="/words">back to Words</a></p>
+      </header>
+
+      <ul class="words-list">
+        {% for article in collections.articles | reverse | morePublishedWords('articles', page.url) %}
+          <li>
+            <a href="{{ article.url }}">
+              <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
+            </a>
+
+            <h3>
+              <a href="{{ article.url }}">{{ article.data.title }}</a>
+            </h3>
+
+            {% if article.data.subtitle %}
+              <p>
+                <a href="{{ article.url }}">{{ article.data.subtitle }}</a>
+              </p>
+            {% endif %}
+
+            <div class="meta">
+              <ul class="tags">
+                {% for tag in article.data.tags %}
+                  {% if tag != "articles" %}
+                    <li>
+                      <a href="/words/tags/{{ tag }}">{{ tag }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+
+              <span>·</span>
+
+              <time datetime="{{ date }}">
+                {{ article.data.date.toLocaleDateString('en-CA', {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric"
+                }) }}
+              </time>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </section>
+  </body>
+</html>
