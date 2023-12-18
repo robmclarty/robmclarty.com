@@ -2,27 +2,223 @@
 layout: default.layout
 title: 'Words :: Rob McLarty'
 ---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/words.css" rel="stylesheet" type="text/css">
+    <title>words :: Rob McLarty</title>
+  </head>
 
-<h1>Words (IN PROGRESS)</h1>
-<p>by <a href="/">Rob McLarty</a></p>
+  <body class="words-list-body">
 
-<ul>
-  {% for article in collections.articles %}
-    {% if article.data.published %}
-      <li>
+
+    {# <ul>
+      {% for article in collections.articles %}
+        {% if article.data.published %}
+          <li>
+            <p>
+              <a href="{{ article.url }}">{{ article.data.title }}</a>
+            </p>
+            <ul>
+              {% for tag in article.data.tags %}
+                {% if tag != "articles" %}
+                  <li>
+                    <a href="/words/tags/{{ tag }}">{{ tag }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul> #}
+
+    <section class="words-list-container">
+      <header>
+        <h1>Words</h1>
         <p>
-          <a href="{{ article.url }}">{{ article.data.title }}</a>
+          I write a lot of different things. From tech howtos to philosophical musings to
+          speculative fiction to mundane blog posts about what's going on in my life. Here
+          is a collection of works I thought were better shared with you than sitting in a
+          box in my closet. Enjoy.
         </p>
-        <ul>
-          {% for tag in article.data.tags %}
-            {% if tag != "articles" %}
-              <li>
-                <a href="/words/tags/{{ tag }}">{{ tag }}</a>
-              </li>
+      </header>
+
+      {# TODO: make this list a reusable template #}
+      <h2><a href="/words/articles">Articles</a></h2>
+      <ul class="words-list">
+        {% for article in collections.articles | morePublishedWords('articles', page.url) %}
+          <li>
+            <a href="{{ article.url }}">
+              <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
+            </a>
+
+            <h3>
+              <a href="{{ article.url }}">{{ article.data.title }}</a>
+            </h3>
+
+            {% if article.data.subtitle %}
+              <p>
+                <a href="{{ article.url }}">{{ article.data.subtitle }}</a>
+              </p>
             {% endif %}
-          {% endfor %}
-        </ul>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+
+            <div class="meta">
+              <ul class="tags">
+                {% for tag in article.data.tags %}
+                  {% if tag != "articles" %}
+                    <li>
+                      <a href="/words/tags/{{ tag }}">{{ tag }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+
+              <span>·</span>
+
+              <time datetime="{{ date }}">
+                {{ article.data.date.toLocaleDateString('en-CA', {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric"
+                }) }}
+              </time>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h2><a href="/words/blog">Blog</a></h2>
+      <ul class="words-list">
+        {% for article in collections.articles | morePublishedWords('articles', page.url) %}
+          <li>
+            {# <a href="{{ article.url }}">
+              <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
+            </a> #}
+
+            <h3>
+              <a href="{{ article.url }}">{{ article.data.title }}</a>
+            </h3>
+
+            {% if article.data.subtitle %}
+              <p>
+                <a href="{{ article.url }}">{{ article.data.subtitle }}</a>
+              </p>
+            {% endif %}
+
+            <div class="meta">
+              <ul class="tags">
+                {% for tag in article.data.tags %}
+                  {% if tag != "articles" %}
+                    <li>
+                      <a href="/words/tags/{{ tag }}">{{ tag }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+
+              <span>·</span>
+
+              <time datetime="{{ date }}">
+                {{ article.data.date.toLocaleDateString('en-CA', {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric"
+                }) }}
+              </time>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h2><a href="/words/fiction">Fiction</a></h2>
+      <ul class="words-list">
+        {% for article in collections.articles | morePublishedWords('articles', page.url) %}
+          <li>
+            <a href="{{ article.url }}">
+              <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
+            </a>
+
+            <h3>
+              <a href="{{ article.url }}">{{ article.data.title }}</a>
+            </h3>
+
+            {% if article.data.subtitle %}
+              <p>
+                <a href="{{ article.url }}">{{ article.data.subtitle }}</a>
+              </p>
+            {% endif %}
+
+            <div class="meta">
+              <ul class="tags">
+                {% for tag in article.data.tags %}
+                  {% if tag != "articles" %}
+                    <li>
+                      <a href="/words/tags/{{ tag }}">{{ tag }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+
+              <span>·</span>
+
+              <time datetime="{{ date }}">
+                {{ article.data.date.toLocaleDateString('en-CA', {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric"
+                }) }}
+              </time>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h2>Poetry</h2>
+      <ul class="words-list">
+        {% for article in collections.articles | morePublishedWords('articles', page.url) %}
+          <li>
+            <a href="{{ article.url }}">
+              <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
+            </a>
+
+            <h3>
+              <a href="{{ article.url }}">{{ article.data.title }}</a>
+            </h3>
+
+            {% if article.data.subtitle %}
+              <p>
+                <a href="{{ article.url }}">{{ article.data.subtitle }}</a>
+              </p>
+            {% endif %}
+
+            <div class="meta">
+              <ul class="tags">
+                {% for tag in article.data.tags %}
+                  {% if tag != "articles" %}
+                    <li>
+                      <a href="/words/tags/{{ tag }}">{{ tag }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+
+              <span>·</span>
+
+              <time datetime="{{ date }}">
+                {{ article.data.date.toLocaleDateString('en-CA', {
+                  year: "numeric",
+                  month: "short",
+                  day: "numeric"
+                }) }}
+              </time>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </section>
+  </body>
+</html>

@@ -42,6 +42,7 @@ module.exports = eleventyConfig => {
       .filter(el => el.data.tags.includes(collectionName))
       .filter(el => el.url !== currentUrl)
       .slice(0, limit)
+      .reverse()
   })
 
   return {

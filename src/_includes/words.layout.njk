@@ -40,7 +40,8 @@
 
         {{ content | safe }}
 
-<!--         <footer>
+        {#
+        <footer>
           <ul class="tags">
             <li>
               <a href="/words">words</a>
@@ -55,13 +56,15 @@
               {% endif %}
             {% endfor %}
           </ul>
-        </footer> -->
+        </footer>
+        #}
       </article>
 
       <footer class="content-footer">
         <div>
           <h4>More articles you might like</h4>
 
+          {# TODO: make this list a reusable template #}
           <ul class="words-list">
             {% for article in collections.articles | morePublishedWords('articles', page.url) %}
               <li>
