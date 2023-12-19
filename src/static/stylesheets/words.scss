@@ -217,10 +217,11 @@ ul.words-list {
 
 .words-list-container {
   max-width: none;
-  margin: 4rem;
+  margin: 0;
 
   header {
     max-width: $max_content_width;
+    margin: 4rem;
   }
 
   // width: 100%;
@@ -235,11 +236,40 @@ ul.words-list {
 
 .words-list-section {
   position: relative;
+  padding: 4rem;
+
+  &.one {
+    background-color: map.get(colors.$words, 'main');
+  }
+
+  &.two {
+    background-color: color.scale(map.get(colors.$words, 'main'), $lightness: -10%);
+  }
+
+  &.three {
+    background-color: color.scale(map.get(colors.$words, 'main'), $lightness: -20%);
+  }
+
+  a {
+    color: map.get(colors.$words, 'dark');
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: color.scale(map.get(colors.$words, 'dark'), $lightness: -10%);
+    }
+  }
+
+  h2 {
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
 
   .see-all {
     position: absolute;
-    top: 3.25rem;
-    right: 0;
+    top: 4.25rem;
+    right: 4rem;
     font-family: fonts.$article_subtitle;
   }
 }
