@@ -120,6 +120,12 @@ $thumbnail_height: 150px;
   }
 }
 
+.content {
+  border-top: 20px solid map.get(colors.$words, 'main');
+  // margin: 0;
+  // padding: 6rem auto 8rem auto;
+}
+
 .meta {
   font-family: fonts.$article_subtitle;
   font-weight: normal;
