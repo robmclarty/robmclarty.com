@@ -86,7 +86,9 @@ a {
   &:active {
     color: white;
     background-color: map.get(colors.$words, 'main');
-    border-bottom: 2px solid color.scale(map.get(colors.$words, 'main'), $lightness: -25%);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: color.scale(map.get(colors.$words, 'main'), $lightness: -25%);
     text-decoration: none;
   }
 

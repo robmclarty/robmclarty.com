@@ -4,6 +4,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 $brand: (
+  'yellow': #f8e24e,
   'red': #cb4949,
   'blue': #6fbce8,
   'green': #7be356,
@@ -38,6 +39,13 @@ $brand: (
 
 ////////////////////////////////////////////////////////////////////////////////
 
+$primary: (
+  'main': map.get($brand, 'yellow'),
+  'block': color.scale(map.get($brand, 'yellow'), $lightness: -25%),
+  'light': color.scale(map.get($brand, 'yellow'), $lightness: 15%),
+  'dark': color.scale(map.get($brand, 'yellow'), $lightness: -15%),
+  'text': color.scale(map.get($brand, 'yellow'), $lightness: -40%)
+);
 
 $words: (
   'main': map.get($brand, 'blue'),
