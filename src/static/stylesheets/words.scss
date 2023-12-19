@@ -64,15 +64,15 @@ $thumbnail_height: 150px;
 
 .content-footer {
   margin: 6rem 0 0 0;
-  padding: 3rem 0;
+  padding: 3rem;
   color: #666;
   background-color: #eee;
   font-family: fonts.$article_title_light;
 
-  & > div {
-    max-width: $max_content_width;
-    margin: 0 auto;
-  }
+  // & > div {
+  //   max-width: $max_content_width;
+  //   margin: 0 auto;
+  // }
 
   h4 {
     margin-bottom: 2rem;
@@ -82,7 +82,7 @@ $thumbnail_height: 150px;
 .content > article,
 .words-list-container {
   max-width: $max_content_width;
-  margin: 6rem auto;
+  margin: 6rem auto 8rem auto;
   overflow-wrap: break-word;
   word-break: break-word;
 
@@ -231,6 +231,17 @@ ul.words-list {
   // ul.words-list {
 
   // }
+}
+
+.words-list-section {
+  position: relative;
+
+  .see-all {
+    position: absolute;
+    top: 3.25rem;
+    right: 0;
+    font-family: fonts.$article_subtitle;
+  }
 }
 
 .small {

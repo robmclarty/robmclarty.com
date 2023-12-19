@@ -7,7 +7,7 @@ thumbnail: ford-model-t-assembly-line_thumb.jpg
 tags:
   - tech
   - automation
-  - deploy
+  - devops
   - process
 ---
 
