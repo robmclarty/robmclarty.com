@@ -1,0 +1,38 @@
+---
+permalink: /words/tags/
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/words.css" rel="stylesheet" type="text/css">
+    <title>tags :: words :: Rob McLarty</title>
+  </head>
+
+  <body class="words">
+    <div class="logo-banner">
+      <div class="name">
+        <h1><a href="/">rob<strong>mclarty</strong></a></h1>
+      </div>
+    </div>
+
+    <div class="words-list-container">
+      <section class="words-list-section">
+        <h2>Tags</h2>
+
+        <ul>
+          {% for tag in collections['wordTags'] %}
+            <li><a href="/words/tags/{{ tag }}">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+
+    <footer class="content-footer" style="padding-left: 3.75rem;">
+      <p class="small">
+        &copy; 1997-{% current_year %} Rob McLarty
+      </p>
+    </footer>
+  </body>
+</html>

@@ -15,7 +15,7 @@
     </div>
 
     <div class="words-list-container">
-      <header>
+{#       <header>
         <h1>WORDS</h1>
         <p>
           I write a lot of different things. From tech howtos to philosophical musings to
@@ -23,13 +23,13 @@
           is a collection of works I thought were better shared with you than sitting in a
           box in my closet. Enjoy.
         </p>
-      </header>
+      </header> #}
 
       {# TODO: make this list a reusable template #}
       <section class="words-list-section">
-        <h2>ARTICLES</h2>
+{#         <h2>ARTICLES</h2>
 
-        <a class="see-all" href="/words/articles">see all articles</a>
+        <a class="see-all" href="/words/articles">see all articles</a> #}
 
         <ul class="words-list">
           {% for article in collections.articles | reverse | morePublishedWords('articles', page.url) %}
@@ -74,6 +74,7 @@
         </ul>
       </section>
 
+      {#
       <section class="words-list-section">
         <h2>BLOG</h2>
 
@@ -82,9 +83,9 @@
         <ul class="words-list">
           {% for article in collections.articles | morePublishedWords('articles', page.url) %}
             <li>
-              {# <a href="{{ article.url }}">
+              <a href="{{ article.url }}">
                 <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
-              </a> #}
+              </a>
 
               <h3>
                 <a href="{{ article.url }}">{{ article.data.title }}</a>
@@ -169,12 +170,12 @@
           {% endfor %}
         </ul>
       </section>
-
+ #}
     </div>
 
     <footer class="content-footer" style="padding-left: 3.75rem;">
       <p class="small">
-        &copy; 1997-2023 Rob McLarty
+        &copy; 1997-{% current_year %} Rob McLarty
       </p>
     </footer>
   </body>

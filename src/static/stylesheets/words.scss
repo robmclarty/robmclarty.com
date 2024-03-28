@@ -21,6 +21,7 @@ $max_content_responsive_width: $max_content_width + 250px;
 $banner_width: 20%;
 $banner_height: 100px;
 $thumbnail_height: 150px;
+$bg_color: #f6f6f6;
 
 .words {
 }
@@ -237,7 +238,9 @@ ul.words-list {
   margin: 0;
   //border-bottom: 20px solid map.get(colors.$words, 'divider');
   //border-bottom: 20px solid #ccc;
-  background-color: map.get(colors.$words, 'main');
+
+  //background-color: map.get(colors.$words, 'main');
+  background-color: $bg_color;
 
   header {
     max-width: $max_content_width;
@@ -267,7 +270,7 @@ ul.words-list {
   //border-top: 20px solid map.get(colors.$words, 'divider');
   //border-bottom: 20px solid #ccc;
   border-bottom: 20px solid map.get(colors.$words, 'main');;
-  background-color: #f6f6f6;
+  background-color: $bg_color;
 
   &:last-child {
     border: 0;
@@ -351,7 +354,8 @@ ul.words-list {
       padding: 0;
       margin: 0;
       margin-left: -4px;
-      color: map.get(colors.$words, 'main');
+      //color: map.get(colors.$words, 'main');
+      color: $bg_color;
       filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .1));
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 5rem;
@@ -359,13 +363,15 @@ ul.words-list {
 
       a {
         text-decoration: none;
-        color: map.get(colors.$words, 'main');
+        //color: map.get(colors.$words, 'main');
+        color: $bg_color;
 
         &:hover,
         &:active,
         &:focus,
         &:visited {
-          color: map.get(colors.$words, 'main');
+          //color: map.get(colors.$words, 'main');
+          color: $bg_color;
           background-color: transparent;
           border: 0;
         }

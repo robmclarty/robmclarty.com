@@ -24,7 +24,7 @@
               {% for tag in tags %}
                 {% if tag != "articles" %}
                   <li>
-                    <a href="/tags/{{ tag }}">{{ tag }}</a>
+                    <a href="/words/tags/{{ tag }}">{{ tag }}</a>
                   </li>
                 {% endif %}
               {% endfor %}
@@ -109,7 +109,7 @@
         <br />
 
         <p class="small">
-          &copy; 1997-2023 Rob McLarty
+          &copy; 1997-{% current_year %} Rob McLarty
         </p>
       </footer>
     </section>

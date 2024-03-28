@@ -22,6 +22,9 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy({ 'src/static/javascripts': 'javascripts' })
   eleventyConfig.addPassthroughCopy({ 'src/static/fonts': 'fonts' })
 
+  eleventyConfig.addPassthroughCopy('src/art')
+  eleventyConfig.addPassthroughCopy('src/web')
+
   // Exclude from tagList.
   eleventyConfig.addCollection('tagList', collection => {
     const tagSet = new Set()
@@ -37,12 +40,33 @@ module.exports = eleventyConfig => {
     return Array.from(tagSet).sort()
   })
 
+  eleventyConfig.addCollection('wordTags', collection => {
+    const tagSet = new Set()
+
+    collection.getAll().forEach(el => {
+      if (!el.data.tags) return
+
+      el.data.tags
+        .filter(tag => !excludedTags.includes(tag))
+        .filter(tag => tag.substring(0, 4) !== 'art-')
+        .forEach(tag => tagSet.add(tag))
+    })
+
+    return Array.from(tagSet).sort()
+  })
+
+  // eleventyConfig.addCollection('
+
   eleventyConfig.addFilter('morePublishedWords', (arr, collectionName, currentUrl, limit = undefined) => {
     return arr
       .filter(el => el.data.published)
       .filter(el => el.data.tags.includes(collectionName))
       .filter(el => el.url !== currentUrl)
       .slice(0, limit)
+  })
+
+  eleventyConfig.addNunjucksShortcode("current_year", () => {
+    return "2024";
   })
 
   return {

@@ -1,0 +1,94 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - articles
+    - blog
+    - all
+    - fiction
+    - tagList
+    - wordTags
+permalink: /words/tags/{{ tag }}/
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/words.css" rel="stylesheet" type="text/css">
+    <title>{{ tag }} :: tags :: words :: Rob McLarty</title>
+  </head>
+
+  <body class="words">
+    <div class="logo-banner">
+      <div class="name">
+        <h1><a href="/">rob<strong>mclarty</strong></a></h1>
+      </div>
+    </div>
+
+    <div class="words-list-container">
+      {% if tag == null %}
+        tada!
+      {% else %}
+        <section class="words-list-section">
+          <h2>Tagged "{{ tag }}"</h2>
+
+          <ul class="words-list">
+            {% for post in collections[tag] | reverse | morePublishedWords(tag, page.url) %}
+              <li>
+                <a href="{{ post.url }}">
+                  <div class="thumbnail" style="background-image: url('{{ post.url + post.data.thumbnail }}')"></div>
+                </a>
+
+                <h3>
+                  <a href="{{ post.url }}">{{ post.data.title }}</a>
+                </h3>
+
+                {% if post.data.subtitle %}
+                  <p>
+                    <a href="{{ post.url }}">{{ post.data.subtitle }}</a>
+                  </p>
+                {% endif %}
+
+                <div class="meta">
+                  <ul class="tags">
+                    {% for article_tag in post.data.tags %}
+                      {% if article_tag != "articles" %}
+                        <li>
+                          <a href="/words/tags/{{ article_tag }}">{{ article_tag }}</a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+
+                  <span>·</span>
+
+                  {% if post.data.date %}
+                    <time datetime="{{ post.data.date }}">
+                      {{
+                        post.data.date.toLocaleDateString('en-CA', {
+                          year: "numeric",
+                          month: "short",
+                          day: "numeric"
+                        })
+                      }}
+                    </time>
+                  {% endif %}
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+    </div>
+
+    <footer class="content-footer" style="padding-left: 3.75rem;">
+      <p class="small">
+        &copy; 1997-{% current_year %} Rob McLarty
+      </p>
+    </footer>
+  </body>
+</html>
