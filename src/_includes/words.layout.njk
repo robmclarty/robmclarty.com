@@ -65,7 +65,7 @@
 
         {# TODO: make this list a reusable template #}
         <ul class="words-list">
-          {% for article in collections.articles | morePublishedWords('articles', page.url) %}
+          {% for article in collections.articles | morePublishedWords('articles', page.url, 6) %}
             <li>
               <a href="{{ article.url }}">
                 <div class="thumbnail" style="background-image: url('{{ article.url + article.data.thumbnail }}')"></div>
