@@ -55,8 +55,7 @@ module.exports = eleventyConfig => {
     return Array.from(tagSet).sort()
   })
 
-  // eleventyConfig.addCollection('
-
+  // TODO: sort somehow so same articles aren't always on top
   eleventyConfig.addFilter('morePublishedWords', (arr, collectionName, currentUrl, limit = undefined) => {
     return arr
       .filter(el => el.data.published)

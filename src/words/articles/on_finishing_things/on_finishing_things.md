@@ -1,5 +1,5 @@
 ---
-title: On Finishing Stuff
+title: On Finishing Things
 subtitle: Harness your vital inspiration to create something new and make a mark on the world.
 date: 2015-11-28
 banner: sagrada_familia_banner.jpg
