@@ -1,8 +1,8 @@
 ---
 title: The Deprivation of Life's Potentials Isn't Necessarily a Bad Thing
 date: 2004-06-24
-banner:
-thumbnail:
+banner: reflections_banner.jpg
+thumbnail: reflections_thumb.jpg
 tags:
   - philosophy
   - existentialism

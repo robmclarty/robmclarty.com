@@ -2,8 +2,8 @@
 title: Loop Heuristics in Javascript
 subtitle: Different ways of looping in JS and my personal preferences to avoid complexity and errors.
 date: 2019-01-24
-banner:
-thumbnail:
+banner: confluence_banner.jpg
+thumbnail: confluence_thumb.jpg
 tags:
   - tech
   - syntax

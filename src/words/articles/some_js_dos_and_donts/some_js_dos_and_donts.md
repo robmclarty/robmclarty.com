@@ -2,8 +2,8 @@
 title: Some JS Do's and Don'ts
 subtitle: Some of my personal preferences that have served me well over the past couple decades.
 date: 2017-09-27
-banner:
-thumbnail:
+banner: rubber_down_banner.jpg
+thumbnail: rubber_down_thumb.jpg
 tags:
   - tech
   - syntax

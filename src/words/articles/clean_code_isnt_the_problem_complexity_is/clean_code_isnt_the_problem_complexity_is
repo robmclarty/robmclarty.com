@@ -1,0 +1,59 @@
+---
+title: Clean Code Isn't the Problem; Complexity Is
+subtitle: In reference to "Clean Code" by Robert Martin: when someone wanted to force everyone at the company to follow it religiously.
+date: 2017-09-27
+banner: snow_shadows_banner.jpg
+thumbnail: snow_shadows_thumb.jpg
+tags:
+  - tech
+  - syntax
+  - code
+  - complexity
+---
+
+I think the goal is always to "reduce complexity". I think that goal can be
+accomplished in multiple different ways and deciding a particular direction is
+heavily dependent on context. I don't think there is any one fast rule of how
+to write "proper" or "good" or "clean" code that can be applied across the
+board.
+
+Our jobs are to take user input, represent user intentions as data, and provide
+logical mechanisms for transforming that data into different forms that the
+user finds useful (all the while doing it in such a way so as to minimize
+errors and enable us developers to change those mechanisms we built to make
+them do more useful things for the user). Learning from the past has merit in
+helping us navigate the future, but it is not a prescription for how to tackle
+what lies ahead.
+
+Uncle Bob has some good ideas, and he also has some really bad ideas. He does
+not define the industry (although he is certainly popular). He may have part of
+the answer, but he is not the whole answer.
+
+"Good" code is highly subjective, but I think the root of what we're all aiming
+for is reduced comlexity, intuitive logic, and minimal errors. For example, I
+think Bobbie makes some good points about functions like "functions should do
+exactly one thing, and do it well" (whatever "one thing" means). But it is
+also the case than in many contexts, functions may do more than one thing due
+to practicality. I also agree with him that functions should not mutate state
+(have side effects) and we should try to compose our logic more from the
+perspective of "commands" or "queries" that return values and that we should
+try to stay DRY.
+
+But I don't agree that this is always the case, and that sometimes "reducing
+complexity" can mean repeating some code or doing more than one thing or having
+more than zero arguments. Again, this depends on context. In any situation I
+believe we should keep our eye on the ball: complexity (does the logic we're
+writing make sense? is it easy to understand? will it be easy to change later?
+can we reuse it in other places? if it takes an hour of chasing a data object
+around the stack and you're still scratching your head, it's probably too
+complex). We shouldn't get too distracted with one individual prophet's dogma.
+It is up to each of us to use our brains and decide what the best solution is
+for a particular situation. No book will give the correct answer (if it could,
+we wouldn't have a job). There are many good things to learn from Clean Code,
+but it is an incomplete story biased to one controversial man's perspective.
+
+
+References
+----------
+
+- [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)

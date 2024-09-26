@@ -2,8 +2,8 @@
 title: Personal Security Tips
 subtitle: Some general-purpose tips for keeping your personal data safe in the age of mass-surveillance.
 date: 2017-05-09
-banner:
-thumbnail:
+banner: totem_single_banner.jpg
+thumbnail: totem_single_thumb.jpg
 tags:
   - tech
   - security
