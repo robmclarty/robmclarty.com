@@ -158,7 +158,7 @@ function definition. Otherwise it will return a value. This is useful for doing
 short, compact functions like this:
 
 ```javascript
-  const fullName = (firstName, lastName) => firstName + ' ' + lastName`
+const fullName = (firstName, lastName) => firstName + ' ' + lastName`
 ```
 
 You can also return whole objects. But to do this, you need to indicate that you
@@ -197,7 +197,7 @@ programmers to mentally join a bunch of separate strings in their head like
 this:
 
 ```javascript
-  const fullName = firstName + " " + lastName`
+const fullName = firstName + " " + lastName`
 ```
 
 

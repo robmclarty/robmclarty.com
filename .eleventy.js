@@ -15,6 +15,8 @@ module.exports = eleventyConfig => {
 
   // Manually copy static assets.
   eleventyConfig.addPassthroughCopy('src/about/*')
+  eleventyConfig.addPassthroughCopy('src/cv/*.rtf')
+  eleventyConfig.addPassthroughCopy('src/cv/*.pdf')
   eleventyConfig.addPassthroughCopy('src/favicon.ico')
   eleventyConfig.addPassthroughCopy('src/index.html')
   eleventyConfig.addPassthroughCopy({ 'src/static/stylesheets/*.css': 'stylesheets' })
