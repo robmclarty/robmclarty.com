@@ -43,7 +43,7 @@ Took stagnating project from broken spaghetti code to modular, working, demo on 
 
 **Principal Software Engineer**\
 *2019-2022 @ WorkTango*\
-Helped take company from less than 10 people to 50+ becoming an international SaaS working towards its IPO. Focused on software & systems architecture, cloud orchestration, and security. Lead internal committees, hired new staff, organized and guided production path, and stitched everything together: systems, people, practices, and docs.
+Helped take company from less than 10 people to 50+ being acquired by Kazoo. Focused on software & systems architecture, cloud orchestration, and security. Lead internal committees, hired new staff, organized and guided production path, and stitched everything together: systems, people, practices, and docs.
 
 **Staff Software Engineer**\
 *2015-2019 @ Myplanet*\
@@ -65,8 +65,8 @@ Managed office IT tasks like code versioning, asset archiving, comms, presentati
 Formal Training
 ---------------
 
-**AWS Certifications**\
-*2016-2018 @ Amazon Web Services*\
+**Amazon Web Services**\
+*2016-2018 @ AWS*\
 Solutions Architect, Cloud Practitioner, Sysops, and Security.
 
 **Privacy by Design**\
@@ -116,7 +116,7 @@ Volunteering
 *1995-1997 @ Snow Valley Resort*
 
 **Swimming Instructor**\
-*1993-1997 @ HWAC*
+*1995-1997 @ Hamilton Wentworth Aquatic Club*
 
 
 Spoken Languages
@@ -146,7 +146,7 @@ Computer Languages
 Coding Frameworks
 -----------------
 
-**UI**: React, Angular, Preact, Vue, Backbone, jQuery, Storybook, Knockout, React Native, PhoneGap/Cordova, Electron\
+**UI**: React, Angular, Preact, Backbone, jQuery, Storybook, Knockout, React Native, PhoneGap/Cordova, Electron\
 **Server**: Node, Rails, Express, Knex, Wordpress, Phoenix, Next.js, LoopBack, CakePHP, WS, Symphony, Flask, Sinatra\
 **Generators**: 11ty, Jekyll, Hugo, Hexo, Gatsby\
 **Styles**: Normalize, Tailwind, Bootstrap, Sass/Less, MaterialUI\
