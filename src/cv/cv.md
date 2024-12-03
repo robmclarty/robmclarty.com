@@ -69,10 +69,6 @@ Formal Training
 *2016-2018 @ AWS*\
 Solutions Architect, Cloud Practitioner, Sysops, and Security.
 
-**Privacy by Design**\
-*2018 @ Toronto Metropolitan University*\
-Applied software implementations following technical security considerations that uphold user privacy as a primary tenant.
-
 **Illustration & Graphic Design**\
 *2000-2003 @ Sheridan College*\
 Editorial, Technical, and Digital Illustration, Data Visualization, UI/UX, Motion Graphics, Web, and Print.
@@ -199,10 +195,6 @@ Tool and method to coordinate project stakeholders more holistically, organicall
 *2019-2022 @ WorkTango*\
 Measure and improve employee sentiment and engagement through secure anonymous surveys, business insights, and real-time dashboards. Feedback is more genuine and business-actionable when participants know their inputs are protected.
 
-**Newstore**\
-*2018-2020 @ Myplanet*\
-Unified e-commerce platform anchored in an omnichannel PoS and consumer shopping apps, complete with built-in order management, inventory, clienteling, loyalty-management, and dynamic fulfillment.
-
 **Wellness Messenger**\
 *2018-2019 @ Telus*\
 Securely coordinate the communication of sensitive and private user medical data to enable sharing only between trusted sources (e.g., doctor, technician, family).
@@ -227,7 +219,7 @@ Standalone mobile web app and CMS integrated directly into cab company dispatch 
 *2012 @ Canadian Association for Psychodynamic Therapy*\
 Find, meet, learn, and interact with therapists nationwide, in the cloud, private and secure.
 
-**Burgess Shale Kiosk**\
+**Burgess Shale Museum Kiosk**\
 *2010-2012 @ Royal Ontario Museum*\
 Interactive exhibition kiosk touch-screen application with automated statistical analyses and backend admin controller with reporting, data management, and visualization.
 
