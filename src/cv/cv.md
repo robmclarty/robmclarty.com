@@ -1,7 +1,7 @@
 ---
 title: Cirriculum Vitae
 subtitle: Rob McLarty
-date: 2024-11-10
+date: 2024-12-03
 layout: cv.layout.njk
 ---
 
