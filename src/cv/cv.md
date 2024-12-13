@@ -39,7 +39,7 @@ Experience
 
 **Technical Director**\
 *2023-present @ Computechnosoft*\
-Took stagnating project from broken spaghetti code to modular, working, demo on Steam, now collecting wish-lists and marketing itself towards release candidate. Worked with artists and designers to take creative assets and integrate them with code to fulfill the interactive expression for telling the game’s story and having fun.
+Tackled technical debt and guided game towards modular, working, demo on Steam, now collecting wish-lists and marketing itself towards release candidate. Worked with artists and designers to take creative assets and integrate them with code to fulfill the interactive expression for telling the game’s story and having fun.
 
 **Principal Software Engineer**\
 *2019-2022 @ WorkTango*\
