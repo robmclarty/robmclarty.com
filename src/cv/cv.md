@@ -1,37 +1,26 @@
 ---
-title: Cirriculum Vitae
-subtitle: Rob McLarty
-date: 2024-12-03
+title: Robert McLarty
+subtitle: Full-Stack Software Engineer
+date: 2024-12-24
 layout: cv.layout.njk
 ---
 
-I have built products at startups, consulted at enterprises and SMBs, and run my
-own businesses. I have a background in cognitive science, artificial
-intelligence, philosophy, computer science, graphic design, illustration,
-applied research, and creative technology. I'm best suited to be in a position
-where I need to solve unique problems that don't fit neatly into a prescribed
-box (I thrive in the unknown; tailoring solutions to custom contexts). My best
-skill is connecting disparate ideas and concepts across problem domains that
-may be more difficult for specialists to notice.
+[hello@robmlarty.com](mailto:hello@robmlarty.com)\
+[https://linkedin.com/in/robmclarty](https://linkedin.com/in/robmclarty)
+
+Experienced full-stack software engineer with over a decade of success designing
+and delivering scalable, user-centric web applications. Skilled in a wide range
+of technologies, including Javascript, React, Node, and Ruby, with a strong
+focus on modular code, responsive design, and a seamless user experience. With
+a background in cognitive science, philosophy, and graphic design, I bring a
+unique perspective to problem-solving and product development. My experience
+spans startups, enterprise consulting, and freelance projects. I’m eager to
+combine my technical expertise and creativity to drive innovation and delight
+users.
 
 At the end of the day, I like making things. I like teaching other people how to
 make things. And I love it when we can all make things together that are bigger
 than ourselves.
-
-
-**Technologist** - Full-stack Software Engineering, Systems Architecture, Security &
-Privacy, UI/UX/IX, APIs, Infrastructure, Performance & Monitoring
-
-**Creative** - Illustration, Graphic Design, Writing, Motion Graphics, Photography,
-Fine Art
-
-**Teacher** - Visualization, Presentation, Demo, Discovery, Communication,
-Consulting
-
-**Leader** - Strategy, Process, Review, Hire, Coordinate, Collaborate, Mentor,
-Holistic Project Management
-
-**Researcher** - Imagine, Experiment, Evaluate, Connect, Exapt, Prototype, Document
 
 
 Experience
@@ -39,90 +28,71 @@ Experience
 
 **Technical Director**\
 *2023-present @ Computechnosoft*\
-Tackled technical debt and guided game towards modular, working, demo on Steam, now collecting wish-lists and marketing itself towards release candidate. Worked with artists and designers to take creative assets and integrate them with code to fulfill the interactive expression for telling the game’s story and having fun.
+<small>Unity, C#, Steam, Machine Learning</small>
+
+Addressed technical debt and steered the game development toward a modular,
+functional demo now generating wishlists and positioning itself for release as
+a candidate on Steam. Collaborated closely with artists and designers to
+integrate creative assets with code, bringing the game's narrative to life and
+enhancing its interactive and enjoyable gameplay experience.
 
 **Principal Software Engineer**\
 *2019-2022 @ WorkTango*\
-Helped take company from less than 10 people to 50+ being acquired by Kazoo. Focused on software & systems architecture, cloud orchestration, and security. Lead internal committees, hired new staff, organized and guided production path, and stitched everything together: systems, people, practices, and docs.
+<small>JS/TS (Node, React, Redux), Postgres, AWS, Docker, MaterialUI, GraphQL</small>
+
+Played a key role in scaling the company from fewer than 10 employees to over
+50, culminating in its acquisition by Kazoo. Focused on software and systems
+architecture, cloud orchestration, and security. Led internal committees,
+recruited new team members, organized and guided production workflows, and
+integrated systems, people, practices, and documentation to ensure seamless
+operations.
 
 **Staff Software Engineer**\
 *2015-2019 @ Myplanet*\
-Worked with Telus to develop custom proofs-of-concept for web and mobile apps requiring the highest levels of security and privacy as well as an integration of legacy and bleeding-edge tech. Also worked closely with Newstore to develop their new omni-channel retail e-commerce platform using custom serverless architecture and integrated fulfillment platform.
+<small>JS/TS (Node, React, Redux), Postgres/MongoDB, AWS, Serverless, Docker, SIP, OCR, Websockets, GraphQL, Python, Cordova/React-Native</small>
+
+Collaborated with Telus to create custom proofs-of-concept for web and mobile
+applications, prioritizing top-tier security, privacy, and the integration of
+legacy and prototype telecom technologies. Helped Newstore to develop a
+cutting-edge omni-channel retail e-commerce platform, leveraging custom
+serverless architecture and an integrated fulfillment system.
 
 **Senior Developer + UI/UX Designer**\
 *2013-2015 @ Verold*\
-Created web application platform which acted as the authz & identity system and social network for the rest of the ecosystem (3D editor, graphics engine, coding IDE) and assisted in the design and development of those parts. Spoke at conferences, consulted on strategy, and collaborated on architecture, culminating in our acquisition by Box.
+<small>JS (Node, React), Postgres, AWS, Ruby, RoR, ThreeJS, Python, WebGL</small>
 
+Developed a web application platform serving as the authorization and identity
+system, as well as the social network, for an ecosystem comprising a 3D editor,
+graphics engine, and coding IDE. Contributed to the design and development of
+these components while also speaking at conferences, advising on strategy, and
+collaborating on system architecture—efforts that culminated in the company’s
+acquisition by Box.
+
+<!--
 **Staff Software Engineer**\
 *2011-2013 @ Overdrive Design*\
+JS (Backbone, jQuery), MySQL, RoR, Ruby, Actionscript, HTML, CSS
+
 Lead technology efforts such as software development, archive process, hardware acquisition and management, staff knowledge sharing, and the hiring + onboarding of new engineers. Worked with many clients each with their own unique software challenges including custom CMSs, mobile ride hailing, museum kiosks, and custom e-commerce solutions.
 
 **Co-founder + CTO**\
 *2006-2011 @ Philosophy Factory*\
+JS (Backbone, jQuery), MySQL, RoR, Ruby, Actionscript, HTML, CSS
+
 Managed office IT tasks like code versioning, asset archiving, comms, presentations and networking while also leading software development such as interface design, data modelling, code architecture, and diagnosing user experience. Coordinated contractors and kept clients updated on their projects’ status. Worked with clients to design unique web presences for their brands, and provided custom software solutions such as live race results, CMSs, e-commerce, authz, games, ads, and back-office automation.
+-->
 
 
-Formal Training
----------------
-
-**Amazon Web Services**\
-*2016-2018 @ AWS*\
-Solutions Architect, Cloud Practitioner, Sysops, and Security.
+Education
+---------
 
 **Illustration & Graphic Design**\
-*2000-2003 @ Sheridan College*\
-Editorial, Technical, and Digital Illustration, Data Visualization, UI/UX, Motion Graphics, Web, and Print.
+*Sheridan College*\
+<small>Editorial & Technical Illustration, Data Visualization, UI/UX, Motion Graphics, Web, and Print</small>
 
 **Cognitive Science**\
-*1997-2000 @ University of Toronto*\
-Computer Science, Philosophy, Linguistics, Psychology, English, and Classics.
-
-**CSIA Ski Instructor**\
-*1996-1997 @ Blue Mountain Resort & Chedoke Ski Centre*\
-Level-1 certification: entry-level skiing and basic racing.
-
-**Canadian Ski Patrol**\
-*1996-1997 @ Snow Valley Resort*\
-Emergency first-aid and mountain rescue.
-
-**National Lifeguard**\
-*1995-1997 @ McNab Recreation Centre*\
-First aid and emergency response for incidents in and around pools.
-
-
-Volunteering
-------------
-
-**Open Source Developer + Maintainer**\
-*1997-present @ see selected projects below*
-
-**Director of Technology**\
-*2023-present @ MTBCO*
-
-**Ride Leader**\
-*2018-2020 @ Dark Horse Cycling Club*
-
-**Cycling Safety Advocate**\
-*2015-2020 @ City of Toronto*
-
-**Computer Technology Instructor**\
-*1999-2001 @ Simcoe County Board of Education*
-
-**Ski Patrol**\
-*1995-1997 @ Snow Valley Resort*
-
-**Swimming Instructor**\
-*1995-1997 @ Hamilton Wentworth Aquatic Club*
-
-
-Spoken Languages
-----------------
-
-**English**\
-Native.
-
-**French**\
-Business-Conversational.
+*University of Toronto*\
+<small>Computer Science, Philosophy, Linguistics, Psychology, English, and Classics</small>
 
 
 Computer Languages
@@ -130,13 +100,15 @@ Computer Languages
 
 **Browser**: Javascript (vanilla & ES6+), Typescript, HTML, CSS, Sass/Less\
 **Server**: Javascript (Node), Ruby, Python, Elixir, PHP, Perl\
-**Data**: SQL (Postgres/MySQL/SQLite), Redis, XML, CSV, JSON, Yaml, MongoDB\
+**Data**: SQL (Postgres/MySQL/SQLite), NoSQL (MongoDB, DynamoDB)\
+**Cache**: Redis, Memcached, ElastiCache\
+**Transport**: XML, CSV, JSON, Yaml\
 **Documentation**: Markdown, JSDoc, PEP\
 **Infrastructure**: Nginx, Apache, PM2, Docker, Bash\
 **Network**: REST, SOAP, GraphQL, Websockets, SIP, FTP, HTTP\
 **Game**: GDScript, Actionscript, , JS, C, C# (Unity)\
-**General**: C, C++, Ruby, Java, Python, Pascal, Turing, Basic, Lua\
-**Templates**: Haml, Nunjucks, Underscore, Liquid, ERB, EJS, Handlebars, Mustache, JSX
+**General**: C, C++, Ruby, Python, Pascal, Turing\
+**Templates**: JSX, Haml, Nunjucks, Underscore, Liquid, ERB, EJS, Handlebars, Mustache
 
 
 Coding Frameworks
@@ -155,7 +127,7 @@ Coding Frameworks
 **Payment**: Shopify, Stripe, Authorize.net, Monaris, Lightspeed, Netsuite\
 **Build**: Rollup, ESBuild, Parcel, Webpack, Husky, Browserify, Babel, CRA, Gulp, Grunt, Capistrano\
 **Versioning**: GIT, NPM/Yarn, NVM, RVM, SVN, n, Gem, Homebrew\
-**Infrastructure**: AWS, Digital Ocean, Media Temple, Cloudflare, Hover, Twilio, Google Cloud\
+**Infrastructure**: AWS, GCP, Digital Ocean, Media Temple, Cloudflare, Hover, Twilio\
 **Orchestration**: K8s, Docker Swarm, Fargate, EC2, Passenger\
 **Monitor**: Mixpanel, Datadog, New Relic, PM2, Splunk\
 **Deploy**: Puppeteer, Github Actions, Gitlab CI, Travis CI, Bitbucket Pipelines
@@ -173,12 +145,108 @@ Software Tools
 **Security**: Lastpass, 1Password, KeyPass\
 **AI**: ChatGPT, Midjourney, Copilot, Flux\
 **Versioning**: Github, Gitlab, Bitbucket\
-**Game**: Unity, Unreal, Godot, Flash
+**Game**: Unity, Unreal, Flash, Godot
+
+
+Spoken Languages
+----------------
+
+**English**\
+*Native*
+
+**French**\
+*Business-Conversational*
+
+
+Volunteer
+---------
+
+**Open Source Developer + Maintainer**\
+*see selected projects below*
+
+**Director of Technology**\
+*2023-present @ MTBCO*
+
+**Ride Leader**\
+*2018-2020 @ Dark Horse Cycling Club*
+
+**Cycling Safety Advocate**\
+*2015-2020 @ City of Toronto*
+
+<!--
+**Computer Technology Instructor**\
+*1999-2001 @ Simcoe County Board of Education*
+
+**Ski Patrol**\
+*1995-1997 @ Snow Valley Resort*
+
+**Swimming Instructor**\
+*1995-1997 @ Hamilton Wentworth Aquatic Club*
+-->
 
 
 Apps
 ----
 
+**Employee Pulse**\
+*2019-2022 @ WorkTango*\
+<small>JS (Node, React, Redux), Postgres, AWS, Docker, GraphQL</small>
+
+Enhance employee sentiment and engagement through secure, anonymous surveys,
+actionable business insights, and real-time dashboards. Ensuring participants'
+inputs are protected fosters genuine feedback that drives meaningful business
+decisions.
+
+**Wellness Messenger**\
+*2018-2019 @ Telus*\
+<small>JS (Node, React), Postgres, WebCrypto</small>
+
+Facilitate the secure coordination of sensitive medical data, ensuring private
+patient information is shared exclusively between trusted parties, such as
+doctors, technicians, and family members.
+
+**Phone Collider**\
+*2018 @ Telus*\
+<small>JS (Node, React), SIP, SMS, IMS</small>
+
+An API and native app to streamline interactions between customer endpoints and
+IMS systems, supporting authorization, call placement and reception, messaging,
+E911 services, and push notifications, including seamless integration with
+SIP/SMS telecom networks over IP networks.
+
+**BaRSS**\
+*2016-2017 @ Rocket Flower*\
+<small>JS (Node, React, Redux), Postgres, AWS</small>
+
+Web app that consolidates multiple RSS feeds into a single, user-friendly
+interface, presenting articles in customizable columns (bars) with real-time
+updates.
+
+**Verold 3D**\
+*2013-2015 @ Verold*\
+<small>JS (Node, React), Ruby, RoR, Postgres, AWS, WebGL</small>
+
+WebGL-based studio, community hub, cloud platform, and API—akin to Unity in a
+web browser, integrated with its own social platform. Enabled 3D visualization,
+animation, editing, and modeling, with code-controlled functionality, native
+web support, and robust security.
+
+**Co-op Ride Hail**\
+*2010-2013 @ Co-op Cabs*\
+<small>JS (Backbone), Ruby, RoR, Custom SOAP API</small>
+
+Standalone mobile web app and CMS seamlessly integrated with cab company
+dispatch system, featuring GPS tracking for real-time updates.
+
+**Burgess Shale Museum Kiosk**\
+*2010-2012 @ Royal Ontario Museum*\
+<small>Ruby, Actionscript, Flash, SQLite</small>
+
+Interactive touchscreen kiosk application for exhibitions, featuring automated
+statistical analysis and a backend admin controller for reporting, data
+management, and visualization.
+
+<!--
 **Safe Dose**\
 *2023-present @ Rocket Flower*\
 Personal medication-management tool and E2EE zero-knowledge cloud-based mobile app to securely store and share sensitive medical data with healthcare providers.
@@ -191,81 +259,57 @@ Desktop and console tactical RPG game where the player attempts to establish fri
 *2018-present @ Rocket Flower*\
 Tool and method to coordinate project stakeholders more holistically, organically, and easily, with a bit of (optional) gamified fun. Secure cloud-based project management and visualization web app for individuals, SMBs, and enterprises.
 
-**Employee Pulse**\
-*2019-2022 @ WorkTango*\
-Measure and improve employee sentiment and engagement through secure anonymous surveys, business insights, and real-time dashboards. Feedback is more genuine and business-actionable when participants know their inputs are protected.
-
-**Wellness Messenger**\
-*2018-2019 @ Telus*\
-Securely coordinate the communication of sensitive and private user medical data to enable sharing only between trusted sources (e.g., doctor, technician, family).
-
-**Phone Collider**\
-*2018 @ Telus*\
-API and native app to help simplify interactions between customer endpoints and IMS systems for authz, placing & receiving calls, messaging, e911 and push notifications. Enables interaction with SIP/SMS telcom networks over IP networks.
-
-**BaRSS**\
-*2016-2017 @ Rocket Flower*\
-Web app to read and manage multiple RSS feeds in a single easy-to-use interface that presents articles in user-configurable columns (bars) with real-time updates.
-
-**Verold**\
-*2013-2015 @ Verold*\
-WebGL studio, community hub, cloud platform and API (think Unity in a web browser, plugged into its own Instagram). 3D visualization, animation, editing/modelling, code-controlled, native web, and security.
-
-**Co-op Ride Hail**\
-*2010-2013 @ Co-op Cabs*\
-Standalone mobile web app and CMS integrated directly into cab company dispatch system + GPS tracking for real-time updates.
-
 **CAPT**\
 *2012 @ Canadian Association for Psychodynamic Therapy*\
-Find, meet, learn, and interact with therapists nationwide, in the cloud, private and secure.
 
-**Burgess Shale Museum Kiosk**\
-*2010-2012 @ Royal Ontario Museum*\
-Interactive exhibition kiosk touch-screen application with automated statistical analyses and backend admin controller with reporting, data management, and visualization.
+Find, meet, learn, and interact with therapists nationwide, in the cloud, private and secure.
 
 **Tour d’Afrique**\
 *2006-2012 @ Tour d'Afrique Ltd*\
+
 Live race tracking & results from remote locations (middle of Africa) via satellite uplink + custom CMS.
 
 **Sportacular Events**\
 *2007-2008 @ Sportacular Events Inc*\
+
 Regional hockey league management system. Cloud-based CMS, back-office automation, security, and events management.
+-->
 
 
 Open Source
 -----------
 
-**[cred](https://github.com/robmclarty/cred)**\
+**[Cred](https://github.com/robmclarty/cred)**\
 Authentication + authorization for NodeJS apps using JWT for transport.
 
-**[soko](https://github.com/robmclarty/soko)**\
+**[Soko](https://github.com/robmclarty/soko)**\
 CLI tools for building and running javascript applications.
 
-**[storium](https://github.com/robmclarty/storium)**\
+**[Storium](https://github.com/robmclarty/storium)**\
 Unified cloud storage abstraction for Knex apps.
 
-**[fuzzle](https://github.com/robmclarty/fuzzle)**\
+**[Fuzzle](https://github.com/robmclarty/fuzzle)**\
 CLI tools for static asset name reversioning.
 
-**[crypto-butter](https://github.com/robmclarty/crypto-butter)**\
+**[Crypto-Butter](https://github.com/robmclarty/crypto-butter)**\
 Collection of cryptographic functions for web clients.
 
-**[knex api template](https://github.com/robmclarty/knex-express-project-sample)**\
+**[Knex API Template](https://github.com/robmclarty/knex-express-project-sample)**\
 Example starter web server NodeJS API with scalable architecture.
 
-**[robchat](https://github.com/robmclarty/robchat)**\
+**[RobChat](https://github.com/robmclarty/robchat)**\
 Double-ratcheted E2EE websocket zero knowledge (client + server) group chat app.
 
-**[suggestible-input](https://github.com/robmclarty/suggestible-input)**\
+**[Suggestible-Input](https://github.com/robmclarty/suggestible-input)**\
 React component for fast selectable list of fuzzy-matched suggestions in an input field.
 
-**[paginated-redux](https://github.com/robmclarty/paginated-redux)**\
+**[Paginated-Redux](https://github.com/robmclarty/paginated-redux)**\
 React/redux state management for paginated records.
 
-**[nginx-config](https://github.com/robmclarty/nginx-config)**\
+**[Nginx-Config](https://github.com/robmclarty/nginx-config)**\
 Reference nginx config files using SSL and reverse proxy. A+ rating on SSL Labs.
 
-**[nav_panel](https://github.com/robmclarty/nav_panel)**\
+**[Nav_Panel](https://github.com/robmclarty/nav_panel)**\
 A simple navigation component for your Rails app admin interface.
 
 
@@ -294,8 +338,6 @@ Articles
 
 **[How I Learned to Stop Worrying and Love the Cascade](https://robmclarty.com/words/articles/how_i_learned_to_stop_worrying_and_love_the_cascade)**
 
-**[A Good Leader Aligns](https://robmclarty.com/words/articles/a_good_leader_aligns)**
-
 **[Don't Use HPKP by Default](https://robmclarty.com/words/articles/dont_use_hpkp_by_default)**
 
 **[The Creative Process in Software Development](https://robmclarty.com/words/articles/creative_process_in_software_development)**
@@ -303,6 +345,7 @@ Articles
 **[Installing Let’s Encrypt With Certbot](https://robmclarty.com/words/articles/installing_letsencrypt_with_certbot)**
 
 
+<!--
 Other Interests
 ---------------
 
@@ -337,6 +380,7 @@ Pressed for time and direct from reality are my favourite ways to capture human 
 **Swimming**\
 *1979-present*\
 Have been in a pool since before I could walk. Broke three Canadian age-group records which stood for over twenty years.
+-->
 
 
 References
@@ -346,7 +390,7 @@ Available upon request.
 
 &nbsp;
 
-🔽 [Download CV as Text File](./robmclarty_cv_2024e.rtf)
+🔽 [Download CV as Text File](./robmclarty_cv_2024h.rtf)
 
 💌 [Contact Me](mailto:hello@robmlarty.com)
 
