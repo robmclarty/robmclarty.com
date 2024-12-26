@@ -97,6 +97,11 @@ a {
   }
 }
 
+small {
+  color: #999;
+  font-family: fonts.$article_subtitle;
+}
+
 h1 {
   font-size: 3rem;
   line-height: 3.5rem;

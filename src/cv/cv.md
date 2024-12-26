@@ -28,8 +28,7 @@ Experience
 
 **Technical Director**\
 *2023-present @ Computechnosoft*\
-<small>Unity, C#, Steam, Machine Learning</small>
-
+<small>Unity, C#, Steam, Machine Learning</small>\
 Addressed technical debt and steered the game development toward a modular,
 functional demo now generating wishlists and positioning itself for a release
 candidate on Steam. Collaborated closely with artists and designers to
@@ -38,8 +37,7 @@ enhancing its interactive and enjoyable gameplay experience.
 
 **Principal Software Engineer**\
 *2019-2022 @ WorkTango*\
-<small>JS/TS (Node, React, Redux), Postgres, AWS, Docker, MaterialUI, GraphQL</small>
-
+<small>JS/TS (Node, React, Redux), Postgres, AWS, Docker, MaterialUI, GraphQL</small>\
 Played a key role in scaling the company from fewer than 10 employees to over
 50, culminating in its acquisition by Kazoo. Focused on software and systems
 architecture, cloud orchestration, and security. Led internal committees,
@@ -49,8 +47,7 @@ operations.
 
 **Staff Software Engineer**\
 *2015-2019 @ Myplanet*\
-<small>JS/TS (Node, React, Redux), Postgres/MongoDB, AWS, Serverless, Docker, SIP, OCR, Websockets, GraphQL, Python, Cordova/React-Native</small>
-
+<small>JS/TS (Node, React, Redux), Postgres/MongoDB, AWS, Serverless, Docker, SIP, OCR, Websockets, GraphQL, Python, Cordova/React-Native</small>\
 Collaborated with Telus to create custom proofs-of-concept for web and mobile
 applications, prioritizing top-tier security, privacy, and the integration of
 legacy and prototype telecom technologies. Helped Newstore to develop a
@@ -59,8 +56,7 @@ serverless architecture and an integrated fulfillment system.
 
 **Senior Developer + UI/UX Designer**\
 *2013-2015 @ Verold*\
-<small>JS (Node, React), Postgres, AWS, Ruby, RoR, ThreeJS, Python, WebGL</small>
-
+<small>JS (Node, React), Postgres, AWS, Ruby, RoR, ThreeJS, Python, WebGL</small>\
 Developed a web application platform serving as the authorization and identity
 system, as well as the social network, for an ecosystem comprising a 3D editor,
 graphics engine, and coding IDE. Contributed to the design and development of
@@ -190,8 +186,7 @@ Apps
 
 **Employee Pulse**\
 *2019-2022 @ WorkTango*\
-<small>JS (Node, React, Redux), Postgres, AWS, Docker, GraphQL</small>
-
+<small>JS (Node, React, Redux), Postgres, AWS, Docker, GraphQL</small>\
 Enhance employee sentiment and engagement through secure, anonymous surveys,
 actionable business insights, and real-time dashboards. Ensuring participants'
 inputs are protected fosters genuine feedback that drives meaningful business
@@ -199,16 +194,14 @@ decisions.
 
 **Wellness Messenger**\
 *2018-2019 @ Telus*\
-<small>JS (Node, React), Postgres, WebCrypto</small>
-
+<small>JS (Node, React), Postgres, WebCrypto</small>\
 Facilitate the secure coordination of sensitive medical data, ensuring private
 patient information is shared exclusively between trusted parties, such as
 doctors, technicians, and family members.
 
 **Phone Collider**\
 *2018 @ Telus*\
-<small>JS (Node, React), SIP, SMS, IMS</small>
-
+<small>JS (Node, React), SIP, SMS, IMS</small>\
 An API and native app to streamline interactions between customer endpoints and
 IMS systems, supporting authorization, call placement and reception, messaging,
 E911 services, and push notifications, including seamless integration with
@@ -216,16 +209,14 @@ SIP/SMS telecom networks over IP networks.
 
 **BaRSS**\
 *2016-2017 @ Rocket Flower*\
-<small>JS (Node, React, Redux), Postgres, AWS</small>
-
+<small>JS (Node, React, Redux), Postgres, AWS</small>\
 Web app that consolidates multiple RSS feeds into a single, user-friendly
 interface, presenting articles in customizable columns (bars) with real-time
 updates.
 
 **Verold 3D**\
 *2013-2015 @ Verold*\
-<small>JS (Node, React), Ruby, RoR, Postgres, AWS, WebGL</small>
-
+<small>JS (Node, React), Ruby, RoR, Postgres, AWS, WebGL</small>\
 WebGL-based studio, community hub, cloud platform, and API—akin to Unity in a
 web browser, integrated with its own social platform. Enabled 3D visualization,
 animation, editing, and modeling, with code-controlled functionality, native
@@ -233,15 +224,13 @@ web support, and robust security.
 
 **Co-op Ride Hail**\
 *2010-2013 @ Co-op Cabs*\
-<small>JS (Backbone), Ruby, RoR, Custom SOAP API</small>
-
-Standalone mobile web app and CMS seamlessly integrated with cab company
+<small>JS (Backbone), Ruby, RoR, Custom SOAP API</small>\
+rated with cab company
 dispatch system, featuring GPS tracking for real-time updates.
 
 **Burgess Shale Museum Kiosk**\
 *2010-2012 @ Royal Ontario Museum*\
-<small>Ruby, Actionscript, Flash, SQLite</small>
-
+<small>Ruby, Actionscript, Flash, SQLite</small>\
 Interactive touchscreen kiosk application for exhibitions, featuring automated
 statistical analysis and a backend admin controller for reporting, data
 management, and visualization.
