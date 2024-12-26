@@ -1,7 +1,7 @@
 ---
 title: Robert McLarty
 subtitle: Full-Stack Software Engineer
-date: 2024-12-24
+date: 2024-12-26
 layout: cv.layout.njk
 ---
 
