@@ -26,43 +26,136 @@ than ourselves.
 Experience
 ----------
 
-**Technical Director**\
-*2023-present @ Computechnosoft*\
-<small>Unity, C#, Steam, Machine Learning</small>\
-Addressed technical debt and steered the game development toward a modular,
-functional demo now generating wishlists and positioning itself for a release
-candidate on Steam. Collaborated closely with artists and designers to
-integrate creative assets with code, bringing the game's narrative to life and
-enhancing its interactive and enjoyable gameplay experience.
+<div class="cv-samples">
 
-**Principal Software Engineer**\
-*2019-2022 @ WorkTango*\
-<small>JS/TS (Node, React, Redux), Postgres, AWS, Docker, MaterialUI, GraphQL</small>\
-Played a key role in scaling the company from fewer than 10 employees to over
-50, culminating in its acquisition by Kazoo. Focused on software and systems
-architecture, cloud orchestration, and security. Led internal committees,
-recruited new team members, organized and guided production workflows, and
-integrated systems, people, practices, and documentation to ensure seamless
-operations.
+  **Technical Director**\
+  *2023-present @ Computechnosoft*
 
-**Staff Software Engineer**\
-*2015-2019 @ Myplanet*\
-<small>JS/TS (Node, React, Redux), Postgres/MongoDB, AWS, Serverless, Docker, SIP, OCR, Websockets, GraphQL, Python, Cordova/React-Native</small>\
-Collaborated with Telus to create custom proofs-of-concept for web and mobile
-applications, prioritizing top-tier security, privacy, and the integration of
-legacy and prototype telecom technologies. Helped Newstore to develop a
-cutting-edge omni-channel retail e-commerce platform, leveraging custom
-serverless architecture and an integrated fulfillment system.
+  <!--
+  <ul class="cv-samples-list">
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+  </ul>
+  -->
 
-**Senior Developer + UI/UX Designer**\
-*2013-2015 @ Verold*\
-<small>JS (Node, React), Postgres, AWS, Ruby, RoR, ThreeJS, Python, WebGL</small>\
-Developed a web application platform serving as the authorization and identity
-system, as well as the social network, for an ecosystem comprising a 3D editor,
-graphics engine, and coding IDE. Contributed to the design and development of
-these components while also speaking at conferences, advising on strategy, and
-collaborating on system architecture—efforts that culminated in the company’s
-acquisition by Box.
+  <ul class="cv-skills">
+    <li>C#</li>
+    <li>Unity</li>
+    <li>Steam</li>
+    <li>Machine Learning</li>
+  </ul>
+
+  Addressed technical debt and steered the game development toward a modular,
+  functional demo now generating wishlists and positioning itself for a release
+  candidate on Steam. Collaborated closely with artists and designers to
+  integrate creative assets with code, bringing the game's narrative to life and
+  enhancing its interactive and enjoyable gameplay experience.
+</div>
+
+<div class="cv-samples">
+
+  **Principal Software Engineer**\
+  *2019-2022 @ WorkTango*
+
+  <!--
+  <ul class="cv-samples-list">
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+  </ul>
+  -->
+
+  <ul class="cv-skills">
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Express</li>
+    <li>Postgres</li>
+    <li>AWS</li>
+    <li>Docker</li>
+    <li>MaterialUI</li>
+    <li>GraphQL</li>
+  </ul>
+
+  Played a key role in scaling the company from fewer than 10 employees to over
+  50, culminating in its acquisition by Kazoo. Focused on software and systems
+  architecture, cloud orchestration, and security. Led internal committees,
+  recruited new team members, organized and guided production workflows, and
+  integrated systems, people, practices, and documentation to ensure seamless
+  operations.
+</div>
+
+<div class="cv-samples">
+
+  **Staff Software Engineer**\
+  *2015-2019 @ Myplanet*
+
+  <!--
+  <ul class="cv-samples-list">
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+  </ul>
+  -->
+
+  <ul class="cv-skills">
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Express</li>
+    <li>Postgres</li>
+    <li>MongoDB</li>
+    <li>AWS</li>
+    <li>Docker</li>
+    <li>Serverless</li>
+    <li>Websockets</li>
+    <li>GraphQL</li>
+    <li>Python</li>
+    <li>Cordova/React-Native</li>
+  </ul>
+
+  Collaborated with Telus to create custom proofs-of-concept for web and mobile
+  applications, prioritizing top-tier security, privacy, and the integration of
+  legacy and prototype telecom technologies. Helped Newstore to develop a
+  cutting-edge omni-channel retail e-commerce platform, leveraging custom
+  serverless architecture and an integrated fulfillment system.
+</div>
+
+<div class="cv-samples">
+
+  **Senior Developer + UI/UX Designer**\
+  *2013-2015 @ Verold*
+
+  <!--
+  <ul class="cv-samples-list">
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+    <li><a href="#"><img src="missing.jpg" /></a></li>
+  </ul>
+  -->
+
+  <ul class="cv-skills">
+    <li>Ruby</li>
+    <li>Ruby on Rails</li>
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>React</li>
+    <li>Postgres</li>
+    <li>Python</li>
+    <li>ThreeJS</li>
+    <li>WebGL</li>
+  </ul>
+
+  Developed a web application platform serving as the authorization and identity
+  system, as well as the social network, for an ecosystem comprising a 3D editor,
+  graphics engine, and coding IDE. Contributed to the design and development of
+  these components while also speaking at conferences, advising on strategy, and
+  collaborating on system architecture—efforts that culminated in the company’s
+  acquisition by Box.
+</div>
 
 <!--
 **Staff Software Engineer**\
@@ -83,65 +176,28 @@ Education
 ---------
 
 **Illustration & Graphic Design**\
-*Sheridan College*\
-<small>Editorial & Technical Illustration, Data Visualization, UI/UX, Motion Graphics, Web, and Print</small>
+*Sheridan College*
+
+<ul class="cv-skills cv-skills-block">
+  <li>Editorial Illustration</li>
+  <li>Data Visualization</li>
+  <li>UI/UX</li>
+  <li>Motion Graphics</li>
+  <li>Web</li>
+  <li>Print</li>
+</ul>
 
 **Cognitive Science**\
-*University of Toronto*\
-<small>Computer Science, Philosophy, Linguistics, Psychology, English, and Classics</small>
+*University of Toronto*
 
-
-Computer Languages
-------------------
-
-**Browser**: Javascript (vanilla & ES6+), Typescript, HTML, CSS, Sass/Less\
-**Server**: Javascript (Node), Ruby, Python, Elixir, PHP, Perl\
-**Data**: SQL (Postgres/MySQL/SQLite), NoSQL (MongoDB, DynamoDB)\
-**Cache**: Redis, Memcached, ElastiCache\
-**Transport**: XML, CSV, JSON, Yaml\
-**Documentation**: Markdown, JSDoc, PEP\
-**Infrastructure**: Nginx, Apache, PM2, Docker, Bash\
-**Network**: REST, SOAP, GraphQL, Websockets, SIP, FTP, HTTP\
-**Game**: GDScript, Actionscript, , JS, C, C# (Unity)\
-**General**: C, C++, Ruby, Python, Pascal, Turing\
-**Templates**: JSX, Haml, Nunjucks, Underscore, Liquid, ERB, EJS, Handlebars, Mustache
-
-
-Coding Frameworks
------------------
-
-**UI**: React, Angular, Preact, Backbone, jQuery, Storybook, Knockout, React Native, PhoneGap/Cordova, Electron\
-**Server**: Node, Rails, Express, Knex, Wordpress, Phoenix, Next.js, LoopBack, CakePHP, WS, Symphony, Flask, Sinatra\
-**Generators**: 11ty, Jekyll, Hugo, Hexo, Gatsby\
-**Styles**: Normalize, Tailwind, Bootstrap, Sass/Less, MaterialUI\
-**State**: Redux, ActiveModel, Signals, PWA, Hexagonal, XState, Reactive\
-**Security**: NaCl, Stripe Protocol (for double-ratcheted E2EE group chat), Letsencrypt, OAuth, Cred, Auth0, Okta, OpenSSL\
-**Test**: Rspec, Jest, Mocha, Jasmine, Selenium, ESLint, MSW, Tape, Testunit, AVA, Enzyme, SuperTest, Chai\
-**Game**: Unity, Godot, Pixi, Phaser, FlashPunk, PushButtonEngine, Allegro\
-**3D**: Three.js, Pixi, WebGL, SketchFab, Verold\
-**AI**: PyTorch, TensorFlow.js, OpenAI\
-**Payment**: Shopify, Stripe, Authorize.net, Monaris, Lightspeed, Netsuite\
-**Build**: Rollup, ESBuild, Parcel, Webpack, Husky, Browserify, Babel, CRA, Gulp, Grunt, Capistrano\
-**Versioning**: GIT, NPM/Yarn, NVM, RVM, SVN, n, Gem, Homebrew\
-**Infrastructure**: AWS, GCP, Digital Ocean, Media Temple, Cloudflare, Hover, Twilio\
-**Orchestration**: K8s, Docker Swarm, Fargate, EC2, Passenger\
-**Monitor**: Mixpanel, Datadog, New Relic, PM2, Splunk\
-**Deploy**: Puppeteer, Github Actions, Gitlab CI, Travis CI, Bitbucket Pipelines
-
-
-Software Tools
---------------
-
-**Graphics**: Photoshop, Lightroom, Illustrator, GIMP, Affinity Photo\
-**Design**: InDesign, Quark Express, Affinity Designer,  Sketch, Figma\
-**Motion**: Final Cut Pro, Premiere, Flash, After Effects\
-**Code**: Sublime, Atom, Vim, Visual Studio, Notepad, CLI\
-**Communication**: Discord, Slack, Teams, Zoom, Google\
-**Coordination**: Trello, Notion, Jira, Assana, Basecamp\
-**Security**: Lastpass, 1Password, KeyPass\
-**AI**: ChatGPT, Midjourney, Copilot, Flux\
-**Versioning**: Github, Gitlab, Bitbucket\
-**Game**: Unity, Unreal, Flash, Godot
+<ul class="cv-skills cv-skills-block">
+  <li>Philosophy</li>
+  <li>Computer Science</li>
+  <li>Linguistics</li>
+  <li>Psychology</li>
+  <li>English</li>
+  <li>Classics</li>
+</ul>
 
 
 Spoken Languages
@@ -152,6 +208,387 @@ Spoken Languages
 
 **French**\
 *Business-Conversational*
+
+
+Computer Languages
+------------------
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Browser</li>
+  <li>Javascript (vanilla & ES6+)</li>
+  <li>Typescript</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Sass/Less</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Server</li>
+  <li>Javascript (Node)</li>
+  <li>Ruby</li>
+  <li>Python</li>
+  <li>Elixir</li>
+  <li>PHP</li>
+  <li>Perl</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Data</li>
+  <li>Postgres</li>
+  <li>MySQL</li>
+  <li>SQLite</li>
+  <li>MongoDB</li>
+  <li>DynamoDB</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Cache</li>
+  <li>Redis</li>
+  <li>Memcached</li>
+  <li>ElastiCache</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Transport</li>
+  <li>JSON</li>
+  <li>XML</li>
+  <li>CSV</li>
+  <li>Yaml</li>
+  <li>JWT</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Documentation</li>
+  <li>Markdown</li>
+  <li>JSDoc</li>
+  <li>PEP</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Infrastructure</li>
+  <li>Nginx</li>
+  <li>Apache</li>
+  <li>PM2</li>
+  <li>Docker</li>
+  <li>Bash</li>
+  <li>Cloudformation</li>
+  <li>Terraform</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Network</li>
+  <li>GraphQL</li>
+  <li>Websockets</li>
+  <li>HTTP</li>
+  <li>REST</li>
+  <li>SOAP</li>
+  <li>SIP</li>
+  <li>FTP</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Game</li>
+  <li>C# (Unity)</li>
+  <li>GDScript</li>
+  <li>Actionscript</li>
+  <li>JS</li>
+  <li>C (Allegro)</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>General</li>
+  <li>Ruby</li>
+  <li>Python</li>
+  <li>Pascal</li>
+  <li>Turing</li>
+  <li>C</li>
+  <li>C++</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Templates</li>
+  <li>JSX</li>
+  <li>Haml</li>
+  <li>Nunjucks</li>
+  <li>Underscore</li>
+  <li>ERB</li>
+  <li>EJS</li>
+  <li>Handlebars</li>
+  <li>Mustache</li>
+</ul>
+
+
+Coding Frameworks
+-----------------
+
+<ul class="cv-skills cv-skills-inline">
+  <li>UI</li>
+  <li>React</li>
+  <li>Angular</li>
+  <li>Preact</li>
+  <li>Backbone</li>
+  <li>jQuery</li>
+  <li>Storybook</li>
+  <li>React Native</li>
+  <li>Electron</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Server</li>
+  <li>Node</li>
+  <li>Rails</li>
+  <li>Express</li>
+  <li>Knex</li>
+  <li>Wordpress</li>
+  <li>Next.js</li>
+  <li>LoopBack</li>
+  <li>CakePHP</li>
+  <li>Sinatra</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Generators</li>
+  <li>11ty</li>
+  <li>Jekyll</li>
+  <li>Hugo</li>
+  <li>Hexo</li>
+  <li>Gatsby</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Styles</li>
+  <li>Normalize</li>
+  <li>Tailwind</li>
+  <li>Bootstrap</li>
+  <li>Sass/Less</li>
+  <li>MaterialUI</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>State</li>
+  <li>Redux</li>
+  <li>ActiveModel</li>
+  <li>Signals</li>
+  <li>PWA</li>
+  <li>Hexagonal</li>
+  <li>XState</li>
+  <li>Reactive</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Security</li>
+  <li>NaCl</li>
+  <li>Signal</li>
+  <li>Letsencrypt</li>
+  <li>OAuth</li>
+  <li>Cred</li>
+  <li>Auth0</li>
+  <li>Okta</li>
+  <li>OpenSSL</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Test</li>
+  <li>Rspec</li>
+  <li>Jest</li>
+  <li>Mocha</li>
+  <li>Jasmine</li>
+  <li>Selenium</li>
+  <li>MSW</li>
+  <li>Tape</li>
+  <li>Enzyme</li>
+  <li>SuperTest</li>
+  <li>Chai</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Game</li>
+  <li>Unity</li>
+  <li>Godot</li>
+  <li>Pixi</li>
+  <li>Phaser</li>
+  <li>FlashPunk</li>
+  <li>PushButtonEngine</li>
+  <li>Allegro</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>3D</li>
+  <li>Three.js</li>
+  <li>Pixi</li>
+  <li>WebGL</li>
+  <li>SketchFab</li>
+  <li>Verold</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>AI</li>
+  <li>PyTorch</li>
+  <li>TensorFlow.js</li>
+  <li>OpenAI</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Payment</li>
+  <li>Shopify</li>
+  <li>Stripe</li>
+  <li>Authorize.net</li>
+  <li>Monaris</li>
+  <li>Lightspeed</li>
+  <li>Netsuite</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Build</li>
+  <li>Rollup</li>
+  <li>ESBuild</li>
+  <li>Parcel</li>
+  <li>Webpack</li>
+  <li>Husky</li>
+  <li>Browserify</li>
+  <li>Babel</li>
+  <li>CRA</li>
+  <li>Gulp</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Versioning</li>
+  <li>GIT</li>
+  <li>NPM</li>
+  <li>Yarn</li>
+  <li>NVM</li>
+  <li>RVM</li>
+  <li>SVN</li>
+  <li>n</li>
+  <li>Gem</li>
+  <li>Homebrew</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Infrastructure</li>
+  <li>AWS</li>
+  <li>GCP</li>
+  <li>Digital Ocean</li>
+  <li>Media Temple</li>
+  <li>Cloudflare</li>
+  <li>Hover</li>
+  <li>Twilio</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Orchestration</li>
+  <li>K8s</li>
+  <li>Docker Swarm</li>
+  <li>Fargate</li>
+  <li>EC2</li>
+  <li>Passenger</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Monitor</li>
+  <li>Mixpanel</li>
+  <li>Datadog</li>
+  <li>New Relic</li>
+  <li>PM2</li>
+  <li>Splunk</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Deploy</li>
+  <li>Puppeteer</li>
+  <li>Github Actions</li>
+  <li>Gitlab CI</li>
+  <li>Travis CI</li>
+  <li>Bitbucket Pipelines</li>
+</ul>
+
+
+Software Tools
+--------------
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Graphics</li>
+  <li>Photoshop</li>
+  <li>Lightroom</li>
+  <li>Illustrator</li>
+  <li>GIMP</li>
+  <li>Affinity Photo</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Design</li>
+  <li>InDesign</li>
+  <li>Quark Express</li>
+  <li>Affinity Designer</li>
+  <li>Sketch</li>
+  <li>Figma</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Motion</li>
+  <li>Final Cut Pro</li>
+  <li>Premiere</li>
+  <li>Flash</li>
+  <li>After Effects</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Code</li>
+  <li>Sublime</li>
+  <li>Atom</li>
+  <li>Vim</li>
+  <li>Visual Studio</li>
+  <li>Notepad</li>
+  <li>CLI</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Communication</li>
+  <li>Discord</li>
+  <li>Slack</li>
+  <li>Teams</li>
+  <li>Zoom</li>
+  <li>Google</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Coordination</li>
+  <li>Trello</li>
+  <li>Notion</li>
+  <li>Jira</li>
+  <li>Assana</li>
+  <li>Basecamp</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Security</li>
+  <li>Lastpass</li>
+  <li>1Password</li>
+  <li>KeyPass</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>AI</li>
+  <li>ChatGPT</li>
+  <li>Midjourney</li>
+  <li>Copilot</li>
+  <li>Flux</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Versioning</li>
+  <li>Github</li>
+  <li>Gitlab</li>
+  <li>Bitbucket</li>
+</ul>
+
+<ul class="cv-skills cv-skills-inline">
+  <li>Game</li>
+  <li>Unity</li>
+  <li>Unreal</li>
+  <li>Flash</li>
+  <li>Godot</li>
+</ul>
 
 
 Volunteer
@@ -184,56 +621,145 @@ Volunteer
 Apps
 ----
 
-**Employee Pulse**\
-*2019-2022 @ WorkTango*\
-<small>JS (Node, React, Redux), Postgres, AWS, Docker, GraphQL</small>\
-Enhance employee sentiment and engagement through secure, anonymous surveys,
-actionable business insights, and real-time dashboards. Ensuring participants'
-inputs are protected fosters genuine feedback that drives meaningful business
-decisions.
+<div class="cv-samples">
 
-**Wellness Messenger**\
-*2018-2019 @ Telus*\
-<small>JS (Node, React), Postgres, WebCrypto</small>\
-Facilitate the secure coordination of sensitive medical data, ensuring private
-patient information is shared exclusively between trusted parties, such as
-doctors, technicians, and family members.
+  **Employee Pulse**\
+  *2019-2022 @ WorkTango*
 
-**Phone Collider**\
-*2018 @ Telus*\
-<small>JS (Node, React), SIP, SMS, IMS</small>\
-An API and native app to streamline interactions between customer endpoints and
-IMS systems, supporting authorization, call placement and reception, messaging,
-E911 services, and push notifications, including seamless integration with
-SIP/SMS telecom networks over IP networks.
+  <ul class="cv-skills">
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Express</li>
+    <li>Postgres</li>
+    <li>AWS</li>
+    <li>Docker</li>
+    <li>GraphQL</li>
+  </ul>
 
-**BaRSS**\
-*2016-2017 @ Rocket Flower*\
-<small>JS (Node, React, Redux), Postgres, AWS</small>\
-Web app that consolidates multiple RSS feeds into a single, user-friendly
-interface, presenting articles in customizable columns (bars) with real-time
-updates.
+  Enhance employee sentiment and engagement through secure, anonymous surveys,
+  actionable business insights, and real-time dashboards. Ensuring participants'
+  inputs are protected fosters genuine feedback that drives meaningful business
+  decisions.
+</div>
 
-**Verold 3D**\
-*2013-2015 @ Verold*\
-<small>JS (Node, React), Ruby, RoR, Postgres, AWS, WebGL</small>\
-WebGL-based studio, community hub, cloud platform, and API—akin to Unity in a
-web browser, integrated with its own social platform. Enabled 3D visualization,
-animation, editing, and modeling, with code-controlled functionality, native
-web support, and robust security.
+<div class="cv-samples">
 
-**Co-op Ride Hail**\
-*2010-2013 @ Co-op Cabs*\
-<small>JS (Backbone), Ruby, RoR, Custom SOAP API</small>\
-rated with cab company
-dispatch system, featuring GPS tracking for real-time updates.
+  **Wellness Messenger**\
+  *2018-2019 @ Telus*
 
-**Burgess Shale Museum Kiosk**\
-*2010-2012 @ Royal Ontario Museum*\
-<small>Ruby, Actionscript, Flash, SQLite</small>\
-Interactive touchscreen kiosk application for exhibitions, featuring automated
-statistical analysis and a backend admin controller for reporting, data
-management, and visualization.
+  <ul class="cv-skills">
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>React</li>
+    <li>Express</li>
+    <li>Postgres</li>
+    <li>WebCrypto</li>
+  </ul>
+
+  Facilitate the secure coordination of sensitive medical data, ensuring private
+  patient information is shared exclusively between trusted parties, such as
+  doctors, technicians, and family members.
+</div>
+
+<div class="cv-samples">
+
+  **Phone Collider**\
+  *2018 @ Telus*
+
+  <ul class="cv-skills">
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>React</li>
+    <li>Express</li>
+    <li>SIP</li>
+    <li>SMS</li>
+    <li>IMS</li>
+  </ul>
+
+  An API and native app to streamline interactions between customer endpoints and
+  IMS systems, supporting authorization, call placement and reception, messaging,
+  E911 services, and push notifications, including seamless integration with
+  SIP/SMS telecom networks over IP networks.
+</div>
+
+<div class="cv-samples">
+
+  **BaRSS**\
+  *2016-2017 @ Rocket Flower*
+
+  <ul class="cv-skills">
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>Preact</li>
+    <li>Redux</li>
+    <li>Express</li>
+    <li>Postgres</li>
+    <li>AWS</li>
+  </ul>
+
+  Web app that consolidates multiple RSS feeds into a single, user-friendly
+  interface, presenting articles in customizable columns (bars) with real-time
+  updates.
+</div>
+
+<div class="cv-samples">
+
+  **Verold 3D**\
+  *2013-2015 @ Verold*
+
+  <ul class="cv-skills">
+    <li>Ruby</li>
+    <li>Ruby on Rails</li>
+    <li>Javascript</li>
+    <li>Node</li>
+    <li>React  </li>
+    <li>Postgres</li>
+    <li>AWS</li>
+    <li>WebGL</li>
+  </ul>
+
+  WebGL-based studio, community hub, cloud platform, and API—akin to Unity in a
+  web browser, integrated with its own social platform. Enabled 3D visualization,
+  animation, editing, and modeling, with code-controlled functionality, native
+  web support, and robust security.
+</div>
+
+<div class="cv-samples">
+
+  **Co-op Ride Hail**\
+  *2010-2013 @ Co-op Cabs*
+
+  <ul class="cv-skills">
+    <li>Javascript</li>
+    <li>Backbone</li>
+    <li>Underscore</li>
+    <li>Ruby</li>
+    <li>Ruby on Rails</li>
+    <li>Custom SOAP API</li>
+  </ul>
+
+  Standalone mobile web app and CMS seamlessly integrated with cab company
+  dispatch system, featuring GPS tracking for real-time updates.
+</div>
+
+<div class="cv-samples">
+
+  **Burgess Shale Museum Kiosk**\
+  *2010-2012 @ Royal Ontario Museum*
+
+  <ul class="cv-skills">
+    <li>Ruby</li>
+    <li>Actionscript</li>
+    <li>Flash</li>
+    <li>SQLite</li>
+  </ul>
+
+  Interactive touchscreen kiosk application for exhibitions, featuring automated
+  statistical analysis and a backend admin controller for reporting, data
+  management, and visualization.
+</div>
 
 <!--
 **Safe Dose**\
