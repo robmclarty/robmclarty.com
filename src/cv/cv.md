@@ -31,8 +31,8 @@ Experience
 <small>Unity, C#, Steam, Machine Learning</small>
 
 Addressed technical debt and steered the game development toward a modular,
-functional demo now generating wishlists and positioning itself for release as
-a candidate on Steam. Collaborated closely with artists and designers to
+functional demo now generating wishlists and positioning itself for a release
+candidate on Steam. Collaborated closely with artists and designers to
 integrate creative assets with code, bringing the game's narrative to life and
 enhancing its interactive and enjoyable gameplay experience.
 
