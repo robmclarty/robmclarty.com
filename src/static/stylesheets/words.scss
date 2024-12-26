@@ -85,6 +85,7 @@ $bg_color: #f6f6f6;
 
 .content > article,
 .words-list-container {
+  position: relative;
   max-width: $max_content_width;
   margin: 6rem auto 8rem auto;
   overflow-wrap: break-word;
@@ -341,7 +342,7 @@ ul.cv-skills {
     font-family: fonts.$article_subtitle;
     font-size: 0.75rem;
     color: #9d9d9d;
-    background-color: #e3e3e3;
+    background-color: #e9e9e9;
     border-radius: 0.75rem;
   }
 }
@@ -363,17 +364,6 @@ ul.cv-skills.cv-skills-inline {
     color: inherit;
     background-color: transparent;
     border-radius: 0;
-  }
-}
-
-.cv-skills-cat {
-  margin: 0.25rem 0;
-
-  & > b {
-    display: inline-block;
-    margin-right: 0.5rem;
-    // font-family: fonts.$article_body_bold;
-    // font-weight: normal;
   }
 }
 
@@ -416,6 +406,14 @@ ul.cv-skills.cv-skills-inline {
       height: 50px;
     }
   }
+}
+
+.cv-headshot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 133px;
+  height: 133px;
 }
 
 // --------
@@ -530,5 +528,11 @@ ul.cv-skills.cv-skills-inline {
   .content-footer > div {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cv-headshot {
+    position: relative;
   }
 }

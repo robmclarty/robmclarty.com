@@ -5,6 +5,8 @@ date: 2024-12-26
 layout: cv.layout.njk
 ---
 
+<img src="/images/robmclarty_headshot.jpg" alt="Rob McLarty headshot" class="cv-headshot" />
+
 [hello@robmlarty.com](mailto:hello@robmlarty.com)\
 [https://linkedin.com/in/robmclarty](https://linkedin.com/in/robmclarty)
 
