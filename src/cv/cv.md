@@ -30,7 +30,7 @@ Experience
 
 <div class="cv-samples">
 
-  **Technical Director**\
+  **Lead Game Developer**\
   *2023-present @ Computechnosoft*
 
   <!--
@@ -128,7 +128,7 @@ Experience
 
 <div class="cv-samples">
 
-  **Senior Developer + UI/UX Designer**\
+  **Senior Full-Stack Web Developer**\
   *2013-2015 @ Verold*
 
   <!--
