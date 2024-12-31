@@ -118,9 +118,9 @@ General Purpose
   all, advertisers and thus [allows trackers through and data to leak]
   (https://arstechnica.com/business/2015/02/over-300-businesses-now-whitelisted-on-adblock-plus-10-pay-to-play/);
   anyone who says "ad blockers are ruining the internet; how are content
-  providers going to be able to keep making great content for you?" can go fuck
-  themselves; I didn't agree to leak my data all over the network; if content
-  sites stop fucking with my shit, maybe I'll stop fucking with their shit, you
+  providers going to be able to keep making great content for you?" I feel is
+  a bit disengenuous; I didn't agree to leak my data all over the network; if content
+  sites stop messing with me, maybe I'll stop messing with them, you
   know? at the end of the day, it's *my* computer, and I have the final say
   over what it does, especially regarding what signals it broadcasts
 - stop putting all your stuff in the cloud, at least if it's not encrypted;
@@ -257,7 +257,7 @@ Hardcore
   tracked ;)
 - annonomize your online activities by using the
   [Tor](https://www.torproject.org/download/download-easy.html.en) protocol; this
-  adds significant overhead (it's slow as fuck), and may not be useful for all
+  adds significant overhead (it's slow AF), and may not be useful for all
   your online activities; but for sensitive information (e.g., blowing the
   whistle on an organization or sending information to the press) you can keep
   your tracks more annonymous to prevent identifying yourself to anyone
