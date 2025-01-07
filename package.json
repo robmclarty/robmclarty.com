@@ -4,7 +4,9 @@
   "description": "Writings and pencraft by Rob McLarty",
   "main": "index.js",
   "scripts": {
-    "build:styles": "npx sass --style=compressed --no-source-map ./src/static/stylesheets/words.scss ./build/stylesheets/words.css",
+    "build:styles:words": "npx sass --style=compressed --no-source-map ./src/static/stylesheets/words.scss ./build/stylesheets/words.css",
+    "build:styles:cv": "npx sass --style=compressed --no-source-map ./src/static/stylesheets/cv.scss ./build/stylesheets/cv.css",
+    "build:styles": "npm run build:styles:words && npm run build:styles:cv",
     "build:styles:watch": "npx sass --style=expanded --source-map --watch ./src/static/stylesheets/words.scss ./build/stylesheets/words.css",
     "build": "npm run build:styles && npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --port=3001",

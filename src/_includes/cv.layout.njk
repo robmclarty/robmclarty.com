@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/stylesheets/words.css" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/cv.css" rel="stylesheet" type="text/css">
     <title>{{ title }} :: Rob McLarty</title>
   </head>
 
@@ -16,21 +17,18 @@
           {% if subtitle %}
             <p>{{ subtitle }}</p>
           {% endif %}
-
-          <div class="meta">
-            <time datetime="{{ date }}">
-              Last updated: {{ date.toLocaleDateString('en-CA', { year: "numeric", month: "short", day: "numeric" }) }}
-            </time>
-          </div>
         </header>
 
         {{ content | safe }}
+
       </article>
 
       <footer class="content-footer">
-        <p class="small">
-          &copy; 1997-{% current_year %} Rob McLarty
-        </p>
+        <div class="meta">
+          <time datetime="{{ date }}">
+            Last updated: {{ date.toLocaleDateString('en-CA', { year: "numeric", month: "short", day: "numeric" }) }}
+          </time>
+        </div>
       </footer>
     </section>
 

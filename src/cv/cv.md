@@ -1,598 +1,293 @@
 ---
 title: Robert McLarty
 subtitle: Full-Stack Software Engineer
-date: 2024-12-26
+date: 2025-01-07
 layout: cv.layout.njk
 ---
 
+[Email Me](mailto:hello@robmlarty.com) &bullet;
+[Download PDF](./Robert_McLarty_CV_2025-01-07.pdf) &bullet;
+[LinkedIn](https://linkedin.com/in/robmclarty) &bullet;
+[Homepage](/)
+
 <img src="/images/robmclarty_headshot.jpg" alt="Rob McLarty headshot" class="cv-headshot" />
 
-[hello@robmlarty.com](mailto:hello@robmlarty.com)\
-[https://linkedin.com/in/robmclarty](https://linkedin.com/in/robmclarty)
-
 Experienced full-stack software engineer with over a decade of success designing
-and delivering scalable, user-centric web applications. Skilled in a wide range
-of technologies, including Javascript, React, Node, and Ruby, with a strong
-focus on modular code, responsive design, and a seamless user experience. With
-a background in cognitive science, philosophy, and graphic design, I bring a
-unique perspective to problem-solving and product development. My experience
-spans startups, enterprise consulting, and freelance projects. I’m eager to
-combine my technical expertise and creativity to drive innovation and delight
-users.
+and developing scalable user-centric web applications. Skilled in a wide range
+of technologies including React, Node, Rails, and AWS with a strong focus on
+modular code, responsive design, and a seamless user experience.
 
-At the end of the day, I like making things. I like teaching other people how to
-make things. And I love it when we can all make things together that are bigger
-than ourselves.
+With a background in cognitive science, philosophy, and graphic design, I bring
+a unique perspective to problem-solving and product development. My experience
+spans startups like Verold and WorkTango, enterprises like Telus and Kellogg’s,
+as well as freelance projects for local small businesses and artists. I’m eager
+to combine my technical expertise and creativity to drive innovation and
+delight users.
+
+At the end of the day, I like making things. I like teaching others how to make
+things. And I love it when we can all make things together that are bigger than
+ourselves!
 
 
-Experience
-----------
+Stack
+-----
 
-<div class="cv-samples">
+### Computer Languages
 
-  **Lead Game Developer**\
-  *2023-present @ Computechnosoft*
+<div class="skills">
 
-  <!--
-  <ul class="cv-samples-list">
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-  </ul>
-  -->
+- Javascript
+- Typescript
+- Ruby
+- Python
+- PHP
+- C
+- C#
+- HTML
+- CSS
+- (no)SQL
+- Bash
+- Redis
+- JSON
+- Yaml
+- Sass
+- Markdown
 
-  <ul class="cv-skills">
-    <li>C#</li>
-    <li>Unity</li>
-    <li>Steam</li>
-    <li>Machine Learning</li>
-  </ul>
-
-  Addressed technical debt and steered the game development toward a modular,
-  functional demo now generating wishlists and positioning itself for a release
-  candidate on Steam. Collaborated closely with artists and designers to
-  integrate creative assets with code, bringing the game's narrative to life and
-  enhancing its interactive and enjoyable gameplay experience.
 </div>
 
-<div class="cv-samples">
+### Coding Frameworks
 
-  **Principal Software Engineer**\
-  *2019-2022 @ WorkTango*
+<div class="skills">
 
-  <!--
-  <ul class="cv-samples-list">
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-  </ul>
-  -->
+- React
+- Node
+- Rails
+- Redux
+- GraphQL
+- Express
+- Sinatra
+- Cloudformation
+- NextJS
+- Electron
+- NaCl
+- Nginx
+- Storybook
+- 11ty
+- MaterialUI
+- SocketIO
+- RSpec
+- Jest
+- Docker
 
-  <ul class="cv-skills">
-    <li>Javascript</li>
-    <li>Node</li>
-    <li>React</li>
-    <li>Redux</li>
-    <li>Express</li>
-    <li>Postgres</li>
-    <li>AWS</li>
-    <li>Docker</li>
-    <li>MaterialUI</li>
-    <li>GraphQL</li>
-  </ul>
-
-  Played a key role in scaling the company from fewer than 10 employees to over
-  50, culminating in its acquisition by Kazoo. Focused on software and systems
-  architecture, cloud orchestration, and security. Led internal committees,
-  recruited new team members, organized and guided production workflows, and
-  integrated systems, people, practices, and documentation to ensure seamless
-  operations.
 </div>
 
-<div class="cv-samples">
+### Application Platforms
 
-  **Staff Software Engineer**\
-  *2015-2019 @ Myplanet*
+<div class="skills">
 
-  <!--
-  <ul class="cv-samples-list">
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-  </ul>
-  -->
+- AWS
+- Cloudflare
+- Digital Ocean
+- Vercel
+- GCP
+- Twilio
+- Auth0
+- Okta
+- Letsencrypt
+- Shopify
+- Stripe
+- Github
+- GitlabCI
+- New Relic
+- Mixpanel
+- Netsuite
+- Steam
 
-  <ul class="cv-skills">
-    <li>Javascript</li>
-    <li>Node</li>
-    <li>React</li>
-    <li>Redux</li>
-    <li>Express</li>
-    <li>Postgres</li>
-    <li>MongoDB</li>
-    <li>AWS</li>
-    <li>Docker</li>
-    <li>Serverless</li>
-    <li>Websockets</li>
-    <li>GraphQL</li>
-    <li>Python</li>
-    <li>Cordova/React-Native</li>
-  </ul>
-
-  Collaborated with Telus to create custom proofs-of-concept for web and mobile
-  applications, prioritizing top-tier security, privacy, and the integration of
-  legacy and prototype telecom technologies. Helped Newstore to develop a
-  cutting-edge omni-channel retail e-commerce platform, leveraging custom
-  serverless architecture and an integrated fulfillment system.
 </div>
 
-<div class="cv-samples">
+### Software Tools
 
-  **Senior Full-Stack Web Developer**\
-  *2013-2015 @ Verold*
+<div class="skills">
 
-  <!--
-  <ul class="cv-samples-list">
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-    <li><a href="#"><img src="missing.jpg" /></a></li>
-  </ul>
-  -->
+- Adobe Suite
+- Affinity Suite
+- Sketch
+- Figma
+- FCP
+- Unity
+- Vim
+- Sublime
+- VS Code
 
-  <ul class="cv-skills">
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>Javascript</li>
-    <li>Node</li>
-    <li>React</li>
-    <li>Postgres</li>
-    <li>Python</li>
-    <li>ThreeJS</li>
-    <li>WebGL</li>
-  </ul>
+</div>
 
-  Developed a web application platform serving as the authorization and identity
-  system, as well as the social network, for an ecosystem comprising a 3D editor,
-  graphics engine, and coding IDE. Contributed to the design and development of
-  these components while also speaking at conferences, advising on strategy, and
-  collaborating on system architecture—efforts that culminated in the company’s
-  acquisition by Box.
+### Spoken Languages
+
+<div class="skills">
+
+- English
+- French
+
+</div>
+
+
+Jobs
+----
+
+### Lead Game Developer
+
+#### Computechnosoft &bullet; Toronto, Kelowna
+
+<div class="job-year">
+  2023 &mdash; present
+</div>
+
+<div class="skills">
+
+- Unity
+- C#
+- Steam
+- Machine Learning
+
+</div>
+
+Addressed technical debt and steered the game development toward a modular
+architecture that resulted in improved performance, reduced bugs, and a working
+demo now generating wishlists on Steam, gearing up for its first release
+candidate. Collaborated closely with artists and designers to integrate
+creative assets with code, bringing the game's narrative to life and enhancing
+its gameplay experience.
+
+
+### Principal Software Engineer
+
+#### WorkTango &bullet; Toronto, Kelowna, Austin
+
+<div class="job-year">
+  2019 &mdash; 2022
+</div>
+
+<div class="skills">
+
+- JS/TS
+- Node
+- React
+- Redux
+- GraphQL
+- Docker
+- AWS
+- Postgres
+- Cloudformation
+
+</div>
+
+Focused on software and systems architecture, cloud orchestration, and security.
+Played a key role in scaling the company from fewer than 10 employees to over
+50, resulting in our acquisition by Kazoo. Led internal committees, recruited
+new hires, and guided production workflows. Integrated systems, people,
+practices, and documentation, notably improving operations in terms of
+time-to-delivery and reduced risk of errors.
+
+
+### Staff Software Engineer
+
+#### Myplanet &bullet; Toronto, Berlin, Boston
+
+<div class="job-year">
+  2015 &mdash; 2019
+</div>
+
+<div class="skills">
+
+- JS/TS
+- Node
+- React
+- Express
+- Electron
+- AWS
+- Docker
+- Python
+- Postgres
+- Serverless
+
+</div>
+
+Collaborated with Telus to develop secure web and mobile apps for Service
+Management, Telus Health, and VoIP certified as “private by design” and scaling
+to serve tens of thousands of Canadian customers. Helped Newstore launch global
+omni-channel e-commerce platform using custom AWS serverless architecture.
+Integrated 25+ APIs to support PoS, clienteling, and fulfillment across 85+
+brands in dozens of countries, ensuring reliability during peak retail spikes.
+Led Myplanet security initiatives, hosted seminars on privacy and code
+best-practices, and provided on-site technical support for major international
+clients.
+
+
+### Senior Full-Stack Web Developer
+
+#### Verold &bullet; Toronto
+
+<div class="job-year">
+  2013 &mdash; 2015
+</div>
+
+<div class="skills">
+
+- Ruby on Rails
+- Node
+- React
+- Postgres
+- Python
+- ThreeJS
+- Phusion Passenger
+
+</div>
+
+Developed modular Rails platform to handle authorization, identity management,
+and social network for novel WebGL ecosystem comprising 3D editor, graphics
+engine + processor, and coding IDE which facilitated collaboration on 3D assets
+and accessibility to interactive 3D experiences native to the browser. Thanks
+to a solid product and some clever growth hacks, we grew to tens of thousands
+of monthly active users and millions of monthly views for hosted projects,
+culminating in our acquisition by Box.
+
+
+Schools
+-------
+
+### Sheridan College
+
+#### Illustration & Graphic Design &bullet; Diploma
+
+<div class="skills">
+
+- Digital Illustration
+- Data Visualization
+- UI/UX
+- Motion Graphics
+- Web
+- Print
+
+</div>
+
+
+### University of Toronto
+
+#### Cognitive Science &bullet; Bachelors
+
+<div class="skills">
+
+- Computer Science
+- Philosophy
+- AI
+- Linguistics
+- Psychology
+- English
+- Classics
+
 </div>
 
 <!--
-**Staff Software Engineer**\
-*2011-2013 @ Overdrive Design*\
-JS (Backbone, jQuery), MySQL, RoR, Ruby, Actionscript, HTML, CSS
-
-Lead technology efforts such as software development, archive process, hardware acquisition and management, staff knowledge sharing, and the hiring + onboarding of new engineers. Worked with many clients each with their own unique software challenges including custom CMSs, mobile ride hailing, museum kiosks, and custom e-commerce solutions.
-
-**Co-founder + CTO**\
-*2006-2011 @ Philosophy Factory*\
-JS (Backbone, jQuery), MySQL, RoR, Ruby, Actionscript, HTML, CSS
-
-Managed office IT tasks like code versioning, asset archiving, comms, presentations and networking while also leading software development such as interface design, data modelling, code architecture, and diagnosing user experience. Coordinated contractors and kept clients updated on their projects’ status. Worked with clients to design unique web presences for their brands, and provided custom software solutions such as live race results, CMSs, e-commerce, authz, games, ads, and back-office automation.
--->
-
-
-Education
----------
-
-**Illustration & Graphic Design**\
-*Sheridan College*
-
-<ul class="cv-skills cv-skills-block">
-  <li>Editorial Illustration</li>
-  <li>Data Visualization</li>
-  <li>UI/UX</li>
-  <li>Motion Graphics</li>
-  <li>Web</li>
-  <li>Print</li>
-</ul>
-
-**Cognitive Science**\
-*University of Toronto*
-
-<ul class="cv-skills cv-skills-block">
-  <li>Philosophy</li>
-  <li>Computer Science</li>
-  <li>Linguistics</li>
-  <li>Psychology</li>
-  <li>English</li>
-  <li>Classics</li>
-</ul>
-
-
-Spoken Languages
-----------------
-
-**English**\
-*Native*
-
-**French**\
-*Business-Conversational*
-
-
-Computer Languages
-------------------
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Browser</li>
-  <li>Javascript (vanilla & ES6+)</li>
-  <li>Typescript</li>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Sass/Less</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Server</li>
-  <li>Javascript (Node)</li>
-  <li>Ruby</li>
-  <li>Python</li>
-  <li>Elixir</li>
-  <li>PHP</li>
-  <li>Perl</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Data</li>
-  <li>Postgres</li>
-  <li>MySQL</li>
-  <li>SQLite</li>
-  <li>MongoDB</li>
-  <li>DynamoDB</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Cache</li>
-  <li>Redis</li>
-  <li>Memcached</li>
-  <li>ElastiCache</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Transport</li>
-  <li>JSON</li>
-  <li>XML</li>
-  <li>CSV</li>
-  <li>Yaml</li>
-  <li>JWT</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Documentation</li>
-  <li>Markdown</li>
-  <li>JSDoc</li>
-  <li>PEP</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Infrastructure</li>
-  <li>Nginx</li>
-  <li>Apache</li>
-  <li>PM2</li>
-  <li>Docker</li>
-  <li>Bash</li>
-  <li>Cloudformation</li>
-  <li>Terraform</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Network</li>
-  <li>GraphQL</li>
-  <li>Websockets</li>
-  <li>HTTP</li>
-  <li>REST</li>
-  <li>SOAP</li>
-  <li>SIP</li>
-  <li>FTP</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Game</li>
-  <li>C# (Unity)</li>
-  <li>GDScript</li>
-  <li>Actionscript</li>
-  <li>JS</li>
-  <li>C (Allegro)</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>General</li>
-  <li>Ruby</li>
-  <li>Python</li>
-  <li>Pascal</li>
-  <li>Turing</li>
-  <li>C</li>
-  <li>C++</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Templates</li>
-  <li>JSX</li>
-  <li>Haml</li>
-  <li>Nunjucks</li>
-  <li>Underscore</li>
-  <li>ERB</li>
-  <li>EJS</li>
-  <li>Handlebars</li>
-  <li>Mustache</li>
-</ul>
-
-
-Coding Frameworks
------------------
-
-<ul class="cv-skills cv-skills-inline">
-  <li>UI</li>
-  <li>React</li>
-  <li>Angular</li>
-  <li>Preact</li>
-  <li>Backbone</li>
-  <li>jQuery</li>
-  <li>Storybook</li>
-  <li>React Native</li>
-  <li>Electron</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Server</li>
-  <li>Node</li>
-  <li>Rails</li>
-  <li>Express</li>
-  <li>Knex</li>
-  <li>Wordpress</li>
-  <li>Next.js</li>
-  <li>LoopBack</li>
-  <li>CakePHP</li>
-  <li>Sinatra</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Generators</li>
-  <li>11ty</li>
-  <li>Jekyll</li>
-  <li>Hugo</li>
-  <li>Hexo</li>
-  <li>Gatsby</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Styles</li>
-  <li>Normalize</li>
-  <li>Tailwind</li>
-  <li>Bootstrap</li>
-  <li>Sass/Less</li>
-  <li>MaterialUI</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>State</li>
-  <li>Redux</li>
-  <li>ActiveModel</li>
-  <li>Signals</li>
-  <li>PWA</li>
-  <li>Hexagonal</li>
-  <li>XState</li>
-  <li>Reactive</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Security</li>
-  <li>NaCl</li>
-  <li>Signal</li>
-  <li>Letsencrypt</li>
-  <li>OAuth</li>
-  <li>Cred</li>
-  <li>Auth0</li>
-  <li>Okta</li>
-  <li>OpenSSL</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Test</li>
-  <li>Rspec</li>
-  <li>Jest</li>
-  <li>Mocha</li>
-  <li>Jasmine</li>
-  <li>Selenium</li>
-  <li>MSW</li>
-  <li>Tape</li>
-  <li>Enzyme</li>
-  <li>SuperTest</li>
-  <li>Chai</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Game</li>
-  <li>Unity</li>
-  <li>Godot</li>
-  <li>Pixi</li>
-  <li>Phaser</li>
-  <li>FlashPunk</li>
-  <li>PushButtonEngine</li>
-  <li>Allegro</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>3D</li>
-  <li>Three.js</li>
-  <li>Pixi</li>
-  <li>WebGL</li>
-  <li>SketchFab</li>
-  <li>Verold</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>AI</li>
-  <li>PyTorch</li>
-  <li>TensorFlow.js</li>
-  <li>OpenAI</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Payment</li>
-  <li>Shopify</li>
-  <li>Stripe</li>
-  <li>Authorize.net</li>
-  <li>Monaris</li>
-  <li>Lightspeed</li>
-  <li>Netsuite</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Build</li>
-  <li>Rollup</li>
-  <li>ESBuild</li>
-  <li>Parcel</li>
-  <li>Webpack</li>
-  <li>Husky</li>
-  <li>Browserify</li>
-  <li>Babel</li>
-  <li>CRA</li>
-  <li>Gulp</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Versioning</li>
-  <li>GIT</li>
-  <li>NPM</li>
-  <li>Yarn</li>
-  <li>NVM</li>
-  <li>RVM</li>
-  <li>SVN</li>
-  <li>n</li>
-  <li>Gem</li>
-  <li>Homebrew</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Infrastructure</li>
-  <li>AWS</li>
-  <li>GCP</li>
-  <li>Digital Ocean</li>
-  <li>Media Temple</li>
-  <li>Cloudflare</li>
-  <li>Hover</li>
-  <li>Twilio</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Orchestration</li>
-  <li>K8s</li>
-  <li>Docker Swarm</li>
-  <li>Fargate</li>
-  <li>EC2</li>
-  <li>Passenger</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Monitor</li>
-  <li>Mixpanel</li>
-  <li>Datadog</li>
-  <li>New Relic</li>
-  <li>PM2</li>
-  <li>Splunk</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Deploy</li>
-  <li>Puppeteer</li>
-  <li>Github Actions</li>
-  <li>Gitlab CI</li>
-  <li>Travis CI</li>
-  <li>Bitbucket Pipelines</li>
-</ul>
-
-
-Software Tools
---------------
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Graphics</li>
-  <li>Photoshop</li>
-  <li>Lightroom</li>
-  <li>Illustrator</li>
-  <li>GIMP</li>
-  <li>Affinity Photo</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Design</li>
-  <li>InDesign</li>
-  <li>Quark Express</li>
-  <li>Affinity Designer</li>
-  <li>Sketch</li>
-  <li>Figma</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Motion</li>
-  <li>Final Cut Pro</li>
-  <li>Premiere</li>
-  <li>Flash</li>
-  <li>After Effects</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Code</li>
-  <li>Sublime</li>
-  <li>Atom</li>
-  <li>Vim</li>
-  <li>Visual Studio</li>
-  <li>Notepad</li>
-  <li>CLI</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Communication</li>
-  <li>Discord</li>
-  <li>Slack</li>
-  <li>Teams</li>
-  <li>Zoom</li>
-  <li>Google</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Coordination</li>
-  <li>Trello</li>
-  <li>Notion</li>
-  <li>Jira</li>
-  <li>Assana</li>
-  <li>Basecamp</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Security</li>
-  <li>Lastpass</li>
-  <li>1Password</li>
-  <li>KeyPass</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>AI</li>
-  <li>ChatGPT</li>
-  <li>Midjourney</li>
-  <li>Copilot</li>
-  <li>Flux</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Versioning</li>
-  <li>Github</li>
-  <li>Gitlab</li>
-  <li>Bitbucket</li>
-</ul>
-
-<ul class="cv-skills cv-skills-inline">
-  <li>Game</li>
-  <li>Unity</li>
-  <li>Unreal</li>
-  <li>Flash</li>
-  <li>Godot</li>
-</ul>
-
-
 Volunteer
 ---------
 
@@ -608,7 +303,6 @@ Volunteer
 **Cycling Safety Advocate**\
 *2015-2020 @ City of Toronto*
 
-<!--
 **Computer Technology Instructor**\
 *1999-2001 @ Simcoe County Board of Education*
 
@@ -619,7 +313,7 @@ Volunteer
 *1995-1997 @ Hamilton Wentworth Aquatic Club*
 -->
 
-
+<!--
 Apps
 ----
 
@@ -762,6 +456,7 @@ Apps
   statistical analysis and a backend admin controller for reporting, data
   management, and visualization.
 </div>
+-->
 
 <!--
 **Safe Dose**\
@@ -796,70 +491,31 @@ Regional hockey league management system. Cloud-based CMS, back-office automatio
 Open Source
 -----------
 
-**[Cred](https://github.com/robmclarty/cred)**\
-Authentication + authorization for NodeJS apps using JWT for transport.
-
-**[Soko](https://github.com/robmclarty/soko)**\
-CLI tools for building and running javascript applications.
-
-**[Storium](https://github.com/robmclarty/storium)**\
-Unified cloud storage abstraction for Knex apps.
-
-**[Fuzzle](https://github.com/robmclarty/fuzzle)**\
-CLI tools for static asset name reversioning.
-
-**[Crypto-Butter](https://github.com/robmclarty/crypto-butter)**\
-Collection of cryptographic functions for web clients.
-
-**[Knex API Template](https://github.com/robmclarty/knex-express-project-sample)**\
-Example starter web server NodeJS API with scalable architecture.
-
-**[RobChat](https://github.com/robmclarty/robchat)**\
-Double-ratcheted E2EE websocket zero knowledge (client + server) group chat app.
-
-**[Suggestible-Input](https://github.com/robmclarty/suggestible-input)**\
-React component for fast selectable list of fuzzy-matched suggestions in an input field.
-
-**[Paginated-Redux](https://github.com/robmclarty/paginated-redux)**\
-React/redux state management for paginated records.
-
-**[Nginx-Config](https://github.com/robmclarty/nginx-config)**\
-Reference nginx config files using SSL and reverse proxy. A+ rating on SSL Labs.
-
-**[Nav_Panel](https://github.com/robmclarty/nav_panel)**\
-A simple navigation component for your Rails app admin interface.
+- ### [Cred](https://github.com/robmclarty/cred) &bullet; <span class="link-description">Authentication + authorization for NodeJS apps using JWT for transport.</span></span>
+- ### [Soko](https://github.com/robmclarty/soko) &bullet; <span class="link-description">CLI tools for building and running javascript applications.</span>
+- ### [Storium](https://github.com/robmclarty/storium) &bullet; <span class="link-description">Unified cloud storage abstraction for Knex apps.</span>
+- ### [Fuzzle](https://github.com/robmclarty/fuzzle) &bullet; <span class="link-description">CLI tools for static asset name reversioning.</span>
+- ### [Crypto-Butter](https://github.com/robmclarty/crypto-butter) &bullet; <span class="link-description">Collection of cryptographic functions for web clients.</span>
+- ### [Rob Chat](https://github.com/robmclarty/robchat) &bullet; <span class="link-description">Double-ratcheted e2ee websocket zero knowledge group chat.</span>
+- ### [Suggestible Input](https://github.com/robmclarty/suggestible-input) &bullet; <span class="link-description">Fast selectable fuzzy-matched suggestions in an input field.</span>
+- ### [Paginated Redux](https://github.com/robmclarty/paginated-redux) &bullet; <span class="link-description">React/redux state management for paginated records.</span>
+- ### [Nginx Config](https://github.com/robmclarty/nginx-config) &bullet; <span class="link-description">Reference SSL and reverse proxy with A+ rating on SSL Labs.</span>
+- ### [Nav Panel](https://github.com/robmclarty/nav_panel) &bullet; <span class="link-description">Simple navigation component for your Rails app's admin interface.</span>
 
 
 Articles
 --------
 
-**[What is a JSON Web Token?](https://robmclarty.com/words/articles/what_is_a_jwt)**
-
-**[Loop Heuristics in Javascript](https://robmclarty.com/words/articles/loop_heuristics_in_javascript)**
-
-**[Docker is Fun and Easy](https://robmclarty.com/words/articles/docker_is_fun_and_easy)**
-
-**[Personal Security Tips](https://robmclarty.com/words/articles/personal_security_tips)**
-
-**[Is There Something Better Than Time-Tracking?](https://robmclarty.com/words/articles/is_there_something_other_than_time_tracking)**
-
-**[Reduce Complexity, Not (Necessarily) Code](https://robmclarty.com/words/articles/reduce_complexity_not_code)**
-
-**[Alternative React Component Patterns](https://robmclarty.com/words/articles/alternative_react_component_patterns)**
-
-**[Stripe VS Paypal](https://robmclarty.com/words/articles/stripe_vs_paypal)**
-
-**[The Business of Privacy](https://robmclarty.com/words/articles/business_of_privacy)**
-
-**[Machine Learning Is Not Learning](https://robmclarty.com/words/articles/machine_learning_is_not_learning)**
-
-**[How I Learned to Stop Worrying and Love the Cascade](https://robmclarty.com/words/articles/how_i_learned_to_stop_worrying_and_love_the_cascade)**
-
-**[Don't Use HPKP by Default](https://robmclarty.com/words/articles/dont_use_hpkp_by_default)**
-
-**[The Creative Process in Software Development](https://robmclarty.com/words/articles/creative_process_in_software_development)**
-
-**[Installing Let’s Encrypt With Certbot](https://robmclarty.com/words/articles/installing_letsencrypt_with_certbot)**
+- ### [What is a JSON Web Token?](https://robmclarty.com/words/articles/what_is_a_jwt)
+- ### [Docker is Fun and Easy](https://robmclarty.com/words/articles/docker_is_fun_and_easy)
+- ### [Personal Security Tips](https://robmclarty.com/words/articles/personal_security_tips)
+- ### [Reduce Complexity, Not (Necessarily) Code](https://robmclarty.com/words/articles/reduce_complexity_not_code)
+- ### [Alternative React Component Patterns](https://robmclarty.com/words/articles/alternative_react_component_patterns)
+- ### [Stripe VS Paypal](https://robmclarty.com/words/articles/stripe_vs_paypal)
+- ### [The Business of Privacy](https://robmclarty.com/words/articles/business_of_privacy)
+- ### [How I Learned to Stop Worrying and Love the Cascade](https://robmclarty.com/words/articles/how_i_learned_to_stop_worrying_and_love_the_cascade)
+- ### [Don't Use HPKP by Default](https://robmclarty.com/words/articles/dont_use_hpkp_by_default)
+- ### [Installing Let’s Encrypt With Certbot](https://robmclarty.com/words/articles/installing_letsencrypt_with_certbot)
 
 
 <!--
@@ -903,12 +559,5 @@ Have been in a pool since before I could walk. Broke three Canadian age-group re
 References
 ----------
 
-Available upon request.
+Available on request.
 
-&nbsp;
-
-🔽 [Download CV as Text File](./robmclarty_cv_2024h.rtf)
-
-💌 [Contact Me](mailto:hello@robmlarty.com)
-
-⬅️ [Back to Homepage](/)

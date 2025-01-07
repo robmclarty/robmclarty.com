@@ -1,0 +1,73 @@
+/**
+ * Root Stylesheet
+ *
+ * @see https://sass-lang.com/documentation/cli/dart-sass
+ * @see https://github.com/sass/dart-sass
+ * @see https://sass-lang.com/documentation/js-api/
+ * @see https://sass-lang.com/documentation/js-api/interfaces/Options
+ * @see https://dev.to/stefaniefluin/the-new-sass-module-system-out-with-import-in-with-use-g3m
+ */
+@use 'sass:color';
+@use 'sass:map';
+@use 'base';
+@use './fonts';
+@use './colors';
+
+h3 {
+  font-size: 1.25rem;
+  font-family: fonts.$article_semibold;
+  line-height: 1.25rem;
+  margin: 1rem 0 0.25rem 0;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-family: fonts.$article_subtitle;
+  line-height: 1.2rem;
+  color: black;
+}
+
+.skills {
+  margin: 0 0 1rem 0;
+}
+
+.skills + p {
+  margin: 1rem 0 2rem 0;
+}
+
+.job-year {
+  float: right;
+  margin-top: -2.75rem;
+}
+
+.skills > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #999;
+  font-family: fonts.$article_body_italic;
+
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    &:after {
+      content: ", ";
+    }
+
+    &:last-child:after {
+      content: "";
+    }
+  }
+}
+
+header + p {
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+}
+
+.link-description {
+  font-family: fonts.$article_body;
+  font-size: 1.15rem;
+}
