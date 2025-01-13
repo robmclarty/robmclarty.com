@@ -6,7 +6,7 @@ layout: cv.layout.njk
 ---
 
 [Email Me](mailto:hello@robmlarty.com) &bullet;
-[Download PDF](Robert_McLarty_CV_2025-01-07.pdf) &bullet;
+[Download PDF](/cv/Robert_McLarty_CV_2025-01-07.pdf) &bullet;
 [LinkedIn](https://linkedin.com/in/robmclarty) &bullet;
 [Homepage](/)
 
