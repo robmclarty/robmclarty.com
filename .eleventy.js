@@ -7,7 +7,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.setTemplateFormats([
     'md',
     'njk',
-    'jpg' // include images as "templates" so they get automatically copied alongside the html output
+    //'jpg' // include images as "templates" so they get automatically copied alongside the html output
   ])
 
   eleventyConfig.addPlugin(syntaxHighlight)
@@ -25,7 +25,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy({ 'src/static/fonts': 'fonts' })
 
   eleventyConfig.addPassthroughCopy('src/art')
-  eleventyConfig.addPassthroughCopy('src/web')
+  eleventyConfig.addPassthroughCopy('src/apps')
 
   // Exclude from tagList.
   eleventyConfig.addCollection('tagList', collection => {
@@ -67,7 +67,7 @@ module.exports = eleventyConfig => {
   })
 
   eleventyConfig.addNunjucksShortcode("current_year", () => {
-    return "2024";
+    return "2025";
   })
 
   return {
