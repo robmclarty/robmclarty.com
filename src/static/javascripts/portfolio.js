@@ -1,5 +1,4 @@
 $(function() {
-
   var hash = window.location.hash.replace('#', '');
 
   var openPortfolioPiece = function(id) {
@@ -8,12 +7,13 @@ $(function() {
     if (portfolioPiece.length) { // Only execute if the element actually exists.
       $('body').addClass('no-scroll');
       portfolioPiece.show();
+      window.location.hash = id;
     }
   };
 
   // If there's a hash present in the URL, try opening the corresponding portfolio piece.
   if (hash !== '') {
-    openPortfolioPiece(hash);
+    openPortfolioPiece(Number(hash));
   }
 
   // Open a portfolio piece.
@@ -30,6 +30,7 @@ $(function() {
     e.preventDefault();
     $('body').removeClass('no-scroll');
     $('.portfolio-container').hide();
+    window.location.hash = '';
 
     return false;
   });

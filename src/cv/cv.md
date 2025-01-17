@@ -15,7 +15,7 @@ layout: cv.layout.njk
 Experienced full-stack software engineer with over a decade of success designing
 and developing scalable user-centric web applications. Skilled in a wide range
 of technologies including React, Node, Rails, and AWS with a strong focus on
-modular code, responsive design, and a seamless user experience.
+modular code, responsive design, security, and a seamless user experience.
 
 With a background in cognitive science, philosophy, and graphic design, I bring
 a unique perspective to problem-solving and product development. My experience
