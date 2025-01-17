@@ -10,9 +10,15 @@
 <meta content="no" http-equiv="MSThemeCompatible">
 <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 <link href="/stylesheets/portfolio-e423210a1d88f5d27622f1933dd378c9.css" media="all" rel="stylesheet">
+<style><!--
+.video-container { position: relative; height: 0; padding-bottom: 56.25%; overflow: hidden; max-width: 620px; }
+.video-container iframe,
+.video-container object,
+.video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+--></style>
 </head>
 
-<body class="">
+<body>
 <section id="results" class="outer-container dark">
   <div class="inner-container">
     <h1>Apps</h1>
@@ -67,6 +73,20 @@
         </a>
       </li>
       <li>
+        <a href="#" data-portfolio-id="29">
+          <h3>Cred Manager</h3>
+          <h2>Multi-tenant Authz</h2>
+          <img alt="Cred Thumbnail" src="/apps/cred-manager/cred_thumb.jpg" width="200" height="200">
+        </a>
+      </li>
+      <li>
+        <a href="#" data-portfolio-id="28">
+          <h3>BaRSS</h3>
+          <h2>RSS Feeds in Columns</h2>
+          <img alt="BaRSS Thumbnail" src="/apps/barss/barss_thumb.jpg" width="200" height="200">
+        </a>
+      </li>
+      <li>
         <a href="#" data-portfolio-id="21">
           <h3>Verold</h3>
           <h2>Interactive 3D for Everyone</h2>
@@ -88,13 +108,6 @@
         </a>
       </li>
       <li>
-        <a href="#" data-portfolio-id="28">
-          <h3>BaRSS</h3>
-          <h2>Read RSS in the Browser</h2>
-          <img alt="BaRSS Thumbnail" src="/apps/barss/barss_thumb.jpg" width="200" height="200">
-        </a>
-      </li>
-      <li>
         <a href="#" data-portfolio-id="4">
           <h3>Muskoka Roastery</h3>
           <h2>Gourmet Coffee Store</h2>
@@ -113,13 +126,6 @@
           <h3>Evokative Films</h3>
           <h2>Film Distribution</h2>
           <img alt="Evokative Films Website Thumbnail" src="/images/apps/thumb-evokative2x-a16796aa0ebc9da67fca49cd39e7f96b.jpg" width="200" height="200">
-        </a>
-      </li>
-      <li>
-        <a href="#" data-portfolio-id="29">
-          <h3>Cred Manager</h3>
-          <h2>Multi-tenant Authz</h2>
-          <img alt="Cred Thumbnail" src="/apps/cred-manager/cred_thumb.jpg" width="200" height="200">
         </a>
       </li>
       <li>
@@ -405,16 +411,29 @@
 
 <div class="portfolio-container modal" id="portfolio-22" style="display: none;">
   <article class="portfolio-content">
-    <h1>Computechnosoft</h1>
+    <h1>Hello, Cave Monster!</h1>
     <h2>
-      Learn to talk with aliens.
+      Computechnosoft's latest Tactical RPG Game where communication strategies will open up new and exciting knowledge.
     </h2>
-    <a href="https://somewhere.com" class="button launch">Steam</a>
+    <a href="https://somewhere.com" class="button launch">See it on Steam</a>
     <p>
-      <img alt="Project details" class="full-width" src="/apps/hello-cave-monster/poster.jpg">
+      <div class="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/TGQUT588PDM?si=v28Ig5T8adD1P4DS"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
     </p>
     <p>
-      Lorem ipsum dolor...
+      Desktop and console tactical RPG game where the player attempts to establish
+      friendly relations with alien beings on other worlds through communication
+      techniques instead of fighting. Distributed on Steam.
     </p>
     <br>
     <div class="third-width right">
@@ -423,8 +442,8 @@
         <li>Interactive 3D Game</li>
         <li>Machine Learning</li>
         <li>Tactical RPG</li>
-        <li>Proceedural Level Gen</li>
-        <li>Pathfinding</li>
+        <li>Proceedural Level Generation</li>
+        <li>Hexoganal Pathfinding</li>
         <li>State Management</li>
         <li>Modular Codebase</li>
       </ul>
@@ -434,13 +453,17 @@
       <ul>
         <li>Unity</li>
         <li>C#</li>
+        <li>SQLite</li>
+        <li>Maya, Blender</li>
         <li>Javascript</li>
+        <li>FCP</li>
         <li>Steam</li>
       </ul>
     </div>
     <div class="third-width right">
       <h3>My Roles</h3>
       <ul>
+        <li>Software Architect</li>
         <li>Fullstack Developer</li>
         <li>Team Lead</li>
         <li>Documentation</li>
@@ -459,6 +482,7 @@
     <img alt="Project details" class="full-width" src="/apps/hello-cave-monster/character_design.jpg">
     <img alt="Project details" class="full-width" src="/apps/hello-cave-monster/skilltree.jpg">
     <img alt="Project details" class="full-width" src="/apps/hello-cave-monster/actions.jpg">
+    <img alt="Project details" class="full-width" src="/apps/hello-cave-monster/poster.jpg">
 
     <div class="clear-float">&nbsp;</div>
     <a href="#" title="Close" class="portfolio-close-button modal-close">x</a>
@@ -469,29 +493,35 @@
   <article class="portfolio-content">
     <h1>WorkTango</h1>
     <h2>
-      Employee engagement.
+      Surveys & Insights + Recognition & Rewards bundled within holistic Employee Experience Platform
     </h2>
     <a href="https://worktango.com" class="button launch">Launch</a>
     <p>
       <img alt="Project details" class="full-width" src="/apps/worktango/homepage.png">
     </p>
     <p>
-      Lorem ipsum dolor...
+      Enhance employee sentiment and engagement through secure, anonymous surveys,
+      actionable business insights, and real-time dashboards. Ensuring participants'
+      inputs are protected fosters genuine feedback that drives meaningful business decisions.
     </p>
     <br>
     <div class="third-width right">
       <h3>Features</h3>
       <ul>
-        <li>Pulse Survey</li>
-        <li>Recognition and Rewards</li>
-        <li>Analytics</li>
         <li>Predictive Comprehension</li>
-        <li>Anonymity</li>
+        <li>NLP</li>
+        <li>Pulse Survey</li>
+        <li>Recognition & Rewards</li>
+        <li>Analytics</li>
+        <li>Anonymous Conversations</li>
         <li>Action Planning</li>
         <li>State Management</li>
         <li>Data Conversion</li>
         <li>Responsive Design</li>
         <li>SPA/PWA</li>
+        <li>Security and Encryption</li>
+        <li>Container Orchestration</li>
+        <li>Platform as Code</li>
       </ul>
     </div>
     <div class="third-width left">
@@ -503,25 +533,26 @@
         <li>Redux</li>
         <li>Node</li>
         <li>Express</li>
-        <li>GraphQL</li>
-        <li>REST</li>
+        <li>GraphQL + REST</li>
         <li>SSL/TLS</li>
         <li>AWS, VPC, Fargate</li>
         <li>Postgres</li>
         <li>Docker</li>
-        <li>MaterialUI</li>
+        <li>MaterialUI, SASS</li>
       </ul>
     </div>
     <div class="third-width right">
       <h3>My Roles</h3>
       <ul>
-        <li>Fullstack Developer</li>
         <li>Software Architect</li>
+        <li>Fullstack Developer</li>
         <li>Team Lead</li>
         <li>Mentor</li>
         <li>Speaker</li>
         <li>Documentation</li>
         <li>Designer</li>
+        <li>Code Reviews</li>
+        <li>Recruiting</li>
       </ul>
     </div>
 
@@ -543,27 +574,31 @@
 
 <div class="portfolio-container modal" id="portfolio-24" style="display: none;">
   <article class="portfolio-content">
-    <h1>Telus</h1>
+    <h1>Wellness Messenger</h1>
     <h2>
-      Wellness Messenger
+      Secure end-to-end-encrypted data exchange and messaging system for Telus Health.
     </h2>
     <!--<a href="https://somewhere.com" class="button launch">Steam</a>-->
     <p>
       <img alt="Project details" class="full-width" src="/apps/wellness-messenger/wellness_banner.jpg">
     </p>
     <p>
-      Lorem ipsum dolor...
+      Facilitated the secure coordination of sensitive medical data, ensuring
+      private patient information was shared exclusively between trusted parties,
+      such as doctors, technicians, and family members.
     </p>
     <br>
     <div class="third-width right">
       <h3>Features</h3>
       <ul>
-        <li>Private by Design</li>
-        <li>e2ee</li>
+        <li>Private Conversations</li>
+        <li>E2EE</li>
         <li>Zero Knowledge</li>
-        <li>AES 256 CBC HMAC</li>
-        <li>Encrypted at Rest</li>
-        <li>SSL/TLS</li>
+        <li>AES + HMAC Crypto</li>
+        <li>Diffie Hellman Key Exchange</li>
+        <li>Private by Design</li>
+        <li>Encrypted at Rest, In-Transit, In-Use</li>
+        <li>Orchestrated Containers</li>
       </ul>
     </div>
     <div class="third-width left">
@@ -577,16 +612,22 @@
         <li>JWT</li>
         <li>SSL/TLS</li>
         <li>DNS</li>
+        <li>Docker</li>
+        <li>Docker Swarm</li>
+        <li>AWS VPC</li>
       </ul>
     </div>
     <div class="third-width right">
       <h3>My Roles</h3>
       <ul>
-        <li>Fullstack Developer</li>
         <li>Software Architect</li>
+        <li>Fullstack Developer</li>
         <li>Consultant</li>
         <li>Designer</li>
-        <li>Security</li>
+        <li>Security Specialist</li>
+        <li>Visualization and Presentation</li>
+        <li>Educate Stakeholders of Tech</li>
+        <li>Reporting for SRED</li>
       </ul>
     </div>
 
@@ -605,21 +646,36 @@
 
 <div class="portfolio-container modal" id="portfolio-25" style="display: none;">
   <article class="portfolio-content">
-    <h1>Telus</h1>
+    <h1>Workforce Manager</h1>
     <h2>
-      Workforce Manager
+      A new way for Telus to find sales leads, assign repair technicians, calculate
+      routes, and facilitate communication between dispatch and workforce.
     </h2>
     <!--<a href="https://somewhere.com" class="button launch">Steam</a>-->
     <p>
       <img alt="Project details" class="full-width" src="/apps/sales_finder/2_workforce_admin_ui_map.png">
     </p>
     <p>
-      Lorem ipsum dolor...
+      - reduced external dependencies by 30%
+      - increased iteration speed from concept to rapid prototype
+      - all user data stored locally in browser IndexdDB/WebSQL
+      - Web App + Native Phone App using React Native
+      - list and map work tasks through GUI
+      - browser task details for individual locations (e.g., sales leads)
+      - list related tasks using custom algorithm
+      - handle notification settings (e.g., do-not-call)
+      - take feedback and support requests
+      - provide simple step-by-step help instructions in-app
+      - export data to CSV or JSON to user's email
     </p>
     <br>
     <div class="third-width right">
       <h3>Features</h3>
       <ul>
+        <li>See Workforce At-a-Glance</li>
+        <li>Quickly (Re)Assign Resources</li>
+        <li>Automated Estimates for Tasks</li>
+        <li>Multi-Tenenant Authz</li>
         <li>Proximity Location</li>
         <li>Optimized WebSQL</li>
         <li>State Management</li>
@@ -634,15 +690,20 @@
         <li>Node</li>
         <li>Express</li>
         <li>JWT</li>
-        <li>SSL</li>
+        <li>SSL/TLS</li>
         <li>REST</li>
+        <li>OAuth</li>
+        <li>Pubnub</li>
+        <li>Nginx</li>
+        <li>MongoDB</li>
+        <li>WebSQL</li>
       </ul>
     </div>
     <div class="third-width right">
       <h3>My Roles</h3>
       <ul>
+        <li>Software Architect</li>
         <li>Fullstack Developer</li>
-        <li>Architect</li>
         <li>Designer</li>
         <li>Consultant</li>
         <li>Product Owner</li>
@@ -666,14 +727,16 @@
   <article class="portfolio-content">
     <h1>Newstore</h1>
     <h2>
-      Omni-channel retail
+      Omni-channel retail cloud platform connecting backend fulfillment and accounting all the way up to mobile apps in the hands of retail staff on-site.
     </h2>
     <a href="https://newstore.com" class="button launch">Launch</a>
     <p>
       <img alt="Project details" class="full-width" src="/apps/newstore/banner.jpg">
     </p>
     <p>
-      Lorem ipsum dolor...
+      Unified e-commerce platform anchored in an omnichannel PoS and consumer
+      shopping apps, complete with built-in order management, inventory,
+      clienteling, loyalty-management, and dynamic fulfillment.
     </p>
     <br>
     <div class="third-width right">
@@ -682,6 +745,7 @@
         <li>Microservices</li>
         <li>Serverless</li>
         <li>API Integrations</li>
+        <li>Security</li>
       </ul>
     </div>
     <div class="third-width left">
@@ -689,13 +753,15 @@
       <ul>
         <li>Python</li>
         <li>Javascript</li>
+        <li>Node</li>
         <li>AWS</li>
         <li>Lambda Functions</li>
-        <li>Queue Thing</li>
-        <li>Step Thing</li>
+        <li>Queues (SQS)</li>
+        <li>Step Functions</li>
         <li>REST</li>
         <li>Lightspeed</li>
         <li>Netsuite</li>
+        <li>SSL/TLS</li>
       </ul>
     </div>
     <div class="third-width right">
@@ -704,6 +770,7 @@
         <li>Backend Developer</li>
         <li>Consultant</li>
         <li>Documentation</li>
+        <li>Visualization</li>
       </ul>
     </div>
 
@@ -720,25 +787,30 @@
 
 <div class="portfolio-container modal" id="portfolio-27" style="display: none;">
   <article class="portfolio-content">
-    <h1>Telus</h1>
+    <h1>Phone Collider</h1>
     <h2>
-      Phone Collider
+      An experimental platform for connecting Telus SIP + SMS systems to IP-connected mobile apps.
     </h2>
     <!--<a href="https://somewhere.com" class="button launch">Steam</a>-->
     <p>
       <img alt="Project details" class="full-width" src="/apps/phone-collider/connected-globe.jpeg">
     </p>
     <p>
-      Lorem ipsum dolor...
+      An API and native app to streamline interactions between customer endpoints
+      and IMS systems, supporting authorization, call placement and reception,
+      messaging, E911 services, and push notifications, including seamless
+      integration with SIP/SMS telecom networks over IP networks.
     </p>
     <br>
     <div class="third-width right">
       <h3>Features</h3>
       <ul>
-        <li>Integration with Telus Comms</li>
+        <li>Integration with Telus Network</li>
         <li>e911</li>
         <li>Dynamic Phone # Creation</li>
-        <li>SIP to VoIP</li>
+        <li>SIP/SMS to IP</li>
+        <li>Push Notifications</li>
+        <li>Authorization and Authentication</li>
       </ul>
     </div>
     <div class="third-width left">
@@ -749,9 +821,10 @@
         <li>Express</li>
         <li>Postgres</li>
         <li>REST</li>
-        <li>SIP</li>
+        <li>SIP/SMS</li>
         <li>e911</li>
         <li>Twilio</li>
+        <li>Pubnub</li>
         <li>JWT</li>
         <li>SSL/TLS</li>
       </ul>
@@ -759,11 +832,13 @@
     <div class="third-width right">
       <h3>My Roles</h3>
       <ul>
-        <li>Backend Developer</li>
         <li>Software Architect</li>
+        <li>Backend Developer</li>
         <li>Consultant</li>
         <li>Tester</li>
         <li>Documentation</li>
+        <li>Visualization</li>
+        <li>Presentation</li>
       </ul>
     </div>
 
@@ -796,7 +871,8 @@
       <img alt="Project details" class="full-width" src="/apps/barss/barss_2.jpg">
     </p>
     <p>
-      Lorem ipsum dolor...
+      Web app that consolidates multiple RSS feeds into a single, user-friendly
+      interface, presenting articles in customizable columns (bars) with real-time updates.
     </p>
     <br>
     <div class="third-width right">
@@ -805,6 +881,7 @@
         <li>Read RSS in your Browser</li>
         <li>Live Feed Refresh</li>
         <li>Uncluttered Content</li>
+        <li>Responsive PWA Design</li>
       </ul>
     </div>
     <div class="third-width left">
@@ -822,14 +899,16 @@
         <li>SSL/TLS</li>
         <li>DNS</li>
         <li>Digital Ocean</li>
+        <li>SPA/PWA</li>
       </ul>
     </div>
     <div class="third-width right">
       <h3>My Roles</h3>
       <ul>
-        <li>Fullstack Developer</li>
         <li>Software Architect</li>
-        <li>Designer</li>
+        <li>Fullstack Developer</li>
+        <li>Product Designer</li>
+        <li>Documentation</li>
       </ul>
     </div>
 
@@ -847,21 +926,21 @@
   <article class="portfolio-content">
     <h1>Cred Manager</h1>
     <h2>
-      Multi-tenant authz.
+      Multi-tenant authentication and authorization for Node/Express apps using JWT for transport.
     </h2>
-    <a href="https://somewhere.com" class="button launch">Steam</a>
+    <a href="https://github.com/robmclarty/cred" class="button launch">See Core Library on Git</a>
     <p>
       <img alt="Project details" class="full-width" src="/apps/cred-manager/screenshot.png">
     </p>
     <p>
-      Lorem ipsum dolor...
+      Authentication + authorization for NodeJS + Express apps using JWT for transport.
     </p>
     <br>
     <div class="third-width right">
       <h3>Features</h3>
       <ul>
         <li>Multi-Tenant Authz</li>
-        <li>e2ee</li>
+        <li>E2EE</li>
         <li>Client SDKs</li>
         <li>Open Source</li>
       </ul>
@@ -877,14 +956,18 @@
         <li>JWT</li>
         <li>SSL/TLS</li>
         <li>Bcrypt</li>
-        <li>HMAC</li>
+        <li>AES + HMAC</li>
       </ul>
     </div>
     <div class="third-width right">
       <h3>My Roles</h3>
       <ul>
-        <li>Fullstack Developer</li>
         <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UI Designer</li>
+        <li>Documentation</li>
+        <li>Visualization</li>
+        <li>Presentation</li>
       </ul>
     </div>
 
@@ -927,7 +1010,7 @@
         <li>Ruby on Rails</li>
         <li>Haml, Sass, Mustache</li>
         <li>REST API</li>
-        <li>Passenger</li>
+        <li>Phision Passenger</li>
         <li>Apache</li>
         <li>CentOS</li>
       </ul>
@@ -1052,46 +1135,41 @@
       payment processing.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Online Store</li>
+        <li>Portfolio</li>
+        <li>Content Management</li>
+        <li>Photography</li>
+        <li>Blog</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Ruby on Rails</li>
+        <li>Javascript, AJAX</li>
+        <li>XHTML, CSS</li>
+        <li>Shopify, Paypal</li>
+        <li>Memcached</li>
+        <li>Phusion Passenger</li>
+        <li>Apache</li>
+        <li>Ubuntu</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
+        <li>Strategist</li>
+        <li>Writer</li>
+        <li>Support</li>
+        <li>Sysadmin</li>
       </ul>
     </div>
+
     <div class="clear-float">&nbsp;</div>
 
     <img alt="Photo1" class="half-width left" src="/images/apps/photo1-f510c98e0545c499c6d765c286df83bd.jpg">
@@ -1123,44 +1201,38 @@
       membership renewal needs and can update their status through the website.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Online Forum and Discussion Board</li>
+        <li>Volunteer Management</li>
+        <li>CMS</li>
+        <li>Memberships</li>
+        <li>Blog</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Ruby on Rails</li>
+        <li>Javascript, AJAX</li>
+        <li>XHTML, CSS</li>
+        <li>Memcached</li>
+        <li>Phusion Passenger</li>
+        <li>Nginx</li>
+        <li>Ubuntu</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
+        <li>Strategist</li>
+        <li>Writer</li>
+        <li>Support</li>
+        <li>Sysadmin</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1190,47 +1262,32 @@
       website to help communicate Response's value and showcase its new brand identity.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Marketing</li>
+        <li>Brand Identity</li>
+        <li>Communication</li>
+        <li>Visualization</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Apache</li>
+        <li>Ubuntu</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
+        <li>Sysadmin</li>
       </ul>
     </div>
-    <div>&nbsp;</div>
+    <div class="clear-float">&nbsp;</div>
     <img alt="Homepage" class="full-width" src="/images/apps/homepage-d3779f963a4c50f56094cbec5565b2f5.jpg">
     <a href="#" title="Close" class="portfolio-close-button modal-close">x</a>
   </article>
@@ -1250,44 +1307,29 @@
       event along with details on tickets and sponsors.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Marketing</li>
+        <li>Announcements</li>
+        <li>CMS</li>
+        <li>Interactive Media</li>
+        <li>Blog</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>WordPress</li>
+        <li>PHP</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1314,44 +1356,28 @@
       on our carefully designed components.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Marketing</li>
+        <li>Brand Identity</li>
+        <li>Communication</li>
+        <li>Visualization</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript, AJAX</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
+        <li>Sysadmin</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1383,44 +1409,38 @@
       web app, TDA has grown to offer tours worldwide.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Live Race Results</li>
+        <li>Content Management</li>
+        <li>Online Store</li>
+        <li>Memberships</li>
+        <li>Blog</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Ruby on Rails</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
+        <li>Memcached</li>
+        <li>Phusion Passenger</li>
+        <li>Nginx</li>
+        <li>Ubuntu</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
+        <li>Strategist</li>
+        <li>Writer</li>
+        <li>Support</li>
+        <li>Sysadmin</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1449,44 +1469,27 @@
       microsite we created is no longer online.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>TV Promo</li>
+        <li>Video</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Flash</li>
+        <li>HTML, CSS</li>
+        <li>Actionscript</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1511,44 +1514,29 @@
       Pop Tarts, Froot Loops, Yogos, and Vector.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Interactive Advertising</li>
+        <li>Online Games</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Flash</li>
+        <li>Actionscript</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
+        <li>Video Editor</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1579,44 +1567,29 @@
       brands such as Orville Redenbaucher and Pam.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Interactive Advertising</li>
+        <li>Online Games</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Flash</li>
+        <li>Actionscript</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
+        <li>Video Editor</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1641,44 +1614,29 @@
       supporting database information to help visitors better understand and appreciate the exibit.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Interactive Museum Kiosk</li>
+        <li>Touch Screen Displays</li>
+        <li>Automated Analytics and Reporting</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Flash</li>
+        <li>Ruby</li>
+        <li>Actionscript</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1781,44 +1739,33 @@
       links to contact us through the website or by alternative means like email, phone, or post.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Interactive Advertising</li>
+        <li>Online Games</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Ruby on Rails</li>
+        <li>Flash</li>
+        <li>Actionscript</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
+        <li>Underscore, jQuery</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UI Designer</li>
+        <li>Video Editor</li>
+        <li>Illustrator</li>
+        <li>Production Artist</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1845,44 +1792,28 @@
       for a budding vocal artist.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Portfolio</li>
+        <li>Photography</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Flash</li>
+        <li>Actionscript</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -1972,44 +1903,28 @@
       individual posts and a logo/banner which points back to the list. That's it.
     </p>
     <div class="third-width left">
-      <h3>Tech Stack</h3>
+      <h3>Features</h3>
       <ul>
-        <li>WebGL, ThreeJS</li>
-        <li>React, Angular, Backbone, jQuery, Underscore</li>
-        <li>Handlebars, Haml, Sass, Less, Markdown, ERB</li>
-        <li>Grunt, RequireJS</li>
-        <li>Ruby on Rails, Express/Node</li>
-        <li>Google Cloud Storage, AWS</li>
-        <li>Nginx, Unicorn</li>
-        <li>Git, Capistrano, Jenkins</li>
-        <li>Redis, MongoDB, PostgreSQL</li>
+        <li>Portfolio</li>
+        <li>Photography</li>
+        <li>Marketing</li>
       </ul>
     </div>
     <div class="third-width left">
-      <h3>My Roles</h3>
+      <h3>Tech Stack</h3>
       <ul>
-        <li>Front-end Dev</li>
-        <li>Back-end Dev</li>
-        <li>UX Designer</li>
-        <li>Strategist</li>
-        <li>Architect</li>
-        <li>Writer</li>
-        <li>Support</li>
-        <li>Planning</li>
+        <li>Flash</li>
+        <li>Actionscript</li>
+        <li>Javascript, AJAX</li>
+        <li>HTML, CSS</li>
       </ul>
     </div>
     <div class="third-width right">
-      <h3>Features</h3>
+      <h3>My Roles</h3>
       <ul>
-        <li>Browser-based 3D Viewer</li>
-        <li>Browser-based 3D Editor</li>
-        <li>Browser-based Code Editor</li>
-        <li>Back-end 3D Processor</li>
-        <li>Online Community</li>
-        <li>Real-time Collaboration</li>
-        <li>Subscription Payments</li>
-        <li>Custom-built CMS</li>
-        <li>User Management System</li>
+        <li>Software Architect</li>
+        <li>Fullstack Developer</li>
+        <li>UX Designer</li>
       </ul>
     </div>
     <div class="clear-float">&nbsp;</div>
@@ -2025,7 +1940,7 @@
 
 <div class="portfolio-container modal" id="portfolio-21" style="display: none;">
   <article class="portfolio-content">
-    <h1>Verold Inc</h1>
+    <h1>Verold</h1>
     <h2>
       Interactive 3D for everyone. Verold Studio is a powerful online visual editor that lets you turn
       3D content into interactive presentations on the web.
