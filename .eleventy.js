@@ -7,7 +7,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.setTemplateFormats([
     'md',
     'njk',
-    //'jpg' // include images as "templates" so they get automatically copied alongside the html output
+    'jpg' // include images as "templates" so they get automatically copied alongside the html output
   ])
 
   eleventyConfig.addPlugin(syntaxHighlight)
