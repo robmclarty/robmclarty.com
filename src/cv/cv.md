@@ -506,16 +506,16 @@ Open Source
 Articles
 --------
 
-- ### [What is a JSON Web Token?](https://robmclarty.com/words/articles/what_is_a_jwt)
-- ### [Docker is Fun and Easy](https://robmclarty.com/words/articles/docker_is_fun_and_easy)
-- ### [Personal Security Tips](https://robmclarty.com/words/articles/personal_security_tips)
-- ### [Reduce Complexity, Not (Necessarily) Code](https://robmclarty.com/words/articles/reduce_complexity_not_code)
-- ### [Alternative React Component Patterns](https://robmclarty.com/words/articles/alternative_react_component_patterns)
-- ### [Stripe VS Paypal](https://robmclarty.com/words/articles/stripe_vs_paypal)
-- ### [The Business of Privacy](https://robmclarty.com/words/articles/business_of_privacy)
-- ### [How I Learned to Stop Worrying and Love the Cascade](https://robmclarty.com/words/articles/how_i_learned_to_stop_worrying_and_love_the_cascade)
-- ### [Don't Use HPKP by Default](https://robmclarty.com/words/articles/dont_use_hpkp_by_default)
-- ### [Installing Let’s Encrypt With Certbot](https://robmclarty.com/words/articles/installing_letsencrypt_with_certbot)
+- ### [What is a JSON Web Token?](https://robmclarty.com/words/articles/what_is_a_jwt/)
+- ### [Docker is Fun and Easy](https://robmclarty.com/words/articles/docker_is_fun_and_easy/)
+- ### [Personal Security Tips](https://robmclarty.com/words/articles/personal_security_tips/)
+- ### [Reduce Complexity, Not (Necessarily) Code](https://robmclarty.com/words/articles/reduce_complexity_not_code/)
+- ### [Alternative React Component Patterns](https://robmclarty.com/words/articles/alternative_react_component_patterns/)
+- ### [Stripe VS Paypal](https://robmclarty.com/words/articles/stripe_vs_paypal/)
+- ### [The Business of Privacy](https://robmclarty.com/words/articles/business_of_privacy/)
+- ### [How I Learned to Stop Worrying and Love the Cascade](https://robmclarty.com/words/articles/how_i_learned_to_stop_worrying_and_love_the_cascade/)
+- ### [Don't Use HPKP by Default](https://robmclarty.com/words/articles/dont_use_hpkp_by_default/)
+- ### [Installing Let’s Encrypt With Certbot](https://robmclarty.com/words/articles/installing_letsencrypt_with_certbot/)
 
 
 <!--
