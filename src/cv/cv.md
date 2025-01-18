@@ -554,10 +554,3 @@ Pressed for time and direct from reality are my favourite ways to capture human 
 *1979-present*\
 Have been in a pool since before I could walk. Broke three Canadian age-group records which stood for over twenty years.
 -->
-
-
-References
-----------
-
-Available on request.
-
