@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Gillard Creek Alt</name>
+    <link href="https://ridewithgps.com/routes/49556767">
+      <text>Gillard Creek Alt</text>
+    </link>
+    <time>2025-01-26T12:52:52Z</time>
+  </metadata>
+  <trk>
+    <name>Gillard Creek Alt</name>
+    <trkseg>
+      <trkpt lat="49.79413" lon="-119.49165">
+        <ele>557.9</ele>
+      </trkpt>
+      <trkpt lat="49.79413" lon="-119.49165">
+        <ele>557.9</ele>
+      </trkpt>
+      <trkpt lat="49.794" lon="-119.49154">
+        <ele>557.5</ele>
+      </trkpt>
+      <trkpt lat="49.79375" lon="-119.49126">
+        <ele>557.2</ele>
+      </trkpt>
+      <trkpt lat="49.79352" lon="-119.49096">
+        <ele>557.3</ele>
+      </trkpt>
+      <trkpt lat="49.79352" lon="-119.49096">
+        <ele>557.3</ele>
+      </trkpt>
+      <trkpt lat="49.79346" lon="-119.49088">
+        <ele>557.3</ele>
+      </trkpt>
+      <trkpt lat="49.7934" lon="-119.49084">
+        <ele>557.2</ele>
+      </trkpt>
+      <trkpt lat="49.79328" lon="-119.49085">
+        <ele>557.1</ele>
+      </trkpt>
+      <trkpt lat="49.79302" lon="-119.49079">
+        <ele>558.1</ele>
+      </trkpt>
+      <trkpt lat="49.79289" lon="-119.49076">
+        <ele>558.6</ele>
+      </trkpt>
+      <trkpt lat="49.79275" lon="-119.49069">
+        <ele>559.2</ele>
+      </trkpt>
+      <trkpt lat="49.79274" lon="-119.49067">
+        <ele>559.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

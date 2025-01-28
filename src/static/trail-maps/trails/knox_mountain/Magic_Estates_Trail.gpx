@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Magic Estates Trail</name>
+    <link href="https://ridewithgps.com/routes/49557009">
+      <text>Magic Estates Trail</text>
+    </link>
+    <time>2025-01-26T13:22:29Z</time>
+  </metadata>
+  <trk>
+    <name>Magic Estates Trail</name>
+    <trkseg>
+      <trkpt lat="49.91884" lon="-119.47643">
+        <ele>549.9</ele>
+      </trkpt>
+      <trkpt lat="49.91885" lon="-119.47643">
+        <ele>549.8</ele>
+      </trkpt>
+      <trkpt lat="49.91882" lon="-119.47666">
+        <ele>552.0</ele>
+      </trkpt>
+      <trkpt lat="49.91873" lon="-119.47691">
+        <ele>555.2</ele>
+      </trkpt>
+      <trkpt lat="49.9185" lon="-119.47691">
+        <ele>557.3</ele>
+      </trkpt>
+      <trkpt lat="49.91838" lon="-119.47698">
+        <ele>559.4</ele>
+      </trkpt>
+      <trkpt lat="49.91828" lon="-119.47698">
+        <ele>560.8</ele>
+      </trkpt>
+      <trkpt lat="49.91806" lon="-119.4768">
+        <ele>561.3</ele>
+      </trkpt>
+      <trkpt lat="49.91793" lon="-119.47676">
+        <ele>562.6</ele>
+      </trkpt>
+      <trkpt lat="49.91787" lon="-119.47676">
+        <ele>563.5</ele>
+      </trkpt>
+      <trkpt lat="49.91782" lon="-119.47672">
+        <ele>563.5</ele>
+      </trkpt>
+      <trkpt lat="49.91766" lon="-119.47673">
+        <ele>566.0</ele>
+      </trkpt>
+      <trkpt lat="49.91766" lon="-119.47673">
+        <ele>566.0</ele>
+      </trkpt>
+      <trkpt lat="49.91757" lon="-119.47673">
+        <ele>567.4</ele>
+      </trkpt>
+      <trkpt lat="49.9172" lon="-119.4767">
+        <ele>569.9</ele>
+      </trkpt>
+      <trkpt lat="49.91692" lon="-119.4768">
+        <ele>574.2</ele>
+      </trkpt>
+      <trkpt lat="49.91667" lon="-119.47686">
+        <ele>577.4</ele>
+      </trkpt>
+      <trkpt lat="49.91648" lon="-119.47693">
+        <ele>579.5</ele>
+      </trkpt>
+      <trkpt lat="49.91629" lon="-119.47702">
+        <ele>581.9</ele>
+      </trkpt>
+      <trkpt lat="49.9161" lon="-119.47689">
+        <ele>579.9</ele>
+      </trkpt>
+      <trkpt lat="49.9159" lon="-119.47694">
+        <ele>581.4</ele>
+      </trkpt>
+      <trkpt lat="49.9159" lon="-119.47694">
+        <ele>581.4</ele>
+      </trkpt>
+      <trkpt lat="49.91574" lon="-119.47698">
+        <ele>582.3</ele>
+      </trkpt>
+      <trkpt lat="49.9155" lon="-119.477">
+        <ele>582.8</ele>
+      </trkpt>
+      <trkpt lat="49.91525" lon="-119.47709">
+        <ele>584.1</ele>
+      </trkpt>
+      <trkpt lat="49.91485" lon="-119.47701">
+        <ele>582.8</ele>
+      </trkpt>
+      <trkpt lat="49.91459" lon="-119.47683">
+        <ele>580.1</ele>
+      </trkpt>
+      <trkpt lat="49.91431" lon="-119.47693">
+        <ele>580.8</ele>
+      </trkpt>
+      <trkpt lat="49.91412" lon="-119.47705">
+        <ele>581.6</ele>
+      </trkpt>
+      <trkpt lat="49.91404" lon="-119.47699">
+        <ele>580.1</ele>
+      </trkpt>
+      <trkpt lat="49.914" lon="-119.47698">
+        <ele>579.7</ele>
+      </trkpt>
+      <trkpt lat="49.914" lon="-119.47697">
+        <ele>579.5</ele>
+      </trkpt>
+      <trkpt lat="49.91391" lon="-119.47694">
+        <ele>578.4</ele>
+      </trkpt>
+      <trkpt lat="49.91368" lon="-119.47692">
+        <ele>576.1</ele>
+      </trkpt>
+      <trkpt lat="49.91358" lon="-119.47694">
+        <ele>575.5</ele>
+      </trkpt>
+      <trkpt lat="49.9134" lon="-119.47697">
+        <ele>574.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

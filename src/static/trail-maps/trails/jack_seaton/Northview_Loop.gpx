@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Northview Loop</name>
+    <link href="https://ridewithgps.com/routes/49556900">
+      <text>Northview Loop</text>
+    </link>
+    <time>2025-01-26T13:04:50Z</time>
+  </metadata>
+  <trk>
+    <name>Northview Loop</name>
+    <trkseg>
+      <trkpt lat="50.03813" lon="-119.43648">
+        <ele>556.6</ele>
+      </trkpt>
+      <trkpt lat="50.03815" lon="-119.43666">
+        <ele>556.9</ele>
+      </trkpt>
+      <trkpt lat="50.03818" lon="-119.43673">
+        <ele>556.5</ele>
+      </trkpt>
+      <trkpt lat="50.03822" lon="-119.43676">
+        <ele>556.5</ele>
+      </trkpt>
+      <trkpt lat="50.03829" lon="-119.43676">
+        <ele>556.9</ele>
+      </trkpt>
+      <trkpt lat="50.03833" lon="-119.43679">
+        <ele>556.8</ele>
+      </trkpt>
+      <trkpt lat="50.03836" lon="-119.43684">
+        <ele>556.3</ele>
+      </trkpt>
+      <trkpt lat="50.03837" lon="-119.43684">
+        <ele>556.3</ele>
+      </trkpt>
+      <trkpt lat="50.03844" lon="-119.43704">
+        <ele>554.2</ele>
+      </trkpt>
+      <trkpt lat="50.03849" lon="-119.43713">
+        <ele>553.2</ele>
+      </trkpt>
+      <trkpt lat="50.03854" lon="-119.43719">
+        <ele>552.4</ele>
+      </trkpt>
+      <trkpt lat="50.03861" lon="-119.43724">
+        <ele>551.7</ele>
+      </trkpt>
+      <trkpt lat="50.03865" lon="-119.43724">
+        <ele>551.6</ele>
+      </trkpt>
+      <trkpt lat="50.03868" lon="-119.43722">
+        <ele>551.7</ele>
+      </trkpt>
+      <trkpt lat="50.03871" lon="-119.43723">
+        <ele>551.5</ele>
+      </trkpt>
+      <trkpt lat="50.03879" lon="-119.43718">
+        <ele>551.8</ele>
+      </trkpt>
+      <trkpt lat="50.03883" lon="-119.43718">
+        <ele>551.7</ele>
+      </trkpt>
+      <trkpt lat="50.0389" lon="-119.43722">
+        <ele>551.1</ele>
+      </trkpt>
+      <trkpt lat="50.03894" lon="-119.43722">
+        <ele>551.0</ele>
+      </trkpt>
+      <trkpt lat="50.03894" lon="-119.43722">
+        <ele>551.0</ele>
+      </trkpt>
+      <trkpt lat="50.03896" lon="-119.43723">
+        <ele>550.8</ele>
+      </trkpt>
+      <trkpt lat="50.03904" lon="-119.4372">
+        <ele>550.9</ele>
+      </trkpt>
+      <trkpt lat="50.0392" lon="-119.4372">
+        <ele>550.3</ele>
+      </trkpt>
+      <trkpt lat="50.03926" lon="-119.43717">
+        <ele>550.2</ele>
+      </trkpt>
+      <trkpt lat="50.03932" lon="-119.43705">
+        <ele>551.0</ele>
+      </trkpt>
+      <trkpt lat="50.03942" lon="-119.43699">
+        <ele>550.7</ele>
+      </trkpt>
+      <trkpt lat="50.03949" lon="-119.43693">
+        <ele>550.7</ele>
+      </trkpt>
+      <trkpt lat="50.03948" lon="-119.43693">
+        <ele>550.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

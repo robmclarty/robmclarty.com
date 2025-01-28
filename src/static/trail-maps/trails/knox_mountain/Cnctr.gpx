@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Cnctr</name>
+    <link href="https://ridewithgps.com/routes/49557091">
+      <text>Cnctr</text>
+    </link>
+    <time>2025-01-26T13:35:46Z</time>
+  </metadata>
+  <trk>
+    <name>Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.90952" lon="-119.47766">
+        <ele>543.9</ele>
+      </trkpt>
+      <trkpt lat="49.90952" lon="-119.47766">
+        <ele>543.9</ele>
+      </trkpt>
+      <trkpt lat="49.90919" lon="-119.47787">
+        <ele>543.0</ele>
+      </trkpt>
+      <trkpt lat="49.90897" lon="-119.47786">
+        <ele>542.2</ele>
+      </trkpt>
+      <trkpt lat="49.90897" lon="-119.47786">
+        <ele>542.2</ele>
+      </trkpt>
+      <trkpt lat="49.90891" lon="-119.47786">
+        <ele>542.0</ele>
+      </trkpt>
+      <trkpt lat="49.90876" lon="-119.47777">
+        <ele>541.4</ele>
+      </trkpt>
+      <trkpt lat="49.9084" lon="-119.47782">
+        <ele>540.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

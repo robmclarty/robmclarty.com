@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Cougar</name>
+    <link href="https://ridewithgps.com/routes/49557597">
+      <text>Cougar</text>
+    </link>
+    <time>2025-01-26T14:54:04Z</time>
+  </metadata>
+  <trk>
+    <name>Cougar</name>
+    <trkseg>
+      <trkpt lat="49.90798" lon="-119.54949">
+        <ele>697.2</ele>
+      </trkpt>
+      <trkpt lat="49.90799" lon="-119.54951">
+        <ele>697.7</ele>
+      </trkpt>
+      <trkpt lat="49.90817" lon="-119.54934">
+        <ele>697.1</ele>
+      </trkpt>
+      <trkpt lat="49.9083" lon="-119.54934">
+        <ele>698.9</ele>
+      </trkpt>
+      <trkpt lat="49.9084" lon="-119.54943">
+        <ele>701.5</ele>
+      </trkpt>
+      <trkpt lat="49.90848" lon="-119.54942">
+        <ele>701.8</ele>
+      </trkpt>
+      <trkpt lat="49.90856" lon="-119.54934">
+        <ele>700.8</ele>
+      </trkpt>
+      <trkpt lat="49.90859" lon="-119.54913">
+        <ele>697.3</ele>
+      </trkpt>
+      <trkpt lat="49.90868" lon="-119.54903">
+        <ele>696.4</ele>
+      </trkpt>
+      <trkpt lat="49.90871" lon="-119.54892">
+        <ele>695.0</ele>
+      </trkpt>
+      <trkpt lat="49.90897" lon="-119.54863">
+        <ele>692.7</ele>
+      </trkpt>
+      <trkpt lat="49.90915" lon="-119.54855">
+        <ele>693.0</ele>
+      </trkpt>
+      <trkpt lat="49.9092" lon="-119.54843">
+        <ele>691.7</ele>
+      </trkpt>
+      <trkpt lat="49.90919" lon="-119.54843">
+        <ele>691.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

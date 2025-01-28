@@ -14,6 +14,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(rss)
 
   // Manually copy static assets.
+  eleventyConfig.addPassthroughCopy({ 'src/static/trail-maps': 'trail-maps' })
   eleventyConfig.addPassthroughCopy('src/about/*')
   eleventyConfig.addPassthroughCopy('src/cv/*.rtf')
   eleventyConfig.addPassthroughCopy('src/cv/*.pdf')

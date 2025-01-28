@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>St. Ripper</name>
+    <link href="https://ridewithgps.com/routes/49444647">
+      <text>St. Ripper</text>
+    </link>
+    <time>2025-01-11T15:09:43Z</time>
+  </metadata>
+  <trk>
+    <name>St. Ripper</name>
+    <trkseg>
+      <trkpt lat="49.77789" lon="-119.45556">
+        <ele>913.3</ele>
+      </trkpt>
+      <trkpt lat="49.7779" lon="-119.45557">
+        <ele>913.2</ele>
+      </trkpt>
+      <trkpt lat="49.77792" lon="-119.45589">
+        <ele>914.5</ele>
+      </trkpt>
+      <trkpt lat="49.77793" lon="-119.45608">
+        <ele>914.6</ele>
+      </trkpt>
+      <trkpt lat="49.77801" lon="-119.45623">
+        <ele>913.6</ele>
+      </trkpt>
+      <trkpt lat="49.77822" lon="-119.4562">
+        <ele>910.5</ele>
+      </trkpt>
+      <trkpt lat="49.77849" lon="-119.45623">
+        <ele>905.0</ele>
+      </trkpt>
+      <trkpt lat="49.77862" lon="-119.45632">
+        <ele>901.9</ele>
+      </trkpt>
+      <trkpt lat="49.77876" lon="-119.45666">
+        <ele>898.7</ele>
+      </trkpt>
+      <trkpt lat="49.77892" lon="-119.45665">
+        <ele>894.5</ele>
+      </trkpt>
+      <trkpt lat="49.77897" lon="-119.45645">
+        <ele>893.1</ele>
+      </trkpt>
+      <trkpt lat="49.77897" lon="-119.45645">
+        <ele>893.1</ele>
+      </trkpt>
+      <trkpt lat="49.77898" lon="-119.4564">
+        <ele>892.8</ele>
+      </trkpt>
+      <trkpt lat="49.77937" lon="-119.45601">
+        <ele>883.9</ele>
+      </trkpt>
+      <trkpt lat="49.77965" lon="-119.45643">
+        <ele>877.5</ele>
+      </trkpt>
+      <trkpt lat="49.77996" lon="-119.4566">
+        <ele>870.1</ele>
+      </trkpt>
+      <trkpt lat="49.78014" lon="-119.45651">
+        <ele>868.1</ele>
+      </trkpt>
+      <trkpt lat="49.78014" lon="-119.45651">
+        <ele>868.1</ele>
+      </trkpt>
+      <trkpt lat="49.78032" lon="-119.45641">
+        <ele>866.4</ele>
+      </trkpt>
+      <trkpt lat="49.78075" lon="-119.45648">
+        <ele>861.7</ele>
+      </trkpt>
+      <trkpt lat="49.78125" lon="-119.4567">
+        <ele>859.0</ele>
+      </trkpt>
+      <trkpt lat="49.78125" lon="-119.45666">
+        <ele>859.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Earing Connector</name>
+    <link href="https://ridewithgps.com/routes/49557192">
+      <text>Earing Connector</text>
+    </link>
+    <time>2025-01-26T13:48:36Z</time>
+  </metadata>
+  <trk>
+    <name>Earing Connector</name>
+    <trkseg>
+      <trkpt lat="49.78839" lon="-119.45304">
+        <ele>698.0</ele>
+      </trkpt>
+      <trkpt lat="49.78843" lon="-119.45291">
+        <ele>700.5</ele>
+      </trkpt>
+      <trkpt lat="49.78852" lon="-119.45275">
+        <ele>703.1</ele>
+      </trkpt>
+      <trkpt lat="49.789" lon="-119.45213">
+        <ele>708.4</ele>
+      </trkpt>
+      <trkpt lat="49.78935" lon="-119.45165">
+        <ele>710.6</ele>
+      </trkpt>
+      <trkpt lat="49.7897" lon="-119.45117">
+        <ele>711.5</ele>
+      </trkpt>
+      <trkpt lat="49.78976" lon="-119.45106">
+        <ele>711.8</ele>
+      </trkpt>
+      <trkpt lat="49.78992" lon="-119.45063">
+        <ele>713.5</ele>
+      </trkpt>
+      <trkpt lat="49.79007" lon="-119.45048">
+        <ele>713.3</ele>
+      </trkpt>
+      <trkpt lat="49.79007" lon="-119.45048">
+        <ele>713.3</ele>
+      </trkpt>
+      <trkpt lat="49.790455" lon="-119.449749">
+        <ele>716.3</ele>
+      </trkpt>
+      <trkpt lat="49.790455" lon="-119.449749">
+        <ele>716.3</ele>
+      </trkpt>
+      <trkpt lat="49.790529" lon="-119.449548">
+        <ele>717.8</ele>
+      </trkpt>
+      <trkpt lat="49.790529" lon="-119.449548">
+        <ele>717.8</ele>
+      </trkpt>
+      <trkpt lat="49.790766" lon="-119.449441">
+        <ele>716.7</ele>
+      </trkpt>
+      <trkpt lat="49.790766" lon="-119.449441">
+        <ele>716.7</ele>
+      </trkpt>
+      <trkpt lat="49.790883" lon="-119.44912">
+        <ele>719.2</ele>
+      </trkpt>
+      <trkpt lat="49.790883" lon="-119.44912">
+        <ele>719.2</ele>
+      </trkpt>
+      <trkpt lat="49.791613" lon="-119.448665">
+        <ele>718.2</ele>
+      </trkpt>
+      <trkpt lat="49.791613" lon="-119.448665">
+        <ele>718.2</ele>
+      </trkpt>
+      <trkpt lat="49.791687" lon="-119.448223">
+        <ele>723.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

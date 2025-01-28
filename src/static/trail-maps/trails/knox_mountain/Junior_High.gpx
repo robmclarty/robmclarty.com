@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Junior High</name>
+    <link href="https://ridewithgps.com/routes/49557066">
+      <text>Junior High</text>
+    </link>
+    <time>2025-01-26T13:31:44Z</time>
+  </metadata>
+  <trk>
+    <name>Junior High</name>
+    <trkseg>
+      <trkpt lat="49.91076" lon="-119.47159">
+        <ele>567.0</ele>
+      </trkpt>
+      <trkpt lat="49.91089" lon="-119.47159">
+        <ele>567.0</ele>
+      </trkpt>
+      <trkpt lat="49.91112" lon="-119.47153">
+        <ele>563.8</ele>
+      </trkpt>
+      <trkpt lat="49.91102" lon="-119.47125">
+        <ele>558.5</ele>
+      </trkpt>
+      <trkpt lat="49.91102" lon="-119.47125">
+        <ele>558.5</ele>
+      </trkpt>
+      <trkpt lat="49.91098" lon="-119.47114">
+        <ele>556.5</ele>
+      </trkpt>
+      <trkpt lat="49.91088" lon="-119.47112">
+        <ele>557.3</ele>
+      </trkpt>
+      <trkpt lat="49.91064" lon="-119.47091">
+        <ele>554.5</ele>
+      </trkpt>
+      <trkpt lat="49.91031" lon="-119.47072">
+        <ele>551.7</ele>
+      </trkpt>
+      <trkpt lat="49.91017" lon="-119.47077">
+        <ele>554.0</ele>
+      </trkpt>
+      <trkpt lat="49.9098" lon="-119.47059">
+        <ele>548.3</ele>
+      </trkpt>
+      <trkpt lat="49.90949" lon="-119.47048">
+        <ele>543.6</ele>
+      </trkpt>
+      <trkpt lat="49.90904" lon="-119.4703">
+        <ele>537.4</ele>
+      </trkpt>
+      <trkpt lat="49.90874" lon="-119.47008">
+        <ele>532.6</ele>
+      </trkpt>
+      <trkpt lat="49.90844" lon="-119.47002">
+        <ele>532.1</ele>
+      </trkpt>
+      <trkpt lat="49.9082" lon="-119.46998">
+        <ele>531.9</ele>
+      </trkpt>
+      <trkpt lat="49.90797" lon="-119.46963">
+        <ele>522.7</ele>
+      </trkpt>
+      <trkpt lat="49.90773" lon="-119.46939">
+        <ele>516.6</ele>
+      </trkpt>
+      <trkpt lat="49.90767" lon="-119.46937">
+        <ele>516.2</ele>
+      </trkpt>
+      <trkpt lat="49.90752" lon="-119.4693">
+        <ele>514.8</ele>
+      </trkpt>
+      <trkpt lat="49.90725" lon="-119.46931">
+        <ele>516.0</ele>
+      </trkpt>
+      <trkpt lat="49.9071" lon="-119.46913">
+        <ele>511.0</ele>
+      </trkpt>
+      <trkpt lat="49.90697" lon="-119.46902">
+        <ele>507.3</ele>
+      </trkpt>
+      <trkpt lat="49.9068" lon="-119.46893">
+        <ele>504.6</ele>
+      </trkpt>
+      <trkpt lat="49.90653" lon="-119.46892">
+        <ele>505.5</ele>
+      </trkpt>
+      <trkpt lat="49.90625" lon="-119.46871">
+        <ele>499.3</ele>
+      </trkpt>
+      <trkpt lat="49.9055" lon="-119.46853">
+        <ele>496.1</ele>
+      </trkpt>
+      <trkpt lat="49.90544" lon="-119.46854">
+        <ele>496.5</ele>
+      </trkpt>
+      <trkpt lat="49.90544" lon="-119.46854">
+        <ele>496.5</ele>
+      </trkpt>
+      <trkpt lat="49.90533" lon="-119.46856">
+        <ele>497.3</ele>
+      </trkpt>
+      <trkpt lat="49.90505" lon="-119.46842">
+        <ele>494.0</ele>
+      </trkpt>
+      <trkpt lat="49.90498" lon="-119.46842">
+        <ele>494.1</ele>
+      </trkpt>
+      <trkpt lat="49.90498" lon="-119.46842">
+        <ele>494.1</ele>
+      </trkpt>
+      <trkpt lat="49.90477" lon="-119.46842">
+        <ele>492.8</ele>
+      </trkpt>
+      <trkpt lat="49.90464" lon="-119.4685">
+        <ele>494.0</ele>
+      </trkpt>
+      <trkpt lat="49.90462" lon="-119.46858">
+        <ele>495.8</ele>
+      </trkpt>
+      <trkpt lat="49.90464" lon="-119.46872">
+        <ele>499.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

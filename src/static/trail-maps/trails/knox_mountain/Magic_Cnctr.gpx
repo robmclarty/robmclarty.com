@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Magic Cnctr</name>
+    <link href="https://ridewithgps.com/routes/49557022">
+      <text>Magic Cnctr</text>
+    </link>
+    <time>2025-01-26T13:24:53Z</time>
+  </metadata>
+  <trk>
+    <name>Magic Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.91526" lon="-119.47737">
+        <ele>587.9</ele>
+      </trkpt>
+      <trkpt lat="49.91519" lon="-119.47733">
+        <ele>587.2</ele>
+      </trkpt>
+      <trkpt lat="49.91497" lon="-119.4772">
+        <ele>585.4</ele>
+      </trkpt>
+      <trkpt lat="49.91476" lon="-119.47714">
+        <ele>584.3</ele>
+      </trkpt>
+      <trkpt lat="49.91469" lon="-119.47713">
+        <ele>584.0</ele>
+      </trkpt>
+      <trkpt lat="49.91458" lon="-119.47716">
+        <ele>584.2</ele>
+      </trkpt>
+      <trkpt lat="49.91442" lon="-119.47725">
+        <ele>585.1</ele>
+      </trkpt>
+      <trkpt lat="49.91435" lon="-119.47724">
+        <ele>584.9</ele>
+      </trkpt>
+      <trkpt lat="49.91414" lon="-119.47707">
+        <ele>582.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

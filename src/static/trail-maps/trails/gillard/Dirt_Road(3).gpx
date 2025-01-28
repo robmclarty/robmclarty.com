@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Dirt Road</name>
+    <link href="https://ridewithgps.com/routes/49556740">
+      <text>Dirt Road</text>
+    </link>
+    <time>2025-01-26T12:47:39Z</time>
+  </metadata>
+  <trk>
+    <name>Dirt Road</name>
+    <trkseg>
+      <trkpt lat="49.77669" lon="-119.45534">
+        <ele>924.6</ele>
+      </trkpt>
+      <trkpt lat="49.77669" lon="-119.45534">
+        <ele>924.6</ele>
+      </trkpt>
+      <trkpt lat="49.77669" lon="-119.45536">
+        <ele>924.7</ele>
+      </trkpt>
+      <trkpt lat="49.77694" lon="-119.45535">
+        <ele>922.8</ele>
+      </trkpt>
+      <trkpt lat="49.77719" lon="-119.45525">
+        <ele>920.6</ele>
+      </trkpt>
+      <trkpt lat="49.77738" lon="-119.45522">
+        <ele>919.0</ele>
+      </trkpt>
+      <trkpt lat="49.77748" lon="-119.45523">
+        <ele>918.3</ele>
+      </trkpt>
+      <trkpt lat="49.77757" lon="-119.45532">
+        <ele>917.3</ele>
+      </trkpt>
+      <trkpt lat="49.77764" lon="-119.45545">
+        <ele>916.8</ele>
+      </trkpt>
+      <trkpt lat="49.77772" lon="-119.45553">
+        <ele>915.9</ele>
+      </trkpt>
+      <trkpt lat="49.7779" lon="-119.45557">
+        <ele>913.2</ele>
+      </trkpt>
+      <trkpt lat="49.7779" lon="-119.45557">
+        <ele>913.2</ele>
+      </trkpt>
+      <trkpt lat="49.77772" lon="-119.45553">
+        <ele>915.9</ele>
+      </trkpt>
+      <trkpt lat="49.77764" lon="-119.45556">
+        <ele>917.4</ele>
+      </trkpt>
+      <trkpt lat="49.777641" lon="-119.45556">
+        <ele>917.4</ele>
+      </trkpt>
+      <trkpt lat="49.777641" lon="-119.45556">
+        <ele>917.4</ele>
+      </trkpt>
+      <trkpt lat="49.777486" lon="-119.45561">
+        <ele>920.0</ele>
+      </trkpt>
+      <trkpt lat="49.777486" lon="-119.45561">
+        <ele>920.0</ele>
+      </trkpt>
+      <trkpt lat="49.777409" lon="-119.455642">
+        <ele>920.7</ele>
+      </trkpt>
+      <trkpt lat="49.777409" lon="-119.455642">
+        <ele>920.7</ele>
+      </trkpt>
+      <trkpt lat="49.777267" lon="-119.455606">
+        <ele>921.5</ele>
+      </trkpt>
+      <trkpt lat="49.777267" lon="-119.455606">
+        <ele>921.5</ele>
+      </trkpt>
+      <trkpt lat="49.777072" lon="-119.455556">
+        <ele>922.6</ele>
+      </trkpt>
+      <trkpt lat="49.777072" lon="-119.455556">
+        <ele>922.6</ele>
+      </trkpt>
+      <trkpt lat="49.776974" lon="-119.455337">
+        <ele>922.5</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

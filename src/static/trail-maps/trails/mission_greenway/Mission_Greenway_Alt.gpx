@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Mission Greenway Alt</name>
+    <link href="https://ridewithgps.com/routes/49557145">
+      <text>Mission Greenway Alt</text>
+    </link>
+    <time>2025-01-26T13:42:00Z</time>
+  </metadata>
+  <trk>
+    <name>Mission Greenway Alt</name>
+    <trkseg>
+      <trkpt lat="49.8733" lon="-119.43622">
+        <ele>375.0</ele>
+      </trkpt>
+      <trkpt lat="49.87337" lon="-119.43616">
+        <ele>375.1</ele>
+      </trkpt>
+      <trkpt lat="49.87357" lon="-119.43595">
+        <ele>375.1</ele>
+      </trkpt>
+      <trkpt lat="49.87376" lon="-119.43568">
+        <ele>375.4</ele>
+      </trkpt>
+      <trkpt lat="49.87392" lon="-119.43551">
+        <ele>375.3</ele>
+      </trkpt>
+      <trkpt lat="49.8743" lon="-119.43507">
+        <ele>374.4</ele>
+      </trkpt>
+      <trkpt lat="49.87477" lon="-119.43433">
+        <ele>376.4</ele>
+      </trkpt>
+      <trkpt lat="49.87508" lon="-119.43387">
+        <ele>375.8</ele>
+      </trkpt>
+      <trkpt lat="49.87537" lon="-119.43327">
+        <ele>376.3</ele>
+      </trkpt>
+      <trkpt lat="49.87566" lon="-119.43268">
+        <ele>376.9</ele>
+      </trkpt>
+      <trkpt lat="49.87587" lon="-119.43204">
+        <ele>377.0</ele>
+      </trkpt>
+      <trkpt lat="49.87608" lon="-119.4314">
+        <ele>376.9</ele>
+      </trkpt>
+      <trkpt lat="49.87611" lon="-119.43137">
+        <ele>376.9</ele>
+      </trkpt>
+      <trkpt lat="49.87617" lon="-119.4313">
+        <ele>376.8</ele>
+      </trkpt>
+      <trkpt lat="49.87621" lon="-119.43126">
+        <ele>376.8</ele>
+      </trkpt>
+      <trkpt lat="49.87639" lon="-119.4307">
+        <ele>376.8</ele>
+      </trkpt>
+      <trkpt lat="49.87653" lon="-119.43012">
+        <ele>377.7</ele>
+      </trkpt>
+      <trkpt lat="49.8768" lon="-119.42947">
+        <ele>379.6</ele>
+      </trkpt>
+      <trkpt lat="49.87707" lon="-119.42863">
+        <ele>380.8</ele>
+      </trkpt>
+      <trkpt lat="49.87734" lon="-119.4278">
+        <ele>381.2</ele>
+      </trkpt>
+      <trkpt lat="49.87762" lon="-119.42704">
+        <ele>382.9</ele>
+      </trkpt>
+      <trkpt lat="49.87791" lon="-119.42628">
+        <ele>384.9</ele>
+      </trkpt>
+      <trkpt lat="49.8783" lon="-119.42553">
+        <ele>381.5</ele>
+      </trkpt>
+      <trkpt lat="49.87869" lon="-119.42444">
+        <ele>386.5</ele>
+      </trkpt>
+      <trkpt lat="49.87908" lon="-119.42336">
+        <ele>386.1</ele>
+      </trkpt>
+      <trkpt lat="49.87948" lon="-119.42228">
+        <ele>384.4</ele>
+      </trkpt>
+      <trkpt lat="49.87961" lon="-119.42145">
+        <ele>384.8</ele>
+      </trkpt>
+      <trkpt lat="49.87962" lon="-119.42009">
+        <ele>386.2</ele>
+      </trkpt>
+      <trkpt lat="49.87954" lon="-119.41941">
+        <ele>386.8</ele>
+      </trkpt>
+      <trkpt lat="49.87946" lon="-119.41816">
+        <ele>385.7</ele>
+      </trkpt>
+      <trkpt lat="49.87946" lon="-119.41816">
+        <ele>385.7</ele>
+      </trkpt>
+      <trkpt lat="49.87946" lon="-119.41816">
+        <ele>385.7</ele>
+      </trkpt>
+      <trkpt lat="49.87954" lon="-119.41816">
+        <ele>385.5</ele>
+      </trkpt>
+      <trkpt lat="49.87981" lon="-119.41807">
+        <ele>385.2</ele>
+      </trkpt>
+      <trkpt lat="49.87989" lon="-119.41805">
+        <ele>385.1</ele>
+      </trkpt>
+      <trkpt lat="49.87989" lon="-119.41804">
+        <ele>385.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

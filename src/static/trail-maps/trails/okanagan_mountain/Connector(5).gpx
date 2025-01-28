@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Connector</name>
+    <link href="https://ridewithgps.com/routes/49557755">
+      <text>Connector</text>
+    </link>
+    <time>2025-01-26T15:22:44Z</time>
+  </metadata>
+  <trk>
+    <name>Connector</name>
+    <trkseg>
+      <trkpt lat="49.78812" lon="-119.52409">
+        <ele>484.7</ele>
+      </trkpt>
+      <trkpt lat="49.78812" lon="-119.5241">
+        <ele>484.6</ele>
+      </trkpt>
+      <trkpt lat="49.78799" lon="-119.52396">
+        <ele>485.1</ele>
+      </trkpt>
+      <trkpt lat="49.78766" lon="-119.52384">
+        <ele>483.6</ele>
+      </trkpt>
+      <trkpt lat="49.7874" lon="-119.52354">
+        <ele>487.0</ele>
+      </trkpt>
+      <trkpt lat="49.78721" lon="-119.52324">
+        <ele>491.4</ele>
+      </trkpt>
+      <trkpt lat="49.78707" lon="-119.52292">
+        <ele>495.3</ele>
+      </trkpt>
+      <trkpt lat="49.78703" lon="-119.52241">
+        <ele>500.9</ele>
+      </trkpt>
+      <trkpt lat="49.78703" lon="-119.52199">
+        <ele>503.7</ele>
+      </trkpt>
+      <trkpt lat="49.78705" lon="-119.52168">
+        <ele>505.6</ele>
+      </trkpt>
+      <trkpt lat="49.78687" lon="-119.52123">
+        <ele>508.9</ele>
+      </trkpt>
+      <trkpt lat="49.78693" lon="-119.52096">
+        <ele>509.8</ele>
+      </trkpt>
+      <trkpt lat="49.78689" lon="-119.52079">
+        <ele>510.9</ele>
+      </trkpt>
+      <trkpt lat="49.78696" lon="-119.52061">
+        <ele>511.7</ele>
+      </trkpt>
+      <trkpt lat="49.78695" lon="-119.52022">
+        <ele>514.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

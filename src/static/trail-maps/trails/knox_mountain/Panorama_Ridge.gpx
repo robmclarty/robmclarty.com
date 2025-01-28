@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Panorama Ridge</name>
+    <link href="https://ridewithgps.com/routes/49557043">
+      <text>Panorama Ridge</text>
+    </link>
+    <time>2025-01-26T13:27:31Z</time>
+  </metadata>
+  <trk>
+    <name>Panorama Ridge</name>
+    <trkseg>
+      <trkpt lat="49.9142" lon="-119.47215">
+        <ele>619.4</ele>
+      </trkpt>
+      <trkpt lat="49.9141" lon="-119.47217">
+        <ele>618.6</ele>
+      </trkpt>
+      <trkpt lat="49.91389" lon="-119.47216">
+        <ele>615.1</ele>
+      </trkpt>
+      <trkpt lat="49.91373" lon="-119.4723">
+        <ele>614.7</ele>
+      </trkpt>
+      <trkpt lat="49.91343" lon="-119.47223">
+        <ele>609.0</ele>
+      </trkpt>
+      <trkpt lat="49.91329" lon="-119.47234">
+        <ele>608.4</ele>
+      </trkpt>
+      <trkpt lat="49.91323" lon="-119.47235">
+        <ele>607.4</ele>
+      </trkpt>
+      <trkpt lat="49.91307" lon="-119.47256">
+        <ele>606.5</ele>
+      </trkpt>
+      <trkpt lat="49.91292" lon="-119.47265">
+        <ele>603.0</ele>
+      </trkpt>
+      <trkpt lat="49.91269" lon="-119.47267">
+        <ele>599.4</ele>
+      </trkpt>
+      <trkpt lat="49.91269" lon="-119.4728">
+        <ele>598.6</ele>
+      </trkpt>
+      <trkpt lat="49.9126" lon="-119.47288">
+        <ele>597.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

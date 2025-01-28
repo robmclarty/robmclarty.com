@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Wildhorse Alt</name>
+    <link href="https://ridewithgps.com/routes/49557718">
+      <text>Wildhorse Alt</text>
+    </link>
+    <time>2025-01-26T15:16:12Z</time>
+  </metadata>
+  <trk>
+    <name>Wildhorse Alt</name>
+    <trkseg>
+      <trkpt lat="49.76799" lon="-119.63322">
+        <ele>590.7</ele>
+      </trkpt>
+      <trkpt lat="49.76812" lon="-119.63315">
+        <ele>589.6</ele>
+      </trkpt>
+      <trkpt lat="49.76818" lon="-119.63315">
+        <ele>589.3</ele>
+      </trkpt>
+      <trkpt lat="49.76834" lon="-119.63322">
+        <ele>589.0</ele>
+      </trkpt>
+      <trkpt lat="49.76844" lon="-119.6333">
+        <ele>589.3</ele>
+      </trkpt>
+      <trkpt lat="49.76859" lon="-119.63366">
+        <ele>590.3</ele>
+      </trkpt>
+      <trkpt lat="49.76876" lon="-119.63384">
+        <ele>590.3</ele>
+      </trkpt>
+      <trkpt lat="49.76884" lon="-119.63395">
+        <ele>590.4</ele>
+      </trkpt>
+      <trkpt lat="49.76892" lon="-119.63415">
+        <ele>590.8</ele>
+      </trkpt>
+      <trkpt lat="49.76907" lon="-119.63484">
+        <ele>586.6</ele>
+      </trkpt>
+      <trkpt lat="49.76909" lon="-119.63502">
+        <ele>585.3</ele>
+      </trkpt>
+      <trkpt lat="49.76908" lon="-119.6352">
+        <ele>583.1</ele>
+      </trkpt>
+      <trkpt lat="49.76905" lon="-119.63533">
+        <ele>581.6</ele>
+      </trkpt>
+      <trkpt lat="49.76895" lon="-119.6357">
+        <ele>578.0</ele>
+      </trkpt>
+      <trkpt lat="49.76893" lon="-119.63592">
+        <ele>575.9</ele>
+      </trkpt>
+      <trkpt lat="49.769" lon="-119.63609">
+        <ele>573.9</ele>
+      </trkpt>
+      <trkpt lat="49.76907" lon="-119.63623">
+        <ele>572.1</ele>
+      </trkpt>
+      <trkpt lat="49.76934" lon="-119.63682">
+        <ele>566.0</ele>
+      </trkpt>
+      <trkpt lat="49.7695" lon="-119.63707">
+        <ele>563.8</ele>
+      </trkpt>
+      <trkpt lat="49.76958" lon="-119.63722">
+        <ele>562.7</ele>
+      </trkpt>
+      <trkpt lat="49.7696" lon="-119.63733">
+        <ele>562.2</ele>
+      </trkpt>
+      <trkpt lat="49.76961" lon="-119.63748">
+        <ele>561.8</ele>
+      </trkpt>
+      <trkpt lat="49.76957" lon="-119.63767">
+        <ele>562.3</ele>
+      </trkpt>
+      <trkpt lat="49.76949" lon="-119.63782">
+        <ele>563.3</ele>
+      </trkpt>
+      <trkpt lat="49.76943" lon="-119.63802">
+        <ele>564.1</ele>
+      </trkpt>
+      <trkpt lat="49.7694" lon="-119.63823">
+        <ele>564.6</ele>
+      </trkpt>
+      <trkpt lat="49.76939" lon="-119.63827">
+        <ele>564.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

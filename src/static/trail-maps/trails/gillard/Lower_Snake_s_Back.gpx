@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Lower Snake's Back</name>
+    <link href="https://ridewithgps.com/routes/49444639">
+      <text>Lower Snake's Back</text>
+    </link>
+    <time>2025-01-11T15:08:53Z</time>
+  </metadata>
+  <trk>
+    <name>Lower Snake's Back</name>
+    <trkseg>
+      <trkpt lat="49.77717" lon="-119.45526">
+        <ele>920.8</ele>
+      </trkpt>
+      <trkpt lat="49.77719" lon="-119.45525">
+        <ele>920.6</ele>
+      </trkpt>
+      <trkpt lat="49.77705" lon="-119.45496">
+        <ele>920.3</ele>
+      </trkpt>
+      <trkpt lat="49.77692" lon="-119.45486">
+        <ele>920.3</ele>
+      </trkpt>
+      <trkpt lat="49.77693" lon="-119.45476">
+        <ele>919.1</ele>
+      </trkpt>
+      <trkpt lat="49.77707" lon="-119.45475">
+        <ele>917.5</ele>
+      </trkpt>
+      <trkpt lat="49.77691" lon="-119.45456">
+        <ele>917.2</ele>
+      </trkpt>
+      <trkpt lat="49.77686" lon="-119.45432">
+        <ele>915.3</ele>
+      </trkpt>
+      <trkpt lat="49.777" lon="-119.45431">
+        <ele>913.1</ele>
+      </trkpt>
+      <trkpt lat="49.77738" lon="-119.45433">
+        <ele>907.6</ele>
+      </trkpt>
+      <trkpt lat="49.77746" lon="-119.45432">
+        <ele>906.2</ele>
+      </trkpt>
+      <trkpt lat="49.77746" lon="-119.45432">
+        <ele>906.2</ele>
+      </trkpt>
+      <trkpt lat="49.77749" lon="-119.45431">
+        <ele>905.6</ele>
+      </trkpt>
+      <trkpt lat="49.77811" lon="-119.45405">
+        <ele>889.8</ele>
+      </trkpt>
+      <trkpt lat="49.77826" lon="-119.45394">
+        <ele>885.2</ele>
+      </trkpt>
+      <trkpt lat="49.77826" lon="-119.45393">
+        <ele>885.0</ele>
+      </trkpt>
+      <trkpt lat="49.77826" lon="-119.45393">
+        <ele>885.0</ele>
+      </trkpt>
+      <trkpt lat="49.77829" lon="-119.45368">
+        <ele>880.0</ele>
+      </trkpt>
+      <trkpt lat="49.77836" lon="-119.45359">
+        <ele>877.2</ele>
+      </trkpt>
+      <trkpt lat="49.77844" lon="-119.45353">
+        <ele>874.9</ele>
+      </trkpt>
+      <trkpt lat="49.77853" lon="-119.45353">
+        <ele>873.5</ele>
+      </trkpt>
+      <trkpt lat="49.77863" lon="-119.45357">
+        <ele>872.7</ele>
+      </trkpt>
+      <trkpt lat="49.77873" lon="-119.45355">
+        <ele>870.8</ele>
+      </trkpt>
+      <trkpt lat="49.77883" lon="-119.45341">
+        <ele>867.1</ele>
+      </trkpt>
+      <trkpt lat="49.77892" lon="-119.45319">
+        <ele>862.7</ele>
+      </trkpt>
+      <trkpt lat="49.77904" lon="-119.45302">
+        <ele>858.6</ele>
+      </trkpt>
+      <trkpt lat="49.77902" lon="-119.45301">
+        <ele>858.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

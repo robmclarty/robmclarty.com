@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Fairlane East</name>
+    <link href="https://ridewithgps.com/routes/49557374">
+      <text>Fairlane East</text>
+    </link>
+    <time>2025-01-26T14:12:47Z</time>
+  </metadata>
+  <trk>
+    <name>Fairlane East</name>
+    <trkseg>
+      <trkpt lat="49.8135" lon="-119.42355">
+        <ele>627.3</ele>
+      </trkpt>
+      <trkpt lat="49.81373" lon="-119.42368">
+        <ele>624.6</ele>
+      </trkpt>
+      <trkpt lat="49.81383" lon="-119.4237">
+        <ele>623.9</ele>
+      </trkpt>
+      <trkpt lat="49.81409" lon="-119.4236">
+        <ele>624.4</ele>
+      </trkpt>
+      <trkpt lat="49.81425" lon="-119.42365">
+        <ele>622.5</ele>
+      </trkpt>
+      <trkpt lat="49.81437" lon="-119.42364">
+        <ele>621.4</ele>
+      </trkpt>
+      <trkpt lat="49.81448" lon="-119.42359">
+        <ele>620.9</ele>
+      </trkpt>
+      <trkpt lat="49.81452" lon="-119.42354">
+        <ele>621.2</ele>
+      </trkpt>
+      <trkpt lat="49.81456" lon="-119.42345">
+        <ele>622.1</ele>
+      </trkpt>
+      <trkpt lat="49.81461" lon="-119.42326">
+        <ele>624.0</ele>
+      </trkpt>
+      <trkpt lat="49.81467" lon="-119.42318">
+        <ele>624.3</ele>
+      </trkpt>
+      <trkpt lat="49.815" lon="-119.42297">
+        <ele>622.9</ele>
+      </trkpt>
+      <trkpt lat="49.81516" lon="-119.42295">
+        <ele>620.8</ele>
+      </trkpt>
+      <trkpt lat="49.81517" lon="-119.42296">
+        <ele>620.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

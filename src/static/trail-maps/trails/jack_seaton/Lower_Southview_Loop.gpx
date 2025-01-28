@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Lower Southview Loop</name>
+    <link href="https://ridewithgps.com/routes/49556844">
+      <text>Lower Southview Loop</text>
+    </link>
+    <time>2025-01-26T13:02:19Z</time>
+  </metadata>
+  <trk>
+    <name>Lower Southview Loop</name>
+    <trkseg>
+      <trkpt lat="50.03621" lon="-119.43728">
+        <ele>557.1</ele>
+      </trkpt>
+      <trkpt lat="50.03621" lon="-119.43728">
+        <ele>557.1</ele>
+      </trkpt>
+      <trkpt lat="50.03624" lon="-119.43725">
+        <ele>557.3</ele>
+      </trkpt>
+      <trkpt lat="50.03634" lon="-119.43721">
+        <ele>557.2</ele>
+      </trkpt>
+      <trkpt lat="50.03638" lon="-119.43723">
+        <ele>556.7</ele>
+      </trkpt>
+      <trkpt lat="50.0365" lon="-119.43724">
+        <ele>556.0</ele>
+      </trkpt>
+      <trkpt lat="50.03656" lon="-119.43729">
+        <ele>555.3</ele>
+      </trkpt>
+      <trkpt lat="50.03667" lon="-119.43728">
+        <ele>554.8</ele>
+      </trkpt>
+      <trkpt lat="50.03681" lon="-119.4374">
+        <ele>552.9</ele>
+      </trkpt>
+      <trkpt lat="50.03686" lon="-119.43753">
+        <ele>551.6</ele>
+      </trkpt>
+      <trkpt lat="50.0369" lon="-119.43757">
+        <ele>551.1</ele>
+      </trkpt>
+      <trkpt lat="50.03694" lon="-119.43766">
+        <ele>550.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

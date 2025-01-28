@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Magic Escape</name>
+    <link href="https://ridewithgps.com/routes/49557047">
+      <text>Magic Escape</text>
+    </link>
+    <time>2025-01-26T13:28:12Z</time>
+  </metadata>
+  <trk>
+    <name>Magic Escape</name>
+    <trkseg>
+      <trkpt lat="49.91588" lon="-119.47139">
+        <ele>602.6</ele>
+      </trkpt>
+      <trkpt lat="49.91588" lon="-119.4714">
+        <ele>602.7</ele>
+      </trkpt>
+      <trkpt lat="49.91609" lon="-119.47157">
+        <ele>599.0</ele>
+      </trkpt>
+      <trkpt lat="49.91594" lon="-119.47256">
+        <ele>591.9</ele>
+      </trkpt>
+      <trkpt lat="49.91605" lon="-119.47292">
+        <ele>582.9</ele>
+      </trkpt>
+      <trkpt lat="49.91603" lon="-119.4731">
+        <ele>580.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

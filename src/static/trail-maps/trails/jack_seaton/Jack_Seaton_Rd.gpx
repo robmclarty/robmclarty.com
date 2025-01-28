@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Jack Seaton Rd</name>
+    <link href="https://ridewithgps.com/routes/49460520">
+      <text>Jack Seaton Rd</text>
+    </link>
+    <time>2025-01-13T15:36:18Z</time>
+  </metadata>
+  <trk>
+    <name>Jack Seaton Rd</name>
+    <trkseg>
+      <trkpt lat="50.03785" lon="-119.43356">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.03769" lon="-119.43372">
+        <ele>553.8</ele>
+      </trkpt>
+      <trkpt lat="50.03751" lon="-119.43386">
+        <ele>554.3</ele>
+      </trkpt>
+      <trkpt lat="50.03707" lon="-119.43402">
+        <ele>556.6</ele>
+      </trkpt>
+      <trkpt lat="50.03682" lon="-119.43406">
+        <ele>557.8</ele>
+      </trkpt>
+      <trkpt lat="50.03642" lon="-119.43417">
+        <ele>560.3</ele>
+      </trkpt>
+      <trkpt lat="50.03632" lon="-119.43423">
+        <ele>560.9</ele>
+      </trkpt>
+      <trkpt lat="50.03628" lon="-119.43421">
+        <ele>561.5</ele>
+      </trkpt>
+      <trkpt lat="50.03626" lon="-119.43415">
+        <ele>562.0</ele>
+      </trkpt>
+      <trkpt lat="50.03624" lon="-119.43407">
+        <ele>562.7</ele>
+      </trkpt>
+      <trkpt lat="50.03626" lon="-119.43415">
+        <ele>562.0</ele>
+      </trkpt>
+      <trkpt lat="50.03628" lon="-119.43421">
+        <ele>561.5</ele>
+      </trkpt>
+      <trkpt lat="50.03632" lon="-119.43423">
+        <ele>560.9</ele>
+      </trkpt>
+      <trkpt lat="50.03642" lon="-119.43417">
+        <ele>560.3</ele>
+      </trkpt>
+      <trkpt lat="50.03682" lon="-119.43406">
+        <ele>557.8</ele>
+      </trkpt>
+      <trkpt lat="50.03707" lon="-119.43402">
+        <ele>556.6</ele>
+      </trkpt>
+      <trkpt lat="50.03751" lon="-119.43386">
+        <ele>554.3</ele>
+      </trkpt>
+      <trkpt lat="50.03751" lon="-119.43386">
+        <ele>554.3</ele>
+      </trkpt>
+      <trkpt lat="50.03746" lon="-119.43404">
+        <ele>554.4</ele>
+      </trkpt>
+      <trkpt lat="50.03745" lon="-119.43423">
+        <ele>554.1</ele>
+      </trkpt>
+      <trkpt lat="50.03746" lon="-119.43462">
+        <ele>553.5</ele>
+      </trkpt>
+      <trkpt lat="50.03749" lon="-119.43489">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.03749" lon="-119.43489">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.03749" lon="-119.43489">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.03749" lon="-119.43489">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.03749" lon="-119.43489">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.037487" lon="-119.435047">
+        <ele>553.0</ele>
+      </trkpt>
+      <trkpt lat="50.037487" lon="-119.435047">
+        <ele>553.0</ele>
+      </trkpt>
+      <trkpt lat="50.037422" lon="-119.435163">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.037422" lon="-119.435163">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="50.037312" lon="-119.435229">
+        <ele>553.2</ele>
+      </trkpt>
+      <trkpt lat="50.037312" lon="-119.435229">
+        <ele>553.2</ele>
+      </trkpt>
+      <trkpt lat="50.037141" lon="-119.4353">
+        <ele>553.6</ele>
+      </trkpt>
+      <trkpt lat="50.037141" lon="-119.4353">
+        <ele>553.6</ele>
+      </trkpt>
+      <trkpt lat="50.037013" lon="-119.435466">
+        <ele>554.3</ele>
+      </trkpt>
+      <trkpt lat="50.037013" lon="-119.435466">
+        <ele>554.3</ele>
+      </trkpt>
+      <trkpt lat="50.036962" lon="-119.435632">
+        <ele>555.0</ele>
+      </trkpt>
+      <trkpt lat="50.036962" lon="-119.435632">
+        <ele>555.0</ele>
+      </trkpt>
+      <trkpt lat="50.036908" lon="-119.435794">
+        <ele>555.7</ele>
+      </trkpt>
+      <trkpt lat="50.036908" lon="-119.435794">
+        <ele>555.7</ele>
+      </trkpt>
+      <trkpt lat="50.036889" lon="-119.436024">
+        <ele>556.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

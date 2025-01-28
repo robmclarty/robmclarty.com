@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Connector</name>
+    <link href="https://ridewithgps.com/routes/49557678">
+      <text>Connector</text>
+    </link>
+    <time>2025-01-26T15:10:15Z</time>
+  </metadata>
+  <trk>
+    <name>Connector</name>
+    <trkseg>
+      <trkpt lat="49.87984" lon="-119.56585">
+        <ele>570.5</ele>
+      </trkpt>
+      <trkpt lat="49.87988" lon="-119.56576">
+        <ele>570.4</ele>
+      </trkpt>
+      <trkpt lat="49.87994" lon="-119.56579">
+        <ele>572.1</ele>
+      </trkpt>
+      <trkpt lat="49.88013" lon="-119.56569">
+        <ele>575.6</ele>
+      </trkpt>
+      <trkpt lat="49.88053" lon="-119.56533">
+        <ele>581.7</ele>
+      </trkpt>
+      <trkpt lat="49.88066" lon="-119.56524">
+        <ele>584.1</ele>
+      </trkpt>
+      <trkpt lat="49.88079" lon="-119.5651">
+        <ele>585.9</ele>
+      </trkpt>
+      <trkpt lat="49.88103" lon="-119.56474">
+        <ele>587.4</ele>
+      </trkpt>
+      <trkpt lat="49.8811" lon="-119.56468">
+        <ele>588.4</ele>
+      </trkpt>
+      <trkpt lat="49.88125" lon="-119.56456">
+        <ele>590.6</ele>
+      </trkpt>
+      <trkpt lat="49.88138" lon="-119.56451">
+        <ele>593.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

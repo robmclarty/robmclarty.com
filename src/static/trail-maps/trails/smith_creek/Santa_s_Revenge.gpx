@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Santa's Revenge</name>
+    <link href="https://ridewithgps.com/routes/49557502">
+      <text>Santa's Revenge</text>
+    </link>
+    <time>2025-01-26T14:35:14Z</time>
+  </metadata>
+  <trk>
+    <name>Santa's Revenge</name>
+    <trkseg>
+      <trkpt lat="49.8653" lon="-119.6576">
+        <ele>860.3</ele>
+      </trkpt>
+      <trkpt lat="49.8653" lon="-119.65761">
+        <ele>860.3</ele>
+      </trkpt>
+      <trkpt lat="49.86531" lon="-119.65808">
+        <ele>862.6</ele>
+      </trkpt>
+      <trkpt lat="49.8653" lon="-119.65871">
+        <ele>864.9</ele>
+      </trkpt>
+      <trkpt lat="49.86521" lon="-119.65908">
+        <ele>862.7</ele>
+      </trkpt>
+      <trkpt lat="49.86502" lon="-119.6601">
+        <ele>858.6</ele>
+      </trkpt>
+      <trkpt lat="49.865" lon="-119.66055">
+        <ele>856.7</ele>
+      </trkpt>
+      <trkpt lat="49.86503" lon="-119.66083">
+        <ele>857.3</ele>
+      </trkpt>
+      <trkpt lat="49.86515" lon="-119.66104">
+        <ele>861.6</ele>
+      </trkpt>
+      <trkpt lat="49.86516" lon="-119.66129">
+        <ele>861.2</ele>
+      </trkpt>
+      <trkpt lat="49.86518" lon="-119.66145">
+        <ele>861.5</ele>
+      </trkpt>
+      <trkpt lat="49.86524" lon="-119.66178">
+        <ele>863.4</ele>
+      </trkpt>
+      <trkpt lat="49.86524" lon="-119.66178">
+        <ele>863.4</ele>
+      </trkpt>
+      <trkpt lat="49.86526" lon="-119.66193">
+        <ele>864.2</ele>
+      </trkpt>
+      <trkpt lat="49.86522" lon="-119.66209">
+        <ele>862.4</ele>
+      </trkpt>
+      <trkpt lat="49.86522" lon="-119.66228">
+        <ele>862.4</ele>
+      </trkpt>
+      <trkpt lat="49.86526" lon="-119.66251">
+        <ele>864.2</ele>
+      </trkpt>
+      <trkpt lat="49.86519" lon="-119.66261">
+        <ele>861.4</ele>
+      </trkpt>
+      <trkpt lat="49.86508" lon="-119.66262">
+        <ele>856.2</ele>
+      </trkpt>
+      <trkpt lat="49.86486" lon="-119.66275">
+        <ele>849.7</ele>
+      </trkpt>
+      <trkpt lat="49.86486" lon="-119.66275">
+        <ele>849.7</ele>
+      </trkpt>
+      <trkpt lat="49.86476" lon="-119.66287">
+        <ele>847.6</ele>
+      </trkpt>
+      <trkpt lat="49.86476" lon="-119.66326">
+        <ele>848.5</ele>
+      </trkpt>
+      <trkpt lat="49.86473" lon="-119.66338">
+        <ele>847.9</ele>
+      </trkpt>
+      <trkpt lat="49.86469" lon="-119.66342">
+        <ele>846.9</ele>
+      </trkpt>
+      <trkpt lat="49.86448" lon="-119.66352">
+        <ele>841.0</ele>
+      </trkpt>
+      <trkpt lat="49.86432" lon="-119.66338">
+        <ele>836.9</ele>
+      </trkpt>
+      <trkpt lat="49.86427" lon="-119.66315">
+        <ele>835.8</ele>
+      </trkpt>
+      <trkpt lat="49.86421" lon="-119.6631">
+        <ele>834.4</ele>
+      </trkpt>
+      <trkpt lat="49.86421" lon="-119.6631">
+        <ele>834.4</ele>
+      </trkpt>
+      <trkpt lat="49.86413" lon="-119.66303">
+        <ele>832.7</ele>
+      </trkpt>
+      <trkpt lat="49.86407" lon="-119.66305">
+        <ele>831.7</ele>
+      </trkpt>
+      <trkpt lat="49.86403" lon="-119.66317">
+        <ele>830.8</ele>
+      </trkpt>
+      <trkpt lat="49.86411" lon="-119.6637">
+        <ele>830.3</ele>
+      </trkpt>
+      <trkpt lat="49.86412" lon="-119.66395">
+        <ele>829.3</ele>
+      </trkpt>
+      <trkpt lat="49.86408" lon="-119.66407">
+        <ele>828.2</ele>
+      </trkpt>
+      <trkpt lat="49.86409" lon="-119.66408">
+        <ele>828.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

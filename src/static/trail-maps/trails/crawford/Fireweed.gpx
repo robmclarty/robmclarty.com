@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Fireweed</name>
+    <link href="https://ridewithgps.com/routes/49557279">
+      <text>Fireweed</text>
+    </link>
+    <time>2025-01-26T13:58:35Z</time>
+  </metadata>
+  <trk>
+    <name>Fireweed</name>
+    <trkseg>
+      <trkpt lat="49.80416" lon="-119.41281">
+        <ele>784.6</ele>
+      </trkpt>
+      <trkpt lat="49.80416" lon="-119.4128">
+        <ele>784.6</ele>
+      </trkpt>
+      <trkpt lat="49.80382" lon="-119.41252">
+        <ele>788.8</ele>
+      </trkpt>
+      <trkpt lat="49.80369" lon="-119.41247">
+        <ele>790.2</ele>
+      </trkpt>
+      <trkpt lat="49.80355" lon="-119.4125">
+        <ele>791.2</ele>
+      </trkpt>
+      <trkpt lat="49.80318" lon="-119.41276">
+        <ele>793.3</ele>
+      </trkpt>
+      <trkpt lat="49.80269" lon="-119.41298">
+        <ele>798.3</ele>
+      </trkpt>
+      <trkpt lat="49.80235" lon="-119.41303">
+        <ele>801.8</ele>
+      </trkpt>
+      <trkpt lat="49.80192" lon="-119.41305">
+        <ele>805.5</ele>
+      </trkpt>
+      <trkpt lat="49.80165" lon="-119.41304">
+        <ele>807.9</ele>
+      </trkpt>
+      <trkpt lat="49.80156" lon="-119.41301">
+        <ele>809.2</ele>
+      </trkpt>
+      <trkpt lat="49.80152" lon="-119.41297">
+        <ele>809.9</ele>
+      </trkpt>
+      <trkpt lat="49.80146" lon="-119.41283">
+        <ele>811.6</ele>
+      </trkpt>
+      <trkpt lat="49.80141" lon="-119.41261">
+        <ele>813.9</ele>
+      </trkpt>
+      <trkpt lat="49.80135" lon="-119.41245">
+        <ele>816.2</ele>
+      </trkpt>
+      <trkpt lat="49.80124" lon="-119.41228">
+        <ele>819.9</ele>
+      </trkpt>
+      <trkpt lat="49.80115" lon="-119.41217">
+        <ele>822.4</ele>
+      </trkpt>
+      <trkpt lat="49.80108" lon="-119.41212">
+        <ele>823.8</ele>
+      </trkpt>
+      <trkpt lat="49.80097" lon="-119.41207">
+        <ele>825.6</ele>
+      </trkpt>
+      <trkpt lat="49.80061" lon="-119.41198">
+        <ele>831.8</ele>
+      </trkpt>
+      <trkpt lat="49.80047" lon="-119.412">
+        <ele>834.1</ele>
+      </trkpt>
+      <trkpt lat="49.80036" lon="-119.41207">
+        <ele>835.4</ele>
+      </trkpt>
+      <trkpt lat="49.80014" lon="-119.41228">
+        <ele>837.4</ele>
+      </trkpt>
+      <trkpt lat="49.80002" lon="-119.41246">
+        <ele>838.0</ele>
+      </trkpt>
+      <trkpt lat="49.79982" lon="-119.41295">
+        <ele>838.5</ele>
+      </trkpt>
+      <trkpt lat="49.79968" lon="-119.41338">
+        <ele>838.7</ele>
+      </trkpt>
+      <trkpt lat="49.79957" lon="-119.41364">
+        <ele>840.0</ele>
+      </trkpt>
+      <trkpt lat="49.7995" lon="-119.41379">
+        <ele>840.8</ele>
+      </trkpt>
+      <trkpt lat="49.79932" lon="-119.41404">
+        <ele>843.4</ele>
+      </trkpt>
+      <trkpt lat="49.79926" lon="-119.41418">
+        <ele>844.0</ele>
+      </trkpt>
+      <trkpt lat="49.79916" lon="-119.41456">
+        <ele>843.7</ele>
+      </trkpt>
+      <trkpt lat="49.79893" lon="-119.415">
+        <ele>843.0</ele>
+      </trkpt>
+      <trkpt lat="49.79893" lon="-119.41501">
+        <ele>842.9</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

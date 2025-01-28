@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Cornelius Cnctr</name>
+    <link href="https://ridewithgps.com/routes/49557548">
+      <text>Cornelius Cnctr</text>
+    </link>
+    <time>2025-01-26T14:43:01Z</time>
+  </metadata>
+  <trk>
+    <name>Cornelius Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.874529" lon="-119.651117">
+        <ele>1098.7</ele>
+      </trkpt>
+      <trkpt lat="49.874531" lon="-119.650995">
+        <ele>1097.5</ele>
+      </trkpt>
+      <trkpt lat="49.874531" lon="-119.650995">
+        <ele>1097.5</ele>
+      </trkpt>
+      <trkpt lat="49.874472" lon="-119.650927">
+        <ele>1095.7</ele>
+      </trkpt>
+      <trkpt lat="49.874472" lon="-119.650927">
+        <ele>1095.7</ele>
+      </trkpt>
+      <trkpt lat="49.87444" lon="-119.650798">
+        <ele>1093.9</ele>
+      </trkpt>
+      <trkpt lat="49.87444" lon="-119.650798">
+        <ele>1093.9</ele>
+      </trkpt>
+      <trkpt lat="49.874402" lon="-119.650715">
+        <ele>1093.1</ele>
+      </trkpt>
+      <trkpt lat="49.874402" lon="-119.650715">
+        <ele>1093.1</ele>
+      </trkpt>
+      <trkpt lat="49.874357" lon="-119.650741">
+        <ele>1092.0</ele>
+      </trkpt>
+      <trkpt lat="49.874357" lon="-119.650741">
+        <ele>1092.0</ele>
+      </trkpt>
+      <trkpt lat="49.874296" lon="-119.650831">
+        <ele>1090.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

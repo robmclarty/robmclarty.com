@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Home Run</name>
+    <link href="https://ridewithgps.com/routes/49444847">
+      <text>Home Run</text>
+    </link>
+    <time>2025-01-11T15:40:43Z</time>
+  </metadata>
+  <trk>
+    <name>Home Run</name>
+    <trkseg>
+      <trkpt lat="50.03682" lon="-119.43406">
+        <ele>557.8</ele>
+      </trkpt>
+      <trkpt lat="50.03679" lon="-119.43395">
+        <ele>558.6</ele>
+      </trkpt>
+      <trkpt lat="50.03674" lon="-119.43384">
+        <ele>559.5</ele>
+      </trkpt>
+      <trkpt lat="50.0366" lon="-119.43369">
+        <ele>561.5</ele>
+      </trkpt>
+      <trkpt lat="50.03652" lon="-119.43371">
+        <ele>562.2</ele>
+      </trkpt>
+      <trkpt lat="50.03634" lon="-119.43372">
+        <ele>564.0</ele>
+      </trkpt>
+      <trkpt lat="50.03623" lon="-119.43377">
+        <ele>564.8</ele>
+      </trkpt>
+      <trkpt lat="50.03609" lon="-119.43386">
+        <ele>565.6</ele>
+      </trkpt>
+      <trkpt lat="50.03597" lon="-119.43396">
+        <ele>566.1</ele>
+      </trkpt>
+      <trkpt lat="50.03583" lon="-119.43414">
+        <ele>566.2</ele>
+      </trkpt>
+      <trkpt lat="50.03575" lon="-119.43413">
+        <ele>567.5</ele>
+      </trkpt>
+      <trkpt lat="50.03573" lon="-119.43414">
+        <ele>567.7</ele>
+      </trkpt>
+      <trkpt lat="50.03573" lon="-119.43414">
+        <ele>567.7</ele>
+      </trkpt>
+      <trkpt lat="50.03564" lon="-119.43418">
+        <ele>568.7</ele>
+      </trkpt>
+      <trkpt lat="50.03557" lon="-119.43425">
+        <ele>569.3</ele>
+      </trkpt>
+      <trkpt lat="50.03551" lon="-119.43438">
+        <ele>569.3</ele>
+      </trkpt>
+      <trkpt lat="50.0355" lon="-119.43448">
+        <ele>568.8</ele>
+      </trkpt>
+      <trkpt lat="50.03553" lon="-119.43476">
+        <ele>566.5</ele>
+      </trkpt>
+      <trkpt lat="50.03552" lon="-119.435">
+        <ele>565.1</ele>
+      </trkpt>
+      <trkpt lat="50.03549" lon="-119.43536">
+        <ele>566.5</ele>
+      </trkpt>
+      <trkpt lat="50.03566" lon="-119.43545">
+        <ele>564.7</ele>
+      </trkpt>
+      <trkpt lat="50.03571" lon="-119.43547">
+        <ele>564.2</ele>
+      </trkpt>
+      <trkpt lat="50.03576" lon="-119.43548">
+        <ele>563.6</ele>
+      </trkpt>
+      <trkpt lat="50.03589" lon="-119.43554">
+        <ele>562.4</ele>
+      </trkpt>
+      <trkpt lat="50.036" lon="-119.43554">
+        <ele>561.5</ele>
+      </trkpt>
+      <trkpt lat="50.03605" lon="-119.43556">
+        <ele>561.1</ele>
+      </trkpt>
+      <trkpt lat="50.03609" lon="-119.43562">
+        <ele>561.0</ele>
+      </trkpt>
+      <trkpt lat="50.03617" lon="-119.43583">
+        <ele>561.2</ele>
+      </trkpt>
+      <trkpt lat="50.03618" lon="-119.43592">
+        <ele>561.4</ele>
+      </trkpt>
+      <trkpt lat="50.03617" lon="-119.43604">
+        <ele>561.9</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

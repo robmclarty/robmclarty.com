@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Nip &amp; Tuck</name>
+    <link href="https://ridewithgps.com/routes/49444684">
+      <text>Nip &amp; Tuck</text>
+    </link>
+    <time>2025-01-11T15:14:27Z</time>
+  </metadata>
+  <trk>
+    <name>Nip &amp; Tuck</name>
+    <trkseg>
+      <trkpt lat="49.7565" lon="-119.4508">
+        <ele>1222.7</ele>
+      </trkpt>
+      <trkpt lat="49.75666" lon="-119.45104">
+        <ele>1220.6</ele>
+      </trkpt>
+      <trkpt lat="49.75684" lon="-119.45109">
+        <ele>1218.3</ele>
+      </trkpt>
+      <trkpt lat="49.75706" lon="-119.45129">
+        <ele>1216.4</ele>
+      </trkpt>
+      <trkpt lat="49.75722" lon="-119.45129">
+        <ele>1214.0</ele>
+      </trkpt>
+      <trkpt lat="49.75743" lon="-119.45134">
+        <ele>1211.1</ele>
+      </trkpt>
+      <trkpt lat="49.75765" lon="-119.4513">
+        <ele>1206.0</ele>
+      </trkpt>
+      <trkpt lat="49.75794" lon="-119.45159">
+        <ele>1200.0</ele>
+      </trkpt>
+      <trkpt lat="49.75817" lon="-119.45158">
+        <ele>1194.0</ele>
+      </trkpt>
+      <trkpt lat="49.7583" lon="-119.45195">
+        <ele>1191.9</ele>
+      </trkpt>
+      <trkpt lat="49.75847" lon="-119.45205">
+        <ele>1188.6</ele>
+      </trkpt>
+      <trkpt lat="49.75857" lon="-119.452">
+        <ele>1186.4</ele>
+      </trkpt>
+      <trkpt lat="49.75865" lon="-119.45213">
+        <ele>1185.2</ele>
+      </trkpt>
+      <trkpt lat="49.7587" lon="-119.45214">
+        <ele>1184.2</ele>
+      </trkpt>
+      <trkpt lat="49.7587" lon="-119.45214">
+        <ele>1184.2</ele>
+      </trkpt>
+      <trkpt lat="49.75886" lon="-119.45216">
+        <ele>1181.0</ele>
+      </trkpt>
+      <trkpt lat="49.75901" lon="-119.45227">
+        <ele>1178.4</ele>
+      </trkpt>
+      <trkpt lat="49.75914" lon="-119.4521">
+        <ele>1175.1</ele>
+      </trkpt>
+      <trkpt lat="49.7594" lon="-119.45226">
+        <ele>1170.5</ele>
+      </trkpt>
+      <trkpt lat="49.7595" lon="-119.45249">
+        <ele>1169.2</ele>
+      </trkpt>
+      <trkpt lat="49.75963" lon="-119.45255">
+        <ele>1166.7</ele>
+      </trkpt>
+      <trkpt lat="49.75971" lon="-119.45266">
+        <ele>1165.4</ele>
+      </trkpt>
+      <trkpt lat="49.75996" lon="-119.45262">
+        <ele>1160.2</ele>
+      </trkpt>
+      <trkpt lat="49.76008" lon="-119.45251">
+        <ele>1157.5</ele>
+      </trkpt>
+      <trkpt lat="49.76035" lon="-119.45263">
+        <ele>1152.6</ele>
+      </trkpt>
+      <trkpt lat="49.7605" lon="-119.45279">
+        <ele>1150.0</ele>
+      </trkpt>
+      <trkpt lat="49.7607" lon="-119.45267">
+        <ele>1145.8</ele>
+      </trkpt>
+      <trkpt lat="49.76077" lon="-119.45259">
+        <ele>1144.3</ele>
+      </trkpt>
+      <trkpt lat="49.76077" lon="-119.45259">
+        <ele>1144.3</ele>
+      </trkpt>
+      <trkpt lat="49.76088" lon="-119.45245">
+        <ele>1142.3</ele>
+      </trkpt>
+      <trkpt lat="49.76103" lon="-119.45243">
+        <ele>1140.3</ele>
+      </trkpt>
+      <trkpt lat="49.76123" lon="-119.45255">
+        <ele>1137.7</ele>
+      </trkpt>
+      <trkpt lat="49.76139" lon="-119.45275">
+        <ele>1135.3</ele>
+      </trkpt>
+      <trkpt lat="49.76157" lon="-119.45263">
+        <ele>1133.0</ele>
+      </trkpt>
+      <trkpt lat="49.76188" lon="-119.45271">
+        <ele>1132.1</ele>
+      </trkpt>
+      <trkpt lat="49.76188" lon="-119.45272">
+        <ele>1132.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

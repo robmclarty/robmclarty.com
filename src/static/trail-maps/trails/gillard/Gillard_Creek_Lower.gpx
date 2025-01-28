@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Gillard Creek Lower</name>
+    <link href="https://ridewithgps.com/routes/49444712">
+      <text>Gillard Creek Lower</text>
+    </link>
+    <time>2025-01-11T15:18:55Z</time>
+  </metadata>
+  <trk>
+    <name>Gillard Creek Lower</name>
+    <trkseg>
+      <trkpt lat="49.79341" lon="-119.49085">
+        <ele>557.2</ele>
+      </trkpt>
+      <trkpt lat="49.7934" lon="-119.49084">
+        <ele>557.2</ele>
+      </trkpt>
+      <trkpt lat="49.79348" lon="-119.49038">
+        <ele>557.5</ele>
+      </trkpt>
+      <trkpt lat="49.79351" lon="-119.48985">
+        <ele>558.0</ele>
+      </trkpt>
+      <trkpt lat="49.7934" lon="-119.48901">
+        <ele>559.0</ele>
+      </trkpt>
+      <trkpt lat="49.79354" lon="-119.4888">
+        <ele>559.2</ele>
+      </trkpt>
+      <trkpt lat="49.79357" lon="-119.48844">
+        <ele>558.9</ele>
+      </trkpt>
+      <trkpt lat="49.79353" lon="-119.48822">
+        <ele>558.9</ele>
+      </trkpt>
+      <trkpt lat="49.79325" lon="-119.4878">
+        <ele>559.3</ele>
+      </trkpt>
+      <trkpt lat="49.79332" lon="-119.48733">
+        <ele>559.3</ele>
+      </trkpt>
+      <trkpt lat="49.79359" lon="-119.48691">
+        <ele>561.6</ele>
+      </trkpt>
+      <trkpt lat="49.79365" lon="-119.4867">
+        <ele>562.6</ele>
+      </trkpt>
+      <trkpt lat="49.79363" lon="-119.48622">
+        <ele>563.6</ele>
+      </trkpt>
+      <trkpt lat="49.79349" lon="-119.48527">
+        <ele>565.9</ele>
+      </trkpt>
+      <trkpt lat="49.79317" lon="-119.48451">
+        <ele>568.2</ele>
+      </trkpt>
+      <trkpt lat="49.79296" lon="-119.48391">
+        <ele>569.1</ele>
+      </trkpt>
+      <trkpt lat="49.793" lon="-119.48269">
+        <ele>570.0</ele>
+      </trkpt>
+      <trkpt lat="49.79313" lon="-119.48134">
+        <ele>570.4</ele>
+      </trkpt>
+      <trkpt lat="49.79332" lon="-119.4811">
+        <ele>572.2</ele>
+      </trkpt>
+      <trkpt lat="49.79329" lon="-119.48094">
+        <ele>571.7</ele>
+      </trkpt>
+      <trkpt lat="49.79289" lon="-119.48028">
+        <ele>571.5</ele>
+      </trkpt>
+      <trkpt lat="49.79279" lon="-119.47986">
+        <ele>574.2</ele>
+      </trkpt>
+      <trkpt lat="49.79279" lon="-119.47988">
+        <ele>574.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

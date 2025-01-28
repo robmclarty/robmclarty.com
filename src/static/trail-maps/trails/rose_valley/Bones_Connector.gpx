@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Bones Connector</name>
+    <link href="https://ridewithgps.com/routes/49557645">
+      <text>Bones Connector</text>
+    </link>
+    <time>2025-01-26T15:03:17Z</time>
+  </metadata>
+  <trk>
+    <name>Bones Connector</name>
+    <trkseg>
+      <trkpt lat="49.89539" lon="-119.56168">
+        <ele>779.4</ele>
+      </trkpt>
+      <trkpt lat="49.89539" lon="-119.56169">
+        <ele>779.4</ele>
+      </trkpt>
+      <trkpt lat="49.89541" lon="-119.56194">
+        <ele>778.5</ele>
+      </trkpt>
+      <trkpt lat="49.8955" lon="-119.56205">
+        <ele>777.9</ele>
+      </trkpt>
+      <trkpt lat="49.89557" lon="-119.56206">
+        <ele>777.6</ele>
+      </trkpt>
+      <trkpt lat="49.89563" lon="-119.5621">
+        <ele>777.1</ele>
+      </trkpt>
+      <trkpt lat="49.89571" lon="-119.56221">
+        <ele>776.1</ele>
+      </trkpt>
+      <trkpt lat="49.89585" lon="-119.56232">
+        <ele>774.0</ele>
+      </trkpt>
+      <trkpt lat="49.89594" lon="-119.56248">
+        <ele>769.9</ele>
+      </trkpt>
+      <trkpt lat="49.89597" lon="-119.56281">
+        <ele>763.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

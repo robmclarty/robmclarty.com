@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Fairlane-Myra</name>
+    <link href="https://ridewithgps.com/routes/49557390">
+      <text>Fairlane-Myra</text>
+    </link>
+    <time>2025-01-26T14:15:44Z</time>
+  </metadata>
+  <trk>
+    <name>Fairlane-Myra</name>
+    <trkseg>
+      <trkpt lat="49.81721" lon="-119.40339">
+        <ele>718.3</ele>
+      </trkpt>
+      <trkpt lat="49.8172" lon="-119.40339">
+        <ele>718.4</ele>
+      </trkpt>
+      <trkpt lat="49.81722" lon="-119.40319">
+        <ele>719.2</ele>
+      </trkpt>
+      <trkpt lat="49.81716" lon="-119.403">
+        <ele>721.1</ele>
+      </trkpt>
+      <trkpt lat="49.81718" lon="-119.4029">
+        <ele>721.4</ele>
+      </trkpt>
+      <trkpt lat="49.81728" lon="-119.40262">
+        <ele>721.9</ele>
+      </trkpt>
+      <trkpt lat="49.81737" lon="-119.40245">
+        <ele>721.8</ele>
+      </trkpt>
+      <trkpt lat="49.8174" lon="-119.40232">
+        <ele>722.1</ele>
+      </trkpt>
+      <trkpt lat="49.81739" lon="-119.40228">
+        <ele>722.5</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

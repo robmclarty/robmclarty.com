@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>BTA</name>
+    <link href="https://ridewithgps.com/routes/49444662">
+      <text>BTA</text>
+    </link>
+    <time>2025-01-11T15:11:29Z</time>
+  </metadata>
+  <trk>
+    <name>BTA</name>
+    <trkseg>
+      <trkpt lat="49.76939" lon="-119.44982">
+        <ele>988.6</ele>
+      </trkpt>
+      <trkpt lat="49.76957" lon="-119.44953">
+        <ele>985.1</ele>
+      </trkpt>
+      <trkpt lat="49.76991" lon="-119.44935">
+        <ele>981.5</ele>
+      </trkpt>
+      <trkpt lat="49.77027" lon="-119.44936">
+        <ele>978.7</ele>
+      </trkpt>
+      <trkpt lat="49.77056" lon="-119.44933">
+        <ele>975.4</ele>
+      </trkpt>
+      <trkpt lat="49.77079" lon="-119.44925">
+        <ele>971.3</ele>
+      </trkpt>
+      <trkpt lat="49.77109" lon="-119.44935">
+        <ele>969.7</ele>
+      </trkpt>
+      <trkpt lat="49.77128" lon="-119.44945">
+        <ele>969.2</ele>
+      </trkpt>
+      <trkpt lat="49.77154" lon="-119.44938">
+        <ele>964.1</ele>
+      </trkpt>
+      <trkpt lat="49.77168" lon="-119.44901">
+        <ele>953.0</ele>
+      </trkpt>
+      <trkpt lat="49.77198" lon="-119.449">
+        <ele>942.0</ele>
+      </trkpt>
+      <trkpt lat="49.77242" lon="-119.44866">
+        <ele>918.7</ele>
+      </trkpt>
+      <trkpt lat="49.77279" lon="-119.44867">
+        <ele>907.6</ele>
+      </trkpt>
+      <trkpt lat="49.77304" lon="-119.44879">
+        <ele>902.7</ele>
+      </trkpt>
+      <trkpt lat="49.77314" lon="-119.44904">
+        <ele>905.1</ele>
+      </trkpt>
+      <trkpt lat="49.77314" lon="-119.44904">
+        <ele>905.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

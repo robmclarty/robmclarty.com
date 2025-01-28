@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Saddle</name>
+    <link href="https://ridewithgps.com/routes/49557233">
+      <text>Saddle</text>
+    </link>
+    <time>2025-01-26T13:54:31Z</time>
+  </metadata>
+  <trk>
+    <name>Saddle</name>
+    <trkseg>
+      <trkpt lat="49.79208" lon="-119.4158">
+        <ele>908.3</ele>
+      </trkpt>
+      <trkpt lat="49.79208" lon="-119.41582">
+        <ele>908.2</ele>
+      </trkpt>
+      <trkpt lat="49.79196" lon="-119.4161">
+        <ele>908.1</ele>
+      </trkpt>
+      <trkpt lat="49.79158" lon="-119.41673">
+        <ele>907.9</ele>
+      </trkpt>
+      <trkpt lat="49.79136" lon="-119.41695">
+        <ele>909.6</ele>
+      </trkpt>
+      <trkpt lat="49.79098" lon="-119.41743">
+        <ele>910.2</ele>
+      </trkpt>
+      <trkpt lat="49.79089" lon="-119.41757">
+        <ele>910.0</ele>
+      </trkpt>
+      <trkpt lat="49.79079" lon="-119.41777">
+        <ele>910.2</ele>
+      </trkpt>
+      <trkpt lat="49.79075" lon="-119.41796">
+        <ele>909.9</ele>
+      </trkpt>
+      <trkpt lat="49.79075" lon="-119.41804">
+        <ele>909.5</ele>
+      </trkpt>
+      <trkpt lat="49.79078" lon="-119.41839">
+        <ele>907.0</ele>
+      </trkpt>
+      <trkpt lat="49.79081" lon="-119.41851">
+        <ele>906.1</ele>
+      </trkpt>
+      <trkpt lat="49.79088" lon="-119.41865">
+        <ele>904.8</ele>
+      </trkpt>
+      <trkpt lat="49.79091" lon="-119.41877">
+        <ele>904.2</ele>
+      </trkpt>
+      <trkpt lat="49.79094" lon="-119.41895">
+        <ele>903.4</ele>
+      </trkpt>
+      <trkpt lat="49.79092" lon="-119.41938">
+        <ele>901.5</ele>
+      </trkpt>
+      <trkpt lat="49.79088" lon="-119.4197">
+        <ele>899.6</ele>
+      </trkpt>
+      <trkpt lat="49.79084" lon="-119.42013">
+        <ele>896.7</ele>
+      </trkpt>
+      <trkpt lat="49.79085" lon="-119.42041">
+        <ele>893.9</ele>
+      </trkpt>
+      <trkpt lat="49.79092" lon="-119.42084">
+        <ele>889.1</ele>
+      </trkpt>
+      <trkpt lat="49.79093" lon="-119.42085">
+        <ele>889.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

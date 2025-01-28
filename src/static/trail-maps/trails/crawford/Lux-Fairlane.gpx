@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Lux-Fairlane</name>
+    <link href="https://ridewithgps.com/routes/49557394">
+      <text>Lux-Fairlane</text>
+    </link>
+    <time>2025-01-26T14:16:44Z</time>
+  </metadata>
+  <trk>
+    <name>Lux-Fairlane</name>
+    <trkseg>
+      <trkpt lat="49.82272" lon="-119.40886">
+        <ele>594.3</ele>
+      </trkpt>
+      <trkpt lat="49.82282" lon="-119.40876">
+        <ele>594.3</ele>
+      </trkpt>
+      <trkpt lat="49.82279" lon="-119.40861">
+        <ele>595.0</ele>
+      </trkpt>
+      <trkpt lat="49.82281" lon="-119.40842">
+        <ele>595.6</ele>
+      </trkpt>
+      <trkpt lat="49.82277" lon="-119.40829">
+        <ele>596.1</ele>
+      </trkpt>
+      <trkpt lat="49.82283" lon="-119.40811">
+        <ele>596.4</ele>
+      </trkpt>
+      <trkpt lat="49.82281" lon="-119.40801">
+        <ele>596.8</ele>
+      </trkpt>
+      <trkpt lat="49.82276" lon="-119.40782">
+        <ele>597.5</ele>
+      </trkpt>
+      <trkpt lat="49.82277" lon="-119.40743">
+        <ele>598.5</ele>
+      </trkpt>
+      <trkpt lat="49.82282" lon="-119.40714">
+        <ele>598.6</ele>
+      </trkpt>
+      <trkpt lat="49.82276" lon="-119.40671">
+        <ele>599.7</ele>
+      </trkpt>
+      <trkpt lat="49.82276" lon="-119.40671">
+        <ele>599.7</ele>
+      </trkpt>
+      <trkpt lat="49.82271" lon="-119.40642">
+        <ele>600.8</ele>
+      </trkpt>
+      <trkpt lat="49.82263" lon="-119.40619">
+        <ele>602.0</ele>
+      </trkpt>
+      <trkpt lat="49.82255" lon="-119.4061">
+        <ele>602.9</ele>
+      </trkpt>
+      <trkpt lat="49.82251" lon="-119.40591">
+        <ele>603.7</ele>
+      </trkpt>
+      <trkpt lat="49.82246" lon="-119.40574">
+        <ele>604.8</ele>
+      </trkpt>
+      <trkpt lat="49.82236" lon="-119.40556">
+        <ele>606.5</ele>
+      </trkpt>
+      <trkpt lat="49.82237" lon="-119.40555">
+        <ele>606.5</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

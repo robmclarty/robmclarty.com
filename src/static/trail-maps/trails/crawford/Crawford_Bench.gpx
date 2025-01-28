@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Crawford Bench</name>
+    <link href="https://ridewithgps.com/routes/49444465">
+      <text>Crawford Bench</text>
+    </link>
+    <time>2025-01-11T14:43:34Z</time>
+  </metadata>
+  <trk>
+    <name>Crawford Bench</name>
+    <trkseg>
+      <trkpt lat="49.80935" lon="-119.44671">
+        <ele>530.6</ele>
+      </trkpt>
+      <trkpt lat="49.80938" lon="-119.44668">
+        <ele>530.9</ele>
+      </trkpt>
+      <trkpt lat="49.80955" lon="-119.44655">
+        <ele>531.9</ele>
+      </trkpt>
+      <trkpt lat="49.80974" lon="-119.44639">
+        <ele>533.2</ele>
+      </trkpt>
+      <trkpt lat="49.80988" lon="-119.44619">
+        <ele>534.9</ele>
+      </trkpt>
+      <trkpt lat="49.8101" lon="-119.44588">
+        <ele>536.9</ele>
+      </trkpt>
+      <trkpt lat="49.81015" lon="-119.44573">
+        <ele>537.7</ele>
+      </trkpt>
+      <trkpt lat="49.81016" lon="-119.44553">
+        <ele>539.2</ele>
+      </trkpt>
+      <trkpt lat="49.8103" lon="-119.44535">
+        <ele>539.9</ele>
+      </trkpt>
+      <trkpt lat="49.8105" lon="-119.4452">
+        <ele>540.3</ele>
+      </trkpt>
+      <trkpt lat="49.81072" lon="-119.44501">
+        <ele>541.3</ele>
+      </trkpt>
+      <trkpt lat="49.81084" lon="-119.44497">
+        <ele>541.2</ele>
+      </trkpt>
+      <trkpt lat="49.81091" lon="-119.44492">
+        <ele>540.4</ele>
+      </trkpt>
+      <trkpt lat="49.81116" lon="-119.44464">
+        <ele>538.2</ele>
+      </trkpt>
+      <trkpt lat="49.81121" lon="-119.44455">
+        <ele>538.0</ele>
+      </trkpt>
+      <trkpt lat="49.8113" lon="-119.44415">
+        <ele>539.6</ele>
+      </trkpt>
+      <trkpt lat="49.81145" lon="-119.4437">
+        <ele>540.4</ele>
+      </trkpt>
+      <trkpt lat="49.81155" lon="-119.44309">
+        <ele>542.1</ele>
+      </trkpt>
+      <trkpt lat="49.81155" lon="-119.44309">
+        <ele>542.1</ele>
+      </trkpt>
+      <trkpt lat="49.81159" lon="-119.44284">
+        <ele>542.3</ele>
+      </trkpt>
+      <trkpt lat="49.81174" lon="-119.44253">
+        <ele>540.8</ele>
+      </trkpt>
+      <trkpt lat="49.81194" lon="-119.44195">
+        <ele>543.1</ele>
+      </trkpt>
+      <trkpt lat="49.81212" lon="-119.44153">
+        <ele>544.4</ele>
+      </trkpt>
+      <trkpt lat="49.81215" lon="-119.44142">
+        <ele>545.2</ele>
+      </trkpt>
+      <trkpt lat="49.81215" lon="-119.44143">
+        <ele>545.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Soul Train Climb</name>
+    <link href="https://ridewithgps.com/routes/49444757">
+      <text>Soul Train Climb</text>
+    </link>
+    <time>2025-01-11T15:25:46Z</time>
+  </metadata>
+  <trk>
+    <name>Soul Train Climb</name>
+    <trkseg>
+      <trkpt lat="49.87487" lon="-119.65128">
+        <ele>1104.4</ele>
+      </trkpt>
+      <trkpt lat="49.87495" lon="-119.6515">
+        <ele>1105.6</ele>
+      </trkpt>
+      <trkpt lat="49.8751" lon="-119.65146">
+        <ele>1106.5</ele>
+      </trkpt>
+      <trkpt lat="49.87522" lon="-119.65159">
+        <ele>1106.6</ele>
+      </trkpt>
+      <trkpt lat="49.8753" lon="-119.65163">
+        <ele>1106.6</ele>
+      </trkpt>
+      <trkpt lat="49.8754" lon="-119.65159">
+        <ele>1107.0</ele>
+      </trkpt>
+      <trkpt lat="49.87579" lon="-119.65195">
+        <ele>1105.4</ele>
+      </trkpt>
+      <trkpt lat="49.87598" lon="-119.65201">
+        <ele>1105.6</ele>
+      </trkpt>
+      <trkpt lat="49.87625" lon="-119.65181">
+        <ele>1108.4</ele>
+      </trkpt>
+      <trkpt lat="49.8763" lon="-119.65154">
+        <ele>1111.5</ele>
+      </trkpt>
+      <trkpt lat="49.87631" lon="-119.65142">
+        <ele>1113.2</ele>
+      </trkpt>
+      <trkpt lat="49.87634" lon="-119.65135">
+        <ele>1114.4</ele>
+      </trkpt>
+      <trkpt lat="49.87642" lon="-119.65133">
+        <ele>1115.1</ele>
+      </trkpt>
+      <trkpt lat="49.87666" lon="-119.65116">
+        <ele>1118.7</ele>
+      </trkpt>
+      <trkpt lat="49.87666" lon="-119.65116">
+        <ele>1118.7</ele>
+      </trkpt>
+      <trkpt lat="49.87711" lon="-119.65084">
+        <ele>1123.4</ele>
+      </trkpt>
+      <trkpt lat="49.87722" lon="-119.65054">
+        <ele>1128.6</ele>
+      </trkpt>
+      <trkpt lat="49.87747" lon="-119.65022">
+        <ele>1133.6</ele>
+      </trkpt>
+      <trkpt lat="49.87708" lon="-119.65016">
+        <ele>1135.2</ele>
+      </trkpt>
+      <trkpt lat="49.87667" lon="-119.65017">
+        <ele>1135.7</ele>
+      </trkpt>
+      <trkpt lat="49.87673" lon="-119.65009">
+        <ele>1137.1</ele>
+      </trkpt>
+      <trkpt lat="49.87684" lon="-119.65011">
+        <ele>1136.6</ele>
+      </trkpt>
+      <trkpt lat="49.87707" lon="-119.64993">
+        <ele>1139.6</ele>
+      </trkpt>
+      <trkpt lat="49.87736" lon="-119.64969">
+        <ele>1143.0</ele>
+      </trkpt>
+      <trkpt lat="49.87743" lon="-119.64961">
+        <ele>1144.0</ele>
+      </trkpt>
+      <trkpt lat="49.87747" lon="-119.6495">
+        <ele>1145.6</ele>
+      </trkpt>
+      <trkpt lat="49.87742" lon="-119.6495">
+        <ele>1146.1</ele>
+      </trkpt>
+      <trkpt lat="49.87728" lon="-119.64962">
+        <ele>1144.9</ele>
+      </trkpt>
+      <trkpt lat="49.87723" lon="-119.64962">
+        <ele>1145.2</ele>
+      </trkpt>
+      <trkpt lat="49.87722" lon="-119.64956">
+        <ele>1146.5</ele>
+      </trkpt>
+      <trkpt lat="49.87731" lon="-119.64953">
+        <ele>1146.4</ele>
+      </trkpt>
+      <trkpt lat="49.87747" lon="-119.64935">
+        <ele>1148.2</ele>
+      </trkpt>
+      <trkpt lat="49.87757" lon="-119.64911">
+        <ele>1150.4</ele>
+      </trkpt>
+      <trkpt lat="49.87765" lon="-119.64888">
+        <ele>1151.2</ele>
+      </trkpt>
+      <trkpt lat="49.87764" lon="-119.64864">
+        <ele>1153.6</ele>
+      </trkpt>
+      <trkpt lat="49.87761" lon="-119.64865">
+        <ele>1154.0</ele>
+      </trkpt>
+      <trkpt lat="49.87755" lon="-119.64877">
+        <ele>1153.9</ele>
+      </trkpt>
+      <trkpt lat="49.87746" lon="-119.64877">
+        <ele>1155.1</ele>
+      </trkpt>
+      <trkpt lat="49.87747" lon="-119.64866">
+        <ele>1156.1</ele>
+      </trkpt>
+      <trkpt lat="49.87739" lon="-119.64856">
+        <ele>1157.6</ele>
+      </trkpt>
+      <trkpt lat="49.87706" lon="-119.64835">
+        <ele>1161.0</ele>
+      </trkpt>
+      <trkpt lat="49.87695" lon="-119.64841">
+        <ele>1161.3</ele>
+      </trkpt>
+      <trkpt lat="49.87683" lon="-119.64851">
+        <ele>1161.5</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

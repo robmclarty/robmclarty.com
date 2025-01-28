@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Lower Casino Royale</name>
+    <link href="https://ridewithgps.com/routes/49444690">
+      <text>Lower Casino Royale</text>
+    </link>
+    <time>2025-01-11T15:15:27Z</time>
+  </metadata>
+  <trk>
+    <name>Lower Casino Royale</name>
+    <trkseg>
+      <trkpt lat="49.7741" lon="-119.47051">
+        <ele>966.9</ele>
+      </trkpt>
+      <trkpt lat="49.77409" lon="-119.47056">
+        <ele>967.3</ele>
+      </trkpt>
+      <trkpt lat="49.77449" lon="-119.47041">
+        <ele>961.2</ele>
+      </trkpt>
+      <trkpt lat="49.77475" lon="-119.47055">
+        <ele>958.4</ele>
+      </trkpt>
+      <trkpt lat="49.77496" lon="-119.47058">
+        <ele>955.6</ele>
+      </trkpt>
+      <trkpt lat="49.77525" lon="-119.4708">
+        <ele>952.3</ele>
+      </trkpt>
+      <trkpt lat="49.77557" lon="-119.47067">
+        <ele>947.3</ele>
+      </trkpt>
+      <trkpt lat="49.77593" lon="-119.47057">
+        <ele>942.3</ele>
+      </trkpt>
+      <trkpt lat="49.77625" lon="-119.47074">
+        <ele>938.9</ele>
+      </trkpt>
+      <trkpt lat="49.77705" lon="-119.47061">
+        <ele>933.4</ele>
+      </trkpt>
+      <trkpt lat="49.77732" lon="-119.47086">
+        <ele>933.2</ele>
+      </trkpt>
+      <trkpt lat="49.77756" lon="-119.47017">
+        <ele>930.6</ele>
+      </trkpt>
+      <trkpt lat="49.77772" lon="-119.47012">
+        <ele>928.4</ele>
+      </trkpt>
+      <trkpt lat="49.77807" lon="-119.46988">
+        <ele>923.1</ele>
+      </trkpt>
+      <trkpt lat="49.77813" lon="-119.46947">
+        <ele>921.3</ele>
+      </trkpt>
+      <trkpt lat="49.77811" lon="-119.46919">
+        <ele>920.7</ele>
+      </trkpt>
+      <trkpt lat="49.77795" lon="-119.46893">
+        <ele>921.5</ele>
+      </trkpt>
+      <trkpt lat="49.77794" lon="-119.46892">
+        <ele>921.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

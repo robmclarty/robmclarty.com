@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Rock Candy</name>
+    <link href="https://ridewithgps.com/routes/49444915">
+      <text>Rock Candy</text>
+    </link>
+    <time>2025-01-11T15:51:19Z</time>
+  </metadata>
+  <trk>
+    <name>Rock Candy</name>
+    <trkseg>
+      <trkpt lat="49.88814" lon="-119.57939">
+        <ele>634.8</ele>
+      </trkpt>
+      <trkpt lat="49.88812" lon="-119.57923">
+        <ele>626.7</ele>
+      </trkpt>
+      <trkpt lat="49.88811" lon="-119.5791">
+        <ele>621.6</ele>
+      </trkpt>
+      <trkpt lat="49.88809" lon="-119.57905">
+        <ele>619.5</ele>
+      </trkpt>
+      <trkpt lat="49.88801" lon="-119.57904">
+        <ele>616.2</ele>
+      </trkpt>
+      <trkpt lat="49.88783" lon="-119.57915">
+        <ele>612.2</ele>
+      </trkpt>
+      <trkpt lat="49.88769" lon="-119.5792">
+        <ele>608.9</ele>
+      </trkpt>
+      <trkpt lat="49.88769" lon="-119.5792">
+        <ele>608.9</ele>
+      </trkpt>
+      <trkpt lat="49.88757" lon="-119.57925">
+        <ele>606.6</ele>
+      </trkpt>
+      <trkpt lat="49.8875" lon="-119.57926">
+        <ele>604.4</ele>
+      </trkpt>
+      <trkpt lat="49.88743" lon="-119.57923">
+        <ele>601.4</ele>
+      </trkpt>
+      <trkpt lat="49.8874" lon="-119.57916">
+        <ele>597.6</ele>
+      </trkpt>
+      <trkpt lat="49.88741" lon="-119.57902">
+        <ele>594.6</ele>
+      </trkpt>
+      <trkpt lat="49.8874" lon="-119.57893">
+        <ele>592.3</ele>
+      </trkpt>
+      <trkpt lat="49.88735" lon="-119.57888">
+        <ele>590.1</ele>
+      </trkpt>
+      <trkpt lat="49.88722" lon="-119.57883">
+        <ele>586.5</ele>
+      </trkpt>
+      <trkpt lat="49.88716" lon="-119.57876">
+        <ele>583.9</ele>
+      </trkpt>
+      <trkpt lat="49.88708" lon="-119.57859">
+        <ele>579.0</ele>
+      </trkpt>
+      <trkpt lat="49.88696" lon="-119.5785">
+        <ele>575.3</ele>
+      </trkpt>
+      <trkpt lat="49.88681" lon="-119.57847">
+        <ele>572.4</ele>
+      </trkpt>
+      <trkpt lat="49.88682" lon="-119.57847">
+        <ele>572.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

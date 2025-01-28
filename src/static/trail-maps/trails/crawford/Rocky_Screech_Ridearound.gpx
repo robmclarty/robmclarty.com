@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Rocky Screech Ridearound</name>
+    <link href="https://ridewithgps.com/routes/49557311">
+      <text>Rocky Screech Ridearound</text>
+    </link>
+    <time>2025-01-26T14:03:30Z</time>
+  </metadata>
+  <trk>
+    <name>Rocky Screech Ridearound</name>
+    <trkseg>
+      <trkpt lat="49.80893" lon="-119.43524">
+        <ele>652.4</ele>
+      </trkpt>
+      <trkpt lat="49.80893" lon="-119.43524">
+        <ele>652.4</ele>
+      </trkpt>
+      <trkpt lat="49.80902" lon="-119.43529">
+        <ele>650.9</ele>
+      </trkpt>
+      <trkpt lat="49.80925" lon="-119.4352">
+        <ele>648.0</ele>
+      </trkpt>
+      <trkpt lat="49.80948" lon="-119.43522">
+        <ele>642.2</ele>
+      </trkpt>
+      <trkpt lat="49.80961" lon="-119.43518">
+        <ele>639.4</ele>
+      </trkpt>
+      <trkpt lat="49.80972" lon="-119.43512">
+        <ele>637.4</ele>
+      </trkpt>
+      <trkpt lat="49.80983" lon="-119.4352">
+        <ele>633.8</ele>
+      </trkpt>
+      <trkpt lat="49.80988" lon="-119.43529">
+        <ele>631.5</ele>
+      </trkpt>
+      <trkpt lat="49.80987" lon="-119.43565">
+        <ele>627.6</ele>
+      </trkpt>
+      <trkpt lat="49.80991" lon="-119.43595">
+        <ele>623.2</ele>
+      </trkpt>
+      <trkpt lat="49.80991" lon="-119.43624">
+        <ele>620.2</ele>
+      </trkpt>
+      <trkpt lat="49.80993" lon="-119.43633">
+        <ele>618.8</ele>
+      </trkpt>
+      <trkpt lat="49.80993" lon="-119.43642">
+        <ele>617.9</ele>
+      </trkpt>
+      <trkpt lat="49.8099" lon="-119.43649">
+        <ele>617.9</ele>
+      </trkpt>
+      <trkpt lat="49.80997" lon="-119.43682">
+        <ele>612.9</ele>
+      </trkpt>
+      <trkpt lat="49.80995" lon="-119.43705">
+        <ele>610.6</ele>
+      </trkpt>
+      <trkpt lat="49.80995" lon="-119.43705">
+        <ele>610.6</ele>
+      </trkpt>
+      <trkpt lat="49.80999" lon="-119.4372">
+        <ele>608.4</ele>
+      </trkpt>
+      <trkpt lat="49.8101" lon="-119.43722">
+        <ele>606.9</ele>
+      </trkpt>
+      <trkpt lat="49.81012" lon="-119.4373">
+        <ele>605.8</ele>
+      </trkpt>
+      <trkpt lat="49.81007" lon="-119.43749">
+        <ele>604.3</ele>
+      </trkpt>
+      <trkpt lat="49.81006" lon="-119.43761">
+        <ele>603.5</ele>
+      </trkpt>
+      <trkpt lat="49.81004" lon="-119.43773">
+        <ele>602.9</ele>
+      </trkpt>
+      <trkpt lat="49.80995" lon="-119.43788">
+        <ele>602.6</ele>
+      </trkpt>
+      <trkpt lat="49.80991" lon="-119.43811">
+        <ele>601.0</ele>
+      </trkpt>
+      <trkpt lat="49.80986" lon="-119.43828">
+        <ele>599.8</ele>
+      </trkpt>
+      <trkpt lat="49.80986" lon="-119.43829">
+        <ele>599.7</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

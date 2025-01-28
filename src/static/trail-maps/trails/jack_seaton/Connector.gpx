@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Connector</name>
+    <link href="https://ridewithgps.com/routes/49556914">
+      <text>Connector</text>
+    </link>
+    <time>2025-01-26T13:06:18Z</time>
+  </metadata>
+  <trk>
+    <name>Connector</name>
+    <trkseg>
+      <trkpt lat="50.04013" lon="-119.43576">
+        <ele>551.3</ele>
+      </trkpt>
+      <trkpt lat="50.04026" lon="-119.43591">
+        <ele>550.7</ele>
+      </trkpt>
+      <trkpt lat="50.04036" lon="-119.43598">
+        <ele>550.4</ele>
+      </trkpt>
+      <trkpt lat="50.04046" lon="-119.43589">
+        <ele>550.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

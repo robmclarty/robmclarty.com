@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Old Resevoir</name>
+    <link href="https://ridewithgps.com/routes/49556896">
+      <text>Old Resevoir</text>
+    </link>
+    <time>2025-01-26T13:04:13Z</time>
+  </metadata>
+  <trk>
+    <name>Old Resevoir</name>
+    <trkseg>
+      <trkpt lat="50.03793" lon="-119.43755">
+        <ele>548.7</ele>
+      </trkpt>
+      <trkpt lat="50.03792" lon="-119.4376">
+        <ele>548.3</ele>
+      </trkpt>
+      <trkpt lat="50.03785" lon="-119.43781">
+        <ele>546.7</ele>
+      </trkpt>
+      <trkpt lat="50.03785" lon="-119.43787">
+        <ele>546.3</ele>
+      </trkpt>
+      <trkpt lat="50.03784" lon="-119.43789">
+        <ele>546.2</ele>
+      </trkpt>
+      <trkpt lat="50.0378" lon="-119.43799">
+        <ele>545.5</ele>
+      </trkpt>
+      <trkpt lat="50.0378" lon="-119.43804">
+        <ele>545.2</ele>
+      </trkpt>
+      <trkpt lat="50.03783" lon="-119.4382">
+        <ele>544.1</ele>
+      </trkpt>
+      <trkpt lat="50.03781" lon="-119.43829">
+        <ele>543.5</ele>
+      </trkpt>
+      <trkpt lat="50.03778" lon="-119.43835">
+        <ele>543.1</ele>
+      </trkpt>
+      <trkpt lat="50.0377" lon="-119.43845">
+        <ele>541.7</ele>
+      </trkpt>
+      <trkpt lat="50.03759" lon="-119.43851">
+        <ele>541.1</ele>
+      </trkpt>
+      <trkpt lat="50.03751" lon="-119.43851">
+        <ele>541.2</ele>
+      </trkpt>
+      <trkpt lat="50.03747" lon="-119.43853">
+        <ele>541.0</ele>
+      </trkpt>
+      <trkpt lat="50.03744" lon="-119.43858">
+        <ele>540.2</ele>
+      </trkpt>
+      <trkpt lat="50.03744" lon="-119.43862">
+        <ele>539.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

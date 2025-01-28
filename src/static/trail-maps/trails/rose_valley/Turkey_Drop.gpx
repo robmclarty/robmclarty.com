@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Turkey Drop</name>
+    <link href="https://ridewithgps.com/routes/49557596">
+      <text>Turkey Drop</text>
+    </link>
+    <time>2025-01-26T14:53:50Z</time>
+  </metadata>
+  <trk>
+    <name>Turkey Drop</name>
+    <trkseg>
+      <trkpt lat="49.91272" lon="-119.54647">
+        <ele>716.6</ele>
+      </trkpt>
+      <trkpt lat="49.91263" lon="-119.54662">
+        <ele>721.9</ele>
+      </trkpt>
+      <trkpt lat="49.91234" lon="-119.54697">
+        <ele>723.1</ele>
+      </trkpt>
+      <trkpt lat="49.91219" lon="-119.54705">
+        <ele>721.7</ele>
+      </trkpt>
+      <trkpt lat="49.91211" lon="-119.54715">
+        <ele>721.6</ele>
+      </trkpt>
+      <trkpt lat="49.91203" lon="-119.54731">
+        <ele>722.3</ele>
+      </trkpt>
+      <trkpt lat="49.91188" lon="-119.54741">
+        <ele>721.5</ele>
+      </trkpt>
+      <trkpt lat="49.9117" lon="-119.54765">
+        <ele>721.1</ele>
+      </trkpt>
+      <trkpt lat="49.91158" lon="-119.54777">
+        <ele>719.5</ele>
+      </trkpt>
+      <trkpt lat="49.91146" lon="-119.54782">
+        <ele>717.2</ele>
+      </trkpt>
+      <trkpt lat="49.91131" lon="-119.54803">
+        <ele>715.9</ele>
+      </trkpt>
+      <trkpt lat="49.91102" lon="-119.54821">
+        <ele>712.5</ele>
+      </trkpt>
+      <trkpt lat="49.91102" lon="-119.54821">
+        <ele>712.5</ele>
+      </trkpt>
+      <trkpt lat="49.91049" lon="-119.54844">
+        <ele>706.8</ele>
+      </trkpt>
+      <trkpt lat="49.91024" lon="-119.54856">
+        <ele>704.6</ele>
+      </trkpt>
+      <trkpt lat="49.90992" lon="-119.54858">
+        <ele>700.8</ele>
+      </trkpt>
+      <trkpt lat="49.90986" lon="-119.5486">
+        <ele>700.5</ele>
+      </trkpt>
+      <trkpt lat="49.90978" lon="-119.54871">
+        <ele>701.3</ele>
+      </trkpt>
+      <trkpt lat="49.90966" lon="-119.54869">
+        <ele>699.9</ele>
+      </trkpt>
+      <trkpt lat="49.90947" lon="-119.54851">
+        <ele>695.5</ele>
+      </trkpt>
+      <trkpt lat="49.9092" lon="-119.54843">
+        <ele>691.7</ele>
+      </trkpt>
+      <trkpt lat="49.9091" lon="-119.54841">
+        <ele>690.6</ele>
+      </trkpt>
+      <trkpt lat="49.90887" lon="-119.54819">
+        <ele>685.6</ele>
+      </trkpt>
+      <trkpt lat="49.90864" lon="-119.54809">
+        <ele>682.4</ele>
+      </trkpt>
+      <trkpt lat="49.90831" lon="-119.54829">
+        <ele>682.2</ele>
+      </trkpt>
+      <trkpt lat="49.90788" lon="-119.54854">
+        <ele>681.5</ele>
+      </trkpt>
+      <trkpt lat="49.90772" lon="-119.54854">
+        <ele>679.8</ele>
+      </trkpt>
+      <trkpt lat="49.90761" lon="-119.54858">
+        <ele>679.1</ele>
+      </trkpt>
+      <trkpt lat="49.90761" lon="-119.54858">
+        <ele>679.1</ele>
+      </trkpt>
+      <trkpt lat="49.90747" lon="-119.54862">
+        <ele>677.8</ele>
+      </trkpt>
+      <trkpt lat="49.90727" lon="-119.54875">
+        <ele>675.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

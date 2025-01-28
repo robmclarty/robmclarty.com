@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Angel Springs Alt</name>
+    <link href="https://ridewithgps.com/routes/49557411">
+      <text>Angel Springs Alt</text>
+    </link>
+    <time>2025-01-26T14:19:50Z</time>
+  </metadata>
+  <trk>
+    <name>Angel Springs Alt</name>
+    <trkseg>
+      <trkpt lat="49.79809" lon="-119.34836">
+        <ele>1172.2</ele>
+      </trkpt>
+      <trkpt lat="49.79816" lon="-119.34793">
+        <ele>1163.3</ele>
+      </trkpt>
+      <trkpt lat="49.79814" lon="-119.34755">
+        <ele>1157.6</ele>
+      </trkpt>
+      <trkpt lat="49.79843" lon="-119.34745">
+        <ele>1147.4</ele>
+      </trkpt>
+      <trkpt lat="49.79871" lon="-119.34755">
+        <ele>1144.1</ele>
+      </trkpt>
+      <trkpt lat="49.79899" lon="-119.34771">
+        <ele>1140.5</ele>
+      </trkpt>
+      <trkpt lat="49.79926" lon="-119.34782">
+        <ele>1135.3</ele>
+      </trkpt>
+      <trkpt lat="49.79991" lon="-119.34862">
+        <ele>1120.9</ele>
+      </trkpt>
+      <trkpt lat="49.79999" lon="-119.34888">
+        <ele>1118.3</ele>
+      </trkpt>
+      <trkpt lat="49.80025" lon="-119.34916">
+        <ele>1109.0</ele>
+      </trkpt>
+      <trkpt lat="49.80044" lon="-119.34926">
+        <ele>1102.4</ele>
+      </trkpt>
+      <trkpt lat="49.80053" lon="-119.34955">
+        <ele>1100.0</ele>
+      </trkpt>
+      <trkpt lat="49.8006" lon="-119.34971">
+        <ele>1098.0</ele>
+      </trkpt>
+      <trkpt lat="49.8008" lon="-119.34976">
+        <ele>1091.3</ele>
+      </trkpt>
+      <trkpt lat="49.80094" lon="-119.34971">
+        <ele>1085.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

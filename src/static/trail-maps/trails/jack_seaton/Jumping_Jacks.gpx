@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Jumping Jacks</name>
+    <link href="https://ridewithgps.com/routes/49444891">
+      <text>Jumping Jacks</text>
+    </link>
+    <time>2025-01-11T15:46:13Z</time>
+  </metadata>
+  <trk>
+    <name>Jumping Jacks</name>
+    <trkseg>
+      <trkpt lat="50.0353" lon="-119.432545">
+        <ele>583.2</ele>
+      </trkpt>
+      <trkpt lat="50.035298" lon="-119.432781">
+        <ele>582.3</ele>
+      </trkpt>
+      <trkpt lat="50.035298" lon="-119.432781">
+        <ele>582.3</ele>
+      </trkpt>
+      <trkpt lat="50.035476" lon="-119.432502">
+        <ele>580.6</ele>
+      </trkpt>
+      <trkpt lat="50.035476" lon="-119.432502">
+        <ele>580.6</ele>
+      </trkpt>
+      <trkpt lat="50.035412" lon="-119.433038">
+        <ele>579.6</ele>
+      </trkpt>
+      <trkpt lat="50.035412" lon="-119.433038">
+        <ele>579.6</ele>
+      </trkpt>
+      <trkpt lat="50.035621" lon="-119.432636">
+        <ele>577.8</ele>
+      </trkpt>
+      <trkpt lat="50.035621" lon="-119.432636">
+        <ele>577.8</ele>
+      </trkpt>
+      <trkpt lat="50.035602" lon="-119.433355">
+        <ele>575.4</ele>
+      </trkpt>
+      <trkpt lat="50.035602" lon="-119.433355">
+        <ele>575.4</ele>
+      </trkpt>
+      <trkpt lat="50.035603" lon="-119.433848">
+        <ele>571.7</ele>
+      </trkpt>
+      <trkpt lat="50.035603" lon="-119.433848">
+        <ele>571.7</ele>
+      </trkpt>
+      <trkpt lat="50.035826" lon="-119.433714">
+        <ele>569.4</ele>
+      </trkpt>
+      <trkpt lat="50.035826" lon="-119.433714">
+        <ele>569.4</ele>
+      </trkpt>
+      <trkpt lat="50.035869" lon="-119.433827">
+        <ele>568.1</ele>
+      </trkpt>
+      <trkpt lat="50.035869" lon="-119.433827">
+        <ele>568.1</ele>
+      </trkpt>
+      <trkpt lat="50.035674" lon="-119.434015">
+        <ele>569.4</ele>
+      </trkpt>
+      <trkpt lat="50.035674" lon="-119.434015">
+        <ele>569.4</ele>
+      </trkpt>
+      <trkpt lat="50.03561" lon="-119.434127">
+        <ele>569.5</ele>
+      </trkpt>
+      <trkpt lat="50.03561" lon="-119.434127">
+        <ele>569.5</ele>
+      </trkpt>
+      <trkpt lat="50.035681" lon="-119.434149">
+        <ele>568.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

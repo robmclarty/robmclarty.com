@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Woolley Alt</name>
+    <link href="https://ridewithgps.com/routes/49557447">
+      <text>Woolley Alt</text>
+    </link>
+    <time>2025-01-26T14:25:17Z</time>
+  </metadata>
+  <trk>
+    <name>Woolley Alt</name>
+    <trkseg>
+      <trkpt lat="49.80779" lon="-119.42226">
+        <ele>680.6</ele>
+      </trkpt>
+      <trkpt lat="49.80767" lon="-119.42251">
+        <ele>678.9</ele>
+      </trkpt>
+      <trkpt lat="49.80765" lon="-119.42265">
+        <ele>677.7</ele>
+      </trkpt>
+      <trkpt lat="49.80769" lon="-119.42284">
+        <ele>675.4</ele>
+      </trkpt>
+      <trkpt lat="49.80773" lon="-119.42293">
+        <ele>674.2</ele>
+      </trkpt>
+      <trkpt lat="49.80777" lon="-119.42299">
+        <ele>673.2</ele>
+      </trkpt>
+      <trkpt lat="49.80791" lon="-119.4231">
+        <ele>671.0</ele>
+      </trkpt>
+      <trkpt lat="49.80797" lon="-119.42332">
+        <ele>668.7</ele>
+      </trkpt>
+      <trkpt lat="49.80803" lon="-119.42346">
+        <ele>667.4</ele>
+      </trkpt>
+      <trkpt lat="49.80813" lon="-119.42361">
+        <ele>665.8</ele>
+      </trkpt>
+      <trkpt lat="49.8082" lon="-119.42376">
+        <ele>664.4</ele>
+      </trkpt>
+      <trkpt lat="49.80824" lon="-119.42396">
+        <ele>662.9</ele>
+      </trkpt>
+      <trkpt lat="49.80824" lon="-119.42414">
+        <ele>661.8</ele>
+      </trkpt>
+      <trkpt lat="49.80822" lon="-119.42428">
+        <ele>661.1</ele>
+      </trkpt>
+      <trkpt lat="49.80811" lon="-119.4246">
+        <ele>660.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

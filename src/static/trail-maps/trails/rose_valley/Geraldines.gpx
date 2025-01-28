@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Geraldines</name>
+    <link href="https://ridewithgps.com/routes/49557585">
+      <text>Geraldines</text>
+    </link>
+    <time>2025-01-26T14:51:18Z</time>
+  </metadata>
+  <trk>
+    <name>Geraldines</name>
+    <trkseg>
+      <trkpt lat="49.9004" lon="-119.55892">
+        <ele>684.7</ele>
+      </trkpt>
+      <trkpt lat="49.90039" lon="-119.55893">
+        <ele>684.6</ele>
+      </trkpt>
+      <trkpt lat="49.90029" lon="-119.55884">
+        <ele>686.3</ele>
+      </trkpt>
+      <trkpt lat="49.90016" lon="-119.55876">
+        <ele>687.7</ele>
+      </trkpt>
+      <trkpt lat="49.90001" lon="-119.55878">
+        <ele>688.2</ele>
+      </trkpt>
+      <trkpt lat="49.89979" lon="-119.55871">
+        <ele>688.4</ele>
+      </trkpt>
+      <trkpt lat="49.89965" lon="-119.55878">
+        <ele>687.6</ele>
+      </trkpt>
+      <trkpt lat="49.89965" lon="-119.55877">
+        <ele>687.7</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

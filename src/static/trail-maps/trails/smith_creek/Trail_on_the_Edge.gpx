@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Trail on the Edge</name>
+    <link href="https://ridewithgps.com/routes/49557462">
+      <text>Trail on the Edge</text>
+    </link>
+    <time>2025-01-26T14:28:53Z</time>
+  </metadata>
+  <trk>
+    <name>Trail on the Edge</name>
+    <trkseg>
+      <trkpt lat="49.855" lon="-119.66356">
+        <ele>665.5</ele>
+      </trkpt>
+      <trkpt lat="49.85462" lon="-119.66392">
+        <ele>663.7</ele>
+      </trkpt>
+      <trkpt lat="49.85447" lon="-119.66411">
+        <ele>663.6</ele>
+      </trkpt>
+      <trkpt lat="49.85441" lon="-119.66443">
+        <ele>664.6</ele>
+      </trkpt>
+      <trkpt lat="49.85436" lon="-119.66488">
+        <ele>666.1</ele>
+      </trkpt>
+      <trkpt lat="49.85431" lon="-119.66517">
+        <ele>664.6</ele>
+      </trkpt>
+      <trkpt lat="49.85428" lon="-119.66565">
+        <ele>659.4</ele>
+      </trkpt>
+      <trkpt lat="49.85436" lon="-119.66584">
+        <ele>659.3</ele>
+      </trkpt>
+      <trkpt lat="49.85487" lon="-119.66684">
+        <ele>662.8</ele>
+      </trkpt>
+      <trkpt lat="49.85495" lon="-119.66711">
+        <ele>662.1</ele>
+      </trkpt>
+      <trkpt lat="49.85518" lon="-119.66739">
+        <ele>664.3</ele>
+      </trkpt>
+      <trkpt lat="49.85525" lon="-119.66753">
+        <ele>664.3</ele>
+      </trkpt>
+      <trkpt lat="49.85525" lon="-119.66753">
+        <ele>664.3</ele>
+      </trkpt>
+      <trkpt lat="49.8555" lon="-119.66805">
+        <ele>664.6</ele>
+      </trkpt>
+      <trkpt lat="49.85567" lon="-119.66818">
+        <ele>669.1</ele>
+      </trkpt>
+      <trkpt lat="49.8559" lon="-119.66817">
+        <ele>675.2</ele>
+      </trkpt>
+      <trkpt lat="49.85599" lon="-119.66799">
+        <ele>676.7</ele>
+      </trkpt>
+      <trkpt lat="49.85605" lon="-119.66776">
+        <ele>678.1</ele>
+      </trkpt>
+      <trkpt lat="49.85635" lon="-119.66762">
+        <ele>680.6</ele>
+      </trkpt>
+      <trkpt lat="49.8565" lon="-119.66749">
+        <ele>682.0</ele>
+      </trkpt>
+      <trkpt lat="49.85671" lon="-119.66736">
+        <ele>683.7</ele>
+      </trkpt>
+      <trkpt lat="49.85693" lon="-119.66713">
+        <ele>686.0</ele>
+      </trkpt>
+      <trkpt lat="49.85706" lon="-119.66705">
+        <ele>687.2</ele>
+      </trkpt>
+      <trkpt lat="49.85706" lon="-119.66705">
+        <ele>687.2</ele>
+      </trkpt>
+      <trkpt lat="49.85708" lon="-119.66704">
+        <ele>687.4</ele>
+      </trkpt>
+      <trkpt lat="49.85718" lon="-119.66691">
+        <ele>688.1</ele>
+      </trkpt>
+      <trkpt lat="49.85736" lon="-119.66701">
+        <ele>690.0</ele>
+      </trkpt>
+      <trkpt lat="49.85755" lon="-119.66694">
+        <ele>691.8</ele>
+      </trkpt>
+      <trkpt lat="49.85768" lon="-119.66695">
+        <ele>693.8</ele>
+      </trkpt>
+      <trkpt lat="49.85775" lon="-119.66693">
+        <ele>694.9</ele>
+      </trkpt>
+      <trkpt lat="49.85791" lon="-119.66684">
+        <ele>697.2</ele>
+      </trkpt>
+      <trkpt lat="49.85791" lon="-119.66682">
+        <ele>697.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Kid Dyno to Soul Trail Connector</name>
+    <link href="https://ridewithgps.com/routes/49444754">
+      <text>Kid Dyno to Soul Trail Connector</text>
+    </link>
+    <time>2025-01-11T15:25:23Z</time>
+  </metadata>
+  <trk>
+    <name>Kid Dyno to Soul Trail Connector</name>
+    <trkseg>
+      <trkpt lat="49.87436" lon="-119.65294">
+        <ele>1120.3</ele>
+      </trkpt>
+      <trkpt lat="49.87436" lon="-119.65294">
+        <ele>1120.3</ele>
+      </trkpt>
+      <trkpt lat="49.87451" lon="-119.65284">
+        <ele>1118.1</ele>
+      </trkpt>
+      <trkpt lat="49.87463" lon="-119.65274">
+        <ele>1116.3</ele>
+      </trkpt>
+      <trkpt lat="49.87474" lon="-119.65279">
+        <ele>1115.7</ele>
+      </trkpt>
+      <trkpt lat="49.87486" lon="-119.65282">
+        <ele>1114.8</ele>
+      </trkpt>
+      <trkpt lat="49.87503" lon="-119.65277">
+        <ele>1112.9</ele>
+      </trkpt>
+      <trkpt lat="49.87511" lon="-119.65258">
+        <ele>1111.0</ele>
+      </trkpt>
+      <trkpt lat="49.87501" lon="-119.65234">
+        <ele>1110.8</ele>
+      </trkpt>
+      <trkpt lat="49.87491" lon="-119.65218">
+        <ele>1110.0</ele>
+      </trkpt>
+      <trkpt lat="49.87481" lon="-119.65193">
+        <ele>1107.9</ele>
+      </trkpt>
+      <trkpt lat="49.87478" lon="-119.65173">
+        <ele>1105.8</ele>
+      </trkpt>
+      <trkpt lat="49.87487" lon="-119.65128">
+        <ele>1104.4</ele>
+      </trkpt>
+      <trkpt lat="49.87486" lon="-119.65128">
+        <ele>1104.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

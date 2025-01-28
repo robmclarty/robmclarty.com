@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="http://ridewithgps.com/">
+  <metadata>
+    <name>Home Run Cnctr</name>
+    <link href="https://ridewithgps.com/routes/49556810">
+      <text>Home Run Cnctr</text>
+    </link>
+    <time>2025-01-26T13:01:23Z</time>
+  </metadata>
+  <trk>
+    <name>Home Run Cnctr</name>
+    <trkseg>
+      <trkpt lat="50.03636" lon="-119.43629">
+        <ele>561.2</ele>
+      </trkpt>
+      <trkpt lat="50.03637" lon="-119.4363">
+        <ele>561.2</ele>
+      </trkpt>
+      <trkpt lat="50.03644" lon="-119.43652">
+        <ele>561.4</ele>
+      </trkpt>
+      <trkpt lat="50.03652" lon="-119.43667">
+        <ele>561.2</ele>
+      </trkpt>
+      <trkpt lat="50.03661" lon="-119.43679">
+        <ele>559.4</ele>
+      </trkpt>
+      <trkpt lat="50.03665" lon="-119.43687">
+        <ele>558.4</ele>
+      </trkpt>
+      <trkpt lat="50.03667" lon="-119.43695">
+        <ele>557.6</ele>
+      </trkpt>
+      <trkpt lat="50.03676" lon="-119.43703">
+        <ele>556.3</ele>
+      </trkpt>
+      <trkpt lat="50.03681" lon="-119.43708">
+        <ele>555.5</ele>
+      </trkpt>
+      <trkpt lat="50.03689" lon="-119.43716">
+        <ele>554.3</ele>
+      </trkpt>
+      <trkpt lat="50.03689" lon="-119.43715">
+        <ele>554.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
