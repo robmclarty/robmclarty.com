@@ -14522,7 +14522,7 @@
 			  window.L = exports;
 
 			}));
-			
+
 		} (leafletSrc$1, leafletSrc$1.exports));
 		return leafletSrc$1.exports;
 	}
@@ -15288,7 +15288,7 @@
 	        if (!text) {
 	            if (this._textNode && this._textNode.parentNode) {
 	                this._map._renderer._container.removeChild(this._textNode);
-	                
+
 	                /* delete the node, so it will not be removed a 2nd time if the layer is later removed from the map */
 	                delete this._textNode;
 	            }
@@ -15755,7 +15755,7 @@
 		build.spline = spline;
 		leaflet_1["default"].Spline = Spline;
 		leaflet_1["default"].spline = spline;
-		
+
 		return build;
 	}
 
@@ -15889,7 +15889,7 @@
 			    module.exports.default = simplify;
 			}
 
-			})(); 
+			})();
 		} (simplify$1));
 		return simplify$1.exports;
 	}
@@ -16710,36 +16710,36 @@
 	  [49.865892, -119.390183]
 	];
 
-	//import { crawford } from './trails';
+	//import { crawford } from '/trail-maps/trails';
 
-	//import crawford from './trails/crawford.js';
+	//import crawford from '/trail-maps/trails/crawford.js';
 
 	const icon_zone = L$1.icon({
-	    iconUrl: './images/icon_trail_zone.svg',
+	    iconUrl: '/trail-maps/images/icon_trail_zone.svg',
 	    iconSize: [50, 50],
 	    iconAnchor: [25, 25]
 	});
 
 	const icon_zone_minor = L$1.icon({
-	    iconUrl: './images/icon_trail_zone.svg',
+	    iconUrl: '/trail-maps/images/icon_trail_zone.svg',
 	    iconSize: [25, 25],
 	    iconAnchor: [12, 12]
 	});
 
 	const icon_parking = L$1.icon({
-	    iconUrl: './images/icon_parking.svg',
+	    iconUrl: '/trail-maps/images/icon_parking.svg',
 	    iconSize: [20, 20],
 	    iconAnchor: [10, 10]
 	});
 
 	const icon_viewpoint = L$1.icon({
-	    iconUrl: './images/icon_viewpoint.svg',
+	    iconUrl: '/trail-maps/images/icon_viewpoint.svg',
 	    iconSize: [20, 20],
 	    iconAnchor: [10, 10]
 	});
 
 	const icon_bathroom = L$1.icon({
-	    iconUrl: './images/icon_bathroom.svg',
+	    iconUrl: '/trail-maps/images/icon_bathroom.svg',
 	    iconSize: [20, 20],
 	    iconAnchor: [10, 10]
 	});
@@ -16830,9 +16830,9 @@
 	};
 
 	var add_trail = (map, trail_name, zone_name, color) => {
-	  var gpx_url = `./trails/${ zone_name }/${ trail_name }.gpx`;
+	  var gpx_url = `/trail-maps/trails/${ zone_name }/${ trail_name }.gpx`;
 	  //var image_url = `/trails/${ trail_name }.jpg`;
-	  var image_url = `./trails/crawford/Vapour.jpg`; // TODO: remove hard-coded file name when all images have finished being created
+	  var image_url = `/trail-maps/trails/crawford/Vapour.jpg`; // TODO: remove hard-coded file name when all images have finished being created
 
 	  const path_options_idle = {
 	    opacity: 1,
