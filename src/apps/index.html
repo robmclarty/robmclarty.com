@@ -9,37 +9,755 @@
 <meta content="IE-edge,chrome=1" http-equiv="X-UA-Compatible">
 <meta content="no" http-equiv="MSThemeCompatible">
 <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-<link href="/stylesheets/portfolio-e423210a1d88f5d27622f1933dd378c9.css" media="all" rel="stylesheet">
-<style><!--
+<style>
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block
+}
+
+audio, canvas, video {
+  display: inline-block
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+[hidden] {
+  display: none
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+a:focus {
+  outline: thin dotted
+}
+
+a:active, a:hover {
+  outline: 0
+}
+
+h1 {
+  font-size: clamp(40px, 5vw, 60px);
+  line-height: 1.2;
+  margin-bottom: 20px;
+  margin-top: 0
+}
+
+abbr[title] {
+  border-bottom: 1px dotted
+}
+
+b, strong {
+  font-weight: bold
+}
+
+dfn {
+  font-style: italic
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0
+}
+
+mark {
+  background: #ff0;
+  color: #000
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em
+}
+
+pre {
+  white-space: pre-wrap
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"
+}
+
+small {
+  font-size: 80%
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sup {
+  top: -0.5em
+}
+
+sub {
+  bottom: -0.25em
+}
+
+img {
+  border: 0
+}
+
+svg:not(:root) {
+  overflow: hidden
+}
+
+figure {
+  margin: 0
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+  border: 0;
+  padding: 0
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0
+}
+
+button, input {
+  line-height: normal
+}
+
+button, select {
+  text-transform: none
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+  cursor: default
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+body {
+  z-index: 1;
+  text-align: center
+}
+
+.back-link {
+  position: absolute;
+  top: 20px;
+  left: 20px
+}
+
+.outer-container {
+  width: 100%
+}
+
+.inner-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+#global-header {
+  height: 100px
+}
+
+#content {
+  padding-top: 100px
+}
+
+body {
+  font-family: MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, "Myriad Pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 30px
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 20px;
+  margin-top: 0
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase
+}
+
+ul, ol {
+  padding-left: 18px
+}
+
+a {
+  outline: none !important
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+a.button.blue {
+  background-color: #5bf6cf;
+  color: #2d7966
+}
+
+a.button.black {
+  background-color: #000000;
+  color: #ffffff
+}
+
+a.button.launch {
+  background-color: #5bf6cf;
+  color: #2d7966;
+  margin-bottom: 40px
+}
+
+#close-more-projects-button {
+  display: none
+}
+
+#portfolio-more {
+  display: none
+}
+
+body.no-scroll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden !important
+}
+
+.portfolio-container {
+  z-index: 500;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  background-color: rgba(255, 255, 255, 0.75);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden
+}
+
+.portfolio-container:hover {
+  cursor: pointer
+}
+
+a.portfolio-bg-close {
+  z-index: 10;
+  display: block;
+  position: fixed;
+  background-color: red;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center
+}
+
+.portfolio-content {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  z-index: 80;
+  background-color: #fff;
+  width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 160px;
+  padding: 80px;
+  text-align: left;
+  box-shadow: 0 5px 60px rgba(0, 0, 0, 0.5);
+  cursor: default;
+  font-size: 16px;
+  line-height: 26px;
+  color: #808080
+}
+
+a.portfolio-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: normal;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 25px;
+  background-color: #333;
+  color: #fff
+}
+
+a.portfolio-close-button:hover {
+  background-color: #333;
+  color: #fff
+}
+
+.portfolio-content h1 {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: -10px
+}
+
+.portfolio-content h2 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #808080;
+  text-transform: none
+}
+
+.portfolio-content p {
+  margin-bottom: 40px
+}
+
+.portfolio-content img {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+.full-width {
+  width: 620px;
+  margin-bottom: 20px
+}
+
+.half-width {
+  width: 300px;
+  margin-bottom: 20px
+}
+
+.half-width.left {
+  margin-right: 10px
+}
+
+.half-width.right {
+  margin-left: 10px;
+  float: right
+}
+
+.third-width {
+  width: 200px;
+  margin-bottom: 40px
+}
+
+.third-width.left {
+  margin-right: 10px;
+  float: left
+}
+
+.third-width.right {
+  margin-right: 0;
+  float: right
+}
+
+.clear-float {
+  clear: both;
+  height: 0
+}
+
+p.overview {
+  font-size: clamp(18px, 2.5vw, 22px);
+  line-height: 1.4;
+  width: 100%;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px
+}
+
+img.profile-photo {
+  border: 10px solid #000
+}
+
+.two-columns {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px
+}
+
+.left-justified {
+  text-align: left
+}
+
+.left {
+  float: left
+}
+
+.right {
+  float: right
+}
+
+.dark {
+  background-color: #373737;
+  background-image: url(/images/bg_dark_grey_noise.png);
+  background-position: center 0;
+  background-repeat: repeat;
+  color: #6c6c6c
+}
+
+.dark h1 {
+  color: #ffffff
+}
+
+.dark a {
+  color: #5bf6cf
+}
+
+.light {
+  background-color: #e2e1de;
+  color: #959595
+}
+
+.light h1 {
+  color: #000000
+}
+
+.light a {
+  color: #eb614b
+}
+
+.orange {
+  background-color: #eb614b;
+  color: #ffffff
+}
+
+.orange h1 {
+  color: #ffffff
+}
+
+.orange a {
+  color: #000000
+}
+
+.orange a:hover, .orange a:active, .orange a:focus {
+  color: #f9ccc5
+}
+
+#global-header {
+  position: fixed;
+  -webkit-box-shadow: 0 -10px 10px 10px #000;
+  -moz-box-shadow: 0 -10px 10px 10px #000;
+  -ms-box-shadow: 0 -10px 10px 10px #000;
+  -o-box-shadow: 0 -10px 10px 10px #000;
+  box-shadow: 0 -10px 10px 10px #000
+}
+
+#global-header .inner-container {
+  position: relative;
+  padding: 0;
+  height: 100px
+}
+
+#global-logo {
+  position: absolute;
+  top: 16px;
+  left: 0
+}
+
+#global-logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  color: #8e3b2d
+}
+
+#global-logo h1 a {
+  text-decoration: none
+}
+
+#main-menu {
+  position: absolute;
+  top: 36px;
+  right: 0
+}
+
+#main-menu ul {
+  list-style: none;
+  font-size: 0
+}
+
+#main-menu li {
+  margin: 0;
+  padding: 0;
+  display: inline-block
+}
+
+#main-menu li a {
+  display: block;
+  padding: 5px 20px;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+#main-menu li a:active, #main-menu li.current a {
+  color: #953b2c;
+  background-color: #d55743
+}
+
+#hero {
+  text-align: left;
+  background-image: url("/web/20181121215704im_/http://robmclarty.com/images/bg_rust_flipped.jpg");
+  background-position: center 0;
+  background-repeat: repeat-x
+}
+
+#hero p.overview {
+  color: #e2e1de;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.6)
+}
+
+#hero h2 {
+  color: #ffffff;
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  text-transform: none
+}
+
+ul.portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+ul.portfolio li {
+  width: 100%;
+  max-width: 200px;
+  margin: 0;
+}
+
+ul.portfolio li a {
+  display: block;
+  text-decoration: none
+}
+
+ul.portfolio li h3 {
+  color: #eb614b
+}
+
+ul.portfolio li h2 {
+  color: #ffffff
+}
+
+ul.portfolio li img {
+  border-radius: 50%;
+  margin-bottom: 40px
+}
+
+ul.portfolio li p {
+  font-size: 18px;
+  line-height: 23px;
+  color: #6c6c6c;
+  margin-bottom: 40px;
+  margin-top: 5px
+}
+
+ul#about-logos {
+  font-size: 0;
+  list-style: none;
+  margin: 40px 0 0 0;
+  padding: 0
+}
+
+ul#about-logos li {
+  display: inline-block;
+  margin: 0 30px
+}
+
+ul#solutions-list {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+ul#solutions-list li {
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 80px
+}
+
+ul#solutions-list li:first-child {
+  margin-top: 80px
+}
+
+ul#solutions-list li:last-child {
+  margin-bottom: 0
+}
+
+ul#solutions-list li:after {
+  display: block;
+  clear: both;
+  content: '';
+  height: 0;
+  overflow: hidden
+}
+
+ul#solutions-list li .left, ul#solutions-list li .right {
+  width: 480px
+}
+
+ul#solutions-list li h2 {
+  color: #ffffff
+}
+
+#contact .inner-container {
+  background: transparent url("/web/20181121215704im_/http://robmclarty.com/images/contact-map-100wellesley.png") 400px 300px no-repeat
+}
+
+#contact-info {
+  text-align: left;
+  padding-left: 125px
+}
+
+#contact-info address {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 26px;
+  color: #000000
+}
+
+#contact-info h4.company {
+  font-size: 22px;
+  margin: 0
+}
+
+#contact-info div.mailing-address {
+  margin-bottom: 20px
+}
+
+#contact-info div.phone, #contact-info div.email {
+  font-size: 22px;
+  font-weight: bold
+}
+
+#contact-info div.phone {
+  margin-bottom: 20px
+}
+
+ul#external-links {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+ul#external-links li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+#copyright {
+  font-size: 14px
+}
+
 .video-container { position: relative; height: 0; padding-bottom: 56.25%; overflow: hidden; max-width: 620px; }
 .video-container iframe,
 .video-container object,
 .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-/* #portfolio-featured {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-#portfolio-featured li {
-  flex: 1 1 calc(33.333% - 10px);
-  box-sizing: border-box;
-  margin: 5px;
-}
-
-@media (max-width: 1024px) {
-  #portfolio-featured li {
-    flex: 1 1 calc(50% - 10px);
-  }
-}
-
-@media (max-width: 768px) {
-  #portfolio-featured li {
-    flex: 1 1 calc(100% - 10px);
-  }
-} */
---></style>
+</style>
 </head>
 
 <body>
