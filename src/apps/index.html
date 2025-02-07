@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
 <title>apps :: robmclarty</title>
-<meta content="My name's Rob. I live in Toronto. I make stuff on the interwebs. I believe in the free and open exchange of information. This is my portfolio." name="description">
-<meta content="Rob McLarty" name="application-name">
-<meta content="Rob McLarty" name="author">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="IE-edge,chrome=1" http-equiv="X-UA-Compatible">
-<meta content="no" http-equiv="MSThemeCompatible">
+<meta content="My name's Rob. I live in Toronto. I make stuff on the interwebs. I believe in the free and open exchange of information. This is my portfolio." name="description" />
+<meta content="Rob McLarty" name="application-name" />
+<meta content="Rob McLarty" name="author" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="IE-edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="no" http-equiv="MSThemeCompatible" />
 <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 <style>
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -787,7 +788,7 @@ ul#external-links li {
   height: 0;
   padding-bottom: 56.25%;
   overflow: hidden;
-  max-width: 620px;
+  /* max-width: 620px; */
   margin: 0 auto;
 }
 
@@ -2817,9 +2818,19 @@ ul#external-links li {
       Interactive 3D for everyone. Verold Studio is a powerful online visual editor that lets you turn
       3D content into interactive presentations on the web.
     </h2>
-    <a href="https://vimeo.com/verold" class="button launch">Demo Videos</a> &nbsp; (web platform is no longer active)
+    <a href="https://vimeo.com/verold" class="button launch">Demo Videos</a> &nbsp; (web platform is no longer active)    
     <p>
-      <iframe src="https://player.vimeo.com/video/120978946" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="620" height="348" frameborder="0"></iframe>
+      <div class="video-container">
+        <iframe 
+          src="https://player.vimeo.com/video/120978946" 
+          webkitallowfullscreen="" 
+          mozallowfullscreen="" 
+          allowfullscreen="" 
+          width="620" 
+          height="348" 
+          frameborder="0"
+        ></iframe>        
+      </div>
     </p>
     <p>
       Leveraging many bleeding-edge technologies, Verold enables users to
@@ -2970,4 +2981,5 @@ ul#external-links li {
 <script src="/javascripts/portfolio.js"></script>
 <script src="https://twelve-quiet.robmclarty.com/script.js" data-site="MRSACJJF" defer></script>
 
-</body></html>
+</body>
+</html>
