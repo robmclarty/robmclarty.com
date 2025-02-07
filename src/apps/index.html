@@ -348,18 +348,23 @@ a.portfolio-bg-close {
   position: relative;
   z-index: 80;
   background-color: #fff;
-  width: 780px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 160px;
-  padding: 80px;
+  width: calc(100% - 40px);
+  max-width: 780px;
+  margin: 80px auto 160px;
+  padding: 60px;
   text-align: left;
   box-shadow: 0 5px 60px rgba(0, 0, 0, 0.5);
   cursor: default;
   font-size: 16px;
   line-height: 26px;
-  color: #808080
+  color: #808080;
+}
+
+@media (max-width: 600px) {
+  .portfolio-content {
+    padding: 30px;
+    width: calc(100% - 20px);
+  }
 }
 
 a.portfolio-close-button {
@@ -406,31 +411,56 @@ a.portfolio-close-button:hover {
 }
 
 .portfolio-content img {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  height: auto;
 }
 
 .full-width {
-  width: 620px;
-  margin-bottom: 20px
+  width: 100%;
+  max-width: 620px;
+  margin-bottom: 20px;
 }
 
 .half-width {
-  width: 300px;
-  margin-bottom: 20px
+  width: 100%;
+  max-width: 620px; /* Match full-width when container is small */
+  margin-bottom: 20px;
 }
 
-.half-width.left {
-  margin-right: 10px
+@media (min-width: 700px) {
+  .half-width {
+    width: calc(50% - 10px);
+    max-width: 300px;
+  }
+
+  .half-width.left {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+
+  .half-width.right {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+  }
 }
 
-.half-width.right {
-  margin-left: 10px;
-  float: right
+/* Update existing media query to handle float clearing */
+@media (max-width: 700px) {
+  .half-width.left,
+  .half-width.right {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .third-width {
-  width: 200px;
-  margin-bottom: 40px
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 40px;
 }
 
 .third-width.left {
@@ -752,10 +782,35 @@ ul#external-links li {
   font-size: 14px
 }
 
-.video-container { position: relative; height: 0; padding-bottom: 56.25%; overflow: hidden; max-width: 620px; }
+.video-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
 .video-container iframe,
 .video-container object,
-.video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 780px) {
+  .half-width.left,
+  .half-width.right,
+  .third-width.left,
+  .third-width.right {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 </style>
 </head>
@@ -1406,7 +1461,7 @@ ul#external-links li {
       such as doctors, technicians, and family members.
     </p>
     <br>
-    <div class="third-width right">
+    <div class="third-width left">
       <h3>Features</h3>
       <ul>
         <li>Private Conversations</li>
@@ -1435,7 +1490,7 @@ ul#external-links li {
         <li>AWS VPC</li>
       </ul>
     </div>
-    <div class="third-width right">
+    <div class="third-width left">
       <h3>My Roles</h3>
       <ul>
         <li>Software Architect</li>
