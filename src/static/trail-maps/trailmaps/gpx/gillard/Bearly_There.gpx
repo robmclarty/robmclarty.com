@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Bearly There</name>
+    <time>2025-01-11T15:20:24Z</time>
+  </metadata>
+  <trk>
+    <name>Bearly There</name>
+    <trkseg>
+      <trkpt lat="49.77178" lon="-119.45369">
+        <ele>1005.7</ele>
+      </trkpt>
+      <trkpt lat="49.77176" lon="-119.4537">
+        <ele>1005.7</ele>
+      </trkpt>
+      <trkpt lat="49.77204" lon="-119.45412">
+        <ele>1004.7</ele>
+      </trkpt>
+      <trkpt lat="49.77228" lon="-119.4544">
+        <ele>1001.7</ele>
+      </trkpt>
+      <trkpt lat="49.77221" lon="-119.4549">
+        <ele>998.0</ele>
+      </trkpt>
+      <trkpt lat="49.77243" lon="-119.45527">
+        <ele>992.5</ele>
+      </trkpt>
+      <trkpt lat="49.77255" lon="-119.45569">
+        <ele>987.9</ele>
+      </trkpt>
+      <trkpt lat="49.77308" lon="-119.45621">
+        <ele>980.8</ele>
+      </trkpt>
+      <trkpt lat="49.77327" lon="-119.45659">
+        <ele>976.4</ele>
+      </trkpt>
+      <trkpt lat="49.77394" lon="-119.45655">
+        <ele>970.2</ele>
+      </trkpt>
+      <trkpt lat="49.77423" lon="-119.45676">
+        <ele>966.8</ele>
+      </trkpt>
+      <trkpt lat="49.77476" lon="-119.45688">
+        <ele>960.5</ele>
+      </trkpt>
+      <trkpt lat="49.77496" lon="-119.45656">
+        <ele>960.3</ele>
+      </trkpt>
+      <trkpt lat="49.77524" lon="-119.45669">
+        <ele>954.0</ele>
+      </trkpt>
+      <trkpt lat="49.77529" lon="-119.45686">
+        <ele>951.4</ele>
+      </trkpt>
+      <trkpt lat="49.7756" lon="-119.45649">
+        <ele>946.0</ele>
+      </trkpt>
+      <trkpt lat="49.77578" lon="-119.45641">
+        <ele>942.1</ele>
+      </trkpt>
+      <trkpt lat="49.77581" lon="-119.45601">
+        <ele>942.8</ele>
+      </trkpt>
+      <trkpt lat="49.77605" lon="-119.45589">
+        <ele>938.4</ele>
+      </trkpt>
+      <trkpt lat="49.77616" lon="-119.45563">
+        <ele>936.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

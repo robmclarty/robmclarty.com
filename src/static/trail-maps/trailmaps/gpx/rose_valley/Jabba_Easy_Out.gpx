@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Jabba Easy Out</name>
+    <time>2025-01-11T15:51:41Z</time>
+  </metadata>
+  <trk>
+    <name>Jabba Easy Out</name>
+    <trkseg>
+      <trkpt lat="49.88812" lon="-119.57923">
+        <ele>626.7</ele>
+      </trkpt>
+      <trkpt lat="49.88812" lon="-119.57923">
+        <ele>626.7</ele>
+      </trkpt>
+      <trkpt lat="49.88823" lon="-119.57905">
+        <ele>624.7</ele>
+      </trkpt>
+      <trkpt lat="49.88844" lon="-119.57889">
+        <ele>627.9</ele>
+      </trkpt>
+      <trkpt lat="49.8886" lon="-119.57854">
+        <ele>623.8</ele>
+      </trkpt>
+      <trkpt lat="49.88868" lon="-119.57831">
+        <ele>620.5</ele>
+      </trkpt>
+      <trkpt lat="49.88873" lon="-119.57801">
+        <ele>617.5</ele>
+      </trkpt>
+      <trkpt lat="49.88872" lon="-119.5779">
+        <ele>615.3</ele>
+      </trkpt>
+      <trkpt lat="49.8887" lon="-119.57778">
+        <ele>612.5</ele>
+      </trkpt>
+      <trkpt lat="49.88872" lon="-119.57746">
+        <ele>608.5</ele>
+      </trkpt>
+      <trkpt lat="49.88872" lon="-119.57746">
+        <ele>608.5</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>First, Bottom, Dear Santa Cnctr</name>
+    <time>2025-01-26T14:33:45Z</time>
+  </metadata>
+  <trk>
+    <name>First, Bottom, Dear Santa Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.861" lon="-119.6673">
+        <ele>759.1</ele>
+      </trkpt>
+      <trkpt lat="49.86099" lon="-119.66729">
+        <ele>759.0</ele>
+      </trkpt>
+      <trkpt lat="49.86089" lon="-119.66717">
+        <ele>758.6</ele>
+      </trkpt>
+      <trkpt lat="49.86075" lon="-119.66683">
+        <ele>759.0</ele>
+      </trkpt>
+      <trkpt lat="49.86056" lon="-119.66657">
+        <ele>756.2</ele>
+      </trkpt>
+      <trkpt lat="49.86049" lon="-119.66634">
+        <ele>756.0</ele>
+      </trkpt>
+      <trkpt lat="49.86043" lon="-119.66611">
+        <ele>755.9</ele>
+      </trkpt>
+      <trkpt lat="49.86053" lon="-119.66602">
+        <ele>759.5</ele>
+      </trkpt>
+      <trkpt lat="49.86052" lon="-119.66601">
+        <ele>759.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

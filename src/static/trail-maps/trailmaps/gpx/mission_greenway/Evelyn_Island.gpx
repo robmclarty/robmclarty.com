@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Evelyn Island</name>
+    <time>2025-01-26T13:43:00Z</time>
+  </metadata>
+  <trk>
+    <name>Evelyn Island</name>
+    <trkseg>
+      <trkpt lat="49.87638" lon="-119.42982">
+        <ele>382.4</ele>
+      </trkpt>
+      <trkpt lat="49.87641" lon="-119.42982">
+        <ele>381.9</ele>
+      </trkpt>
+      <trkpt lat="49.8764" lon="-119.42987">
+        <ele>381.7</ele>
+      </trkpt>
+      <trkpt lat="49.87637" lon="-119.42998">
+        <ele>381.5</ele>
+      </trkpt>
+      <trkpt lat="49.87626" lon="-119.43016">
+        <ele>382.4</ele>
+      </trkpt>
+      <trkpt lat="49.87605" lon="-119.43035">
+        <ele>385.0</ele>
+      </trkpt>
+      <trkpt lat="49.87594" lon="-119.43036">
+        <ele>386.9</ele>
+      </trkpt>
+      <trkpt lat="49.87567" lon="-119.43037">
+        <ele>389.7</ele>
+      </trkpt>
+      <trkpt lat="49.87506" lon="-119.43043">
+        <ele>393.1</ele>
+      </trkpt>
+      <trkpt lat="49.87506" lon="-119.43043">
+        <ele>393.1</ele>
+      </trkpt>
+      <trkpt lat="49.87499" lon="-119.43044">
+        <ele>393.4</ele>
+      </trkpt>
+      <trkpt lat="49.87474" lon="-119.43042">
+        <ele>392.7</ele>
+      </trkpt>
+      <trkpt lat="49.87455" lon="-119.4305">
+        <ele>392.0</ele>
+      </trkpt>
+      <trkpt lat="49.87442" lon="-119.43065">
+        <ele>391.3</ele>
+      </trkpt>
+      <trkpt lat="49.8743" lon="-119.43078">
+        <ele>390.6</ele>
+      </trkpt>
+      <trkpt lat="49.87415" lon="-119.43082">
+        <ele>389.9</ele>
+      </trkpt>
+      <trkpt lat="49.87403" lon="-119.43081">
+        <ele>389.2</ele>
+      </trkpt>
+      <trkpt lat="49.87392" lon="-119.43079">
+        <ele>388.6</ele>
+      </trkpt>
+      <trkpt lat="49.87376" lon="-119.43083">
+        <ele>387.6</ele>
+      </trkpt>
+      <trkpt lat="49.87351" lon="-119.43072">
+        <ele>386.4</ele>
+      </trkpt>
+      <trkpt lat="49.87351" lon="-119.43072">
+        <ele>386.4</ele>
+      </trkpt>
+      <trkpt lat="49.87336" lon="-119.43066">
+        <ele>385.8</ele>
+      </trkpt>
+      <trkpt lat="49.87328" lon="-119.43073">
+        <ele>385.8</ele>
+      </trkpt>
+      <trkpt lat="49.87326" lon="-119.4308">
+        <ele>385.7</ele>
+      </trkpt>
+      <trkpt lat="49.87324" lon="-119.43088">
+        <ele>385.8</ele>
+      </trkpt>
+      <trkpt lat="49.87323" lon="-119.43097">
+        <ele>385.9</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

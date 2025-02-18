@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Vapour Alt Exit</name>
+    <time>2025-01-26T14:22:58Z</time>
+  </metadata>
+  <trk>
+    <name>Vapour Alt Exit</name>
+    <trkseg>
+      <trkpt lat="49.80416" lon="-119.41872">
+        <ele>755.1</ele>
+      </trkpt>
+      <trkpt lat="49.80417" lon="-119.41872">
+        <ele>755.0</ele>
+      </trkpt>
+      <trkpt lat="49.80442" lon="-119.41856">
+        <ele>753.7</ele>
+      </trkpt>
+      <trkpt lat="49.80454" lon="-119.41851">
+        <ele>753.0</ele>
+      </trkpt>
+      <trkpt lat="49.80526" lon="-119.41835">
+        <ele>747.5</ele>
+      </trkpt>
+      <trkpt lat="49.80583" lon="-119.41829">
+        <ele>739.9</ele>
+      </trkpt>
+      <trkpt lat="49.80589" lon="-119.4183">
+        <ele>739.0</ele>
+      </trkpt>
+      <trkpt lat="49.80599" lon="-119.41838">
+        <ele>737.0</ele>
+      </trkpt>
+      <trkpt lat="49.80614" lon="-119.4186">
+        <ele>732.7</ele>
+      </trkpt>
+      <trkpt lat="49.80624" lon="-119.41867">
+        <ele>730.3</ele>
+      </trkpt>
+      <trkpt lat="49.80649" lon="-119.41871">
+        <ele>725.5</ele>
+      </trkpt>
+      <trkpt lat="49.80666" lon="-119.41872">
+        <ele>722.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Hillbilly Cnctr</name>
+    <time>2025-01-26T14:00:16Z</time>
+  </metadata>
+  <trk>
+    <name>Hillbilly Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.79252" lon="-119.42753">
+        <ele>845.0</ele>
+      </trkpt>
+      <trkpt lat="49.79252" lon="-119.42755">
+        <ele>844.9</ele>
+      </trkpt>
+      <trkpt lat="49.79238" lon="-119.4275">
+        <ele>845.9</ele>
+      </trkpt>
+      <trkpt lat="49.79233" lon="-119.42764">
+        <ele>845.7</ele>
+      </trkpt>
+      <trkpt lat="49.79237" lon="-119.42782">
+        <ele>844.7</ele>
+      </trkpt>
+      <trkpt lat="49.79187" lon="-119.4284">
+        <ele>845.3</ele>
+      </trkpt>
+      <trkpt lat="49.79138" lon="-119.42831">
+        <ele>850.9</ele>
+      </trkpt>
+      <trkpt lat="49.79091" lon="-119.42827">
+        <ele>857.3</ele>
+      </trkpt>
+      <trkpt lat="49.79044" lon="-119.42823">
+        <ele>863.6</ele>
+      </trkpt>
+      <trkpt lat="49.7899" lon="-119.42843">
+        <ele>869.7</ele>
+      </trkpt>
+      <trkpt lat="49.7896" lon="-119.4293">
+        <ele>870.2</ele>
+      </trkpt>
+      <trkpt lat="49.78935" lon="-119.42975">
+        <ele>872.5</ele>
+      </trkpt>
+      <trkpt lat="49.78922" lon="-119.43034">
+        <ele>872.4</ele>
+      </trkpt>
+      <trkpt lat="49.78911" lon="-119.43114">
+        <ele>869.4</ele>
+      </trkpt>
+      <trkpt lat="49.78899" lon="-119.43154">
+        <ele>868.5</ele>
+      </trkpt>
+      <trkpt lat="49.78904" lon="-119.43222">
+        <ele>863.5</ele>
+      </trkpt>
+      <trkpt lat="49.78903" lon="-119.43227">
+        <ele>863.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -797,4 +797,25 @@ text {
   height: 100vh;
 }
 
+.zone-label {
+  dominant-baseline: middle;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  kerning: none;
+  word-spacing: 3px;
+  color: black;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  font-weight: bold;
+  /* Remove tooltip background and arrow */
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.zone-label .leaflet-tooltip-content {
+  background-color: transparent;
+}
+.zone-label::before {
+  display: none;
+}
+
 /*# sourceMappingURL=app.css.map */

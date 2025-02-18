@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Rock Rolls</name>
+    <time>2024-07-08T12:57:52Z</time>
+  </metadata>
+  <trk>
+    <name>Rock Rolls</name>
+    <trkseg>
+      <trkpt lat="49.81022" lon="-119.44289">
+        <ele>567.1</ele>
+      </trkpt>
+      <trkpt lat="49.81023" lon="-119.44289">
+        <ele>567.0</ele>
+      </trkpt>
+      <trkpt lat="49.81029" lon="-119.44289">
+        <ele>566.4</ele>
+      </trkpt>
+      <trkpt lat="49.81035" lon="-119.44297">
+        <ele>565.3</ele>
+      </trkpt>
+      <trkpt lat="49.81043" lon="-119.44313">
+        <ele>563.6</ele>
+      </trkpt>
+      <trkpt lat="49.81045" lon="-119.4432">
+        <ele>563.0</ele>
+      </trkpt>
+      <trkpt lat="49.81045" lon="-119.4432">
+        <ele>563.0</ele>
+      </trkpt>
+      <trkpt lat="49.81049" lon="-119.44341">
+        <ele>560.9</ele>
+      </trkpt>
+      <trkpt lat="49.8105" lon="-119.44365">
+        <ele>557.8</ele>
+      </trkpt>
+      <trkpt lat="49.81048" lon="-119.44384">
+        <ele>555.6</ele>
+      </trkpt>
+      <trkpt lat="49.81053" lon="-119.44395">
+        <ele>553.9</ele>
+      </trkpt>
+      <trkpt lat="49.81056" lon="-119.44409">
+        <ele>551.9</ele>
+      </trkpt>
+      <trkpt lat="49.81069" lon="-119.44428">
+        <ele>548.9</ele>
+      </trkpt>
+      <trkpt lat="49.81069" lon="-119.44429">
+        <ele>548.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>HP-DS</name>
+    <time>2025-01-26T14:41:38Z</time>
+  </metadata>
+  <trk>
+    <name>HP-DS</name>
+    <trkseg>
+      <trkpt lat="49.87142" lon="-119.65893">
+        <ele>1047.2</ele>
+      </trkpt>
+      <trkpt lat="49.87142" lon="-119.65894">
+        <ele>1047.2</ele>
+      </trkpt>
+      <trkpt lat="49.87148" lon="-119.65915">
+        <ele>1047.9</ele>
+      </trkpt>
+      <trkpt lat="49.87151" lon="-119.65929">
+        <ele>1047.3</ele>
+      </trkpt>
+      <trkpt lat="49.87164" lon="-119.6594">
+        <ele>1049.3</ele>
+      </trkpt>
+      <trkpt lat="49.87164" lon="-119.65939">
+        <ele>1049.4</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

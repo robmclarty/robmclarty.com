@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Earing Blue Lower</name>
+    <time>2025-01-11T14:40:27Z</time>
+  </metadata>
+  <trk>
+    <name>Earing Blue Lower</name>
+    <trkseg>
+      <trkpt lat="49.80971" lon="-119.44054">
+        <ele>587.6</ele>
+      </trkpt>
+      <trkpt lat="49.80972" lon="-119.44054">
+        <ele>587.6</ele>
+      </trkpt>
+      <trkpt lat="49.80974" lon="-119.44066">
+        <ele>586.7</ele>
+      </trkpt>
+      <trkpt lat="49.80976" lon="-119.4409">
+        <ele>585.1</ele>
+      </trkpt>
+      <trkpt lat="49.8098" lon="-119.44096">
+        <ele>584.5</ele>
+      </trkpt>
+      <trkpt lat="49.80996" lon="-119.4412">
+        <ele>582.1</ele>
+      </trkpt>
+      <trkpt lat="49.81008" lon="-119.44127">
+        <ele>580.0</ele>
+      </trkpt>
+      <trkpt lat="49.81013" lon="-119.44135">
+        <ele>578.8</ele>
+      </trkpt>
+      <trkpt lat="49.81018" lon="-119.44151">
+        <ele>577.2</ele>
+      </trkpt>
+      <trkpt lat="49.81036" lon="-119.44189">
+        <ele>572.3</ele>
+      </trkpt>
+      <trkpt lat="49.81042" lon="-119.44196">
+        <ele>571.0</ele>
+      </trkpt>
+      <trkpt lat="49.81072" lon="-119.44215">
+        <ele>566.1</ele>
+      </trkpt>
+      <trkpt lat="49.81094" lon="-119.44248">
+        <ele>560.4</ele>
+      </trkpt>
+      <trkpt lat="49.81106" lon="-119.44252">
+        <ele>557.2</ele>
+      </trkpt>
+      <trkpt lat="49.81122" lon="-119.4425">
+        <ele>553.3</ele>
+      </trkpt>
+      <trkpt lat="49.81122" lon="-119.4425">
+        <ele>553.3</ele>
+      </trkpt>
+      <trkpt lat="49.81127" lon="-119.4425">
+        <ele>552.0</ele>
+      </trkpt>
+      <trkpt lat="49.8114" lon="-119.44261">
+        <ele>548.2</ele>
+      </trkpt>
+      <trkpt lat="49.81147" lon="-119.44264">
+        <ele>546.3</ele>
+      </trkpt>
+      <trkpt lat="49.81174" lon="-119.44253">
+        <ele>540.8</ele>
+      </trkpt>
+      <trkpt lat="49.81174" lon="-119.44252">
+        <ele>540.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

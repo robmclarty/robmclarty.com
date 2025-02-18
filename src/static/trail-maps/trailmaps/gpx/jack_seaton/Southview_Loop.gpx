@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Southview Loop</name>
+    <time>2025-01-26T13:02:01Z</time>
+  </metadata>
+  <trk>
+    <name>Southview Loop</name>
+    <trkseg>
+      <trkpt lat="50.03578" lon="-119.43668">
+        <ele>567.2</ele>
+      </trkpt>
+      <trkpt lat="50.03584" lon="-119.43669">
+        <ele>566.6</ele>
+      </trkpt>
+      <trkpt lat="50.03591" lon="-119.43681">
+        <ele>564.5</ele>
+      </trkpt>
+      <trkpt lat="50.03594" lon="-119.43691">
+        <ele>563.0</ele>
+      </trkpt>
+      <trkpt lat="50.03596" lon="-119.43709">
+        <ele>560.7</ele>
+      </trkpt>
+      <trkpt lat="50.03599" lon="-119.43715">
+        <ele>559.7</ele>
+      </trkpt>
+      <trkpt lat="50.03603" lon="-119.43722">
+        <ele>558.7</ele>
+      </trkpt>
+      <trkpt lat="50.03609" lon="-119.43726">
+        <ele>557.9</ele>
+      </trkpt>
+      <trkpt lat="50.03615" lon="-119.43728">
+        <ele>557.4</ele>
+      </trkpt>
+      <trkpt lat="50.03621" lon="-119.43728">
+        <ele>557.1</ele>
+      </trkpt>
+      <trkpt lat="50.03628" lon="-119.4375">
+        <ele>554.4</ele>
+      </trkpt>
+      <trkpt lat="50.03632" lon="-119.43755">
+        <ele>553.8</ele>
+      </trkpt>
+      <trkpt lat="50.03636" lon="-119.43756">
+        <ele>553.5</ele>
+      </trkpt>
+      <trkpt lat="50.0364" lon="-119.43755">
+        <ele>553.5</ele>
+      </trkpt>
+      <trkpt lat="50.03644" lon="-119.43756">
+        <ele>553.3</ele>
+      </trkpt>
+      <trkpt lat="50.03647" lon="-119.43766">
+        <ele>552.2</ele>
+      </trkpt>
+      <trkpt lat="50.03648" lon="-119.43769">
+        <ele>551.9</ele>
+      </trkpt>
+      <trkpt lat="50.03651" lon="-119.4377">
+        <ele>551.7</ele>
+      </trkpt>
+      <trkpt lat="50.03658" lon="-119.43758">
+        <ele>552.6</ele>
+      </trkpt>
+      <trkpt lat="50.03662" lon="-119.43758">
+        <ele>552.5</ele>
+      </trkpt>
+      <trkpt lat="50.03664" lon="-119.4376">
+        <ele>552.2</ele>
+      </trkpt>
+      <trkpt lat="50.03668" lon="-119.43767">
+        <ele>551.5</ele>
+      </trkpt>
+      <trkpt lat="50.03671" lon="-119.43768">
+        <ele>551.3</ele>
+      </trkpt>
+      <trkpt lat="50.03679" lon="-119.43763">
+        <ele>551.2</ele>
+      </trkpt>
+      <trkpt lat="50.03685" lon="-119.43763">
+        <ele>550.9</ele>
+      </trkpt>
+      <trkpt lat="50.03694" lon="-119.43767">
+        <ele>550.1</ele>
+      </trkpt>
+      <trkpt lat="50.03694" lon="-119.43767">
+        <ele>550.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

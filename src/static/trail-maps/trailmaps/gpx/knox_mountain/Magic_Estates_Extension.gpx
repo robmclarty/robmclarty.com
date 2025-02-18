@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Magic Estates Extension</name>
+    <time>2025-01-26T13:35:22Z</time>
+  </metadata>
+  <trk>
+    <name>Magic Estates Extension</name>
+    <trkseg>
+      <trkpt lat="49.91337" lon="-119.47675">
+        <ele>571.3</ele>
+      </trkpt>
+      <trkpt lat="49.9133" lon="-119.47671">
+        <ele>570.3</ele>
+      </trkpt>
+      <trkpt lat="49.91313" lon="-119.47675">
+        <ele>569.6</ele>
+      </trkpt>
+      <trkpt lat="49.91305" lon="-119.47692">
+        <ele>570.5</ele>
+      </trkpt>
+      <trkpt lat="49.91286" lon="-119.47718">
+        <ele>570.5</ele>
+      </trkpt>
+      <trkpt lat="49.91271" lon="-119.47759">
+        <ele>570.8</ele>
+      </trkpt>
+      <trkpt lat="49.91254" lon="-119.47771">
+        <ele>568.7</ele>
+      </trkpt>
+      <trkpt lat="49.91237" lon="-119.47775">
+        <ele>567.2</ele>
+      </trkpt>
+      <trkpt lat="49.91228" lon="-119.47774">
+        <ele>566.4</ele>
+      </trkpt>
+      <trkpt lat="49.91175" lon="-119.4777">
+        <ele>562.1</ele>
+      </trkpt>
+      <trkpt lat="49.91121" lon="-119.47766">
+        <ele>556.3</ele>
+      </trkpt>
+      <trkpt lat="49.91095" lon="-119.47765">
+        <ele>553.4</ele>
+      </trkpt>
+      <trkpt lat="49.91058" lon="-119.47757">
+        <ele>549.7</ele>
+      </trkpt>
+      <trkpt lat="49.91012" lon="-119.47771">
+        <ele>547.2</ele>
+      </trkpt>
+      <trkpt lat="49.9098" lon="-119.47773">
+        <ele>545.5</ele>
+      </trkpt>
+      <trkpt lat="49.9098" lon="-119.47773">
+        <ele>545.5</ele>
+      </trkpt>
+      <trkpt lat="49.90978" lon="-119.47773">
+        <ele>545.4</ele>
+      </trkpt>
+      <trkpt lat="49.90952" lon="-119.47766">
+        <ele>543.9</ele>
+      </trkpt>
+      <trkpt lat="49.9093" lon="-119.47759">
+        <ele>542.7</ele>
+      </trkpt>
+      <trkpt lat="49.90924" lon="-119.4773">
+        <ele>541.5</ele>
+      </trkpt>
+      <trkpt lat="49.90906" lon="-119.47706">
+        <ele>540.4</ele>
+      </trkpt>
+      <trkpt lat="49.90881" lon="-119.47677">
+        <ele>540.0</ele>
+      </trkpt>
+      <trkpt lat="49.90845" lon="-119.47645">
+        <ele>539.0</ele>
+      </trkpt>
+      <trkpt lat="49.90846" lon="-119.47647">
+        <ele>539.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

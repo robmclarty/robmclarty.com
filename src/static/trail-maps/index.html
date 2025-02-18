@@ -7,12 +7,11 @@
 
     <title>MTBCO - Trail Maps</title>
 
-    <link rel="stylesheet preload" href="/trail-maps/app.css" as="style" type="text/css">
+    <link rel="stylesheet preload" href="app.css" as="style" type="text/css">
   </head>
 
   <body>
     <header>
-
       <img
         alt="MTBCO"
         loading="lazy"
@@ -20,7 +19,7 @@
         height="60"
         decoding="async"
         style="color: transparent"
-        src="/trail-maps/images/mtbco_logo.svg"
+        src="images/mtbco_logo.svg"
       />
     </header>
 
@@ -30,10 +29,15 @@
       &copy; 2025 Mountain Bikers of the Central Okanagan
     </footer>
 
-    <!-- <script src="leaflet.js"></script>
-    <script src="leaflet-gpx.js"></script>
-    <script src="leaflet-textpath.js"></script> -->
-
-    <script src="/trail-maps/app.js"></script>
+    <script src="trailmaps.js"></script>
+    <script>
+      const m = initializeTrailMap({
+        targetId: 'map',
+        width: '100%',
+        height: '100%',
+        initialCenter: [49.8016169, -119.4324902],
+        initialZoom: 11
+      });
+    </script>
   </body>
 </html>

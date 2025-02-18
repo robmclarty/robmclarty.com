@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Magic Kathy</name>
+    <time>2025-01-26T13:36:11Z</time>
+  </metadata>
+  <trk>
+    <name>Magic Kathy</name>
+    <trkseg>
+      <trkpt lat="49.91282" lon="-119.47728">
+        <ele>570.7</ele>
+      </trkpt>
+      <trkpt lat="49.91281" lon="-119.4773">
+        <ele>570.6</ele>
+      </trkpt>
+      <trkpt lat="49.91247" lon="-119.47705">
+        <ele>565.7</ele>
+      </trkpt>
+      <trkpt lat="49.91217" lon="-119.47689">
+        <ele>562.6</ele>
+      </trkpt>
+      <trkpt lat="49.91205" lon="-119.47686">
+        <ele>561.4</ele>
+      </trkpt>
+      <trkpt lat="49.91187" lon="-119.47668">
+        <ele>559.0</ele>
+      </trkpt>
+      <trkpt lat="49.91165" lon="-119.47663">
+        <ele>556.8</ele>
+      </trkpt>
+      <trkpt lat="49.91158" lon="-119.47628">
+        <ele>556.1</ele>
+      </trkpt>
+      <trkpt lat="49.91142" lon="-119.47613">
+        <ele>554.4</ele>
+      </trkpt>
+      <trkpt lat="49.91139" lon="-119.47612">
+        <ele>554.1</ele>
+      </trkpt>
+      <trkpt lat="49.91139" lon="-119.47612">
+        <ele>554.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

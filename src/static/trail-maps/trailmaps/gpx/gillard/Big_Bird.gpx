@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Big Bird</name>
+    <time>2025-01-11T15:04:18Z</time>
+  </metadata>
+  <trk>
+    <name>Big Bird</name>
+    <trkseg>
+      <trkpt lat="49.7553" lon="-119.44891">
+        <ele>1228.5</ele>
+      </trkpt>
+      <trkpt lat="49.75545" lon="-119.44866">
+        <ele>1223.2</ele>
+      </trkpt>
+      <trkpt lat="49.75592" lon="-119.44818">
+        <ele>1211.4</ele>
+      </trkpt>
+      <trkpt lat="49.75627" lon="-119.44804">
+        <ele>1204.4</ele>
+      </trkpt>
+      <trkpt lat="49.75644" lon="-119.44791">
+        <ele>1200.4</ele>
+      </trkpt>
+      <trkpt lat="49.75665" lon="-119.44784">
+        <ele>1196.1</ele>
+      </trkpt>
+      <trkpt lat="49.75704" lon="-119.44736">
+        <ele>1186.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

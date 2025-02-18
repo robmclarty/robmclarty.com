@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Ghost Rider</name>
+    <time>2025-01-11T15:05:13Z</time>
+  </metadata>
+  <trk>
+    <name>Ghost Rider</name>
+    <trkseg>
+      <trkpt lat="49.76292" lon="-119.45289">
+        <ele>1127.6</ele>
+      </trkpt>
+      <trkpt lat="49.76332" lon="-119.45229">
+        <ele>1123.7</ele>
+      </trkpt>
+      <trkpt lat="49.76364" lon="-119.45229">
+        <ele>1116.3</ele>
+      </trkpt>
+      <trkpt lat="49.76378" lon="-119.45241">
+        <ele>1113.5</ele>
+      </trkpt>
+      <trkpt lat="49.76392" lon="-119.45243">
+        <ele>1110.3</ele>
+      </trkpt>
+      <trkpt lat="49.76403" lon="-119.45231">
+        <ele>1107.3</ele>
+      </trkpt>
+      <trkpt lat="49.76421" lon="-119.45238">
+        <ele>1103.4</ele>
+      </trkpt>
+      <trkpt lat="49.76433" lon="-119.45266">
+        <ele>1101.4</ele>
+      </trkpt>
+      <trkpt lat="49.76455" lon="-119.45275">
+        <ele>1096.8</ele>
+      </trkpt>
+      <trkpt lat="49.76476" lon="-119.45274">
+        <ele>1092.3</ele>
+      </trkpt>
+      <trkpt lat="49.76501" lon="-119.45266">
+        <ele>1086.6</ele>
+      </trkpt>
+      <trkpt lat="49.76524" lon="-119.45268">
+        <ele>1084.1</ele>
+      </trkpt>
+      <trkpt lat="49.76546" lon="-119.45263">
+        <ele>1081.1</ele>
+      </trkpt>
+      <trkpt lat="49.76562" lon="-119.45239">
+        <ele>1076.1</ele>
+      </trkpt>
+      <trkpt lat="49.7659" lon="-119.4523">
+        <ele>1069.9</ele>
+      </trkpt>
+      <trkpt lat="49.76624" lon="-119.45235">
+        <ele>1063.2</ele>
+      </trkpt>
+      <trkpt lat="49.76645" lon="-119.45249">
+        <ele>1060.8</ele>
+      </trkpt>
+      <trkpt lat="49.76661" lon="-119.45236">
+        <ele>1055.1</ele>
+      </trkpt>
+      <trkpt lat="49.76693" lon="-119.45244">
+        <ele>1050.8</ele>
+      </trkpt>
+      <trkpt lat="49.76715" lon="-119.45268">
+        <ele>1049.6</ele>
+      </trkpt>
+      <trkpt lat="49.76738" lon="-119.45305">
+        <ele>1048.8</ele>
+      </trkpt>
+      <trkpt lat="49.7675" lon="-119.45323">
+        <ele>1048.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

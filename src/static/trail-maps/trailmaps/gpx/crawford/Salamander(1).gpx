@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Salamander</name>
+    <time>2025-01-26T14:23:45Z</time>
+  </metadata>
+  <trk>
+    <name>Salamander</name>
+    <trkseg>
+      <trkpt lat="49.80927" lon="-119.4222">
+        <ele>667.8</ele>
+      </trkpt>
+      <trkpt lat="49.80928" lon="-119.42221">
+        <ele>667.6</ele>
+      </trkpt>
+      <trkpt lat="49.81009" lon="-119.42184">
+        <ele>664.7</ele>
+      </trkpt>
+      <trkpt lat="49.8105" lon="-119.42177">
+        <ele>661.4</ele>
+      </trkpt>
+      <trkpt lat="49.81077" lon="-119.42187">
+        <ele>658.1</ele>
+      </trkpt>
+      <trkpt lat="49.8112" lon="-119.42172">
+        <ele>656.8</ele>
+      </trkpt>
+      <trkpt lat="49.8118" lon="-119.42115">
+        <ele>657.1</ele>
+      </trkpt>
+      <trkpt lat="49.81227" lon="-119.42102">
+        <ele>653.9</ele>
+      </trkpt>
+      <trkpt lat="49.8128" lon="-119.42078">
+        <ele>651.8</ele>
+      </trkpt>
+      <trkpt lat="49.81341" lon="-119.42056">
+        <ele>650.8</ele>
+      </trkpt>
+      <trkpt lat="49.81416" lon="-119.42012">
+        <ele>648.2</ele>
+      </trkpt>
+      <trkpt lat="49.81469" lon="-119.42022">
+        <ele>644.2</ele>
+      </trkpt>
+      <trkpt lat="49.81494" lon="-119.42034">
+        <ele>642.1</ele>
+      </trkpt>
+      <trkpt lat="49.81514" lon="-119.42066">
+        <ele>639.8</ele>
+      </trkpt>
+      <trkpt lat="49.81525" lon="-119.42102">
+        <ele>637.2</ele>
+      </trkpt>
+      <trkpt lat="49.81527" lon="-119.42098">
+        <ele>637.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

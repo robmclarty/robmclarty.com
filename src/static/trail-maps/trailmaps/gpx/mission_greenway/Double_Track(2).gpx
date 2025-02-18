@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Double Track</name>
+    <time>2025-01-26T13:41:40Z</time>
+  </metadata>
+  <trk>
+    <name>Double Track</name>
+    <trkseg>
+      <trkpt lat="49.87355" lon="-119.42919">
+        <ele>389.3</ele>
+      </trkpt>
+      <trkpt lat="49.87392" lon="-119.4297">
+        <ele>391.1</ele>
+      </trkpt>
+      <trkpt lat="49.87402" lon="-119.43001">
+        <ele>391.3</ele>
+      </trkpt>
+      <trkpt lat="49.87404" lon="-119.43024">
+        <ele>390.8</ele>
+      </trkpt>
+      <trkpt lat="49.87392" lon="-119.43079">
+        <ele>388.6</ele>
+      </trkpt>
+      <trkpt lat="49.87408" lon="-119.43152">
+        <ele>388.8</ele>
+      </trkpt>
+      <trkpt lat="49.8741" lon="-119.43172">
+        <ele>388.8</ele>
+      </trkpt>
+      <trkpt lat="49.87425" lon="-119.43218">
+        <ele>389.6</ele>
+      </trkpt>
+      <trkpt lat="49.87458" lon="-119.43277">
+        <ele>386.9</ele>
+      </trkpt>
+      <trkpt lat="49.87478" lon="-119.43333">
+        <ele>380.4</ele>
+      </trkpt>
+      <trkpt lat="49.87492" lon="-119.43374">
+        <ele>377.3</ele>
+      </trkpt>
+      <trkpt lat="49.87508" lon="-119.43387">
+        <ele>375.8</ele>
+      </trkpt>
+      <trkpt lat="49.87511" lon="-119.43381">
+        <ele>375.9</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

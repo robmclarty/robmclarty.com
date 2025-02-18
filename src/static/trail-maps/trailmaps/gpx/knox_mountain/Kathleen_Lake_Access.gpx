@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Kathleen Lake Access</name>
+    <time>2025-01-11T15:39:57Z</time>
+  </metadata>
+  <trk>
+    <name>Kathleen Lake Access</name>
+    <trkseg>
+      <trkpt lat="49.90835" lon="-119.47797">
+        <ele>540.1</ele>
+      </trkpt>
+      <trkpt lat="49.90839" lon="-119.47782">
+        <ele>540.2</ele>
+      </trkpt>
+      <trkpt lat="49.90849" lon="-119.47749">
+        <ele>540.4</ele>
+      </trkpt>
+      <trkpt lat="49.90855" lon="-119.47716">
+        <ele>540.5</ele>
+      </trkpt>
+      <trkpt lat="49.90856" lon="-119.47679">
+        <ele>540.5</ele>
+      </trkpt>
+      <trkpt lat="49.9085" lon="-119.47664">
+        <ele>540.4</ele>
+      </trkpt>
+      <trkpt lat="49.90848" lon="-119.47656">
+        <ele>539.8</ele>
+      </trkpt>
+      <trkpt lat="49.90848" lon="-119.47656">
+        <ele>539.8</ele>
+      </trkpt>
+      <trkpt lat="49.90841" lon="-119.4763">
+        <ele>537.9</ele>
+      </trkpt>
+      <trkpt lat="49.90818" lon="-119.47582">
+        <ele>535.2</ele>
+      </trkpt>
+      <trkpt lat="49.90818" lon="-119.47582">
+        <ele>535.2</ele>
+      </trkpt>
+      <trkpt lat="49.90813" lon="-119.47572">
+        <ele>534.5</ele>
+      </trkpt>
+      <trkpt lat="49.90774" lon="-119.47475">
+        <ele>523.4</ele>
+      </trkpt>
+      <trkpt lat="49.90758" lon="-119.47434">
+        <ele>518.9</ele>
+      </trkpt>
+      <trkpt lat="49.90758" lon="-119.47433">
+        <ele>518.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Drop Into Shale</name>
+    <time>2025-01-26T13:16:22Z</time>
+  </metadata>
+  <trk>
+    <name>Drop Into Shale</name>
+    <trkseg>
+      <trkpt lat="49.911449" lon="-119.485113">
+        <ele>601.4</ele>
+      </trkpt>
+      <trkpt lat="49.911403" lon="-119.485033">
+        <ele>602.5</ele>
+      </trkpt>
+      <trkpt lat="49.911403" lon="-119.485033">
+        <ele>602.5</ele>
+      </trkpt>
+      <trkpt lat="49.911305" lon="-119.485073">
+        <ele>600.3</ele>
+      </trkpt>
+      <trkpt lat="49.911305" lon="-119.485073">
+        <ele>600.3</ele>
+      </trkpt>
+      <trkpt lat="49.911278" lon="-119.485199">
+        <ele>597.5</ele>
+      </trkpt>
+      <trkpt lat="49.911278" lon="-119.485199">
+        <ele>597.5</ele>
+      </trkpt>
+      <trkpt lat="49.911239" lon="-119.485196">
+        <ele>597.1</ele>
+      </trkpt>
+      <trkpt lat="49.911239" lon="-119.485196">
+        <ele>597.1</ele>
+      </trkpt>
+      <trkpt lat="49.911227" lon="-119.485167">
+        <ele>597.5</ele>
+      </trkpt>
+      <trkpt lat="49.911227" lon="-119.485167">
+        <ele>597.5</ele>
+      </trkpt>
+      <trkpt lat="49.911068" lon="-119.485179">
+        <ele>595.3</ele>
+      </trkpt>
+      <trkpt lat="49.911068" lon="-119.485179">
+        <ele>595.3</ele>
+      </trkpt>
+      <trkpt lat="49.91087" lon="-119.485225">
+        <ele>592.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

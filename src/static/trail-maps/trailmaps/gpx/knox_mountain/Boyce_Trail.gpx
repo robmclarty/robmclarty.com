@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Boyce Trail</name>
+    <time>2025-01-26T13:14:38Z</time>
+  </metadata>
+  <trk>
+    <name>Boyce Trail</name>
+    <trkseg>
+      <trkpt lat="49.91144" lon="-119.47994">
+        <ele>562.5</ele>
+      </trkpt>
+      <trkpt lat="49.91143" lon="-119.47994">
+        <ele>562.5</ele>
+      </trkpt>
+      <trkpt lat="49.91153" lon="-119.48013">
+        <ele>561.4</ele>
+      </trkpt>
+      <trkpt lat="49.91167" lon="-119.48069">
+        <ele>557.1</ele>
+      </trkpt>
+      <trkpt lat="49.91176" lon="-119.48119">
+        <ele>557.8</ele>
+      </trkpt>
+      <trkpt lat="49.91176" lon="-119.48136">
+        <ele>558.2</ele>
+      </trkpt>
+      <trkpt lat="49.91173" lon="-119.48176">
+        <ele>559.5</ele>
+      </trkpt>
+      <trkpt lat="49.9117" lon="-119.4819">
+        <ele>560.7</ele>
+      </trkpt>
+      <trkpt lat="49.91164" lon="-119.48204">
+        <ele>562.0</ele>
+      </trkpt>
+      <trkpt lat="49.91164" lon="-119.48204">
+        <ele>562.0</ele>
+      </trkpt>
+      <trkpt lat="49.9116" lon="-119.48215">
+        <ele>563.4</ele>
+      </trkpt>
+      <trkpt lat="49.91151" lon="-119.48233">
+        <ele>565.6</ele>
+      </trkpt>
+      <trkpt lat="49.91143" lon="-119.4824">
+        <ele>566.3</ele>
+      </trkpt>
+      <trkpt lat="49.91137" lon="-119.48243">
+        <ele>566.5</ele>
+      </trkpt>
+      <trkpt lat="49.91121" lon="-119.48241">
+        <ele>566.1</ele>
+      </trkpt>
+      <trkpt lat="49.91116" lon="-119.48237">
+        <ele>565.6</ele>
+      </trkpt>
+      <trkpt lat="49.91108" lon="-119.48226">
+        <ele>564.6</ele>
+      </trkpt>
+      <trkpt lat="49.91104" lon="-119.48208">
+        <ele>563.2</ele>
+      </trkpt>
+      <trkpt lat="49.91104" lon="-119.48173">
+        <ele>560.5</ele>
+      </trkpt>
+      <trkpt lat="49.91112" lon="-119.48099">
+        <ele>559.9</ele>
+      </trkpt>
+      <trkpt lat="49.91111" lon="-119.48094">
+        <ele>560.0</ele>
+      </trkpt>
+      <trkpt lat="49.9111" lon="-119.48083">
+        <ele>560.1</ele>
+      </trkpt>
+      <trkpt lat="49.9111" lon="-119.48069">
+        <ele>560.5</ele>
+      </trkpt>
+      <trkpt lat="49.91115" lon="-119.48025">
+        <ele>561.7</ele>
+      </trkpt>
+      <trkpt lat="49.9112" lon="-119.47999">
+        <ele>562.6</ele>
+      </trkpt>
+      <trkpt lat="49.91122" lon="-119.47984">
+        <ele>562.8</ele>
+      </trkpt>
+      <trkpt lat="49.91122" lon="-119.47984">
+        <ele>562.8</ele>
+      </trkpt>
+      <trkpt lat="49.91125" lon="-119.47971">
+        <ele>563.0</ele>
+      </trkpt>
+      <trkpt lat="49.91125" lon="-119.47974">
+        <ele>563.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

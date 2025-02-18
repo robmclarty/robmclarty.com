@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Woolley's Revenge</name>
+    <time>2025-01-26T14:24:41Z</time>
+  </metadata>
+  <trk>
+    <name>Woolley's Revenge</name>
+    <trkseg>
+      <trkpt lat="49.80399" lon="-119.42228">
+        <ele>729.8</ele>
+      </trkpt>
+      <trkpt lat="49.80399" lon="-119.42232">
+        <ele>729.9</ele>
+      </trkpt>
+      <trkpt lat="49.80417" lon="-119.4222">
+        <ele>725.2</ele>
+      </trkpt>
+      <trkpt lat="49.80438" lon="-119.4221">
+        <ele>721.7</ele>
+      </trkpt>
+      <trkpt lat="49.80446" lon="-119.42199">
+        <ele>720.4</ele>
+      </trkpt>
+      <trkpt lat="49.80452" lon="-119.42183">
+        <ele>719.4</ele>
+      </trkpt>
+      <trkpt lat="49.80457" lon="-119.42176">
+        <ele>718.7</ele>
+      </trkpt>
+      <trkpt lat="49.80469" lon="-119.4217">
+        <ele>717.1</ele>
+      </trkpt>
+      <trkpt lat="49.80479" lon="-119.42168">
+        <ele>715.8</ele>
+      </trkpt>
+      <trkpt lat="49.80506" lon="-119.42177">
+        <ele>712.1</ele>
+      </trkpt>
+      <trkpt lat="49.80511" lon="-119.42183">
+        <ele>711.4</ele>
+      </trkpt>
+      <trkpt lat="49.80538" lon="-119.42227">
+        <ele>707.1</ele>
+      </trkpt>
+      <trkpt lat="49.80545" lon="-119.42235">
+        <ele>706.1</ele>
+      </trkpt>
+      <trkpt lat="49.80555" lon="-119.42239">
+        <ele>704.7</ele>
+      </trkpt>
+      <trkpt lat="49.80563" lon="-119.42238">
+        <ele>703.8</ele>
+      </trkpt>
+      <trkpt lat="49.80592" lon="-119.42221">
+        <ele>701.1</ele>
+      </trkpt>
+      <trkpt lat="49.8061" lon="-119.42216">
+        <ele>699.5</ele>
+      </trkpt>
+      <trkpt lat="49.80644" lon="-119.42192">
+        <ele>697.8</ele>
+      </trkpt>
+      <trkpt lat="49.80668" lon="-119.42183">
+        <ele>696.5</ele>
+      </trkpt>
+      <trkpt lat="49.80682" lon="-119.42185">
+        <ele>695.2</ele>
+      </trkpt>
+      <trkpt lat="49.80714" lon="-119.42199">
+        <ele>691.0</ele>
+      </trkpt>
+      <trkpt lat="49.80729" lon="-119.422">
+        <ele>689.5</ele>
+      </trkpt>
+      <trkpt lat="49.8075" lon="-119.42207">
+        <ele>686.7</ele>
+      </trkpt>
+      <trkpt lat="49.8077" lon="-119.42209">
+        <ele>683.9</ele>
+      </trkpt>
+      <trkpt lat="49.80771" lon="-119.42206">
+        <ele>684.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

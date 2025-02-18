@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Cnctr</name>
+    <time>2025-01-26T14:14:22Z</time>
+  </metadata>
+  <trk>
+    <name>Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.81492" lon="-119.43566">
+        <ele>540.0</ele>
+      </trkpt>
+      <trkpt lat="49.81479" lon="-119.43566">
+        <ele>540.9</ele>
+      </trkpt>
+      <trkpt lat="49.81458" lon="-119.43559">
+        <ele>542.4</ele>
+      </trkpt>
+      <trkpt lat="49.81443" lon="-119.43557">
+        <ele>543.6</ele>
+      </trkpt>
+      <trkpt lat="49.81434" lon="-119.43547">
+        <ele>544.4</ele>
+      </trkpt>
+      <trkpt lat="49.81418" lon="-119.43525">
+        <ele>546.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

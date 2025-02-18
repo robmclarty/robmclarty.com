@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Balsam Rock</name>
+    <time>2025-01-26T13:20:19Z</time>
+  </metadata>
+  <trk>
+    <name>Balsam Rock</name>
+    <trkseg>
+      <trkpt lat="49.9175" lon="-119.47936">
+        <ele>612.9</ele>
+      </trkpt>
+      <trkpt lat="49.9175" lon="-119.47937">
+        <ele>612.8</ele>
+      </trkpt>
+      <trkpt lat="49.91759" lon="-119.47934">
+        <ele>609.6</ele>
+      </trkpt>
+      <trkpt lat="49.91764" lon="-119.47926">
+        <ele>608.6</ele>
+      </trkpt>
+      <trkpt lat="49.91767" lon="-119.47917">
+        <ele>608.4</ele>
+      </trkpt>
+      <trkpt lat="49.91773" lon="-119.4791">
+        <ele>605.5</ele>
+      </trkpt>
+      <trkpt lat="49.91791" lon="-119.479">
+        <ele>597.8</ele>
+      </trkpt>
+      <trkpt lat="49.91815" lon="-119.47901">
+        <ele>589.1</ele>
+      </trkpt>
+      <trkpt lat="49.91815" lon="-119.47901">
+        <ele>589.1</ele>
+      </trkpt>
+      <trkpt lat="49.91821" lon="-119.47901">
+        <ele>586.9</ele>
+      </trkpt>
+      <trkpt lat="49.91826" lon="-119.47898">
+        <ele>585.0</ele>
+      </trkpt>
+      <trkpt lat="49.91818" lon="-119.47886">
+        <ele>587.2</ele>
+      </trkpt>
+      <trkpt lat="49.91814" lon="-119.47871">
+        <ele>587.8</ele>
+      </trkpt>
+      <trkpt lat="49.91811" lon="-119.47851">
+        <ele>587.5</ele>
+      </trkpt>
+      <trkpt lat="49.91811" lon="-119.47852">
+        <ele>587.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

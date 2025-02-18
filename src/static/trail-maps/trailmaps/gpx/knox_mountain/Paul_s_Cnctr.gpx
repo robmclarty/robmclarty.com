@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Paul's Cnctr</name>
+    <time>2025-01-26T13:21:49Z</time>
+  </metadata>
+  <trk>
+    <name>Paul's Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.91506" lon="-119.4891">
+        <ele>368.0</ele>
+      </trkpt>
+      <trkpt lat="49.91543" lon="-119.4883">
+        <ele>371.9</ele>
+      </trkpt>
+      <trkpt lat="49.91581" lon="-119.48749">
+        <ele>380.0</ele>
+      </trkpt>
+      <trkpt lat="49.91602" lon="-119.4872">
+        <ele>381.9</ele>
+      </trkpt>
+      <trkpt lat="49.91641" lon="-119.48693">
+        <ele>380.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

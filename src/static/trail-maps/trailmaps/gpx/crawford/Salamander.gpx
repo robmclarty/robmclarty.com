@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Salamander</name>
+    <time>2025-01-26T14:13:13Z</time>
+  </metadata>
+  <trk>
+    <name>Salamander</name>
+    <trkseg>
+      <trkpt lat="49.81967" lon="-119.42108">
+        <ele>577.5</ele>
+      </trkpt>
+      <trkpt lat="49.81967" lon="-119.42111">
+        <ele>577.4</ele>
+      </trkpt>
+      <trkpt lat="49.81944" lon="-119.4211">
+        <ele>580.4</ele>
+      </trkpt>
+      <trkpt lat="49.8193" lon="-119.42112">
+        <ele>582.2</ele>
+      </trkpt>
+      <trkpt lat="49.8191" lon="-119.4211">
+        <ele>584.4</ele>
+      </trkpt>
+      <trkpt lat="49.81886" lon="-119.42111">
+        <ele>585.8</ele>
+      </trkpt>
+      <trkpt lat="49.81865" lon="-119.42114">
+        <ele>587.0</ele>
+      </trkpt>
+      <trkpt lat="49.8185" lon="-119.42113">
+        <ele>587.9</ele>
+      </trkpt>
+      <trkpt lat="49.8182" lon="-119.42121">
+        <ele>590.2</ele>
+      </trkpt>
+      <trkpt lat="49.81806" lon="-119.42114">
+        <ele>592.2</ele>
+      </trkpt>
+      <trkpt lat="49.81793" lon="-119.42112">
+        <ele>593.9</ele>
+      </trkpt>
+      <trkpt lat="49.81785" lon="-119.42106">
+        <ele>595.4</ele>
+      </trkpt>
+      <trkpt lat="49.81765" lon="-119.42108">
+        <ele>597.7</ele>
+      </trkpt>
+      <trkpt lat="49.81734" lon="-119.42124">
+        <ele>600.9</ele>
+      </trkpt>
+      <trkpt lat="49.81721" lon="-119.42126">
+        <ele>602.9</ele>
+      </trkpt>
+      <trkpt lat="49.81717" lon="-119.42123">
+        <ele>603.9</ele>
+      </trkpt>
+      <trkpt lat="49.81712" lon="-119.42114">
+        <ele>605.7</ele>
+      </trkpt>
+      <trkpt lat="49.81707" lon="-119.42108">
+        <ele>607.2</ele>
+      </trkpt>
+      <trkpt lat="49.81698" lon="-119.42108">
+        <ele>608.8</ele>
+      </trkpt>
+      <trkpt lat="49.81686" lon="-119.421">
+        <ele>611.8</ele>
+      </trkpt>
+      <trkpt lat="49.81671" lon="-119.42107">
+        <ele>613.7</ele>
+      </trkpt>
+      <trkpt lat="49.81662" lon="-119.42105">
+        <ele>615.5</ele>
+      </trkpt>
+      <trkpt lat="49.81653" lon="-119.42086">
+        <ele>619.2</ele>
+      </trkpt>
+      <trkpt lat="49.81645" lon="-119.42087">
+        <ele>620.5</ele>
+      </trkpt>
+      <trkpt lat="49.81638" lon="-119.4211">
+        <ele>619.5</ele>
+      </trkpt>
+      <trkpt lat="49.81611" lon="-119.42141">
+        <ele>621.7</ele>
+      </trkpt>
+      <trkpt lat="49.81603" lon="-119.42145">
+        <ele>622.9</ele>
+      </trkpt>
+      <trkpt lat="49.81585" lon="-119.42138">
+        <ele>627.1</ele>
+      </trkpt>
+      <trkpt lat="49.81577" lon="-119.42137">
+        <ele>628.3</ele>
+      </trkpt>
+      <trkpt lat="49.81552" lon="-119.42142">
+        <ele>631.2</ele>
+      </trkpt>
+      <trkpt lat="49.81552" lon="-119.42141">
+        <ele>631.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

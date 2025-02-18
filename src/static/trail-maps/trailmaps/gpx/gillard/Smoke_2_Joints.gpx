@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Smoke 2 Joints</name>
+    <time>2025-01-11T15:10:36Z</time>
+  </metadata>
+  <trk>
+    <name>Smoke 2 Joints</name>
+    <trkseg>
+      <trkpt lat="49.78157" lon="-119.45917">
+        <ele>858.7</ele>
+      </trkpt>
+      <trkpt lat="49.78199" lon="-119.45895">
+        <ele>858.3</ele>
+      </trkpt>
+      <trkpt lat="49.78259" lon="-119.45883">
+        <ele>854.4</ele>
+      </trkpt>
+      <trkpt lat="49.78299" lon="-119.45843">
+        <ele>847.7</ele>
+      </trkpt>
+      <trkpt lat="49.78348" lon="-119.45844">
+        <ele>839.4</ele>
+      </trkpt>
+      <trkpt lat="49.78377" lon="-119.45849">
+        <ele>835.8</ele>
+      </trkpt>
+      <trkpt lat="49.78398" lon="-119.45863">
+        <ele>833.5</ele>
+      </trkpt>
+      <trkpt lat="49.78406" lon="-119.45882">
+        <ele>833.2</ele>
+      </trkpt>
+      <trkpt lat="49.78417" lon="-119.45893">
+        <ele>832.1</ele>
+      </trkpt>
+      <trkpt lat="49.78433" lon="-119.45899">
+        <ele>829.1</ele>
+      </trkpt>
+      <trkpt lat="49.78445" lon="-119.45897">
+        <ele>826.7</ele>
+      </trkpt>
+      <trkpt lat="49.78461" lon="-119.45904">
+        <ele>823.7</ele>
+      </trkpt>
+      <trkpt lat="49.78463" lon="-119.45903">
+        <ele>823.2</ele>
+      </trkpt>
+      <trkpt lat="49.78463" lon="-119.45903">
+        <ele>823.2</ele>
+      </trkpt>
+      <trkpt lat="49.78492" lon="-119.45901">
+        <ele>817.4</ele>
+      </trkpt>
+      <trkpt lat="49.78504" lon="-119.45908">
+        <ele>814.5</ele>
+      </trkpt>
+      <trkpt lat="49.78517" lon="-119.45903">
+        <ele>810.0</ele>
+      </trkpt>
+      <trkpt lat="49.7853" lon="-119.45907">
+        <ele>805.5</ele>
+      </trkpt>
+      <trkpt lat="49.78537" lon="-119.4592">
+        <ele>803.1</ele>
+      </trkpt>
+      <trkpt lat="49.7854" lon="-119.4594">
+        <ele>801.8</ele>
+      </trkpt>
+      <trkpt lat="49.78547" lon="-119.45946">
+        <ele>799.3</ele>
+      </trkpt>
+      <trkpt lat="49.78567" lon="-119.45942">
+        <ele>792.4</ele>
+      </trkpt>
+      <trkpt lat="49.78574" lon="-119.45925">
+        <ele>790.1</ele>
+      </trkpt>
+      <trkpt lat="49.78594" lon="-119.45916">
+        <ele>783.9</ele>
+      </trkpt>
+      <trkpt lat="49.78601" lon="-119.45921">
+        <ele>781.9</ele>
+      </trkpt>
+      <trkpt lat="49.7861" lon="-119.45937">
+        <ele>779.2</ele>
+      </trkpt>
+      <trkpt lat="49.78619" lon="-119.45952">
+        <ele>776.7</ele>
+      </trkpt>
+      <trkpt lat="49.78626" lon="-119.4597">
+        <ele>774.7</ele>
+      </trkpt>
+      <trkpt lat="49.78632" lon="-119.45998">
+        <ele>773.1</ele>
+      </trkpt>
+      <trkpt lat="49.78642" lon="-119.46017">
+        <ele>770.6</ele>
+      </trkpt>
+      <trkpt lat="49.78659" lon="-119.46073">
+        <ele>766.7</ele>
+      </trkpt>
+      <trkpt lat="49.78659" lon="-119.46073">
+        <ele>766.7</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

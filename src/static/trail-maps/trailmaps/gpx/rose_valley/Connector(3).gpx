@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Connector</name>
+    <time>2025-01-26T15:08:44Z</time>
+  </metadata>
+  <trk>
+    <name>Connector</name>
+    <trkseg>
+      <trkpt lat="49.8819" lon="-119.5684">
+        <ele>606.7</ele>
+      </trkpt>
+      <trkpt lat="49.88193" lon="-119.56833">
+        <ele>606.4</ele>
+      </trkpt>
+      <trkpt lat="49.88199" lon="-119.56832">
+        <ele>607.5</ele>
+      </trkpt>
+      <trkpt lat="49.88225" lon="-119.56844">
+        <ele>613.2</ele>
+      </trkpt>
+      <trkpt lat="49.88256" lon="-119.56834">
+        <ele>617.0</ele>
+      </trkpt>
+      <trkpt lat="49.88299" lon="-119.56784">
+        <ele>623.6</ele>
+      </trkpt>
+      <trkpt lat="49.88342" lon="-119.56734">
+        <ele>628.4</ele>
+      </trkpt>
+      <trkpt lat="49.88361" lon="-119.56701">
+        <ele>632.5</ele>
+      </trkpt>
+      <trkpt lat="49.88379" lon="-119.56704">
+        <ele>634.0</ele>
+      </trkpt>
+      <trkpt lat="49.88392" lon="-119.56709">
+        <ele>635.1</ele>
+      </trkpt>
+      <trkpt lat="49.88392" lon="-119.56709">
+        <ele>635.1</ele>
+      </trkpt>
+      <trkpt lat="49.88399" lon="-119.56716">
+        <ele>635.7</ele>
+      </trkpt>
+      <trkpt lat="49.88407" lon="-119.56729">
+        <ele>636.6</ele>
+      </trkpt>
+      <trkpt lat="49.88414" lon="-119.56735">
+        <ele>637.5</ele>
+      </trkpt>
+      <trkpt lat="49.8842" lon="-119.56735">
+        <ele>638.2</ele>
+      </trkpt>
+      <trkpt lat="49.88427" lon="-119.56731">
+        <ele>639.0</ele>
+      </trkpt>
+      <trkpt lat="49.88437" lon="-119.5672">
+        <ele>640.1</ele>
+      </trkpt>
+      <trkpt lat="49.88467" lon="-119.56701">
+        <ele>643.5</ele>
+      </trkpt>
+      <trkpt lat="49.88475" lon="-119.56691">
+        <ele>644.3</ele>
+      </trkpt>
+      <trkpt lat="49.88488" lon="-119.56672">
+        <ele>645.6</ele>
+      </trkpt>
+      <trkpt lat="49.88497" lon="-119.56664">
+        <ele>646.8</ele>
+      </trkpt>
+      <trkpt lat="49.88504" lon="-119.56664">
+        <ele>647.4</ele>
+      </trkpt>
+      <trkpt lat="49.8851" lon="-119.56665">
+        <ele>647.7</ele>
+      </trkpt>
+      <trkpt lat="49.8851" lon="-119.56665">
+        <ele>647.7</ele>
+      </trkpt>
+      <trkpt lat="49.88548" lon="-119.56671">
+        <ele>650.1</ele>
+      </trkpt>
+      <trkpt lat="49.88548" lon="-119.5667">
+        <ele>650.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

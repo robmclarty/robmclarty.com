@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Bowe's Connector</name>
+    <time>2025-01-26T14:56:41Z</time>
+  </metadata>
+  <trk>
+    <name>Bowe's Connector</name>
+    <trkseg>
+      <trkpt lat="49.90274" lon="-119.54819">
+        <ele>577.5</ele>
+      </trkpt>
+      <trkpt lat="49.90274" lon="-119.54819">
+        <ele>577.5</ele>
+      </trkpt>
+      <trkpt lat="49.90263" lon="-119.54809">
+        <ele>572.8</ele>
+      </trkpt>
+      <trkpt lat="49.90281" lon="-119.5477">
+        <ele>569.2</ele>
+      </trkpt>
+      <trkpt lat="49.90291" lon="-119.54758">
+        <ele>569.4</ele>
+      </trkpt>
+      <trkpt lat="49.90321" lon="-119.54721">
+        <ele>569.4</ele>
+      </trkpt>
+      <trkpt lat="49.90329" lon="-119.54701">
+        <ele>566.8</ele>
+      </trkpt>
+      <trkpt lat="49.90337" lon="-119.54676">
+        <ele>563.1</ele>
+      </trkpt>
+      <trkpt lat="49.9036" lon="-119.54659">
+        <ele>565.5</ele>
+      </trkpt>
+      <trkpt lat="49.90377" lon="-119.54648">
+        <ele>567.5</ele>
+      </trkpt>
+      <trkpt lat="49.90396" lon="-119.54617">
+        <ele>564.9</ele>
+      </trkpt>
+      <trkpt lat="49.90397" lon="-119.54616">
+        <ele>565.0</ele>
+      </trkpt>
+      <trkpt lat="49.90397" lon="-119.54616">
+        <ele>565.0</ele>
+      </trkpt>
+      <trkpt lat="49.90396" lon="-119.54617">
+        <ele>564.9</ele>
+      </trkpt>
+      <trkpt lat="49.90382" lon="-119.54622">
+        <ele>562.4</ele>
+      </trkpt>
+      <trkpt lat="49.9037" lon="-119.5463">
+        <ele>561.1</ele>
+      </trkpt>
+      <trkpt lat="49.90347" lon="-119.54615">
+        <ele>551.3</ele>
+      </trkpt>
+      <trkpt lat="49.90315" lon="-119.54615">
+        <ele>545.0</ele>
+      </trkpt>
+      <trkpt lat="49.90276" lon="-119.54625">
+        <ele>541.1</ele>
+      </trkpt>
+      <trkpt lat="49.90276" lon="-119.54625">
+        <ele>541.1</ele>
+      </trkpt>
+      <trkpt lat="49.90266" lon="-119.54631">
+        <ele>540.5</ele>
+      </trkpt>
+      <trkpt lat="49.90249" lon="-119.54632">
+        <ele>537.9</ele>
+      </trkpt>
+      <trkpt lat="49.90225" lon="-119.54653">
+        <ele>537.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

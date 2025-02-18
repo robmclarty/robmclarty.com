@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>RSVP Rock Rolls</name>
+    <time>2025-01-26T15:11:09Z</time>
+  </metadata>
+  <trk>
+    <name>RSVP Rock Rolls</name>
+    <trkseg>
+      <trkpt lat="49.8833" lon="-119.57247">
+        <ele>690.9</ele>
+      </trkpt>
+      <trkpt lat="49.8833" lon="-119.57248">
+        <ele>690.9</ele>
+      </trkpt>
+      <trkpt lat="49.88321" lon="-119.57229">
+        <ele>688.4</ele>
+      </trkpt>
+      <trkpt lat="49.88305" lon="-119.572">
+        <ele>684.2</ele>
+      </trkpt>
+      <trkpt lat="49.88285" lon="-119.57178">
+        <ele>678.9</ele>
+      </trkpt>
+      <trkpt lat="49.88281" lon="-119.57155">
+        <ele>676.8</ele>
+      </trkpt>
+      <trkpt lat="49.88276" lon="-119.57149">
+        <ele>674.6</ele>
+      </trkpt>
+      <trkpt lat="49.88273" lon="-119.5715">
+        <ele>673.8</ele>
+      </trkpt>
+      <trkpt lat="49.88267" lon="-119.57154">
+        <ele>672.6</ele>
+      </trkpt>
+      <trkpt lat="49.88267" lon="-119.57154">
+        <ele>672.6</ele>
+      </trkpt>
+      <trkpt lat="49.88248" lon="-119.57176">
+        <ele>667.7</ele>
+      </trkpt>
+      <trkpt lat="49.88238" lon="-119.57181">
+        <ele>664.1</ele>
+      </trkpt>
+      <trkpt lat="49.88235" lon="-119.57189">
+        <ele>662.6</ele>
+      </trkpt>
+      <trkpt lat="49.88237" lon="-119.57192">
+        <ele>663.1</ele>
+      </trkpt>
+      <trkpt lat="49.88236" lon="-119.57217">
+        <ele>661.0</ele>
+      </trkpt>
+      <trkpt lat="49.88231" lon="-119.57234">
+        <ele>658.4</ele>
+      </trkpt>
+      <trkpt lat="49.88245" lon="-119.57267">
+        <ele>659.7</ele>
+      </trkpt>
+      <trkpt lat="49.88249" lon="-119.57271">
+        <ele>660.4</ele>
+      </trkpt>
+      <trkpt lat="49.8826" lon="-119.57277">
+        <ele>663.6</ele>
+      </trkpt>
+      <trkpt lat="49.88263" lon="-119.5728">
+        <ele>664.3</ele>
+      </trkpt>
+      <trkpt lat="49.88259" lon="-119.57294">
+        <ele>661.4</ele>
+      </trkpt>
+      <trkpt lat="49.88252" lon="-119.57331">
+        <ele>655.0</ele>
+      </trkpt>
+      <trkpt lat="49.88247" lon="-119.57346">
+        <ele>651.8</ele>
+      </trkpt>
+      <trkpt lat="49.88247" lon="-119.57355">
+        <ele>650.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Meeko</name>
+    <time>2025-01-11T15:07:33Z</time>
+  </metadata>
+  <trk>
+    <name>Meeko</name>
+    <trkseg>
+      <trkpt lat="49.767894" lon="-119.454157">
+        <ele>1050.9</ele>
+      </trkpt>
+      <trkpt lat="49.767971" lon="-119.453785">
+        <ele>1046.4</ele>
+      </trkpt>
+      <trkpt lat="49.767971" lon="-119.453785">
+        <ele>1046.4</ele>
+      </trkpt>
+      <trkpt lat="49.768189" lon="-119.45327">
+        <ele>1039.4</ele>
+      </trkpt>
+      <trkpt lat="49.768189" lon="-119.45327">
+        <ele>1039.4</ele>
+      </trkpt>
+      <trkpt lat="49.769032" lon="-119.453161">
+        <ele>1025.1</ele>
+      </trkpt>
+      <trkpt lat="49.769032" lon="-119.453161">
+        <ele>1025.1</ele>
+      </trkpt>
+      <trkpt lat="49.769257" lon="-119.45344">
+        <ele>1025.2</ele>
+      </trkpt>
+      <trkpt lat="49.769257" lon="-119.45344">
+        <ele>1025.2</ele>
+      </trkpt>
+      <trkpt lat="49.769898" lon="-119.454127">
+        <ele>1022.6</ele>
+      </trkpt>
+      <trkpt lat="49.769898" lon="-119.454127">
+        <ele>1022.6</ele>
+      </trkpt>
+      <trkpt lat="49.770345" lon="-119.454728">
+        <ele>1020.9</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

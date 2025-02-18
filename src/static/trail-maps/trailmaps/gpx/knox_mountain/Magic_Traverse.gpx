@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Magic Traverse</name>
+    <time>2025-01-26T13:27:58Z</time>
+  </metadata>
+  <trk>
+    <name>Magic Traverse</name>
+    <trkseg>
+      <trkpt lat="49.91253" lon="-119.47304">
+        <ele>595.9</ele>
+      </trkpt>
+      <trkpt lat="49.91252" lon="-119.47306">
+        <ele>595.8</ele>
+      </trkpt>
+      <trkpt lat="49.91263" lon="-119.47327">
+        <ele>595.6</ele>
+      </trkpt>
+      <trkpt lat="49.91294" lon="-119.47352">
+        <ele>591.9</ele>
+      </trkpt>
+      <trkpt lat="49.91322" lon="-119.4738">
+        <ele>585.3</ele>
+      </trkpt>
+      <trkpt lat="49.9134" lon="-119.47383">
+        <ele>584.5</ele>
+      </trkpt>
+      <trkpt lat="49.91388" lon="-119.4739">
+        <ele>582.9</ele>
+      </trkpt>
+      <trkpt lat="49.91458" lon="-119.47384">
+        <ele>582.4</ele>
+      </trkpt>
+      <trkpt lat="49.91473" lon="-119.47373">
+        <ele>584.7</ele>
+      </trkpt>
+      <trkpt lat="49.91484" lon="-119.47372">
+        <ele>584.3</ele>
+      </trkpt>
+      <trkpt lat="49.91484" lon="-119.47372">
+        <ele>584.3</ele>
+      </trkpt>
+      <trkpt lat="49.91517" lon="-119.47368">
+        <ele>582.2</ele>
+      </trkpt>
+      <trkpt lat="49.91556" lon="-119.47341">
+        <ele>582.9</ele>
+      </trkpt>
+      <trkpt lat="49.91573" lon="-119.47321">
+        <ele>584.3</ele>
+      </trkpt>
+      <trkpt lat="49.91585" lon="-119.4731">
+        <ele>584.1</ele>
+      </trkpt>
+      <trkpt lat="49.91603" lon="-119.47313">
+        <ele>579.8</ele>
+      </trkpt>
+      <trkpt lat="49.91617" lon="-119.47323">
+        <ele>575.5</ele>
+      </trkpt>
+      <trkpt lat="49.91626" lon="-119.47323">
+        <ele>573.7</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

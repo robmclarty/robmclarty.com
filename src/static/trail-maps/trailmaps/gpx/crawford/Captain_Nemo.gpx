@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Captain Nemo</name>
+    <time>2025-01-11T14:55:24Z</time>
+  </metadata>
+  <trk>
+    <name>Captain Nemo</name>
+    <trkseg>
+      <trkpt lat="49.77962" lon="-119.39499">
+        <ele>1233.8</ele>
+      </trkpt>
+      <trkpt lat="49.77962" lon="-119.39499">
+        <ele>1233.8</ele>
+      </trkpt>
+      <trkpt lat="49.77971" lon="-119.39494">
+        <ele>1232.3</ele>
+      </trkpt>
+      <trkpt lat="49.7798" lon="-119.39485">
+        <ele>1231.1</ele>
+      </trkpt>
+      <trkpt lat="49.78024" lon="-119.39436">
+        <ele>1222.1</ele>
+      </trkpt>
+      <trkpt lat="49.78038" lon="-119.39406">
+        <ele>1218.3</ele>
+      </trkpt>
+      <trkpt lat="49.78044" lon="-119.39395">
+        <ele>1216.2</ele>
+      </trkpt>
+      <trkpt lat="49.78046" lon="-119.39382">
+        <ele>1215.8</ele>
+      </trkpt>
+      <trkpt lat="49.78051" lon="-119.39373">
+        <ele>1213.9</ele>
+      </trkpt>
+      <trkpt lat="49.78054" lon="-119.39386">
+        <ele>1212.4</ele>
+      </trkpt>
+      <trkpt lat="49.78056" lon="-119.39405">
+        <ele>1211.1</ele>
+      </trkpt>
+      <trkpt lat="49.78066" lon="-119.39415">
+        <ele>1206.9</ele>
+      </trkpt>
+      <trkpt lat="49.78071" lon="-119.39422">
+        <ele>1204.7</ele>
+      </trkpt>
+      <trkpt lat="49.78076" lon="-119.39436">
+        <ele>1202.5</ele>
+      </trkpt>
+      <trkpt lat="49.7808" lon="-119.39442">
+        <ele>1200.9</ele>
+      </trkpt>
+      <trkpt lat="49.78089" lon="-119.39437">
+        <ele>1198.4</ele>
+      </trkpt>
+      <trkpt lat="49.78099" lon="-119.39424">
+        <ele>1196.1</ele>
+      </trkpt>
+      <trkpt lat="49.78104" lon="-119.39427">
+        <ele>1194.9</ele>
+      </trkpt>
+      <trkpt lat="49.7812" lon="-119.39485">
+        <ele>1190.0</ele>
+      </trkpt>
+      <trkpt lat="49.78123" lon="-119.39539">
+        <ele>1187.1</ele>
+      </trkpt>
+      <trkpt lat="49.7813" lon="-119.3958">
+        <ele>1183.4</ele>
+      </trkpt>
+      <trkpt lat="49.78133" lon="-119.39638">
+        <ele>1179.6</ele>
+      </trkpt>
+      <trkpt lat="49.78132" lon="-119.3967">
+        <ele>1178.2</ele>
+      </trkpt>
+      <trkpt lat="49.78137" lon="-119.39729">
+        <ele>1174.4</ele>
+      </trkpt>
+      <trkpt lat="49.78145" lon="-119.39785">
+        <ele>1169.4</ele>
+      </trkpt>
+      <trkpt lat="49.78152" lon="-119.39852">
+        <ele>1164.3</ele>
+      </trkpt>
+      <trkpt lat="49.78157" lon="-119.39868">
+        <ele>1162.6</ele>
+      </trkpt>
+      <trkpt lat="49.78163" lon="-119.39876">
+        <ele>1161.1</ele>
+      </trkpt>
+      <trkpt lat="49.78162" lon="-119.39878">
+        <ele>1161.2</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Alt Lower Snake's Back</name>
+    <time>2025-01-26T12:50:28Z</time>
+  </metadata>
+  <trk>
+    <name>Alt Lower Snake's Back</name>
+    <trkseg>
+      <trkpt lat="49.77748" lon="-119.45523">
+        <ele>918.3</ele>
+      </trkpt>
+      <trkpt lat="49.77748" lon="-119.45523">
+        <ele>918.3</ele>
+      </trkpt>
+      <trkpt lat="49.77764" lon="-119.45508">
+        <ele>914.9</ele>
+      </trkpt>
+      <trkpt lat="49.7778" lon="-119.45506">
+        <ele>911.9</ele>
+      </trkpt>
+      <trkpt lat="49.77799" lon="-119.45475">
+        <ele>904.0</ele>
+      </trkpt>
+      <trkpt lat="49.77814" lon="-119.45473">
+        <ele>900.9</ele>
+      </trkpt>
+      <trkpt lat="49.77818" lon="-119.4546">
+        <ele>898.0</ele>
+      </trkpt>
+      <trkpt lat="49.77824" lon="-119.45448">
+        <ele>894.9</ele>
+      </trkpt>
+      <trkpt lat="49.77826" lon="-119.45419">
+        <ele>889.7</ele>
+      </trkpt>
+      <trkpt lat="49.77826" lon="-119.45394">
+        <ele>885.2</ele>
+      </trkpt>
+      <trkpt lat="49.77826" lon="-119.45393">
+        <ele>885.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

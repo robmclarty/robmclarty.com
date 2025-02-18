@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Galloping Short Cut</name>
+    <time>2025-01-26T14:24:09Z</time>
+  </metadata>
+  <trk>
+    <name>Galloping Short Cut</name>
+    <trkseg>
+      <trkpt lat="49.80825" lon="-119.41925">
+        <ele>699.6</ele>
+      </trkpt>
+      <trkpt lat="49.80825" lon="-119.41926">
+        <ele>699.5</ele>
+      </trkpt>
+      <trkpt lat="49.80832" lon="-119.41922">
+        <ele>699.0</ele>
+      </trkpt>
+      <trkpt lat="49.80847" lon="-119.4192">
+        <ele>697.4</ele>
+      </trkpt>
+      <trkpt lat="49.80854" lon="-119.4192">
+        <ele>696.7</ele>
+      </trkpt>
+      <trkpt lat="49.80879" lon="-119.41934">
+        <ele>693.6</ele>
+      </trkpt>
+      <trkpt lat="49.80904" lon="-119.41943">
+        <ele>690.7</ele>
+      </trkpt>
+      <trkpt lat="49.80905" lon="-119.41942">
+        <ele>690.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

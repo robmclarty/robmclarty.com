@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Upper Snake's Back</name>
+    <time>2025-01-11T15:08:18Z</time>
+  </metadata>
+  <trk>
+    <name>Upper Snake's Back</name>
+    <trkseg>
+      <trkpt lat="49.768963" lon="-119.454964">
+        <ele>1038.7</ele>
+      </trkpt>
+      <trkpt lat="49.769243" lon="-119.454792">
+        <ele>1036.7</ele>
+      </trkpt>
+      <trkpt lat="49.76939" lon="-119.45473">
+        <ele>1034.5</ele>
+      </trkpt>
+      <trkpt lat="49.76949" lon="-119.4547">
+        <ele>1032.9</ele>
+      </trkpt>
+      <trkpt lat="49.76961" lon="-119.45471">
+        <ele>1031.2</ele>
+      </trkpt>
+      <trkpt lat="49.76992" lon="-119.45482">
+        <ele>1027.6</ele>
+      </trkpt>
+      <trkpt lat="49.77" lon="-119.45481">
+        <ele>1026.4</ele>
+      </trkpt>
+      <trkpt lat="49.77021" lon="-119.45471">
+        <ele>1022.6</ele>
+      </trkpt>
+      <trkpt lat="49.77031" lon="-119.45471">
+        <ele>1021.2</ele>
+      </trkpt>
+      <trkpt lat="49.77038" lon="-119.45474">
+        <ele>1020.5</ele>
+      </trkpt>
+      <trkpt lat="49.77044" lon="-119.4548">
+        <ele>1020.0</ele>
+      </trkpt>
+      <trkpt lat="49.77073" lon="-119.45518">
+        <ele>1016.0</ele>
+      </trkpt>
+      <trkpt lat="49.77082" lon="-119.45522">
+        <ele>1014.4</ele>
+      </trkpt>
+      <trkpt lat="49.7709" lon="-119.45519">
+        <ele>1013.3</ele>
+      </trkpt>
+      <trkpt lat="49.77102" lon="-119.45509">
+        <ele>1011.9</ele>
+      </trkpt>
+      <trkpt lat="49.77103" lon="-119.45506">
+        <ele>1011.9</ele>
+      </trkpt>
+      <trkpt lat="49.77103" lon="-119.45506">
+        <ele>1011.9</ele>
+      </trkpt>
+      <trkpt lat="49.7711" lon="-119.45496">
+        <ele>1011.1</ele>
+      </trkpt>
+      <trkpt lat="49.77116" lon="-119.45476">
+        <ele>1010.1</ele>
+      </trkpt>
+      <trkpt lat="49.77122" lon="-119.45432">
+        <ele>1009.3</ele>
+      </trkpt>
+      <trkpt lat="49.77132" lon="-119.45403">
+        <ele>1008.4</ele>
+      </trkpt>
+      <trkpt lat="49.77139" lon="-119.45391">
+        <ele>1007.8</ele>
+      </trkpt>
+      <trkpt lat="49.77149" lon="-119.45381">
+        <ele>1007.1</ele>
+      </trkpt>
+      <trkpt lat="49.77165" lon="-119.45377">
+        <ele>1006.1</ele>
+      </trkpt>
+      <trkpt lat="49.77182" lon="-119.45367">
+        <ele>1005.6</ele>
+      </trkpt>
+      <trkpt lat="49.77202" lon="-119.45345">
+        <ele>1005.1</ele>
+      </trkpt>
+      <trkpt lat="49.77232" lon="-119.45322">
+        <ele>1003.2</ele>
+      </trkpt>
+      <trkpt lat="49.77262" lon="-119.45296">
+        <ele>999.4</ele>
+      </trkpt>
+      <trkpt lat="49.77284" lon="-119.45282">
+        <ele>997.5</ele>
+      </trkpt>
+      <trkpt lat="49.773" lon="-119.45265">
+        <ele>995.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

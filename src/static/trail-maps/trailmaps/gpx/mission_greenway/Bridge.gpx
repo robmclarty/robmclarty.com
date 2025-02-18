@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Bridge</name>
+    <time>2025-01-26T13:45:20Z</time>
+  </metadata>
+  <trk>
+    <name>Bridge</name>
+    <trkseg>
+      <trkpt lat="49.8774" lon="-119.43086">
+        <ele>372.8</ele>
+      </trkpt>
+      <trkpt lat="49.87741" lon="-119.43087">
+        <ele>372.8</ele>
+      </trkpt>
+      <trkpt lat="49.87735" lon="-119.4309">
+        <ele>372.6</ele>
+      </trkpt>
+      <trkpt lat="49.87731" lon="-119.43086">
+        <ele>372.5</ele>
+      </trkpt>
+      <trkpt lat="49.87727" lon="-119.43075">
+        <ele>372.8</ele>
+      </trkpt>
+      <trkpt lat="49.87723" lon="-119.43077">
+        <ele>372.8</ele>
+      </trkpt>
+      <trkpt lat="49.87719" lon="-119.43075">
+        <ele>372.8</ele>
+      </trkpt>
+      <trkpt lat="49.87717" lon="-119.43071">
+        <ele>372.9</ele>
+      </trkpt>
+      <trkpt lat="49.87717" lon="-119.43065">
+        <ele>372.9</ele>
+      </trkpt>
+      <trkpt lat="49.87711" lon="-119.43065">
+        <ele>373.0</ele>
+      </trkpt>
+      <trkpt lat="49.87708" lon="-119.43062">
+        <ele>373.2</ele>
+      </trkpt>
+      <trkpt lat="49.87706" lon="-119.4306">
+        <ele>373.4</ele>
+      </trkpt>
+      <trkpt lat="49.87706" lon="-119.4306">
+        <ele>373.4</ele>
+      </trkpt>
+      <trkpt lat="49.87693" lon="-119.43048">
+        <ele>374.4</ele>
+      </trkpt>
+      <trkpt lat="49.87665" lon="-119.43026">
+        <ele>376.5</ele>
+      </trkpt>
+      <trkpt lat="49.87653" lon="-119.43012">
+        <ele>377.5</ele>
+      </trkpt>
+      <trkpt lat="49.87654" lon="-119.4301">
+        <ele>377.7</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

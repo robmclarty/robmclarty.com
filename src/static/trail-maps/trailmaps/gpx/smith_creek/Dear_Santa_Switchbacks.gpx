@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Dear Santa Switchbacks</name>
+    <time>2025-01-26T14:33:03Z</time>
+  </metadata>
+  <trk>
+    <name>Dear Santa Switchbacks</name>
+    <trkseg>
+      <trkpt lat="49.86044" lon="-119.6661">
+        <ele>756.3</ele>
+      </trkpt>
+      <trkpt lat="49.86043" lon="-119.66611">
+        <ele>755.9</ele>
+      </trkpt>
+      <trkpt lat="49.86039" lon="-119.66604">
+        <ele>755.2</ele>
+      </trkpt>
+      <trkpt lat="49.8603" lon="-119.66615">
+        <ele>751.8</ele>
+      </trkpt>
+      <trkpt lat="49.86027" lon="-119.66637">
+        <ele>749.5</ele>
+      </trkpt>
+      <trkpt lat="49.86023" lon="-119.66636">
+        <ele>748.4</ele>
+      </trkpt>
+      <trkpt lat="49.86023" lon="-119.66645">
+        <ele>747.8</ele>
+      </trkpt>
+      <trkpt lat="49.86018" lon="-119.66644">
+        <ele>746.5</ele>
+      </trkpt>
+      <trkpt lat="49.8602" lon="-119.66657">
+        <ele>746.2</ele>
+      </trkpt>
+      <trkpt lat="49.86013" lon="-119.66651">
+        <ele>744.6</ele>
+      </trkpt>
+      <trkpt lat="49.8601" lon="-119.6666">
+        <ele>743.2</ele>
+      </trkpt>
+      <trkpt lat="49.86013" lon="-119.66673">
+        <ele>743.1</ele>
+      </trkpt>
+      <trkpt lat="49.86012" lon="-119.66677">
+        <ele>742.5</ele>
+      </trkpt>
+      <trkpt lat="49.86005" lon="-119.66669">
+        <ele>741.2</ele>
+      </trkpt>
+      <trkpt lat="49.86001" lon="-119.66673">
+        <ele>739.8</ele>
+      </trkpt>
+      <trkpt lat="49.86005" lon="-119.66686">
+        <ele>740.0</ele>
+      </trkpt>
+      <trkpt lat="49.85999" lon="-119.66679">
+        <ele>738.8</ele>
+      </trkpt>
+      <trkpt lat="49.85988" lon="-119.66663">
+        <ele>736.8</ele>
+      </trkpt>
+      <trkpt lat="49.85979" lon="-119.66632">
+        <ele>735.7</ele>
+      </trkpt>
+      <trkpt lat="49.85975" lon="-119.6663">
+        <ele>734.6</ele>
+      </trkpt>
+      <trkpt lat="49.85964" lon="-119.66639">
+        <ele>730.9</ele>
+      </trkpt>
+      <trkpt lat="49.85958" lon="-119.66653">
+        <ele>728.5</ele>
+      </trkpt>
+      <trkpt lat="49.85937" lon="-119.6664">
+        <ele>722.7</ele>
+      </trkpt>
+      <trkpt lat="49.85919" lon="-119.66643">
+        <ele>717.3</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

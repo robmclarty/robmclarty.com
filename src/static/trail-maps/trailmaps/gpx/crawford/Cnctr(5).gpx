@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Cnctr</name>
+    <time>2025-01-26T14:14:11Z</time>
+  </metadata>
+  <trk>
+    <name>Cnctr</name>
+    <trkseg>
+      <trkpt lat="49.8162" lon="-119.43388">
+        <ele>538.1</ele>
+      </trkpt>
+      <trkpt lat="49.81613" lon="-119.43391">
+        <ele>538.3</ele>
+      </trkpt>
+      <trkpt lat="49.81601" lon="-119.43394">
+        <ele>538.9</ele>
+      </trkpt>
+      <trkpt lat="49.81583" lon="-119.43391">
+        <ele>539.7</ele>
+      </trkpt>
+      <trkpt lat="49.81561" lon="-119.43383">
+        <ele>539.6</ele>
+      </trkpt>
+      <trkpt lat="49.81532" lon="-119.43392">
+        <ele>539.4</ele>
+      </trkpt>
+      <trkpt lat="49.81523" lon="-119.43398">
+        <ele>539.1</ele>
+      </trkpt>
+      <trkpt lat="49.81494" lon="-119.43427">
+        <ele>538.9</ele>
+      </trkpt>
+      <trkpt lat="49.81477" lon="-119.43434">
+        <ele>541.6</ele>
+      </trkpt>
+      <trkpt lat="49.8145" lon="-119.43435">
+        <ele>546.1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

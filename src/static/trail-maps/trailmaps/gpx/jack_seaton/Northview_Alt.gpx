@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Northview Alt</name>
+    <time>2025-01-26T13:05:05Z</time>
+  </metadata>
+  <trk>
+    <name>Northview Alt</name>
+    <trkseg>
+      <trkpt lat="50.03837" lon="-119.43684">
+        <ele>556.3</ele>
+      </trkpt>
+      <trkpt lat="50.03846" lon="-119.43686">
+        <ele>555.9</ele>
+      </trkpt>
+      <trkpt lat="50.0385" lon="-119.43685">
+        <ele>556.0</ele>
+      </trkpt>
+      <trkpt lat="50.03864" lon="-119.43692">
+        <ele>555.0</ele>
+      </trkpt>
+      <trkpt lat="50.03867" lon="-119.43691">
+        <ele>555.0</ele>
+      </trkpt>
+      <trkpt lat="50.03868" lon="-119.43686">
+        <ele>555.5</ele>
+      </trkpt>
+      <trkpt lat="50.03871" lon="-119.43685">
+        <ele>555.6</ele>
+      </trkpt>
+      <trkpt lat="50.03876" lon="-119.43688">
+        <ele>555.2</ele>
+      </trkpt>
+      <trkpt lat="50.03888" lon="-119.43692">
+        <ele>554.5</ele>
+      </trkpt>
+      <trkpt lat="50.03893" lon="-119.43691">
+        <ele>554.5</ele>
+      </trkpt>
+      <trkpt lat="50.03896" lon="-119.43689">
+        <ele>554.7</ele>
+      </trkpt>
+      <trkpt lat="50.03899" lon="-119.43683">
+        <ele>555.3</ele>
+      </trkpt>
+      <trkpt lat="50.03904" lon="-119.43682">
+        <ele>555.4</ele>
+      </trkpt>
+      <trkpt lat="50.0391" lon="-119.43685">
+        <ele>554.9</ele>
+      </trkpt>
+      <trkpt lat="50.0392" lon="-119.43687">
+        <ele>554.2</ele>
+      </trkpt>
+      <trkpt lat="50.03928" lon="-119.43683">
+        <ele>553.9</ele>
+      </trkpt>
+      <trkpt lat="50.0393" lon="-119.43683">
+        <ele>553.7</ele>
+      </trkpt>
+      <trkpt lat="50.03935" lon="-119.43687">
+        <ele>552.7</ele>
+      </trkpt>
+      <trkpt lat="50.03939" lon="-119.43688">
+        <ele>552.2</ele>
+      </trkpt>
+      <trkpt lat="50.03945" lon="-119.43692">
+        <ele>551.2</ele>
+      </trkpt>
+      <trkpt lat="50.03948" lon="-119.43693">
+        <ele>550.8</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

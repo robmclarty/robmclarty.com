@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Odd Job</name>
+    <time>2025-01-11T14:59:36Z</time>
+  </metadata>
+  <trk>
+    <name>Odd Job</name>
+    <trkseg>
+      <trkpt lat="49.78136" lon="-119.45661">
+        <ele>858.1</ele>
+      </trkpt>
+      <trkpt lat="49.78147" lon="-119.45619">
+        <ele>854.7</ele>
+      </trkpt>
+      <trkpt lat="49.78135" lon="-119.45567">
+        <ele>852.1</ele>
+      </trkpt>
+      <trkpt lat="49.78109" lon="-119.45502">
+        <ele>849.9</ele>
+      </trkpt>
+      <trkpt lat="49.78097" lon="-119.45492">
+        <ele>850.8</ele>
+      </trkpt>
+      <trkpt lat="49.7808" lon="-119.45466">
+        <ele>850.9</ele>
+      </trkpt>
+      <trkpt lat="49.7808" lon="-119.45466">
+        <ele>850.9</ele>
+      </trkpt>
+      <trkpt lat="49.78052" lon="-119.45425">
+        <ele>851.2</ele>
+      </trkpt>
+      <trkpt lat="49.77998" lon="-119.45367">
+        <ele>852.2</ele>
+      </trkpt>
+      <trkpt lat="49.77974" lon="-119.45351">
+        <ele>853.9</ele>
+      </trkpt>
+      <trkpt lat="49.77953" lon="-119.45327">
+        <ele>853.8</ele>
+      </trkpt>
+      <trkpt lat="49.77917" lon="-119.45294">
+        <ele>855.3</ele>
+      </trkpt>
+      <trkpt lat="49.77912" lon="-119.45293">
+        <ele>856.0</ele>
+      </trkpt>
+      <trkpt lat="49.77909" lon="-119.45296">
+        <ele>856.9</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

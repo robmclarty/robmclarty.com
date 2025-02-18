@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Clifton Connector</name>
+    <time>2025-01-26T13:30:35Z</time>
+  </metadata>
+  <trk>
+    <name>Clifton Connector</name>
+    <trkseg>
+      <trkpt lat="49.91071" lon="-119.47158">
+        <ele>566.5</ele>
+      </trkpt>
+      <trkpt lat="49.91073" lon="-119.47159">
+        <ele>566.8</ele>
+      </trkpt>
+      <trkpt lat="49.91069" lon="-119.47176">
+        <ele>570.2</ele>
+      </trkpt>
+      <trkpt lat="49.91062" lon="-119.47181">
+        <ele>570.6</ele>
+      </trkpt>
+      <trkpt lat="49.91042" lon="-119.47199">
+        <ele>571.9</ele>
+      </trkpt>
+      <trkpt lat="49.91025" lon="-119.4721">
+        <ele>571.1</ele>
+      </trkpt>
+      <trkpt lat="49.91006" lon="-119.47217">
+        <ele>568.9</ele>
+      </trkpt>
+      <trkpt lat="49.91006" lon="-119.47217">
+        <ele>568.9</ele>
+      </trkpt>
+      <trkpt lat="49.90978" lon="-119.47227">
+        <ele>565.3</ele>
+      </trkpt>
+      <trkpt lat="49.90941" lon="-119.47222">
+        <ele>559.1</ele>
+      </trkpt>
+      <trkpt lat="49.90909" lon="-119.47213">
+        <ele>553.1</ele>
+      </trkpt>
+      <trkpt lat="49.90906" lon="-119.47212">
+        <ele>552.4</ele>
+      </trkpt>
+      <trkpt lat="49.90906" lon="-119.47212">
+        <ele>552.4</ele>
+      </trkpt>
+      <trkpt lat="49.90891" lon="-119.47204">
+        <ele>549.0</ele>
+      </trkpt>
+      <trkpt lat="49.90882" lon="-119.47202">
+        <ele>547.1</ele>
+      </trkpt>
+      <trkpt lat="49.90874" lon="-119.47208">
+        <ele>545.5</ele>
+      </trkpt>
+      <trkpt lat="49.9085" lon="-119.47207">
+        <ele>540.5</ele>
+      </trkpt>
+      <trkpt lat="49.908" lon="-119.47244">
+        <ele>528.7</ele>
+      </trkpt>
+      <trkpt lat="49.908" lon="-119.47239">
+        <ele>529.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

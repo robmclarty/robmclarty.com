@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" creator="MTBCO">
+  <metadata>
+    <name>Crawford Parking Rd</name>
+    <time>2025-01-13T17:29:44Z</time>
+  </metadata>
+  <trk>
+    <name>Crawford Parking Rd</name>
+    <trkseg>
+      <trkpt lat="49.81191" lon="-119.446">
+        <ele>517.8</ele>
+      </trkpt>
+      <trkpt lat="49.81193" lon="-119.44588">
+        <ele>518.2</ele>
+      </trkpt>
+      <trkpt lat="49.81198" lon="-119.44567">
+        <ele>519.1</ele>
+      </trkpt>
+      <trkpt lat="49.81199" lon="-119.44553">
+        <ele>519.8</ele>
+      </trkpt>
+      <trkpt lat="49.81196" lon="-119.44536">
+        <ele>521.0</ele>
+      </trkpt>
+      <trkpt lat="49.8119" lon="-119.44528">
+        <ele>522.0</ele>
+      </trkpt>
+      <trkpt lat="49.81165" lon="-119.44504">
+        <ele>526.0</ele>
+      </trkpt>
+      <trkpt lat="49.81154" lon="-119.44487">
+        <ele>529.3</ele>
+      </trkpt>
+      <trkpt lat="49.8115" lon="-119.44473">
+        <ele>531.1</ele>
+      </trkpt>
+      <trkpt lat="49.81149" lon="-119.44462">
+        <ele>532.1</ele>
+      </trkpt>
+      <trkpt lat="49.81154" lon="-119.44439">
+        <ele>532.9</ele>
+      </trkpt>
+      <trkpt lat="49.81156" lon="-119.44432">
+        <ele>533.0</ele>
+      </trkpt>
+      <trkpt lat="49.81169" lon="-119.4441">
+        <ele>532.2</ele>
+      </trkpt>
+      <trkpt lat="49.81191" lon="-119.4438">
+        <ele>531.8</ele>
+      </trkpt>
+      <trkpt lat="49.81212" lon="-119.44333">
+        <ele>532.0</ele>
+      </trkpt>
+      <trkpt lat="49.81224" lon="-119.44323">
+        <ele>530.8</ele>
+      </trkpt>
+      <trkpt lat="49.81223" lon="-119.44309">
+        <ele>531.5</ele>
+      </trkpt>
+      <trkpt lat="49.81227" lon="-119.4429">
+        <ele>531.7</ele>
+      </trkpt>
+      <trkpt lat="49.81251" lon="-119.44237">
+        <ele>531.0</ele>
+      </trkpt>
+      <trkpt lat="49.81251" lon="-119.44237">
+        <ele>531.0</ele>
+      </trkpt>
+      <trkpt lat="49.81262" lon="-119.44203">
+        <ele>532.9</ele>
+      </trkpt>
+      <trkpt lat="49.81266" lon="-119.44194">
+        <ele>533.3</ele>
+      </trkpt>
+      <trkpt lat="49.81275" lon="-119.44179">
+        <ele>533.7</ele>
+      </trkpt>
+      <trkpt lat="49.81284" lon="-119.44171">
+        <ele>533.4</ele>
+      </trkpt>
+      <trkpt lat="49.81293" lon="-119.44177">
+        <ele>532.1</ele>
+      </trkpt>
+      <trkpt lat="49.81297" lon="-119.44188">
+        <ele>531.0</ele>
+      </trkpt>
+      <trkpt lat="49.81294" lon="-119.44209">
+        <ele>529.8</ele>
+      </trkpt>
+      <trkpt lat="49.8128" lon="-119.44256">
+        <ele>527.5</ele>
+      </trkpt>
+      <trkpt lat="49.8127" lon="-119.44277">
+        <ele>527.3</ele>
+      </trkpt>
+      <trkpt lat="49.81252" lon="-119.44306">
+        <ele>527.8</ele>
+      </trkpt>
+      <trkpt lat="49.81237" lon="-119.44314">
+        <ele>529.4</ele>
+      </trkpt>
+      <trkpt lat="49.81224" lon="-119.44323">
+        <ele>530.8</ele>
+      </trkpt>
+      <trkpt lat="49.81223" lon="-119.44324">
+        <ele>530.9</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
