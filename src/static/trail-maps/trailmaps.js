@@ -16101,27 +16101,27 @@
   }
 
   const icon_zone = L$1.icon({
-    iconUrl: './trailmaps/images/icon_trail_zone.svg',
+    iconUrl: '/trail-maps/trailmaps/images/icon_trail_zone.svg',
     iconSize: [50, 50],
     iconAnchor: [25, 25]
   });
   const icon_zone_minor = L$1.icon({
-    iconUrl: './trailmaps/images/icon_trail_zone.svg',
+    iconUrl: '/trail-maps/trailmaps/images/icon_trail_zone.svg',
     iconSize: [25, 25],
     iconAnchor: [12, 12]
   });
   const icon_parking = L$1.icon({
-    iconUrl: './trailmaps/images/icon_parking.svg',
+    iconUrl: '/trail-maps/trailmaps/images/icon_parking.svg',
     iconSize: [20, 20],
     iconAnchor: [10, 10]
   });
   const icon_viewpoint = L$1.icon({
-    iconUrl: './trailmaps/images/icon_viewpoint.svg',
+    iconUrl: '/trail-maps/trailmaps/images/icon_viewpoint.svg',
     iconSize: [20, 20],
     iconAnchor: [10, 10]
   });
   const icon_bathroom = L$1.icon({
-    iconUrl: './trailmaps/images/icon_bathroom.svg',
+    iconUrl: '/trail-maps/trailmaps/images/icon_bathroom.svg',
     iconSize: [20, 20],
     iconAnchor: [10, 10]
   });
@@ -16414,8 +16414,8 @@
     name: 'Default Trail Name'
   };
   const add_trail = (map, trail_name, zone_name, color, is_open = true) => {
-    var gpx_url = `./trailmaps/gpx/${zone_name}/${trail_name}.gpx`;
-    var image_url = `./trailmaps/gpx/crawford/Vapour.jpg`; // TODO: Replace with actual image URL once we have images for each trail.
+    var gpx_url = `/trail-maps/trailmaps/gpx/${zone_name}/${trail_name}.gpx`;
+    var image_url = `/trail-maps/trailmaps/gpx/crawford/Vapour.jpg`; // TODO: Replace with actual image URL once we have images for each trail.
 
     const path_options_idle = {
       opacity: is_open ? 1 : '0.3',
