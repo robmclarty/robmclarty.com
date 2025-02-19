@@ -14535,7 +14535,7 @@
   		  window.L = exports;
 
   		}));
-  		
+
   	} (leafletSrc$1, leafletSrc$1.exports));
   	return leafletSrc$1.exports;
   }
@@ -15301,7 +15301,7 @@
           if (!text) {
               if (this._textNode && this._textNode.parentNode) {
                   this._map._renderer._container.removeChild(this._textNode);
-                  
+
                   /* delete the node, so it will not be removed a 2nd time if the layer is later removed from the map */
                   delete this._textNode;
               }
@@ -15768,7 +15768,7 @@
   	build.spline = spline;
   	leaflet_1["default"].Spline = Spline;
   	leaflet_1["default"].spline = spline;
-  	
+
   	return build;
   }
 
@@ -15902,7 +15902,7 @@
   		    module.exports.default = simplify;
   		}
 
-  		})(); 
+  		})();
   	} (simplify$1));
   	return simplify$1.exports;
   }
