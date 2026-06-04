@@ -1,6 +1,6 @@
 ---
 title: Focused Coherence
-subtitle: Consciousness isn't a separate ingredient but a threshold property that "switches on" wherever a local region gets coherent enough.
+subtitle: Consciousness isn't a separate ingredient but a threshold property that "switches on" wherever a local region gets coherent/integrated enough.
 date: 2026-06-04
 banner: sunset_banner.jpg
 thumbnail: sunset_thumb.jpg
@@ -11,10 +11,6 @@ tags:
   - mind
   - consciousness
 ---
-
-# Local Coherentist Monism: Consciousness as Amplitude in a Relational Field
-
-**A Philosophical Framework for Understanding Experience as Emergent Coherence**
 
 ## Abstract
 
@@ -259,8 +255,6 @@ https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0167
 
 Whitehead, A. N. (1929). *Process and Reality: An Essay in Cosmology*. New York: Macmillan.
 https://plato.stanford.edu/entries/whitehead/
-
----
 
 ## Further Reading
 
