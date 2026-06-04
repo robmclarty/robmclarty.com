@@ -16,13 +16,9 @@ tags:
 
 **A Philosophical Framework for Understanding Experience as Emergent Coherence**
 
----
-
 ## Abstract
 
 This paper introduces *Local Coherentist Monism*, a framework for understanding consciousness that avoids the extremes of eliminative physicalism and global panpsychism. The position holds that reality consists of a single, fundamental phenomenon—describable through both physical equations and phenomenological experience—and that consciousness emerges when local regions of this phenomenon achieve sufficient coherence or amplitude. Unlike standard panpsychism, this view denies that all matter is conscious; unlike standard physicalism, it denies that consciousness is merely epiphenomenal or reducible to computation. Drawing on process philosophy, integrated information theory, Russellian monism, and the filter theories of William James and Henri Bergson, we argue that consciousness is what coherence *is* from the inside—a threshold property of the underlying field, actualized only under specific organizational conditions. This framework provides a principled account of why consciousness is always perspectival and local, why brain damage correlates with mental change, and why there need be no global or cosmic consciousness. The paper concludes with responses to anticipated criticisms in the style of Searle's rebuttals to objections against the Chinese Room argument.
-
----
 
 ## 1. Introduction
 
@@ -33,8 +29,6 @@ This paper proposes an alternative: *Local Coherentist Monism*. The core thesis 
 > There is one fundamental phenomenon underlying reality. This phenomenon can be described structurally (through physics) or experientially (through phenomenology), but these are perspectives on the same thing, not different substances. Consciousness is not a separate ingredient added to reality but a *threshold property*—what this phenomenon becomes, from the inside, when it achieves sufficient local coherence or amplitude.
 
 The view is *monist* because it posits one fundamental reality. It is *coherentist* because it identifies consciousness with a specific organizational property—coherence—rather than with the mere presence of matter or information. And it is *local* because it denies that there is any global consciousness; experience requires a bounded perspective, which in turn requires local organization.
-
----
 
 ## 2. The Relational Field: Reality as Process
 
@@ -55,8 +49,6 @@ Consider a wave in the ocean. The wave is not a *thing* traveling through water;
 If reality is fundamentally like this, then what we call particles, objects, and even conscious subjects are not things but patterns of pattern—forms propagating through forms. A human being, on this view, is not a substance that has experiences but a particular way the field is organized—a knot of coherence, a stable interference pattern that persists because the conditions sustain it.
 
 This resonates with Spinoza's monism, which held that there is only one substance—call it God, Nature, or Reality—and everything we perceive as separate is merely a *mode* of that one substance, like ripples on an infinite ocean (Spinoza, 1677). The feeling of separateness is real but superficial, analogous to two whirlpools in a river experiencing themselves as distinct while being made of the same water, sustained by the same current.
-
----
 
 ## 3. Consciousness as Amplitude
 
@@ -90,8 +82,6 @@ This explains why brain damage correlates with mental change without requiring t
 
 > "My thesis is now this: that, when we think of the law that thought is a function of the brain, we are not required to think of productive function only; we are entitled also to consider permissive or transmissive function" (James, 1898).
 
----
-
 ## 4. The Locality of Consciousness
 
 ### 4.1 Why No Global Consciousness
@@ -108,8 +98,6 @@ Thomas Nagel's famous argument about "what it is like to be a bat" emphasizes th
 
 On our view, this is not a limitation of our knowledge but a feature of consciousness itself. Experience *is* a perspective. A perspective *is* a bounded, local organization. To ask what the universe as a whole experiences is like asking what the ocean as a whole *waves*—it is a category error. Waves are local phenomena; so is consciousness.
 
----
-
 ## 5. Two Languages for One Reality
 
 ### 5.1 Physics and Phenomenology as Dual Descriptions
@@ -125,8 +113,6 @@ A bat doing physics would arrive at the same equations we do (if it could do phy
 This view escapes both the Scylla of reductionism and the Charybdis of dualism. It does not reduce consciousness to computation, function, or mere information processing, because it holds that consciousness is *what coherence is from the inside*—an irreducible aspect of reality. But it does not posit two substances, because the physical and the experiential are two descriptions of one thing, not two different things.
 
 David Chalmers has explored similar territory in his work on the hard problem and his sympathy for panpsychism and Russellian monism (Chalmers, 1996, 2015). Philip Goff has developed a sophisticated panpsychist version of Russellian monism (Goff, 2017). Our position differs primarily in its emphasis on locality and thresholds: not all physical systems are conscious, because not all achieve the requisite coherence.
-
----
 
 ## 6. Implications for the Self and Personal Identity
 
@@ -146,8 +132,6 @@ The pattern that is you is not isolated—it is constituted by relationships, su
 
 This connects to David Bohm's notion of the *implicate order*—a deeper, enfolded reality in which everything interpenetrates everything (Bohm, 1980). In the explicate order—the unfolded, manifest world—things appear separate. But in the implicate order, separation is illusion; everything is enfolded into everything.
 
----
-
 ## 7. Summary of the Position
 
 Local Coherentist Monism can be summarized as follows:
@@ -166,8 +150,6 @@ Local Coherentist Monism can be summarized as follows:
 
 7. **Explanatory virtue**: The view explains the correlation between brain states and mental states (the brain is the lens that focuses coherence), the localized and perspectival nature of consciousness, and the absence of evidence for cosmic mind.
 
----
-
 ## 8. Conclusion
 
 We have presented Local Coherentist Monism as a framework for understanding consciousness that threads between the extremes of eliminative physicalism and global panpsychism. By identifying consciousness with coherence—a threshold property of the fundamental field—we provide a principled account of why experience is local, perspectival, and dependent on specific organizational structures.
@@ -176,13 +158,9 @@ The view is not proven; it is not even fully formalized. But it is coherent, par
 
 If consciousness is indeed an amplitude of the fundamental field—if coherence is what experience *is*, from the inside—then the hard problem does not disappear but transforms. We no longer ask how matter produces something utterly different from itself. We ask, instead, what the intrinsic nature of reality is such that, organized in certain ways, it has this character we know so intimately. That question remains open. But it is, perhaps, the right question to ask.
 
----
-
 ## 9. Responses to Criticisms
 
 Following the format employed by John Searle in responding to objections to his Chinese Room argument (Searle, 1980), we here anticipate and address the most likely criticisms of Local Coherentist Monism.
-
----
 
 ### 9.1 The Systems Reply
 
@@ -190,15 +168,11 @@ Following the format employed by John Searle in responding to objections to his 
 
 **Response**: The Systems Reply misunderstands the nature of our monism. We do not claim that consciousness reduces to physical structure. Rather, we claim that what physics describes (structure, relations) and what consciousness reveals (qualitative experience) are two aspects of one reality—neither reducible to the other. The intrinsic nature of the field is not exhausted by its structural description. Physics tells us *how* things relate; it does not tell us *what* things are in themselves. Consciousness, on our view, is that intrinsic nature, actualized under conditions of coherence. This is not reduction but identity under dual-aspect description—akin to the identity of the morning star and evening star, which are one thing under two modes of presentation.
 
----
-
 ### 9.2 The Threshold Arbitrariness Reply
 
 **Objection**: "You invoke a 'threshold' of coherence above which consciousness emerges. But what determines this threshold? If it is arbitrary, your theory is ad hoc. If it is not arbitrary, what principled account do you give of why consciousness emerges at that level rather than another?"
 
 **Response**: We acknowledge that the precise threshold (if there is one) is not currently specifiable. However, this is an empirical question, not a principled objection. Phase transitions in physics are not arbitrary—water boils at 100°C at sea level because of the specific properties of H2O molecules and atmospheric pressure. The threshold for consciousness, if sharp, would similarly be determined by the specific dynamics of the underlying field. Moreover, we have suggested that the threshold may not be sharp at all—consciousness may be a continuous dimension rather than an on/off switch. The lack of current knowledge about the exact threshold does not render the framework ad hoc; it identifies an empirical question for future investigation.
-
----
 
 ### 9.3 The Hidden Dualism Reply
 
@@ -206,15 +180,11 @@ Following the format employed by John Searle in responding to objections to his 
 
 **Response**: The charge of hidden dualism rests on a misunderstanding of what we mean by 'aspect.' We do not posit two kinds of properties ontologically; we posit one reality that can be *described* in two ways—from outside (structure) or from inside (experience). An analogy: the concave and convex sides of a curve are not two different things; they are one curve described from different perspectives. Similarly, the physical and phenomenological are one reality accessed differently. This is neutral monism or dual-aspect monism, not property dualism. The 'aspects' are epistemic, not ontological.
 
----
-
 ### 9.4 The Combination Problem Redux Reply
 
 **Objection**: "You claim to avoid the combination problem, but you still face it. Even if you say that only macro-coherent systems are conscious, you need to explain how the coherence of micro-components produces macro-coherence. This is just the combination problem in a different guise."
 
 **Response**: The combination problem for panpsychism asks how micro-experiences combine to form macro-experiences—how billions of tiny consciousnesses merge into one human consciousness. This is puzzling because experiences seem unified and singular; it is unclear how many could become one. Our view does not face this problem because we deny that micro-components have experiences. Below the coherence threshold, there is no experience to combine. Macro-experience does not emerge from combining micro-experiences; it emerges *de novo* when coherence at the macro level crosses the threshold. This is analogous to how liquidity is not a property of individual H2O molecules that combines into macro-liquidity; liquidity is a property that emerges only at the ensemble level.
-
----
 
 ### 9.5 The Neural Dependence Reply
 
@@ -222,15 +192,11 @@ Following the format employed by John Searle in responding to objections to his 
 
 **Response**: Neural dependence is entirely consistent with our view. We do not deny that consciousness depends on neural organization; we deny only that neural processes *produce* consciousness in the sense of creating something from nothing experiential. The focusing metaphor is precise here: if you damage a lens, the image degrades; if you remove the lens, the image disappears. But this does not mean the lens creates light—it organizes light that is already there. Similarly, the brain organizes coherence that is a potential of the underlying field. The correlation between neural states and mental states is explained by the brain's role as the structure that achieves the requisite coherence. This is consistent with all empirical findings about brain-mind correlations while offering a different interpretation of what that correlation signifies.
 
----
-
 ### 9.6 The Explanatory Gap Reply
 
 **Objection**: "You have not actually explained anything. Saying that consciousness is 'what coherence is from the inside' just pushes the mystery back a step. Why should coherence feel like anything? You have the same explanatory gap that any physicalist view has."
 
 **Response**: We concede that our view does not close the explanatory gap in the sense of providing a deductive explanation from physical premises to conscious conclusions. No theory does this—it is the hard problem, and we do not claim to have dissolved it. What we offer is a *different framing* of the problem. Standard physicalism asks how unconscious matter could produce consciousness—and this seems impossible in principle, which is why the gap feels unbridgeable. Our view asks what the intrinsic nature of reality is such that coherent organization has experiential character. This question allows for the possibility that experience is built into reality from the ground floor—not as something added, but as the inner nature of what physics describes from outside. The gap remains in the sense that we cannot deduce experience from structure. But it is bridged in the sense that we are not trying to derive something from its ontological opposite.
-
----
 
 ### 9.7 The Unfalsifiability Reply
 
@@ -238,15 +204,11 @@ Following the format employed by John Searle in responding to objections to his 
 
 **Response**: Unfalsifiability is a concern, but our view does make distinctive predictions. Unlike panpsychism, we predict that systems below the coherence threshold (however it is eventually specified) have no experience at all—not even dim proto-experience. This is testable in principle as our understanding of coherence and measurement improves. Unlike standard production-physicalism, we predict that coherence rather than computation is the key variable—a system could be computationally sophisticated but experientially void if it lacks integration, and vice versa. IIT-based measures like Φ are beginning to operationalize this. Furthermore, the filter theory makes specific predictions about what happens when brain filtering is disrupted (e.g., by psychedelics): increased rather than decreased richness of experience, which is indeed what is observed (Carhart-Harris et al., 2012). The theory is not yet fully operationalized, but it is not in principle unfalsifiable.
 
----
-
 ### 9.8 The "Consciousness as Amplitude" Metaphor Reply
 
 **Objection**: "Your central metaphor—consciousness as 'amplitude' of a field—is just a metaphor. It does not give a precise, mathematical account of how field amplitude relates to experience. Without such precision, the view remains poetic rather than scientific."
 
 **Response**: We acknowledge the metaphorical nature of much of our presentation, which is appropriate for a philosophical framework at an early stage of development. However, the metaphor is not empty. Integrated Information Theory provides one possible formalization of 'coherence' (as Φ), and ongoing work in that tradition is developing mathematically precise measures. Other formalizations are possible: information integration, dynamical complexity, causal density, resonance. The framework is open to multiple implementations. What we provide is the philosophical architecture—the claim that some such measure of coherence, when crossing a threshold, constitutes (rather than causes or correlates with) experience. The precise mathematical form is for future theory to determine.
-
----
 
 ## References
 
