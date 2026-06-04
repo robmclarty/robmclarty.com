@@ -209,69 +209,69 @@ Following the format employed by John Searle in responding to objections to his 
 ## References
 
 Bergson, H. (1896). *Matière et Mémoire* [Matter and Memory]. Paris: Félix Alcan.
-https://www.gutenberg.org/ebooks/57610
+<https://www.gutenberg.org/ebooks/57610>
 
 Bohm, D. (1980). *Wholeness and the Implicate Order*. London: Routledge.
-https://www.routledge.com/Wholeness-and-the-Implicate-Order/Bohm/p/book/9780415289795
+<https://www.routledge.com/Wholeness-and-the-Implicate-Order/Bohm/p/book/9780415289795>
 
 Carhart-Harris, R. L., et al. (2012). Neural correlates of the psychedelic state as determined by fMRI studies with psilocybin. *Proceedings of the National Academy of Sciences*, 109(6), 2138-2143.
-https://www.pnas.org/doi/10.1073/pnas.1119598109
+<https://www.pnas.org/doi/10.1073/pnas.1119598109>
 
 Chalmers, D. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies*, 2(3), 200-219.
-https://consc.net/papers/facing.html
+<https://consc.net/papers/facing.html>
 
 Chalmers, D. (1996). *The Conscious Mind: In Search of a Fundamental Theory*. Oxford: Oxford University Press.
-https://global.oup.com/academic/product/the-conscious-mind-9780195117899
+<https://global.oup.com/academic/product/the-conscious-mind-9780195117899>
 
 Chalmers, D. (2015). Panpsychism and panprotopsychism. In T. Alter & Y. Nagasawa (Eds.), *Consciousness in the Physical World: Perspectives on Russellian Monism*. Oxford: Oxford University Press.
-https://philpapers.org/rec/CHAPAP-2
+<https://philpapers.org/rec/CHAPAP-2>
 
 Goff, P. (2017). *Consciousness and Fundamental Reality*. Oxford: Oxford University Press.
-https://ndpr.nd.edu/reviews/consciousness-and-fundamental-reality/
+<https://ndpr.nd.edu/reviews/consciousness-and-fundamental-reality/>
 
 James, W. (1898). *Human Immortality: Two Supposed Objections to the Doctrine*. Boston: Houghton Mifflin.
-https://www.gutenberg.org/ebooks/60948
+<https://www.gutenberg.org/ebooks/60948>
 
 Marshall, P. (2021). The brain doesn't create consciousness. *Institute of Art and Ideas*.
-https://iai.tv/articles/the-brain-doesnt-create-consciousness-auid-2002
+<https://iai.tv/articles/the-brain-doesnt-create-consciousness-auid-2002>
 
 Nagel, T. (1974). What is it like to be a bat? *Philosophical Review*, 83(4), 435-450.
-https://www.sas.upenn.edu/~cavitch/pdf-library/Nagel_Bat.pdf
+<https://www.sas.upenn.edu/~cavitch/pdf-library/Nagel_Bat.pdf>
 
 Russell, B. (1927). *The Analysis of Matter*. London: Kegan Paul.
-https://www.routledge.com/The-Analysis-of-Matter/Russell/p/book/9780415082976
+<https://www.routledge.com/The-Analysis-of-Matter/Russell/p/book/9780415082976>
 
 Searle, J. (1980). Minds, brains, and programs. *Behavioral and Brain Sciences*, 3(3), 417-457.
-https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/minds-brains-and-programs/DC644B47A4299C637C89772FACC2706A
+<https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/minds-brains-and-programs/DC644B47A4299C637C89772FACC2706A>
 
 Spinoza, B. (1677). *Ethica Ordine Geometrico Demonstrata* [Ethics]. Amsterdam.
-https://www.gutenberg.org/ebooks/3800
+<https://www.gutenberg.org/ebooks/3800>
 
 Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5, 42.
-https://pubmed.ncbi.nlm.nih.gov/15522121/
+<https://pubmed.ncbi.nlm.nih.gov/15522121/>
 
 Tononi, G., & Koch, C. (2015). Consciousness: Here, there and everywhere? *Philosophical Transactions of the Royal Society B*, 370(1668), 20140167.
-https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0167
+<https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0167>
 
 Whitehead, A. N. (1929). *Process and Reality: An Essay in Cosmology*. New York: Macmillan.
-https://plato.stanford.edu/entries/whitehead/
+<https://plato.stanford.edu/entries/whitehead/>
 
 ## Further Reading
 
 Alter, T., & Nagasawa, Y. (Eds.). (2015). *Consciousness in the Physical World: Perspectives on Russellian Monism*. Oxford: Oxford University Press.
-https://plato.stanford.edu/entries/russellian-monism/
+<https://plato.stanford.edu/entries/russellian-monism/>
 
 Internet Encyclopedia of Philosophy: Integrated Information Theory of Consciousness.
-https://iep.utm.edu/integrated-information-theory-of-consciousness/
+<https://iep.utm.edu/integrated-information-theory-of-consciousness/>
 
 Internet Encyclopedia of Philosophy: Process Philosophy.
-https://iep.utm.edu/processp/
+<https://iep.utm.edu/processp/>
 
 Stanford Encyclopedia of Philosophy: Panpsychism.
-https://plato.stanford.edu/entries/panpsychism/
+<https://plato.stanford.edu/entries/panpsychism/>
 
 Stanford Encyclopedia of Philosophy: Process Philosophy.
-https://plato.stanford.edu/entries/process-philosophy/
+<https://plato.stanford.edu/entries/process-philosophy/>
 
 Science and Nonduality: David Bohm, Implicate Order and Holomovement.
-https://scienceandnonduality.com/article/david-bohm-implicate-order-and-holomovement/
+<https://scienceandnonduality.com/article/david-bohm-implicate-order-and-holomovement/>
