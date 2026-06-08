@@ -1,6 +1,6 @@
 ---
 title: The Right Tool for the Work
-description: A field guide to AI-assisted development, from the lone craftsman to the autonomous crew, and the part of the job no tool can take.
+subtitle: A field guide to AI-assisted development, from the lone craftsman to the autonomous crew, and the part of the job no tool can take.
 date: 2026-06-08
 banner: greek_sunset_banner.jpg
 thumbnail: greek_sunset_thumb.jpg
