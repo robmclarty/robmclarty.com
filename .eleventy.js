@@ -28,6 +28,9 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('src/art')
   eleventyConfig.addPassthroughCopy('src/apps')
 
+  // Shinbun's daily editions land here, pushed by `shinbun publish` from the mac mini.
+  eleventyConfig.addPassthroughCopy('src/shinbun')
+
   // Exclude from tagList.
   eleventyConfig.addCollection('tagList', collection => {
     const tagSet = new Set()
