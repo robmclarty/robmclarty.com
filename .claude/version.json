@@ -1,0 +1,22 @@
+{
+  "targets": [
+    { "type": "json", "path": "package.json", "key": "version" }
+  ],
+  "marker": {
+    "commit": "chore(release): {version}",
+    "tag": true,
+    "tagAuthoritative": false,
+    "legacy": []
+  },
+  "changelog": {
+    "path": "CHANGELOG.md",
+    "style": "keep-a-changelog",
+    "linkRef": null
+  },
+  "verify": null,
+  "publish": {
+    "pushTag": false,
+    "pushBranch": false,
+    "confirm": false
+  }
+}
