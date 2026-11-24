@@ -565,7 +565,7 @@ function toolSlide(id){
       <h3>The problem</h3><p>${t.problem}</p>
       <h3>How it works</h3><ul>${t.how.filter((_,i)=>i!==DROP[id]).map(h=>`<li>${h}</li>`).join('')}</ul>
       <h3>The real thing</h3>
-      <a class="shotlink" href="assets/${SHOTS[id].img}" target="_blank" rel="noopener" title="${SHOTS[id].how} Click to open full size."><img src="assets/${SHOTS[id].img}" alt="${SHOTS[id].title}: ${SHOTS[id].what}"></a>
+      <a class="shotlink" href="/talks/build-with-ai-2026/assets/${SHOTS[id].img}" target="_blank" rel="noopener" title="${SHOTS[id].how} Click to open full size."><img src="/talks/build-with-ai-2026/assets/${SHOTS[id].img}" alt="${SHOTS[id].title}: ${SHOTS[id].what}"></a>
       <p class="cap"><b>${SHOTS[id].title}.</b> ${SHOTS[id].what}</p>
       <p class="stand"><span class="state ${t.state[0]}">${stateName}</span>${t.state[1]}. ${t.stats}</p>
       ${ghLink(id)}
