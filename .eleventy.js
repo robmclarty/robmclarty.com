@@ -27,6 +27,7 @@ module.exports = eleventyConfig => {
 
   eleventyConfig.addPassthroughCopy('src/art')
   eleventyConfig.addPassthroughCopy('src/apps')
+  eleventyConfig.addPassthroughCopy('src/talks')
 
   // Shinbun's daily editions land here, pushed by `shinbun publish` from the mac mini.
   eleventyConfig.addPassthroughCopy('src/shinbun')

@@ -1,0 +1,1112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build with AI, stay in charge</title>
+<meta name="description" content="A toolchain where people make the decisions and machines do the checking. A slide deck by Rob McLarty, November 2026.">
+<meta name="author" content="Rob McLarty">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F2F5F1; --ink:#16233B; --ink2:#46546B; --rule:#C9D1CC;
+  --red:#D7263D; --green:#2E8B57; --yellow:#F4B400; --blue:#3A7CA5;
+  --soil:#E6D2BA; --brown:#8A5532; --ice:#D3EAF4; --plum:#7D4E7E; --plumtint:#EDE3EC;
+  --display:'Bricolage Grotesque', 'Avenir Next', system-ui, sans-serif;
+  --body:'Figtree', 'Avenir Next', system-ui, sans-serif;
+  --mono:'JetBrains Mono', ui-monospace, Menlo, monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#DDE3DE;color:var(--ink);font-family:var(--body)}
+body{overflow:hidden}
+.viewport{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+.deck{width:1600px;height:900px;flex:none;position:relative;transform-origin:center center}
+.slide{position:absolute;inset:0;background:var(--paper);display:none;overflow:hidden;
+  box-shadow:0 2px 0 rgba(22,35,59,.08)}
+.slide.on{display:block}
+.slide svg text{font-family:var(--body)}
+.slide svg .mono{font-family:var(--mono)}
+.slide svg .disp{font-family:var(--display)}
+
+/* shared type */
+.kid{font-family:var(--display);font-weight:800;font-size:56px;line-height:1.04;letter-spacing:-.01em;margin:0;max-width:700px}
+.kid.small{font-size:46px}
+.lede{font-size:24px;line-height:1.42;color:var(--ink2);max-width:700px;margin:18px 0 0}
+.where{display:flex;align-items:center;gap:12px;font-size:20px;color:var(--ink2);margin-bottom:18px}
+.where b{font-family:var(--display);font-weight:800;font-size:30px;color:var(--ink);letter-spacing:-.01em}
+.chip{display:inline-block;width:14px;height:14px;border-radius:50%;border:2px solid var(--ink)}
+code,.code,pre,.mono{font-family:var(--mono);font-size:.86em;font-variant-ligatures:none}
+.slide svg .mono{font-variant-ligatures:none}
+pre{font-family:var(--mono);font-size:15px;line-height:1.5;margin:0;white-space:pre;background:#fff;
+  border:2px solid var(--ink);border-radius:6px;padding:12px 14px;box-shadow:4px 4px 0 var(--ink)}
+
+/* tool slide */
+.tool .left{position:absolute;left:72px;top:60px;width:860px}
+.tool .pic{position:absolute;left:40px;top:372px;width:900px;height:470px}
+.tool .hood{position:absolute;right:0;top:0;bottom:0;width:640px;background:#E6ECEF;
+  border-left:3px solid var(--ink);padding:38px 44px 26px 40px;font-size:16.5px;line-height:1.42;overflow:hidden;display:flex;flex-direction:column}
+.hood>*{flex:none}
+.hood .shotlink{display:block;margin:4px 0 8px;border:2.5px solid var(--ink);border-radius:6px;overflow:hidden;box-shadow:4px 4px 0 var(--ink);background:#fff;flex:0 1 auto;min-height:120px}
+.hood .shotlink img{display:block;width:100%;height:auto}
+.hood .shotlink:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.hood .cap{font-size:15.5px;line-height:1.4;margin:6px 0 0}
+.hood .how{font-size:13.5px;color:var(--ink2);margin:4px 0 0}
+.hood .repo{margin-top:12px;font-size:14px;align-self:flex-start}
+.hood .stand{font-size:15px;line-height:1.45;margin:12px 0 0}
+.hood h3{font-family:var(--display);font-weight:600;font-size:19px;margin:16px 0 5px;color:var(--ink)}
+.hood h3:first-of-type{margin-top:0}
+.hood p{margin:0}
+.hood ul{margin:0;padding-left:20px}
+.hood li{margin:2px 0}
+.hood .title{font-family:var(--display);font-weight:800;font-size:22px;margin:0 0 18px;display:flex;justify-content:space-between;align-items:baseline}
+.hood .title span{font-family:var(--body);font-weight:400;font-size:16px;color:var(--ink2)}
+.hood pre{font-size:13.5px;padding:9px 12px;box-shadow:3px 3px 0 var(--ink)}
+.state{display:inline-block;padding:1px 10px;border-radius:999px;border:2px solid var(--ink);font-size:15px;font-weight:700;margin-right:6px}
+.state.shipped{background:#BFE3CC}.state.built{background:#FBE7A6}.state.specced{background:#fff}
+.minimap{position:absolute;left:790px;top:66px}
+
+.repo{display:inline-flex;align-items:center;gap:10px;margin-top:26px;padding:9px 16px;border:2.5px solid var(--ink);border-radius:999px;background:#fff;
+  font-family:var(--mono);font-size:15px;color:var(--ink);text-decoration:none;box-shadow:3px 3px 0 var(--ink)}
+.repo:hover,.repo:focus-visible{background:var(--lblue,#BFD9EA);outline:none}
+.repo.private{box-shadow:none;border-style:dashed;color:var(--ink2);background:transparent}
+.hood .gh{font-family:var(--mono);font-size:14px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+/* flow slide */
+.flowgrid{display:grid;grid-template-columns:auto 1fr;gap:20px;margin-top:20px;align-items:start}
+.codewin{border:2.5px solid var(--ink);border-radius:8px;background:#fff;box-shadow:5px 5px 0 var(--ink);overflow:hidden}
+.codewin .tab{font-family:var(--mono);font-size:13px;font-weight:600;padding:6px 12px;background:#E6ECEF;border-bottom:2px solid var(--ink)}
+.codewin .tab span{font-family:var(--body);font-weight:400;color:var(--ink2);margin-left:8px}
+pre.hl{border:0;box-shadow:none;border-radius:0;margin:0;padding:12px 14px;font-size:12.25px;line-height:1.36;color:var(--ink);background:#fff}
+.hl .n,.legend .n{background:#FBE7A6;border-radius:3px;padding:0 2px;font-weight:600;color:var(--ink)}
+.hl .f,.legend .f{color:#2F6E96;font-weight:600}
+.hl .m,.legend .m{color:#8A4A12;font-weight:600;text-decoration:underline;text-decoration-color:#F4B400;text-decoration-thickness:2px;text-underline-offset:2px}
+.hl .k{color:#7D4E7E}
+.hl .t{color:#2E7D52}
+.hl .s{color:#8A5532}
+.hl .d,.legend .d{color:#6E5A3C;font-style:italic}
+.hl .p{color:#46546B}
+.hl .c,.hl .g{color:#8A94A3}
+.hl .nm{color:#B5462F}
+.hl .fn{color:var(--ink);font-weight:700}
+.legend{margin-top:18px;font-size:16px;line-height:1.5;display:grid;gap:6px}
+.legend span{font-family:var(--mono);font-size:13.5px;margin-right:8px}
+/* plugs slide */
+.plugs{display:grid;grid-template-columns:repeat(3,1fr);gap:30px 38px;margin-top:30px}
+.plug{display:flex;gap:14px;align-items:flex-start}
+.plug>svg{flex:none}
+.plug h3{font-family:var(--display);font-weight:800;font-size:23px;line-height:1.1;margin:2px 0 6px}
+.plug .pw{font-size:16.5px;line-height:1.38;margin:0 0 8px;color:var(--ink)}
+.plug .pc code{font-size:13.5px;background:#fff;border:1.5px solid var(--rule);border-radius:4px;padding:1px 6px}
+.plug .pf{font-size:15px;color:var(--ink2);margin:7px 0 7px}
+.plug .pf b{color:var(--ink)}
+.plug .arr{margin:0 7px;color:var(--ink)}
+.plugs.big{margin-top:44px;gap:46px 44px}
+.plugs.big .plug h3{font-size:27px}
+.plugs.big .pw{font-size:19.5px}
+.plugs.big .pc code{font-size:15.5px}
+.plugs.big .pf{font-size:17px}
+/* footer */
+.apx{position:absolute;left:72px;top:26px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)}
+.foot{position:absolute;left:72px;bottom:22px;font-size:14px;color:var(--ink2)}
+.num{position:absolute;right:28px;bottom:20px;font-family:var(--display);font-size:16px;color:var(--ink2)}
+.tool .num{right:660px}
+
+/* generic layouts */
+.pad{position:absolute;inset:64px 72px 60px 72px}
+.h1{font-family:var(--display);font-weight:800;font-size:64px;line-height:1.02;letter-spacing:-.02em;margin:0;max-width:1200px}
+.h2{font-family:var(--display);font-weight:800;font-size:46px;line-height:1.05;letter-spacing:-.015em;margin:0;max-width:1300px}
+.sub{font-size:23px;line-height:1.45;color:var(--ink2);max-width:1100px;margin:14px 0 0}
+.cols{display:grid;gap:36px}
+.tbl{width:100%;border-collapse:collapse;font-size:17px;line-height:1.35}
+.tbl th{font-family:var(--display);font-weight:600;text-align:left;font-size:17px;padding:8px 10px;border-bottom:3px solid var(--ink)}
+.tbl td{padding:8px 10px;border-bottom:1.5px solid var(--rule);vertical-align:top}
+.tbl td:first-child{font-weight:700;white-space:nowrap}
+.note{font-size:16px;color:var(--ink2)}
+
+/* title slide */
+.cover .big{font-family:var(--display);font-weight:800;font-size:132px;line-height:.92;letter-spacing:-.02em;margin:0}
+/* nav help */
+.help{position:fixed;left:12px;bottom:10px;font-size:12px;color:#6B7684;font-family:var(--body)}
+@media (prefers-reduced-motion:no-preference){ .slide.on .reveal{animation:rise .5s ease-out both} }
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media print{
+  @page{size:1600px 900px;margin:0}
+  html,body{background:none;overflow:visible;height:auto}
+  .viewport{position:static;display:block}
+  .deck{transform:none!important;width:1600px;height:auto}
+  .slide{display:block!important;position:relative;width:1600px;height:900px;page-break-after:always;box-shadow:none}
+  .help{display:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16233B"/></marker>
+    <marker id="ahr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#D7263D"/></marker>
+    <marker id="ahg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2E8B57"/></marker>
+    <marker id="ahb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3A7CA5"/></marker>
+  </defs>
+</svg>
+<div class="viewport"><div class="deck" id="deck"></div></div>
+<div class="help">← → or space to move · F for full screen · print to save a PDF</div>
+<script>
+/* ------------------------------------------------------------------
+   Drawing kit. Every shape is drawn twice: a flat fill nudged down
+   and right, then the ink outline on top (a two-colour print look).
+   Colour carries meaning everywhere in the deck:
+     red = a person decides, green = the checks pass,
+     yellow = an agent is working, blue = a contract file.
+------------------------------------------------------------------- */
+const C={ink:'#16233B',ink2:'#46546B',paper:'#F2F5F1',red:'#D7263D',green:'#2E8B57',yellow:'#F4B400',blue:'#3A7CA5',
+  soil:'#E6D2BA',brown:'#8A5532',ice:'#D3EAF4',plum:'#7D4E7E',plumtint:'#EDE3EC',white:'#FFFFFF',grey:'#C9D1CC',
+  lgreen:'#BFE3CC',lyellow:'#FBE7A6',lblue:'#BFD9EA',lred:'#F5C2C8',cyan:'#7FD4E0'};
+const R=(shape,fill,d=4,sw=3)=>`<g transform="translate(${d} ${d})" fill="${fill}" stroke="none">${shape}</g><g fill="none" stroke="${C.ink}" stroke-width="${sw}" stroke-linejoin="round" stroke-linecap="round">${shape}</g>`;
+const L=(shape,col=C.ink,sw=3,extra='')=>`<g fill="none" stroke="${col}" stroke-width="${sw}" stroke-linejoin="round" stroke-linecap="round" ${extra}>${shape}</g>`;
+const T=(x,y,s,o={})=>{const a=o.a||'start',z=o.z||18,w=o.w||400,c=o.c||C.ink,cls=o.cls||'',st=o.style||'';
+  return `<text x="${x}" y="${y}" text-anchor="${a}" font-size="${z}" font-weight="${w}" fill="${c}" class="${cls}" style="${st}">${s}</text>`;};
+const TW=(x,y,s,o={})=>{const z=o.z||18,max=Math.floor((o.maxw||(890-x))/(z*.5));const words=s.split(' ');const lines=[];let l='';
+  for(const w of words){if((l+' '+w).trim().length>max){lines.push(l.trim());l=w;}else l+=' '+w;} if(l.trim())lines.push(l.trim());
+  return lines.map((ln,i)=>T(x,y+i*z*1.35,ln,o)).join('');};
+const box=(x,y,w,h,label,fill=C.white,o={})=>R(`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${o.rx??10}"/>`,fill,o.d??4,o.sw??3)+
+  (label?T(x+w/2,y+h/2+(o.z||18)*.36,label,{a:'middle',z:o.z||18,w:o.w||700,cls:o.cls||''}):'');
+const arrow=(x1,y1,x2,y2,col='ink',o={})=>{const m={ink:'ah',red:'ahr',green:'ahg',blue:'ahb'}[col];
+  return `<path d="${o.d||`M${x1} ${y1} L${x2} ${y2}`}" fill="none" stroke="${C[col]}" stroke-width="${o.sw||3}" ${o.dash?`stroke-dasharray="${o.dash}"`:''} stroke-linecap="round" marker-end="url(#${m})"/>`;};
+const g=(x,y,s,inner)=>`<g transform="translate(${x} ${y}) scale(${s})">${inner}</g>`;
+const svg=(w,h,inner,o={})=>`<svg viewBox="0 0 ${w} ${h}" width="${o.width||w}" height="${o.height||h}" role="img" aria-label="${o.label||''}">${inner}</svg>`;
+const doc=(x,y,label,fill=C.lblue,w=150)=>R(`<path d="M${x} ${y} h${w-22} l22 22 v40 h-${w} z M${x+w-22} ${y} v22 h22"/>`,fill)+T(x+12,y+40,label,{z:15,cls:'mono',w:600});
+
+/* people and agents */
+const person=(x,y,s=1)=>g(x,y,s,R('<circle cx="0" cy="-34" r="13"/><path d="M-20 18 Q-20 -16 0 -16 Q20 -16 20 18 Z"/>',C.red));
+const robot=(x,y,s=1,fill=C.yellow)=>g(x,y,s,R('<rect x="-17" y="-44" width="34" height="28" rx="6"/><path d="M0 -44 v-9"/><circle cx="0" cy="-56" r="3"/><rect x="-20" y="-12" width="40" height="30" rx="6"/>',fill)+
+  `<circle cx="-7" cy="-31" r="3" fill="${C.ink}"/><circle cx="7" cy="-31" r="3" fill="${C.ink}"/>`);
+
+/* tool glyphs, each drawn in a 100 x 100 box */
+const GL={
+  fascicle:()=>L('<path d="M30 70 Q44 90 57 68 M57 68 Q70 92 79 74 M8 88 Q50 72 94 90 M30 70 Q20 84 12 82"/>',C.brown,2.5)+
+    R('<path d="M14 52 Q30 20 46 52 Z"/><path d="M40 46 Q57 10 74 46 Z"/><path d="M66 58 Q79 36 92 58 Z"/>',C.yellow)+
+    R('<rect x="27" y="52" width="6" height="18" rx="2"/><rect x="54" y="46" width="6" height="22" rx="2"/><rect x="76" y="58" width="6" height="16" rx="2"/>',C.white,2),
+  checkride:()=>R('<path d="M40 14 L60 14 L84 92 L16 92 Z"/>',C.grey)+L('<path d="M50 22 v10 M50 42 v10 M50 62 v12"/>',C.white,3)+
+    [[38,30],[34,48],[29,66],[24,84],[62,30],[66,48],[71,66],[76,84]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="4.5" fill="${C.green}" stroke="${C.ink}" stroke-width="2"/>`).join(''),
+  storium:()=>R('<path d="M20 26 v50 a30 10 0 0 0 60 0 v-50"/><ellipse cx="50" cy="26" rx="30" ry="10"/>',C.lblue)+L('<path d="M20 43 a30 10 0 0 0 60 0 M20 60 a30 10 0 0 0 60 0"/>'),
+  keyframes:()=>L('<path d="M6 60 H94"/>',C.ink,3)+[22,50,78].map(x=>R(`<path d="M${x} 46 L${x+13} 60 L${x} 74 L${x-13} 60 Z"/>`,C.yellow,3)).join('')+
+    [33,38,43,61,66,71].map(x=>`<circle cx="${x+1}" cy="60" r="2.2" fill="${C.ink}"/>`).join('')+L('<path d="M22 30 v10 M50 30 v10 M78 30 v10"/>',C.red,3),
+  storyboard:()=>R('<rect x="8" y="14" width="40" height="30" rx="3"/><rect x="54" y="14" width="40" height="30" rx="3"/><rect x="8" y="52" width="40" height="30" rx="3"/><rect x="54" y="52" width="40" height="30" rx="3"/>',C.white)+
+    R('<path d="M60 22 h28 v14 h-18 l-6 6 v-6 h-4 z"/>',C.lyellow,2,2)+T(74,34,'?',{a:'middle',z:13,w:700})+L('<path d="M14 74 l10 -12 l8 8 l10 -14 M60 74 h28 M60 66 h18"/>',C.ink2,2),
+  plumbbob:()=>L('<path d="M50 4 V46"/>',C.ink,2.5)+R('<path d="M50 46 L66 62 L50 96 L34 62 Z"/>',C.red)+R('<rect x="42" y="40" width="16" height="8" rx="2"/>',C.yellow,2,2),
+  volley:()=>R('<circle cx="22" cy="58" r="14"/><circle cx="78" cy="58" r="14"/>',C.yellow)+L('<path d="M22 72 v18 M78 72 v18"/>')+
+    L('<path d="M34 46 Q50 6 66 46"/>',C.ink2,2.5,'stroke-dasharray="4 6"')+R('<circle cx="50" cy="22" r="6"/>',C.white,2,2),
+  runciter:()=>R('<path d="M34 94 L40 40 H60 L66 94 Z"/>',C.white)+R('<path d="M26 40 H74 L68 18 H32 Z"/>',C.blue)+L('<path d="M38 26 h24 M44 60 h12 M44 76 h12"/>',C.white,3)+L('<path d="M50 18 V6"/><circle cx="50" cy="5" r="2"/>'),
+  atis:()=>L('<path d="M8 84 Q30 66 50 80 T92 76 M14 94 Q40 82 60 92 T94 90"/>',C.brown,2)+R('<circle cx="68" cy="30" r="12"/>',C.yellow)+
+    R('<path d="M18 52 a12 12 0 0 1 10 -20 a16 16 0 0 1 30 2 a11 11 0 0 1 8 18 z"/>',C.white)+L('<path d="M30 60 l-4 8 M44 60 l-4 8 M58 60 l-4 8"/>',C.blue,2.5),
+  penfield:()=>R('<circle cx="50" cy="54" r="34"/>',C.white)+R('<circle cx="50" cy="54" r="18"/>',C.blue)+L('<path d="M50 54 L64 36"/>',C.white,4)+
+    [[50,12],[22,24],[78,24],[12,54],[88,54]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="3" fill="${C.ink}"/>`).join(''),
+  lodestar:()=>R('<path d="M50 6 L60 42 L94 50 L60 58 L50 94 L40 58 L6 50 L40 42 Z"/>',C.yellow)+R('<circle cx="50" cy="50" r="6"/>',C.white,2,2),
+  shinbun:()=>R('<path d="M12 22 H80 V84 H20 a8 8 0 0 1 -8 -8 Z"/>',C.white)+R('<path d="M80 34 H90 V76 a8 8 0 0 1 -8 8 H20"/>',C.grey,2)+
+    L('<path d="M20 34 H72"/>',C.ink,5)+L('<path d="M20 48 H44 M20 56 H44 M20 64 H44 M20 72 H44 M52 48 H72 M52 56 H72 M52 64 H66"/>',C.ink2,2),
+  jig:()=>R('<path d="M10 30 H58 L80 52 L58 74 H10 Z"/>',C.lyellow)+R('<circle cx="22" cy="52" r="5"/>',C.white,1,2)+T(44,59,'v1',{a:'middle',z:18,w:700,cls:'mono'})+
+    R('<circle cx="76" cy="26" r="15"/>',C.green)+L('<path d="M69 26 l5 5 l9 -10"/>',C.white,3),
+  ridgeline:()=>R('<path d="M4 84 L28 44 L40 58 L60 20 L78 50 L96 84 Z"/>',C.white)+L('<path d="M54 30 L60 20 L66 31"/>',C.ink2,2),
+  trellis:()=>L('<path d="M20 90 V14 M50 90 V14 M80 90 V14 M8 30 L92 70 M8 70 L92 30"/>',C.brown,3)+R('<circle cx="34" cy="44" r="6"/><circle cx="66" cy="62" r="6"/>',C.green,2,2),
+};
+const glyph=(name,x,y,s=1)=>g(x,y,s,GL[name]());
+
+/* ------------------------------------------------------------------
+   The workshop map. One set of positions drives the full map and the
+   small "you are here" map on every tool slide.
+------------------------------------------------------------------- */
+const LAYERS={
+  foundation:{name:'the foundations',where:'in the foundations',col:C.brown},
+  builder:{name:'the builders',where:'among the builders',col:'#C98F00'},
+  control:{name:'the control tower',where:'in the control tower',col:C.blue},
+  around:{name:'built with it',where:'built on the toolchain',col:C.plum},
+};
+const NODES=[
+  {id:'runciter',x:300,y:44,layer:'control',label:'runciter',what:'supervises the work'},
+  {id:'atis',x:580,y:44,layer:'control',label:'atis',what:'shows what changed'},
+  {id:'penfield',x:860,y:44,layer:'control',label:'penfield',what:'picks the model'},
+  {id:'storyboard',x:300,y:256,layer:'builder',label:'storyboard',what:'drafts the first plan'},
+  {id:'plumbbob',x:580,y:256,layer:'builder',label:'plumbbob',what:'plans, and stops for you'},
+  {id:'volley',x:860,y:256,layer:'builder',label:'volley',what:'builds one step well'},
+  {id:'fascicle',x:300,y:470,layer:'foundation',label:'fascicle',what:'agents from plain parts'},
+  {id:'checkride',x:510,y:470,layer:'foundation',label:'checkride',what:'says when it is done'},
+  {id:'keyframes',x:720,y:470,layer:'foundation',label:'keyframes',what:'writes down why'},
+  {id:'storium',x:930,y:470,layer:'foundation',label:'storium',what:'keeps data tidy'},
+  {id:'shinbun',x:1185,y:44,layer:'around',label:'shinbun',what:'a daily paper'},
+  {id:'lodestar',x:1185,y:256,layer:'around',label:'lodestar',what:'memory that updates'},
+  {id:'jig',x:1185,y:470,layer:'around',label:'agent-tools',what:'commit and version'},
+];
+function workshop(o={}){
+  const hi=o.hi, mini=!!o.mini;
+  let s='';
+  s+=`<rect x="0" y="0" width="1050" height="210" fill="${C.ice}"/>`;
+  s+=`<rect x="0" y="210" width="1050" height="214" fill="#FFFFFF"/>`;
+  s+=`<rect x="0" y="424" width="1050" height="216" fill="${C.soil}"/>`;
+  s+=`<rect x="1060" y="0" width="250" height="640" fill="${C.plumtint}"/>`;
+  s+=L('<path d="M0 210 H1050 M0 424 H1050"/>',C.ink,mini?6:2.5);
+  if(!mini){
+    s+=L('<path d="M250 560 Q400 600 510 556 T720 560 T930 556 Q990 566 1040 552"/>',C.brown,2,'stroke-dasharray="2 7"');
+    s+=TW(24,44,'The control tower',{z:24,w:800,cls:'disp',maxw:170})+TW(24,98,'decides, watches, routes',{z:16,c:C.ink2,maxw:170})+
+       TW(24,254,'The builders',{z:24,w:800,cls:'disp',maxw:170})+TW(24,284,'plan and build the work',{z:16,c:C.ink2,maxw:170})+
+       TW(24,468,'The foundations',{z:24,w:800,cls:'disp',maxw:170})+TW(24,530,'every builder stands on these',{z:16,c:C.ink2,maxw:170})+
+       T(1080,30,'Built on it',{z:20,w:800,cls:'disp'});
+  }
+  for(const n of NODES){
+    const dim=hi&&n.id!==hi;
+    if(mini){
+      const on=n.id===hi;
+      s+=`<circle cx="${n.x}" cy="${n.y+60}" r="${on?46:30}" fill="${on?C.red:'#fff'}" stroke="${C.ink}" stroke-width="${on?10:6}"/>`;
+    }else{
+      s+=`<g opacity="${dim?.28:1}">`+glyph(n.id,n.x-46,n.y,0.92)+
+        T(n.x,n.y+122,n.label,{a:'middle',z:21,w:700,cls:'disp'})+T(n.x,n.y+145,n.what,{a:'middle',z:16,c:C.ink2})+`</g>`;
+    }
+  }
+  return s;
+}
+const minimap=id=>svg(1310,640,workshop({hi:id,mini:true}),{width:164,height:80,label:'Where this tool sits on the workshop map'});
+
+/* ------------------------------------------------------------------
+   Pictures for each tool slide (900 x 470 canvas).
+------------------------------------------------------------------- */
+const P={};
+P.fascicle=()=>svg(900,470,
+  glyph('fascicle',20,40,2.3)+T(135,300,'every piece is a',{a:'middle',z:19,c:C.ink2})+T(135,326,'Step&lt;i, o&gt;',{a:'middle',z:22,w:600,cls:'mono'})+
+  box(300,60,580,250,'',C.white)+T(320,92,'sequence([ … ])',{z:18,w:600,cls:'mono'})+
+  box(322,120,140,70,'step',C.lyellow,{z:17,cls:'mono'})+arrow(466,155,500,155)+
+  box(504,108,180,170,'',C.white)+T(520,134,'parallel({ … })',{z:15,w:600,cls:'mono'})+
+  box(520,148,148,46,'model_step',C.lyellow,{z:15,cls:'mono'})+box(520,208,148,46,'tool',C.lyellow,{z:15,cls:'mono'})+
+  arrow(688,190,718,190)+box(722,120,140,140,'',C.white)+T(738,146,'retry(',{z:15,w:600,cls:'mono'})+box(738,160,108,46,'step',C.lyellow,{z:15,cls:'mono'})+T(738,236,')',{z:15,w:600,cls:'mono'})+
+  TW(300,350,'A composition is a Step too, so it drops into any other composition.',{z:19})+
+  TW(300,404,'No classes, no lifecycle, no hidden state. Run it, describe it, or draw it.',{z:19,c:C.ink2}),
+  {label:'fascicle composes steps into larger steps'});
+P.checkride=()=>{
+  const names=['types','lint','struct','dead','test','docs','links','spell'];
+  const row=(y,bad,label,sub)=>names.map((n,i)=>`<circle cx="${240+i*62}" cy="${y}" r="16" fill="${bad.includes(i)?C.red:C.green}" stroke="${C.ink}" stroke-width="3"/>`+T(240+i*62,y+40,n,{a:'middle',z:14,cls:'mono'})).join('')+
+    T(730,y-4,label,{z:22,w:700,cls:'disp'})+T(730,y+22,sub,{z:16,c:C.ink2});
+  return svg(900,470, glyph('checkride',10,30,2)+robot(110,330,1.4)+row(80,[],'exit 0','cleared: done')+row(200,[1,4],'exit 1','not done yet')+
+    doc(250,300,'.check/summary.json',C.lblue,230)+arrow(486,332,560,332,'blue')+
+    T(570,322,'read by plumbbob, volley,',{z:18})+T(570,346,'runciter and atis',{z:18})+
+    TW(240,410,'One command, one exit code, the same every time. The agent keeps going until it is green.',{z:18,c:C.ink2}),
+    {label:'checkride turns every check into one light'});};
+P.storium=()=>svg(900,470,
+  glyph('storium',20,80,2)+box(250,60,250,64,'usersTable',C.white,{z:18,cls:'mono'})+T(375,150,'a plain Drizzle table',{a:'middle',z:16,c:C.ink2})+
+  arrow(375,170,375,210)+box(250,214,250,64,'defineStore()',C.lyellow,{z:18,cls:'mono'})+
+  [['Zod schema',60],['JSON Schema',150],['CRUD repository',240],['prep pipeline',330]].map(([l,y])=>arrow(506,246,600,y+28,'ink',{d:`M506 246 C550 246 560 ${y+28} 596 ${y+28}`})+box(600,y,250,56,l,C.lgreen,{z:17})).join('')+
+  TW(20,430,'Column notes like required, readonly and hidden feed every layer from one place.',{z:19,c:C.ink2}),
+  {label:'storium derives schemas and a repository from one table'});
+P.keyframes=()=>svg(900,470,
+  L('<path d="M40 150 H860"/>',C.ink,4)+
+  [120,420,720].map(x=>R(`<path d="M${x} 118 L${x+32} 150 L${x} 182 L${x-32} 150 Z"/>`,C.yellow)).join('')+
+  [190,240,290,340,490,540,590,640].map(x=>`<circle cx="${x}" cy="150" r="6" fill="${C.ink}"/>`).join('')+
+  person(120,72,.9)+person(420,72,.9)+person(720,72,.9)+T(762,64,'people set the',{z:18})+T(762,88,'key poses',{z:18,w:700})+
+  robot(265,262,.85)+robot(565,262,.85)+T(265,300,'agents draw',{a:'middle',z:16,c:C.ink2})+T(265,320,'the in-betweens',{a:'middle',z:16,c:C.ink2})+
+  `<rect x="40" y="340" width="520" height="104" rx="6" fill="#fff" stroke="${C.ink}" stroke-width="2"/>`+
+  T(56,372,'- **C3 (one-writer)**: Only the sync worker',{z:15,cls:'mono'})+T(56,394,'  writes to the database.',{z:15,cls:'mono'})+T(56,420,'  - because: two writers made replay disagree.',{z:15,cls:'mono',c:C.ink2})+
+  box(600,352,270,80,'',C.lyellow)+T(616,384,'agent: holding to',{z:16})+T(616,410,'[C3 (one-writer)]',{z:16,w:600,cls:'mono'})+arrow(596,392,564,392),
+  {label:'keyframes: people set the key poses, agents fill in between'});
+P.storyboard=()=>{
+  const qs=['What are you making, and for whom?','What would make it a success?','Which parts already exist elsewhere?','Must it run offline?'];
+  return svg(900,470,
+    R('<path d="M40 30 H560 L380 330 H220 Z"/>',C.white)+qs.map((q,i)=>T(300,74+i*58,q,{a:'middle',z:Math.max(15,20-i*1.5),c:i?C.ink:C.ink})).join('')+
+    T(420,300,'each question removes the most doubt',{z:14,c:C.ink2})+
+    arrow(300,340,300,372)+doc(220,376,'keyframes.md',C.lyellow,160)+arrow(386,407,450,407)+
+    box(456,378,220,58,'check --strict',C.lgreen,{z:17,cls:'mono'})+arrow(682,407,736,407,'red')+person(780,430,1.1)+
+    T(740,330,'a person reads',{z:17})+T(740,352,'and accepts',{z:17})+robot(700,170,1.3)+T(650,240,'asks, listens,',{z:17,c:C.ink2})+T(650,262,'researches',{z:17,c:C.ink2}),
+    {label:'storyboard interviews you broad to narrow, then drafts the plan'});};
+P.plumbbob=()=>{
+  let s=glyph('plumbbob',20,20,2.2);
+  const xs=[250,345,440,535,630,725,820];
+  s+=L('<path d="M220 160 H860"/>',C.ink,3);
+  xs.forEach((x,i)=>{const fill=i<3?C.lgreen:(i===3?C.lyellow:'#fff');
+    s+=box(x-34,126,68,68,String(i+1),fill,{z:22});
+    if(i<3) s+=T(x,224,['a1f3','7c20','e94b'][i],{a:'middle',z:14,cls:'mono',c:C.ink2});
+    if(i===3||i===6){ s+=L(`<path d="M${x} 126 V70"/>`)+R(`<path d="M${x} 70 h34 l-8 11 l8 11 h-34 z"/>`,C.red,3,2.5);}
+  });
+  s+=robot(535,350,1.1)+T(535,404,'building step 4',{a:'middle',z:16,c:C.ink2})+person(725,350,1.1)+T(725,404,'your call here',{a:'middle',z:16,c:C.ink2});
+  s+=T(216,256,'landed: each checked and committed on its own',{z:16,c:C.green,w:700});
+  s+=TW(20,446,'Settle the plan before any code. It stops at the red flags and waits for you.',{z:18,c:C.ink2});
+  return svg(900,470,s,{label:'plumbbob builds one step at a time and stops at the flags'});};
+P.volley=()=>svg(900,470,
+  robot(150,200,1.7)+T(150,262,'builder',{a:'middle',z:20,w:700,cls:'disp'})+
+  robot(750,200,1.7,C.lyellow)+R('<circle cx="796" cy="150" r="20"/><path d="M810 164 l18 18"/>',C.white,2,3)+T(750,262,'critic',{a:'middle',z:20,w:700,cls:'disp'})+T(750,286,'reads, never writes',{a:'middle',z:15,c:C.ink2})+
+  arrow(220,150,680,150,'ink',{d:'M220 140 Q450 30 680 140',dash:'6 8'})+T(450,70,'the work',{a:'middle',z:17})+
+  arrow(680,230,220,230,'red',{d:'M680 250 Q450 330 220 250',dash:'6 8'})+T(450,310,'feedback',{a:'middle',z:17,c:C.red})+
+  box(340,120,220,60,'',C.white)+[0,1,2,3,4].map(i=>`<circle cx="${370+i*40}" cy="150" r="11" fill="${C.green}" stroke="${C.ink}" stroke-width="2.5"/>`).join('')+T(450,206,'checkride first',{a:'middle',z:15,c:C.ink2})+
+  box(300,360,300,70,'both say yes: done',C.lgreen,{z:19})+arrow(750,300,606,392,'green')+
+  T(40,452,'A cost cap stops the loop before the bill gets out of hand.',{z:18,c:C.ink2}),
+  {label:'volley: a builder and a read-only critic loop until both pass'});
+P.runciter=()=>{
+  const cols=[['capture','hold',C.white],['build','run',C.lyellow],['review','hold',C.lred],['merge','merge',C.lblue],['done','done',C.lgreen]];
+  let s=glyph('runciter',0,60,1.9);
+  cols.forEach(([n,k,f],i)=>{const x=210+i*136;
+    s+=`<rect x="${x}" y="40" width="124" height="290" rx="8" fill="${f}" stroke="${C.ink}" stroke-width="2.5"/>`+T(x+62,72,n,{a:'middle',z:18,w:700,cls:'disp'})+T(x+62,94,k,{a:'middle',z:14,cls:'mono',c:C.ink2});
+    const cards=[2,2,1,1,3][i]; for(let c=0;c<cards;c++) s+=`<rect x="${x+14}" y="${112+c*58}" width="96" height="44" rx="6" fill="#fff" stroke="${C.ink}" stroke-width="2"/>`;
+  });
+  s+=robot(272,190,.55)+robot(272,248,.55)+person(482,178,.6);
+  s+=box(210,360,330,80,'',C.white)+T(226,392,'one SQLite file',{z:17,w:700})+T(226,418,'state, events, search, lessons',{z:15,c:C.ink2});
+  s+=box(560,360,330,80,'',C.white)+T(576,392,'one writer',{z:17,w:700})+T(576,418,'every change appends an event',{z:15,c:C.ink2});
+  return svg(900,470,s,{label:'runciter moves tasks through a pipeline of stages'});};
+P.atis=()=>{
+  const blob=(cx,cy,rx,ry,f)=>R(`<ellipse cx="${cx}" cy="${cy}" rx="${rx}" ry="${ry}"/>`,f,3,2.5);
+  let s=`<rect x="20" y="20" width="560" height="420" rx="10" fill="#1E2A44"/>`;
+  [[70,60],[140,400],[520,90],[480,380],[300,40],[60,300],[540,250]].forEach(([x,y])=>s+=`<circle cx="${x}" cy="${y}" r="2" fill="#fff" opacity=".7"/>`);
+  s+=blob(170,150,90,64,'#3C4D6E')+blob(390,170,110,74,'#3C4D6E')+blob(250,320,120,70,'#3C4D6E')+blob(460,330,70,50,'#3C4D6E');
+  s+=`<circle cx="360" cy="150" r="18" fill="${C.cyan}"/><circle cx="410" cy="190" r="14" fill="${C.cyan}"/><circle cx="270" cy="300" r="12" fill="${C.cyan}"/>`;
+  s+=`<path d="M378 160 Q330 230 280 296" stroke="${C.cyan}" stroke-width="3" fill="none" stroke-dasharray="4 6"/>`;
+  s+=R('<path d="M330 120 a20 20 0 0 1 16 -34 a26 26 0 0 1 50 4 a18 18 0 0 1 12 30 z"/>',C.white,3,2.5)+L('<path d="M350 128 l-6 12 M372 128 l-6 12 M394 128 l-6 12"/>',C.cyan,3);
+  s+=T(40,428,'the terrain is your repo; the weather is one change',{z:15,c:'#fff'});
+  s+=T(610,50,'look here first',{z:20,w:700,cls:'disp'});
+  ['sync/writer.ts: new export, 9 callers','api/routes.ts: untested branch','db/schema.ts: crosses an interface'].forEach((l,i)=>s+=T(610,86+i*30,`${i+1}. ${l}`,{z:15}));
+  s+=T(610,210,'reads',{z:18,w:700,cls:'disp'});
+  [['git','the change and its history'],['.check/','tests, coverage, mutants'],['fallow','health, cycles, boundaries']].forEach(([a,b],i)=>s+=T(610,240+i*28,a,{z:15,w:600,cls:'mono'})+T(690,240+i*28,b,{z:15,c:C.ink2}));
+  s+=box(610,350,270,70,'informs, never blocks',C.lblue,{z:18});
+  return svg(900,470,s,{label:'atis draws a change as weather over the repository'});};
+P.penfield=()=>{
+  let s='';
+  ['editor','scripts','agents'].forEach((c,i)=>s+=box(20,70+i*100,140,56,c,C.white,{z:17})+arrow(166,98+i*100,276,210));
+  s+=glyph('penfield',270,130,1.6)+T(350,320,'model: "auto"',{a:'middle',z:17,cls:'mono',w:600});
+  s+=T(350,350,'rules, then embeddings,',{a:'middle',z:15,c:C.ink2})+T(350,370,'then a small classifier',{a:'middle',z:15,c:C.ink2});
+  [['small local model',C.lgreen],['big local model',C.lgreen],['cloud API',C.lblue]].forEach(([l,f],i)=>s+=arrow(440,210,594,84+i*84)+box(600,56+i*84,260,56,l,f,{z:17}));
+  s+=arrow(436,250,600,330,'red',{dash:'6 6'})+box(600,302,260,70,'',C.lred)+T(616,330,'“use Claude”: a decision,',{z:15,w:700})+T(616,352,'the caller runs it under its own login',{z:13.5});
+  s+=TW(20,420,'One address for every tool. It logs decisions, not prompts, and holds no subscription credential.',{z:18,c:C.ink2});
+  return svg(900,470,s,{label:'penfield routes each request to the right model'});};
+P.lodestar=()=>{
+  let s='';
+  s+=box(20,40,330,88,'',C.white)+T(36,72,'March',{z:16,w:700})+T(36,102,'“Never rebase a shared branch.”',{z:16});
+  s+=box(20,180,330,88,'',C.white)+T(36,212,'June',{z:16,w:700})+T(36,242,'“Rebasing with --force-with-lease is fine.”',{z:14.5});
+  s+=arrow(356,224,430,170)+glyph('lodestar',430,100,1.2)+T(490,250,'adjudicator',{a:'middle',z:16,w:700})+T(490,272,'REPLACE',{a:'middle',z:15,cls:'mono',c:C.red,w:600});
+  s+=L('<path d="M560 300 H880"/>',C.ink,3)+T(560,330,'Mar',{z:14})+T(690,330,'Apr',{z:14})+T(820,330,'Jun',{z:14});
+  s+=box(580,60,290,60,'',C.lgreen)+T(596,96,'now: the June rule',{z:16,w:700});
+  s+=box(580,150,290,60,'',C.grey)+T(596,186,'March rule: superseded, kept',{z:15})+L('<path d="M596 180 H860"/>',C.ink2,1.5);
+  s+=arrow(705,300,705,218,'blue')+T(716,264,'asOf April',{z:14,cls:'mono',c:C.blue,w:600});
+  s+=T(20,400,'A newer note that disagrees replaces the old belief, and the history stays queryable.',{z:19,c:C.ink2});
+  s+=T(20,430,'Nothing is merged silently, and the two are never stacked as if both were true.',{z:19,c:C.ink2});
+  return svg(900,470,s,{label:'lodestar supersedes stale beliefs instead of merging them'});};
+P.shinbun=()=>{
+  const st=['collect','triage','extract','analyze','embed','cluster','thread','edit','render','publish'];
+  let s='';
+  st.forEach((n,i)=>{const x=20+i*86; s+=box(x,150,76,60,'',i===7?C.lyellow:C.white,{rx:6})+T(x+38,186,n,{a:'middle',z:13,cls:'mono'}); if(i<9) s+=L(`<path d="M${x+76} 180 h10"/>`,C.ink,3);});
+  s+=T(20,110,'~400 stories in',{z:20,w:700,cls:'disp'})+T(450,110,'~60–90 kept',{z:20,w:700,cls:'disp',a:'middle'})+T(880,110,'one page out',{z:20,w:700,cls:'disp',a:'end'});
+  s+=L('<path d="M60 124 V146 M450 124 V146 M840 124 V146"/>',C.ink2,2);
+  s+=glyph('shinbun',380,250,1.6);
+  s+=T(20,290,'local models only',{z:18,w:700})+T(20,316,'one article per call:',{z:16,c:C.ink2})+T(20,338,'small models blur when batched',{z:16,c:C.ink2});
+  s+=T(600,290,'finite by design',{z:18,w:700})+T(600,316,'it ends, and there is no feed',{z:16,c:C.ink2})+T(600,338,'runs at 05:00, every day',{z:16,c:C.ink2});
+  s+=T(20,440,'Bad JSON from a model never kills a run. That stage falls back and the paper still prints.',{z:18,c:C.ink2});
+  return svg(900,470,s,{label:'shinbun turns hundreds of stories into one finite page'});};
+P.jig=()=>{
+  let s='';
+  s+=T(20,50,'/jig:commit',{z:22,w:600,cls:'mono'});
+  s+=robot(70,150,.9)+box(120,96,220,64,'writes the message',C.lyellow,{z:16})+arrow(346,128,400,128)+box(404,96,240,64,'script stages + commits',C.lgreen,{z:16})+arrow(650,128,700,128)+box(704,96,180,64,'feat(x): …',C.white,{z:15,cls:'mono'});
+  s+=T(404,186,'never-stage filter: secrets and junk can’t slip in',{z:14,c:C.ink2});
+  s+=T(20,256,'/jig:version',{z:22,w:600,cls:'mono'});
+  s+=box(20,290,240,64,'bump.mjs does the math',C.lgreen,{z:16})+arrow(266,322,316,322)+robot(370,344,.9)+box(410,290,230,64,'writes the changelog',C.lyellow,{z:16})+arrow(646,322,700,322)+box(704,290,180,64,'tag + push',C.white,{z:16});
+  s+=T(20,380,'semver, every version file, the dirty-tree check: all before the model starts',{z:14,c:C.ink2});
+  s+=T(20,440,'The script does the risky part. The model writes the words.',{z:20,w:700,cls:'disp'});
+  return svg(900,470,s,{label:'jig: scripts do the risky part, the model writes the prose'});};
+
+/* ------------------------------------------------------------------
+   Tool slide content.
+------------------------------------------------------------------- */
+const TOOLS={
+fascicle:{kid:'LEGO bricks for agents. Every piece snaps onto every other piece.',
+  problem:'Most agent frameworks make you build inside their classes and lifecycle, and tie you to their vendor. Swapping a model or testing a single step means fighting the framework.',
+  how:['Every unit is a <code>Step&lt;i, o&gt;</code>: a function, a model call, a tool, or a whole flow.','23 composers (<code>sequence</code>, <code>parallel</code>, <code>branch</code>, <code>retry</code>, <code>loop</code>, <code>checkpoint</code>, ensembles…) take steps and return a step.','One <code>generate</code> call works across eight providers, including local Ollama and <code>claude_cli</code>, which runs a whole Claude Code session as one step.','Adapters such as loggers and checkpoint stores are passed in per run, and every run leaves a JSONL trajectory behind.'],
+  io:'Serve any flow over MCP, as an editor agent over ACP, or behind <code>run_stdio</code> as a runciter agent.',
+  alone:'pnpm add fascicle\nawait run(sequence([step(\'add\', n => n + 1)]), 1)',
+  state:['shipped','npm 0.19.2'],stats:'856 commits since 25 Apr 2026. volley, runciter and lodestar are all built on it.'},
+checkride:{kid:'A green light you can trust. When it’s green, the work is done.',
+  problem:'An agent says it has finished, but nobody ever agreed what finished means, and the checks are scattered across tools, configs and CI.',
+  how:['One command runs every check the repo has: types, lint, structure, dead code, tests, docs, links, spelling, mutation, audit.','Exit 0 means done. Exit 1 means something in the job still fails, even if the last edit was fine. Exit 2 means the run itself broke.','<code>init</code> picks up the tools the repo already uses, then writes the AGENTS.md stanza and the agent hooks for you.','It keeps a baseline of existing findings that can only shrink, enforces module boundaries with ast-grep rules, and ships packs for seven languages.'],
+  io:'Writes <code>.check/summary.json</code> (schema version 1), read by plumbbob, volley, runciter’s verify and atis.',
+  alone:'pnpm add -D checkride\npnpm exec checkride init\npnpm check',
+  state:['shipped','npm 0.25.0'],stats:'515 commits since 11 Jun 2026. It is the gate in about 20 repos, including an outside team’s Nix monorepo.'},
+storium:{kid:'Describe a table once, and the checking comes for free.',
+  problem:'Every project rebuilds the same validation, sanitising, CRUD and migration scaffolding around its ORM, and the copies drift apart.',
+  how:['You write native Drizzle tables and wrap them with <code>defineStore()</code>.','Column notes such as required, readonly and hidden generate the Zod schema, the JSON Schema and a CRUD repository.','Incoming data runs through a filter, transform and validate pipeline.','One CLI handles generate, migrate and seed on Postgres, MySQL and SQLite.'],
+  io:'It is the data layer under runciter and lodestar. It is a policy layer that sits on top of an ORM, and doesn’t replace one.',
+  alone:'npm install storium\nconst users = db.defineStore(usersTable, {\n  columns: { email: { required: true } } })',
+  state:['shipped','npm 0.16.0'],stats:'409 commits. It is a 2026 rewrite of something started in 2022.'},
+keyframes:{kid:'Write down why, once. People and agents all work from it.',
+  problem:'Intent lives in people’s heads, chat threads and stale READMEs. New people piece it together slowly, and agents never see it at all. AGENTS.md tells them how to work but doesn’t say why.',
+  how:['One <code>keyframes.md</code> opens with the intent as prose, followed by short items with IDs: principles, map, constraints, scenarios, decisions and taste.','Items cite each other and agents cite them, like <code>[C3 (one-writer)]</code>.','<code>keyframes check</code> validates structure and every citation, the same way every time.','<code>keyframes context &lt;path&gt;</code> gives a harness only the items that apply to the files it is touching.'],
+  io:'<code>check --json</code> (schema version 1) is read by storyboard, runciter’s verify and the planned lookouts.',
+  alone:'npx @robmclarty/keyframes init\nnpx @robmclarty/keyframes check',
+  state:['shipped','npm 0.4.0'],stats:'65 commits since 2 Oct 2026. Piloted across eight repos.'},
+storyboard:{kid:'It plays twenty questions with you, then draws the first sketch.',
+  problem:'The first plan is the hardest to write and the one most often skipped, so agents end up building from a guess.',
+  how:['It interviews you, starting broad and then narrowing, and picks each question to remove as much uncertainty as it can.','Before it drafts, it researches what already exists that does the same thing.','It reads the draft <code>keyframes.md</code> back a section at a time so a person can correct it.','A draft is accepted only once <code>keyframes check --strict</code> passes and a person has read it.'],
+  io:'Its drafts can go to plumbbob, volley, runciter or a person.',
+  alone:'storyboard turn   # answer, then run it again',
+  state:['built','0.2.0, early'],stats:'51 commits since 28 Oct 2026. Three live interviews have run end to end. Support for existing projects comes later.'},
+plumbbob:{kid:'Agree on the plan first. It builds step by step and stops where you asked.',
+  problem:'With freestyle prompting the model drags you along, and you react when you should be deciding. Full autonomy, on the other hand, is overkill for a feature, a bug or a refactor.',
+  how:['Before any code is written, you and the model settle a plan file. It lists the steps, how each one is proven done, the paths it may touch, and where to stop.','Each step is built, checked and committed on its own, so there is one SHA per step.','An approval latch means no step lands without a person taking a turn, and it refuses to checkpoint while the check is red.','It saves your attention. It suggests a model for each step, recommends an answer whenever it asks you to choose, and keeps track of the plan so you don’t have to.'],
+  io:'<code>plumbbob export</code> writes <code>plan.json</code> (<code>runciter.plan/2</code>), and <code>status --json</code> reports in <code>plumbbob.status/1</code>. At plan time it asks <code>atis reach</code> how far the plan reaches.',
+  alone:'/plugin marketplace add robmclarty/agent-tools\n/plugin install plumbbob@robmclarty',
+  state:['shipped','npm 0.17.3'],stats:'595 commits since 10 Jun 2026. 18 skills, 24 CLI verbs, 4 hooks. It built most of the other tools here.'},
+volley:{kid:'A builder and a critic pass the work back and forth until both say yes.',
+  problem:'A single agent run stops when the model thinks it is done, and a model is lenient when it grades its own work.',
+  how:['A builder session runs first, then <code>checkride --json</code>, then a read-only critic that returns a schema-checked verdict against the criteria.','Feedback goes back to the builder until the check and the critic both pass.','Each task has a cost cap and can run on local models or <code>claude_cli</code>. An effort ladder and a tester seat exist too, switched off by default until measurements show they help.','In five of seven reviews, a fresh reviewer caught blocking defects that a green check had missed, which is why every step keeps a critic.'],
+  io:'It speaks <code>runciter.run/1</code> when run with <code>--protocol runciter.run/1</code>, and <code>volley acp</code> makes it available inside an editor.',
+  alone:'volley --prompt "Implement the TODOs" \\\n  --workspace . --criteria "tests pass" \\\n  --max-cost-usd 10',
+  state:['shipped','npm 0.12.0'],stats:'326 commits since 7 Jul 2026. Built on fascicle and checkride.'},
+runciter:{kid:'The supervisor. It hands out the jobs, watches them, and checks them back in.',
+  problem:'With many agent runs going at once, it gets hard to tell who is doing what, on which branch, at what cost, and what is waiting for you.',
+  how:['Pipelines are YAML with four kinds of stage: hold (you act), run, merge, done. Agents are markdown files.','There are seven kinds of runner, so any agent fits: a prompt, a headless CLI (Claude Code, Codex, OpenCode, Pi, Gemini…), ACP, a process, a module or a shell command.','Each run gets a worktree, a budget, a timeout and a scrubbed environment, and must pass <code>pnpm check</code> before anything lands.','The one invariant is that only the reconciler writes state, and every write appends an event. Lessons learned in one run are passed to later runs.'],
+  io:'It reads <code>runciter.run/1</code> results and <code>runciter.plan/2</code> plans. Intents go in and events come out over HTTP, a board, the CLI and MCP.',
+  alone:'pnpm start   # server, reconciler, scheduler, board',
+  state:['built','0.5.0, personal use'],stats:'165 commits in its current repo since Oct 2026, though the project began on 7 Jul. The frontier scheduler is next.'},
+atis:{kid:'A weather map for a code change. Glance at it, then go only where it’s stormy.',
+  problem:'Changes made by agents are big, and a diff can’t show how far one reaches, what covers it, or where to look first.',
+  how:['The terrain is the repository, with its modules, depth, size and health. The weather is one change: what moved, how far it ripples, and what evidence covers it.','It reads three sources: git, checkride’s <code>.check/</code> and fallow. There is no model involved.','If a source is missing, atis leaves out what that source would have shown. It never invents a number.','It informs and never blocks.'],
+  io:'It writes <code>map.json</code>, SVG and PNG stills, and a PR comment. <code>atis reach --json</code> tells plumbbob how far a plan reaches before the build starts.',
+  alone:'atis                 # map this branch\natis --svg atis.svg  # a still map',
+  state:['built','0.2.0 tagged 21 Nov'],stats:'327 commits since 16 Sep 2026. npm holds only a placeholder so far.'},
+penfield:{kid:'One dial. Turn it to “auto” and it picks the right brain for the job.',
+  problem:'There are many models on many machines, and each tool is set up separately. There is no record of what went where, and frontier models end up doing work a local one could handle.',
+  how:['It keeps a catalogue of machines and models, and probes each one for health and for which model is loaded right now.','Requests in OpenAI and Anthropic formats are forwarded unchanged, apart from the <code>model</code> field, which it rewrites.','<code>auto</code> is routed by deterministic rules first, then by embeddings, then by a small classifier. Leases and pins share busy machines fairly.','It never holds a Claude subscription credential. When the answer is Claude, it returns that as a decision, and the caller runs it under its own login.'],
+  io:'It is one address that any OpenAI- or Anthropic-format client can point at. runciter names roles, and penfield resolves each role to a model.',
+  alone:'# once the first stage lands\nbase_url: http://&lt;router&gt;:7777/v1\nmodel: auto',
+  state:['specced','pre-release'],stats:'24 commits since 30 Oct 2026. The spec and the check gate are in place, and the first stage is being built.'},
+lodestar:{kid:'A memory that notices when you have changed your mind.',
+  problem:'Typical AI memory either stacks contradictions or blends them, so old advice comes back as if it were still true.',
+  how:['Claims live in a bi-temporal graph, which records both when a claim was true and when it was learned.','On every write, an adjudicator decides what happens. A newer claim that contradicts an older one replaces it, and the older one is kept and marked superseded.','<code>asOf</code> queries return what was believed at the time, and an append-only log records every change.','The model is used only in the adjudicator. Storage is local SQLite with vector search.'],
+  io:'Six <code>memory_*</code> MCP tools for coding agents (<code>memory_search</code>, <code>memory_context</code>, <code>memory_beliefs</code>, …). It is planned as a read-only provider to runciter.',
+  alone:'memory_search({ query: "rebasing shared branches" })',
+  state:['built','private 0.1'],stats:'65 commits, Jul to Oct 2026. The end-to-end slice is proven, but it isn’t running daily yet.'},
+shinbun:{kid:'A small newspaper, made at home every morning, that you can finish.',
+  problem:'Feeds never end, and keeping up costs attention every day.',
+  how:['Ten stages, each runnable on its own: collect, triage, extract, analyze, embed, cluster, thread, edit, render, publish.','It uses local models only, sized for each stage, and sends one article per call.','A model writing bad JSON never kills a run.','It is built on Effect and deliberately not on fascicle, to serve as a contrast.'],
+  io:'It produces static HTML. Nothing leaves the machine except the feed fetches and one status ping.',
+  alone:'pnpm shinbun run   # launchd runs it at 05:00',
+  state:['shipped','1.5.0, daily'],stats:'55 commits since 30 Jul 2026. It runs in production every day and is the first pilot for scheduled lookouts.'},
+jig:{kid:'Neat commits and tidy releases, done the same way in every repo.',
+  problem:'Agents commit secrets and junk, message styles drift, and releases mean hand-editing version numbers across files.',
+  how:['<code>agent-tools</code> is a plugin marketplace that holds plumbbob, jig and ast-grep-rules, each installed with one line.','With <code>/jig:commit</code>, the model writes a conventional message (with <code>TIL:</code> lines for later learning), and a script stages and commits through a never-stage filter that keeps secrets and junk out.','With <code>/jig:version</code>, a bump engine does the semver math and rewrites every version file before the model starts. The model only writes the changelog.','Both run only when you invoke them. Nothing runs on its own.'],
+  io:'Per-repo settings live in <code>.claude/version.json</code>, which <code>/jig:version init</code> drafts for you.',
+  alone:'/plugin install jig@robmclarty\n/jig:commit\n/jig:version minor',
+  state:['shipped','marketplace'],stats:'55 commits since 30 Jun 2026.'},
+};
+const REPOS={fascicle:'fascicle',checkride:'checkride',keyframes:'keyframes',storium:'storium',storyboard:'storyboard',plumbbob:'plumbbob',volley:'volley',atis:'atis',penfield:'penfield',jig:'agent-tools',runciter:null,lodestar:null,shinbun:null};
+const ghLink=id=>REPOS[id]?`<a class="repo" href="https://github.com/robmclarty/${REPOS[id]}" target="_blank" rel="noopener">${svg(24,24,'<path d="M12 1.5a10.5 10.5 0 0 0-3.3 20.5c.5.1.7-.2.7-.5v-1.8c-2.9.6-3.5-1.4-3.5-1.4-.5-1.2-1.2-1.5-1.2-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.5 1.1 3.1.9.1-.7.4-1.1.7-1.4-2.3-.3-4.8-1.2-4.8-5.2 0-1.1.4-2.1 1.1-2.8-.1-.3-.5-1.4.1-2.8 0 0 .9-.3 2.9 1.1a10 10 0 0 1 5.2 0c2-1.4 2.9-1.1 2.9-1.1.6 1.5.2 2.5.1 2.8.7.7 1.1 1.7 1.1 2.8 0 4-2.5 4.9-4.8 5.2.4.3.7 1 .7 2v3c0 .3.2.6.7.5A10.5 10.5 0 0 0 12 1.5Z" fill="#16233B"/>',{width:20,height:20})}github.com/robmclarty/${REPOS[id]}</a>`
+  :`<span class="repo private">private repository, not public yet</span>`;
+const SHOTS={
+fascicle:{img:'fascicle-screenshot.png',title:'fascicle’s run viewer',
+  what:'A run of an example flow, replayed in the viewer that ships with fascicle. The picture has the same shape as the program.',
+  points:['Two branches in parallel, each a map over three items.','A retry that got a flaky step through on the second of three attempts.','A primary path that failed for good, and the fallback that took over.'],
+  how:'From fascicle’s README (screenshot.png).'},
+checkride:{img:'checkride-terminal.png',title:'pnpm check, red on purpose',
+  what:'checkride running on its agent-loop example, which is left broken on purpose with an unused variable and a call to a function that was never written.',
+  points:['Each check names the tool that ran it, and checks the repo has no tool for are skipped.','Each failure names the line and says where the tool’s full output is kept.','It exits 1 because something in the job still fails.'],
+  how:'Run on 23 Nov 2026 in examples/agent-loop. Output unedited.'},
+keyframes:{img:'keyframes-terminal.png',title:'keyframes check, on a real plan',
+  what:'keyframes checking volley’s own keyframes.md. It reports what the plan holds and the two things it is over budget on.',
+  points:['12 constraints and 8 scenarios, every one linked.','12 decisions active, 1 question open.','The plan is 21 words over its 2,000-word budget, which is a warning and not an error.'],
+  how:'Run on 23 Nov 2026 with @robmclarty/keyframes 0.4.0. Exit 0.'},
+storium:{img:'storium-terminal.png',title:'One table, checked for free',
+  what:'A twelve-line script run against storium’s built package. It defines a table once, then creates a row, refuses a bad one, and prints the schema.',
+  points:['A row with an email is created.','A row without one is refused with a ValidationError, before the database sees it.','The JSON Schema for the same rule comes from the same definition.'],
+  how:'A small script written for this deck (v2-capture/scripts/storium-demo.mjs), run on 23 Nov 2026.'},
+storyboard:{img:'storyboard-terminal.png',title:'The brief an interview builds',top:true,
+  what:'The brief from a real storyboard interview. This was the second redraft of keyframes’ own plan, done from its owner’s memory.',
+  points:['Each slot says how sure it is (Clear, Partial) and how often it was asked.','The answers are the person’s own, in their words.','A recommended answer is offered, and the person decides.'],
+  how:'brief.md from storyboard’s scratch/keyframes-second record, first 36 lines.'},
+plumbbob:{img:'plumbbob-terminal.png',title:'plumbbob status, mid-build',
+  what:'plumbbob status run in volley’s repo today. It is a 47-step build with 14 steps landed, each as its own commit.',
+  points:['The next step shows how it will be proven done, the files it may touch, and the model it suggests.','The person always knows where the build is without holding it in their head.','The rest of the plan is visible before it is built.'],
+  how:'Run on 23 Nov 2026 with plumbbob 0.17.3. Trimmed after step 18; long lines cut at the window edge.'},
+volley:{img:'volley-run.png',title:'One real volley run',
+  what:'A volley run that runciter started on its demo setup, replayed in fascicle’s viewer from the run’s own trajectory file.',
+  points:['The builder, then the check, then the critic, with one retry.','It ends at the gate after 50 seconds and $0.44.','The trajectory is a plain JSONL file, so any run can be replayed later.'],
+  how:'fascicle viewer on runciter-demo’s run rx7dfer8kf2b3wrjvvzk9, captured 23 Nov 2026.'},
+runciter:{img:'runciter-board.png',title:'The board',
+  what:'runciter’s board on its demo setup. Each column is a pipeline stage, and each says who acts there.',
+  points:['YOU, AI or SYSTEM appears under each stage name.','One task waits on a person in Review, and the header counts it.','Build runs in an isolated worktree, and Merge belongs to the system.'],
+  how:'The local board on the runciter-demo data, captured 23 Nov 2026.'},
+atis:{img:'atis-map.png',title:'The weather over a change',
+  what:'atis on its demo change: the repository as terrain, the change lit up on top of it, and what to look at first.',
+  points:['The grade row covers patch coverage, mutants, reach, gate and dependencies.','Outside packages appear as stars, and the red one has a serious advisory.','Ranked notices on the right, each tied to a file.'],
+  how:'From atis’s assets (01-opening-frame), the 0.2.0 release screens.'},
+penfield:{img:'penfield-terminal.png',title:'penfield finds the house’s models',
+  what:'penfield started locally and pointed at the house’s model machine. It probed the node and built its catalogue on its own.',
+  points:['Which model is loaded right now (resident) and which would load cold.','The jobs each model suits, from the settings file.','Claude is listed as a decision target only, because penfield holds no credential for it.'],
+  how:'penfield built through spec step 16, run on 23 Nov 2026 with a throwaway token. Pre-release.'},
+lodestar:{img:'lodestar-terminal.png',title:'The tests for changing its mind',
+  what:'lodestar’s end-to-end adjudication tests, which run the whole write path with a scripted model.',
+  points:['The June rule replaces the March one, which is kept and marked superseded.','asOf April still returns March, which was true then.','Each verdict (KEEP, REPLACE, STALE, CONTRADICT, UNKNOWN) changes the graph exactly as specified.'],
+  how:'Run on 23 Nov 2026. Test names shortened; results unedited.'},
+shinbun:{img:'shinbun-edition.png',title:'This morning’s paper',top:true,
+  what:'Edition No. 1057, Monday 23 November 2026, as published this morning.',
+  points:['Seven stories from 39 sources, written by local models.','Finished at 05:50, before anyone was awake.','The colophon lists which model did which job.'],
+  how:'The public edition, captured 23 Nov 2026.'},
+jig:{img:'jig-terminal.png',title:'Commits in jig’s format',top:true,
+  what:'Recent history in checkride’s repo: conventional subjects, release commits, and a body that explains why.',
+  points:['type(scope): summary, lowercase and imperative.','Release commits like v0.25.0, cut by /jig:version with the changelog.','A closing TIL: line that code-diary and later runs can learn from.'],
+  how:'git log and git show in checkride, 23 Nov 2026.'},
+};
+const TOOL_ORDER=['fascicle','checkride','keyframes','storium','storyboard','plumbbob','volley','runciter','atis','penfield','lodestar','shinbun','jig'];
+
+const STATE_NAME={shipped:'shipped',built:'built, not on npm yet',specced:'specced, being built'};
+/* Each panel shows three of the four bullets in TOOLS[id].how; DROP names the one left out.
+   The io and alone fields stay in the data but are no longer shown on the slide. */
+const DROP={fascicle:3,checkride:2,keyframes:1,storyboard:1,plumbbob:1,volley:3,runciter:3,atis:3,storium:2,penfield:1,lodestar:3,shinbun:2,jig:3};
+function toolSlide(id){
+  const t=TOOLS[id], n=NODES.find(x=>x.id===id), lay=LAYERS[n.layer];
+  const stateName=STATE_NAME[t.state[0]];
+  return `<section class="slide tool" data-title="${n.label}">
+    <div class="left">
+      <div class="where"><span class="chip" style="background:${lay.col}"></span><b>${n.label}</b> ${lay.where}</div>
+      <h2 class="kid">${t.kid}</h2>
+    </div>
+    <div class="minimap">${minimap(id)}</div>
+    <div class="pic">${P[id]()}</div>
+    <aside class="hood">
+      <h3>The problem</h3><p>${t.problem}</p>
+      <h3>How it works</h3><ul>${t.how.filter((_,i)=>i!==DROP[id]).map(h=>`<li>${h}</li>`).join('')}</ul>
+      <h3>The real thing</h3>
+      <a class="shotlink" href="assets/${SHOTS[id].img}" target="_blank" rel="noopener" title="${SHOTS[id].how} Click to open full size."><img src="assets/${SHOTS[id].img}" alt="${SHOTS[id].title}: ${SHOTS[id].what}"></a>
+      <p class="cap"><b>${SHOTS[id].title}.</b> ${SHOTS[id].what}</p>
+      <p class="stand"><span class="state ${t.state[0]}">${stateName}</span>${t.state[1]}. ${t.stats}</p>
+      ${ghLink(id)}
+    </aside>
+    <div class="num"></div>
+  </section>`;
+}
+
+/* ------------------------------------------------------------------
+   Narrative slides.
+------------------------------------------------------------------- */
+
+/* "Nobody can see what changed": a pile of overlapping diff windows and tangled
+   dependency lines. Seeded, so it draws the same every time. */
+function overwhelm(){
+  let seed=7; const rnd=()=>{seed=(seed*16807)%2147483647;return (seed-1)/2147483646;};
+  let s=`<defs><clipPath id="owclip"><rect x="6" y="6" width="428" height="288" rx="10"/></clipPath>
+    <linearGradient id="owfog" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2F5F1" stop-opacity="0"/><stop offset=".55" stop-color="#F2F5F1" stop-opacity=".25"/><stop offset="1" stop-color="#F2F5F1" stop-opacity=".9"/></linearGradient></defs>`;
+  s+=`<rect x="6" y="6" width="428" height="288" rx="10" fill="#E9EEF0" stroke="${C.ink}" stroke-width="3"/>`;
+  let g='';
+  /* tangled dependency lines behind the windows */
+  for(let i=0;i<40;i++){const x1=rnd()*440,y1=rnd()*300,x2=rnd()*440,y2=rnd()*300,cx=rnd()*440,cy=rnd()*300;
+    g+=`<path d="M${x1|0} ${y1|0} Q${cx|0} ${cy|0} ${x2|0} ${y2|0}" fill="none" stroke="${i%5?'#9AA6B5':C.blue}" stroke-width="${i%5?1:1.6}" opacity=".7"/>`;}
+  /* overlapping diff windows */
+  const names=['checkout.ts','cart.ts','api/routes.ts','db/schema.ts','auth.ts','sync/writer.ts','pricing.ts','tax.ts','index.ts','types.ts','queue.ts','session.ts','render.ts','config.ts','webhooks.ts','ledger.ts','search.ts','util.ts','orders.ts','refunds.ts','mailer.ts','cache.ts','flags.ts','billing.ts','events.ts','rates.ts'];
+  for(let i=0;i<26;i++){
+    const w=100+rnd()*90,h=64+rnd()*80,x=-30+rnd()*380,y=-20+rnd()*260;
+    g+=`<g transform="translate(${x|0} ${y|0})"><rect x="3" y="3" width="${w|0}" height="${h|0}" rx="5" fill="${C.ink}" opacity=".18"/><rect width="${w|0}" height="${h|0}" rx="5" fill="#fff" stroke="${C.ink}" stroke-width="1.5"/>`+
+      `<rect width="${w|0}" height="13" rx="5" fill="#DCE3EA"/><text x="6" y="10" style="font-size:8px;font-weight:700;font-family:var(--mono)" fill="${C.ink}">${names[i]}</text>`;
+    for(let ly=19;ly<h-4;ly+=5.2){const k=rnd(),lw=8+rnd()*(w-22);
+      const col=k<.36?'#2E8B57':(k<.62?C.red:'#B8C1CC');
+      g+=`<rect x="${k<.62?4:6}" y="${ly.toFixed(1)}" width="${lw|0}" height="2.6" rx="1" fill="${col}" opacity="${k<.62?.75:.9}"/>`;}
+    g+=`</g>`;
+  }
+  /* change-count badges scattered over the pile */
+  [['+1,284',40,66],['−977',300,40],['+612',196,128],['−408',70,168],['+389',352,150],['42 files',250,86],['+207',140,26],['−55',380,104],['3 renames',20,120]].forEach(([t,x,y],i)=>{
+    const w=t.length*6.6+14; g+=`<rect x="${x}" y="${y}" width="${w}" height="17" rx="8.5" fill="${t.startsWith('+')?C.lgreen:(t.startsWith('−')?C.lred:'#fff')}" stroke="${C.ink}" stroke-width="1.5"/><text x="${x+w/2}" y="${y+12.5}" text-anchor="middle" style="font-size:10.5px;font-weight:700;font-family:var(--mono)" fill="${C.ink}">${t}</text>`;});
+  s+=`<g clip-path="url(#owclip)">${g}<rect x="0" y="0" width="440" height="300" fill="url(#owfog)"/></g>`;
+  s+=`<rect x="94" y="226" width="252" height="52" rx="8" fill="#fff" stroke="${C.ink}" stroke-width="2.5"/>`;
+  s+=T(220,250,'4,000 lines changed',{a:'middle',z:21,w:700,cls:'disp'})+T(220,270,'where do I look?',{a:'middle',z:14,c:C.ink2});
+  return s;
+}
+const S=[];
+S.push(`<section class="slide cover" data-title="Title">
+  <div class="pad">
+    <div style="position:absolute;right:20px;top:10px">${svg(560,560,
+      L('<path d="M280 0 V250"/>',C.ink,4)+R('<path d="M280 250 L360 330 L280 520 L200 330 Z"/>',C.red,10,4)+R('<rect x="240" y="226" width="80" height="34" rx="6"/>',C.yellow,8,4)+
+      L('<path d="M120 548 H440"/>',C.ink,4)+L('<path d="M280 520 V548"/>',C.ink2,2,'stroke-dasharray="3 5"'),{label:'A plumb bob hanging true'})}</div>
+    <p class="big" style="margin-top:150px">Build with AI.<br>Stay in charge.</p>
+    <p class="sub" style="font-size:30px;max-width:840px;margin-top:34px">A toolchain where people make the decisions and machines do the checking.</p>
+    <p class="sub" style="margin-top:80px;font-size:20px">Rob McLarty, November 2026</p>
+  </div></section>`);
+
+S.push(`<section class="slide" data-title="The problem">
+  <div class="pad">
+    <h2 class="h2">Three ways building with AI goes wrong</h2>
+    <div class="cols" style="grid-template-columns:repeat(3,1fr);margin-top:34px">
+      <div>${svg(440,300,
+        R('<path d="M250 70 L370 30 L340 120 Z"/>',C.yellow)+T(318,82,'model',{a:'middle',z:16,w:700})+L('<path d="M260 100 Q190 170 140 190"/>',C.ink,2.5)+
+        g(110,210,1,R('<circle cx="0" cy="-34" r="13"/><path d="M-20 18 Q-20 -16 0 -16 Q20 -16 20 18 Z"/>',C.red))+L('<path d="M40 250 l40 -10 M30 266 l50 -6"/>',C.ink2,2)+L('<path d="M60 290 H420"/>',C.ink,3),{label:'A person dragged behind a kite labelled model'})}
+        <h3 class="kid small" style="font-size:34px">You end up following the model.</h3>
+        <p class="lede" style="font-size:20px">Prompting without a plan is fast, but the model ends up setting the direction and you’re left reacting to it.</p></div>
+      <div>${svg(440,300,
+        R('<path d="M170 60 L270 60 L330 280 L110 280 Z"/>',C.grey)+[[178,110],[160,170],[142,230],[262,110],[280,170],[298,230]].map(([x,y],i)=>`<circle cx="${x}" cy="${y}" r="10" fill="${i===2||i===4?C.red:C.green}" stroke="${C.ink}" stroke-width="2.5"/>`).join('')+
+        robot(220,200,1.2)+L('<path d="M240 140 V96"/>')+R('<path d="M240 96 h40 l-8 10 l8 10 h-40 z"/>',C.white,3,2.5)+T(258,111,'done!',{a:'middle',z:12,w:700}),{label:'A robot declares done while two runway lights are red'})}
+        <h3 class="kid small" style="font-size:34px">“Done” means whatever the model says.</h3>
+        <p class="lede" style="font-size:20px">An agent stops when it thinks it’s finished, and a model that grades its own work tends to pass it.</p></div>
+      <div>${svg(440,300,overwhelm(),{label:'A pile of overlapping diffs, too many to read'})}
+        <h3 class="kid small" style="font-size:34px">Nobody can see what changed.</h3>
+        <p class="lede" style="font-size:20px">Agents write more code than people can read, and a diff doesn’t show how far a change reaches or how risky it is.</p></div>
+    </div>
+    <p class="sub" style="margin-top:30px;font-size:24px;color:var(--ink)">All three come from the same shortage. There is only so much expert attention to go around, and every tool in this deck is built to spend it carefully.</p>
+  </div><div class="num"></div></section>`);
+
+S.push(`<section class="slide" data-title="The idea">
+  <div class="pad">
+    <h2 class="h2">People decide. Machines check.</h2>
+    <p class="sub">Every change passes three gates, always in this order. The machine check goes first because it is cheap and certain. The person goes last, so their attention only goes to work that has already passed.</p>
+    ${svg(1456,470,
+      robot(90,250,1.6)+arrow(150,220,250,220)+
+      box(260,120,330,220,'',C.lgreen)+[0,1,2,3,4,5].map(i=>`<circle cx="${300+i*50}" cy="180" r="13" fill="${C.green}" stroke="${C.ink}" stroke-width="2.5"/>`).join('')+
+      T(280,240,'1. The machine check',{z:24,w:800,cls:'disp'})+T(280,272,'exit 0, the same every time',{z:18})+T(280,300,'checkride',{z:17,cls:'mono',c:C.ink2})+
+      arrow(598,220,660,220)+
+      box(670,120,330,220,'',C.lyellow)+R('<circle cx="712" cy="172" r="20"/><path d="M726 186 l18 18"/>',C.white,2,3)+
+      T(690,240,'2. A fresh critic',{z:24,w:800,cls:'disp'})+T(690,272,'reads it against the intent',{z:18})+T(690,300,'volley’s critic, keyframes',{z:17,cls:'mono',c:C.ink2})+
+      arrow(1008,220,1070,220)+
+      box(1080,120,330,220,'',C.lred)+person(1112,196,.75)+
+      T(1100,240,'3. A person',{z:24,w:800,cls:'disp'})+T(1100,272,'at the stops they planned',{z:18})+T(1100,300,'plumbbob, runciter’s gates',{z:17,cls:'mono',c:C.ink2})+
+      TW(260,410,'Every tool follows the same pattern. A deterministic script does the work that must be right, and the model is used only where judgment or prose is needed.',{z:21,c:C.ink2,maxw:1150}),
+      {label:'Three gates in order: machine check, fresh critic, person'})}
+  </div><div class="num"></div></section>`);
+
+S.push(`<section class="slide" data-title="The workshop map">
+  <div class="pad">
+    <h2 class="h2">The workshop</h2>
+    <p class="sub" style="margin-top:8px">Thirteen tools in four places. Each tool slide that follows lights up one of them.</p>
+    <div style="margin-top:22px">${svg(1310,640,workshop(),{width:1250,height:610,label:'The workshop map of all tools'})}</div>
+  </div><div class="num"></div></section>`);
+
+/* the year in commits */
+const months=[['Feb',196],['Mar',432],['Apr',1041],['May',249],['Jun',374],['Jul',766],['Aug',309],['Sep',252],['Oct',980]];
+S.push(`<section class="slide" data-title="A year">
+  <div class="pad">
+    <h2 class="h2">Built in about nine months, mostly by agents I directed</h2>
+    <p class="sub">More than 5,000 commits across roughly 40 repositories since late February 2026. Nearly all TypeScript, most of it open source.</p>
+    ${svg(1456,560,(()=>{let s='';const x0=80,bw=110,gap=40,base=440,sc=320/1041;
+      months.forEach(([m,v],i)=>{const x=x0+i*(bw+gap),h=v*sc; s+=`<rect x="${x}" y="${base-h}" width="${bw}" height="${h}" rx="4" fill="${[2,5,8].includes(i)?C.ink:'#8C99AD'}"/>`+
+        T(x+bw/2,base+28,m,{a:'middle',z:18})+T(x+bw/2,base-h-10,v.toLocaleString(),{a:'middle',z:17,w:700});});
+      s+=L(`<path d="M${x0-10} ${base} H${x0+9*(bw+gap)}"/>`,C.ink,2);
+      const ann=[[2,'April: the harness month','five scaffolds in five days;','fascicle came out of the search'],[5,'July: the hinge','runciter, volley and lodestar','all started on 6–7 July'],[8,'October: convergence','keyframes, storyboard, penfield;','runciter rescoped']];
+      ann.forEach(([i,a,b,c])=>{const x=x0+i*(bw+gap)+bw/2; s+=T(x,30,a,{a:'middle',z:18,w:700})+T(x,54,b,{a:'middle',z:14,c:C.ink2})+T(x,72,c,{a:'middle',z:14,c:C.ink2});});
+      s+=T(80,500,'Commits per month, February to October 2026, from git. The three months before that, November to January, went to thinking and writing, with no commits.',{z:15,c:C.ink2});
+      return s;})(),{label:'Bar chart of commits per month, February to October 2026'})}
+  </div><div class="num"></div></section>`);
+
+/* lineage: the nurse log */
+S.push(`<section class="slide" data-title="Where it came from">
+  <div class="pad">
+    <h2 class="h2">The big tree fell over, and new trees grew out of it</h2>
+    <p class="sub">Ridgeline tried to do everything in one harness. Its parts turned into separate tools, each doing one job well. Now they are coming back together, joined by small file contracts instead of shared code.</p>
+    ${svg(1456,560,(()=>{let s='';
+      s+=glyph('trellis',30,170,1.1)+T(85,310,'trellis',{a:'middle',z:19,w:700,cls:'disp'})+T(85,332,'Mar: specs as skills',{a:'middle',z:14,c:C.ink2});
+      s+=arrow(150,230,200,230);
+      s+=box(206,190,140,80,'trellis-exec',C.white,{z:17})+T(276,300,'Mar: one fresh',{a:'middle',z:14,c:C.ink2})+T(276,318,'context per phase',{a:'middle',z:14,c:C.ink2});
+      s+=arrow(352,230,400,300);
+      s+=R('<path d="M400 330 Q400 300 440 300 H1060 Q1100 300 1100 330 Q1100 360 1060 360 H440 Q400 360 400 330 Z"/>','#B98A63',5,3)+L('<path d="M420 316 Q600 324 760 314 T1080 322 M430 344 Q620 336 800 346 T1070 340"/>','#6E4428',2);
+      s+=T(750,400,'ridgeline, Apr 1 to Jun 12: shape, design, spec, research, plan, build, review in one pipeline (628 commits)',{a:'middle',z:16});
+      s+=T(750,424,'Lesson: it never ran the check command. An LLM reviewer decided pass or fail.',{a:'middle',z:16,c:C.red,w:700});
+      const sprouts=[['storyboard',470,'its shape and design stages'],['fascicle',590,'its ensembles and flows'],['plumbbob',710,'its plan and stops'],['volley',830,'its builder and reviewer'],['runciter',950,'its scheduling'],['checkride',1070,'the check it never ran']];
+      sprouts.forEach(([id,x])=>{s+=L(`<path d="M${x} 300 Q${x-6} 250 ${x} 200"/>`,C.green,4)+glyph(id,x-40,96,.8)+T(x,92,id,{a:'middle',z:17,w:700,cls:'disp'});});
+      sprouts.forEach(([id,x,what],i)=>s+=T(x,(i%2?520:500),what,{a:'middle',z:14,c:C.ink2}));
+      s+=T(1180,200,'Ridgeline is retired.',{z:18,w:700})+T(1180,224,'Its idea lives on as',{z:16,c:C.ink2})+T(1180,246,'runciter’s scheduler.',{z:16,c:C.ink2});
+      return s;})(),{label:'Ridgeline as a fallen nurse log with the newer tools growing from it'})}
+  </div><div class="num"></div></section>`);
+
+/* waves vs weaves */
+S.push(`<section class="slide" data-title="Waves and weaves">
+  <div class="pad">
+    <h2 class="h2">From waves to weaves</h2>
+    <p class="sub">Running agents in parallel was the hardest thing to get right. Batching them into waves meant one big collision at the end. Landing each step on its own means many small, cheap checks.</p>
+    ${svg(1456,560,(()=>{let s='';
+      const LY=[110,160,210,260],BH=34,MAIN=350;
+      const bar=(x,y,w,label,fill=C.lyellow)=>`<rect x="${x.toFixed(1)}" y="${y}" width="${w.toFixed(1)}" height="${BH}" rx="6" fill="${C.paper}"/>`+box(+x.toFixed(1),y,+w.toFixed(1),BH,label,fill,{z:13,cls:'mono',rx:6,d:3,sw:2.5});
+      const burst=(cx,cy,k)=>g(cx,cy,k,R('<path d="M-30 -21 l20 -40 l14 30 l30 -24 l-6 36 l38 4 l-34 18 l22 30 l-36 -8 l-8 36 l-16 -32 l-30 22 l6 -36 l-36 -6 l34 -16 z"/>',C.red,4,3));
+      const dot=(x,y,col,r=5)=>`<circle cx="${x.toFixed(1)}" cy="${y}" r="${r}" fill="${col}" stroke="${C.ink}" stroke-width="2"/>`;
+      /* waves: every lane waits for the slowest step, then one merge per wave */
+      s+=T(40,40,'Waves',{z:30,w:800,cls:'disp'})+T(40,68,'build a batch, then merge it all at the end',{z:17,c:C.ink2});
+      LY.forEach(y=>s+=robot(70,y+27,.42));
+      s+=L(`<path d="M100 ${MAIN} H690"/>`,C.ink,4)+T(100,MAIN+24,'time →',{z:14,c:C.ink2})+T(690,MAIN+24,'main line',{a:'end',z:14,c:C.ink2});
+      [[100,[218,120,165,80]],[396,[140,218,95,175]]].forEach(([x0,ws],wi)=>{const xe=x0+218;
+        s+=T(x0+109,98,'wave '+(wi+1),{a:'middle',z:14,c:C.ink2})+T(xe+36,98,'merge',{a:'middle',z:14,w:700,c:C.red});
+        ws.forEach((w,i)=>{s+=bar(x0,LY[i],w,String(wi*4+i+1));
+          if(w<218) s+=`<rect x="${x0+w+8}" y="${LY[i]+3}" width="${210-w}" height="${BH-6}" rx="5" fill="none" stroke="${C.ink2}" stroke-width="1.5" stroke-dasharray="4 5"/>`+T(x0+w+8+(210-w)/2,LY[i]+22,'idle',{a:'middle',z:13,c:C.ink2});});
+        s+=`<rect x="${xe+8}" y="104" width="56" height="196" rx="8" fill="${C.lred}" stroke="${C.ink}" stroke-width="2.5"/>`+burst(xe+36,202,.36)+arrow(xe+36,304,xe+36,MAIN-8,'red');});
+      s+=T(40,404,'Every agent waits for the slowest one in its wave,',{z:17})+T(40,428,'and the conflicts are found late, all at once.',{z:17});
+      s+=L('<path d="M728 40 V520"/>',C.rule,2);
+      /* weaves: a freed lane takes the next step at once; each finished step drops a thread to main */
+      s+=T(780,40,'Weaves',{z:30,w:800,cls:'disp'})+T(780,68,'each step lands the moment it is green',{z:17,c:C.ink2});
+      LY.forEach(y=>s+=robot(810,y+27,.42));
+      const X0=840,XW=576,GAP=10,bars=[];
+      [[130,{w:110,bad:1},{w:100,re:1},120,90],[170,84,150,146],[70,164,124,80,112],[210,104,180,56]].forEach((ws,i)=>{
+        const items=ws.map(w=>typeof w==='number'?{w}:w),k=(XW-GAP*(items.length-1))/items.reduce((a,b)=>a+b.w,0);let x=X0;
+        items.forEach((it,j)=>{const w=it.w*k;bars.push({...it,x,w,y:LY[i],last:j===items.length-1,end:x+w+GAP/2});x+=w+GAP;});});
+      bars.filter(b=>!b.re).sort((a,b)=>a.x-b.x||a.y-b.y).forEach((b,n)=>b.n=n+1);
+      const landed=bars.filter(b=>!b.bad&&!b.last);
+      landed.forEach(b=>s+=`<path d="M${b.end.toFixed(1)} ${b.y+BH/2} V${MAIN}" fill="none" stroke="${C.green}" stroke-width="2.5"/>`);
+      s+=L(`<path d="M${X0} ${MAIN} H1420"/>`,C.ink,4)+T(X0,MAIN+24,'time →',{z:14,c:C.ink2})+T(1420,MAIN+24,'main line',{a:'end',z:14,c:C.ink2});
+      bars.forEach(b=>s+=bar(b.x,b.y,b.w,b.re?'rebuild':String(b.n)));
+      landed.forEach(b=>s+=dot(b.end,b.y+BH/2,C.green)+dot(b.end,MAIN,C.green,6));
+      const bad=bars.find(b=>b.bad);
+      s+=dot(bad.end,bad.y+BH/2,C.red)+arrow(bad.end+12,97,bad.end+3,bad.y+6,'red',{sw:2})+T(bad.end+18,92,'conflict? rebuild from the new tip',{z:15,c:C.red,w:700});
+      s+=T(780,404,'A freed slot takes the next step straight away, and each',{z:17})+T(780,428,'step lands on its own the moment it is green.',{z:17});
+      s+=T(780,474,'Steps whose files overlap never run together. A step that touches a contract runs alone.',{z:16,c:C.ink2});
+      s+=T(780,496,'A model’s patch is never rebased; it is rebuilt.',{z:16,c:C.ink2});
+      return s;})(),{label:'Two timelines of four agent lanes. In waves, agents sit idle until the slowest finishes and each wave ends in one big merge. In weaves, a freed lane starts the next step at once and each finished step lands on main by itself.'})}
+  </div><div class="num"></div></section>`);
+
+/* section divider for tools */
+const MAIN_TOOLS=['fascicle','checkride','keyframes','storyboard','plumbbob','volley','runciter','atis'];
+S.push(`<section class="slide" data-title="The tools">
+  <div class="pad" style="display:flex;flex-direction:column;justify-content:center">
+    <h2 class="h1">The tools, one at a time</h2>
+    <p class="sub" style="font-size:26px">Eight tools carry the main line. Each one solves one problem and works on its own. The left side of each slide shows the idea as a picture, and the panel on the right has the problem, how it works and a real screenshot.</p>
+    <div style="margin-top:56px;display:flex;gap:60px">${MAIN_TOOLS.map(id=>`<div style="text-align:center">${svg(100,100,GL[id](),{width:96,height:96})}<div style="font-family:var(--display);font-weight:600;font-size:18px;margin-top:6px">${NODES.find(n=>n.id===id).label}</div></div>`).join('')}</div>
+  </div><div class="num"></div></section>`);
+
+/* the five supporting tools on one slide; their full slides are in the appendix */
+const ALSO={
+  storium:'A policy layer on top of Drizzle. Column notes generate the schemas and a CRUD repository. It is the data layer under runciter and lodestar.',
+  penfield:'One address for every model in the house. It routes each request by rules, then embeddings, then a small classifier.',
+  lodestar:'A newer claim replaces the one it contradicts. The old one is kept and marked superseded, so the history stays queryable.',
+  shinbun:'Ten stages on local models turn about 400 stories into one page at 05:00 every day.',
+  jig:'Scripts do the risky part, the staging and the version math, and the model only writes the words.',
+};
+S.push(`<section class="slide" data-title="Also in the workshop">
+  <div class="pad">
+    <h2 class="h2">Also in the workshop</h2>
+    <p class="sub">Five more tools that sit under the main line or are built on it. Each has a full slide in the appendix.</p>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:30px;margin-top:50px">
+      ${Object.entries(ALSO).map(([id,d])=>{const t=TOOLS[id],n=NODES.find(x=>x.id===id),lay=LAYERS[n.layer];return `<div>
+        ${svg(100,100,GL[id](),{width:96,height:96})}
+        <div class="where" style="margin:14px 0 10px"><span class="chip" style="background:${lay.col}"></span><b style="font-size:27px">${n.label}</b></div>
+        <p style="font-family:var(--display);font-weight:800;font-size:25px;line-height:1.14;margin:0 0 14px;min-height:144px">${t.kid}</p>
+        <p style="font-size:18.5px;line-height:1.42;margin:0 0 16px;color:var(--ink2);min-height:158px">${d}</p>
+        <span class="state ${t.state[0]}">${STATE_NAME[t.state[0]]}</span><div class="note" style="margin-top:8px">${t.state[1]}</div></div>`;}).join('')}
+    </div>
+  </div><div class="num"></div></section>`);
+
+TOOL_ORDER.forEach(id=>S.push(toolSlide(id)));
+
+/* composition: the long-horizon builder */
+S.push(`<section class="slide" data-title="Composed: the long-horizon builder">
+  <div class="pad">
+    <h2 class="h2">Put together: a builder for big jobs</h2>
+    <p class="sub">Wired end to end, the same pieces can build something too big for one session. The work runs in parallel, and a person is there at every stop that matters.</p>
+    ${svg(1456,620,(()=>{let s='';
+      const lane=(y,h,fill,label)=>`<rect x="0" y="${y}" width="1456" height="${h}" fill="${fill}"/>`+T(14,y+26,label,{z:16,w:700,cls:'disp',c:C.ink2});
+      s+=lane(0,120,C.lred,'People')+lane(120,140,C.paper,'Intent and plan')+lane(260,240,'#FBF3D6','Building, in parallel')+lane(500,120,C.lgreen,'Landing');
+      s+=person(120,96,.8)+T(160,70,'answers questions',{z:15})+person(560,96,.8)+T(600,70,'approves the plan',{z:15})+person(1165,96,.8)+T(1030,70,'decides at the stops',{z:15,a:'end'})+person(1400,96,.8)+T(1380,40,'promotes to main',{z:15,a:'end'});
+      s+=box(60,150,150,56,'storyboard',C.white,{z:17})+arrow(216,178,262,178)+doc(268,148,'keyframes.md',C.lblue,170)+arrow(444,178,490,178)+box(496,150,150,56,'plumbbob',C.white,{z:17})+arrow(652,178,700,178)+doc(706,148,'plan.json',C.lblue,140);
+      s+=T(496,232,'steps, files, stops and proofs',{z:14,c:C.ink2});
+      s+=arrow(776,212,776,276);
+      s+=box(700,280,170,62,'runciter',C.lblue,{z:18})+T(785,368,'frontier: steps whose',{a:'middle',z:14,c:C.ink2})+T(785,386,'files don’t overlap',{a:'middle',z:14,c:C.ink2});
+      [0,1,2].forEach(i=>{const x=930+i*165; s+=arrow(876,300,x+70,374,'ink',{d:`M876 300 C${x+70} 300 ${x+70} 300 ${x+70} 372`})+box(x,378,140,50,'volley',C.lyellow,{z:17})+T(x+70,448,'step '+['3','4','5'][i],{a:'middle',z:14,c:C.ink2})+
+        [0,1,2].map(k=>`<circle cx="${x+40+k*30}" cy="470" r="8" fill="${C.green}" stroke="${C.ink}" stroke-width="2"/>`).join('')+arrow(x+70,482,x+70,538,'green');});
+      s+=L('<path d="M300 548 H1430"/>',C.ink,4)+T(300,584,'merge queue: rebase the candidate onto the tip, check that exact commit, fast-forward only if green',{z:15})+
+        box(110,522,170,52,'atis weather',C.white,{z:16})+arrow(286,548,298,548,'ink');
+      s+=arrow(1165,108,1165,296,'red',{dash:'6 6'})+arrow(1400,108,1400,538,'red',{dash:'6 6'});
+      s+=T(1380,610,'',{});
+      return s;})(),{label:'Flow from storyboard through plumbbob and runciter to parallel volley steps and a merge queue'})}
+      </div><div class="num"></div></section>`);
+
+/* composition: one step up close */
+S.push(`<section class="slide" data-title="Composed: one step up close">
+  <div class="pad">
+    <h2 class="h2">One step, up close</h2>
+    <p class="sub">The parts never import each other. They pass small JSON documents, so any piece can be swapped for another tool that uses the same format.</p>
+    <div class="cols" style="grid-template-columns:1fr 1.1fr 1fr;margin-top:30px;align-items:start">
+      <div><h3 style="font-family:var(--display);font-size:24px;margin:0 0 10px">runciter writes</h3><pre style="font-size:14px">{ "protocol": "runciter.run/1",
+  "run_id": "r0k7…",
+  "task":  { "title": "…", "criteria": "…" },
+  "step":  {
+    "seam":  ["src/sync/"],
+    "like":  ["src/sync/reader.ts"],
+    "proof": { "text": "…",
+               "command": "pnpm test sync" },
+    "effort": null,
+    "contract_paths": ["schema/"],
+    "attempt": 1,
+    "rebuild": null } }</pre><p class="note" style="margin-top:10px">This arrives as JSON on stdin. <code>seam</code> lists what the step may touch, and <code>like</code> points to code whose pattern it should copy.</p></div>
+      <div>${svg(520,420,
+        robot(110,150,1.3)+T(110,200,'builder',{a:'middle',z:18,w:700,cls:'disp'})+robot(410,150,1.3,C.lyellow)+T(410,200,'critic',{a:'middle',z:18,w:700,cls:'disp'})+
+        arrow(160,96,360,96,'ink',{d:'M160 96 Q260 40 360 96',dash:'5 7'})+arrow(360,170,160,170,'red',{d:'M360 176 Q260 230 160 176',dash:'5 7'})+
+        box(160,250,200,60,'',C.lgreen)+[0,1,2,3].map(i=>`<circle cx="${200+i*40}" cy="280" r="10" fill="${C.green}" stroke="${C.ink}" stroke-width="2.5"/>`).join('')+T(260,336,'checkride --json',{a:'middle',z:15,cls:'mono'})+
+        T(260,380,'volley, inside a worktree runciter made',{a:'middle',z:15,c:C.ink2})+T(260,402,'with a budget and a timeout',{a:'middle',z:15,c:C.ink2}),{label:'volley builds the step'})}</div>
+      <div><h3 style="font-family:var(--display);font-size:24px;margin:0 0 10px">volley answers</h3><pre style="font-size:14px">{ "protocol": "runciter.run/1",
+  "status": "passed",
+  "summary": "Added the sync writer…",
+  "usage": { "cost_usd": 0.42,
+             "input_tokens": 81234 },
+  "lessons": [{ "statement":
+    "sync tests need a fresh db" }] }</pre><p class="note" style="margin-top:10px">One JSON result goes to stdout. Typed progress, usage and activity lines go to stderr.</p></div>
+    </div>
+    <h3 style="font-family:var(--display);font-size:24px;margin:26px 0 8px">Then runciter lands it</h3>
+    ${svg(1456,120,
+      box(0,20,300,70,'',C.white)+T(16,50,'put the step on the tip',{z:18,w:700})+T(16,74,'the candidate commit',{z:15,c:C.ink2})+arrow(306,55,350,55)+
+      box(356,20,300,70,'',C.lgreen)+T(372,50,'check that exact commit',{z:18,w:700})+T(372,74,'pnpm check, the step’s proof',{z:15,c:C.ink2})+arrow(662,55,706,55,'green')+
+      box(712,20,300,70,'',C.lgreen)+T(728,50,'green: fast-forward',{z:18,w:700})+T(728,74,'onto the integration branch',{z:15,c:C.ink2})+
+      arrow(512,96,1080,96,'red',{d:'M512 94 Q512 112 600 112 H1060',dash:'5 6'})+
+      box(1070,20,380,70,'',C.lred)+T(1086,50,'conflict: rebuild from the new tip',{z:18,w:700})+T(1086,74,'step.rebuild carries the conflicts and lessons',{z:15,c:C.ink2}),
+      {label:'Landing: candidate, check, fast-forward, or rebuild'})}
+  </div><div class="num"></div></section>`);
+
+/* composition: a flow read top to bottom.
+   The code is static, hand-editable HTML: each token is a span with one of these classes
+   (n step name, f fascicle composer, m model stage, k keyword, t type, s string,
+   d description, p property, c comment, g tree glyph, nm number, fn the builder).
+   Generated once by v2-capture/flow/highlight.py from v2-capture/flow/flow.ts. */
+S.push(`<section class="slide flowslide" data-title="Composed: a flow you can read">
+  <div class="pad">
+    <h2 class="h2">A flow you can read top to bottom</h2>
+    <p class="sub" style="font-size:20px;margin-top:8px">This is the cortex pipeline, lodestar’s predecessor, written in fascicle’s blueprint shape. It is one <code>flow.ts</code> with every <code>step()</code> named, and a header tree that fascicle draws from the code itself.</p>
+    <div class="flowgrid">
+      <div>
+        <div class="codewin"><div class="tab">flow.ts <span>the header</span></div><pre class="hl"><span class="c">/**</span>
+<span class="c"> * cortex flow: pure Fascicle composition.</span>
+<span class="c"> * describe.diagram draws this tree from the code below.</span>
+<span class="c"> *</span>
+<span class="c"> * </span><span class="g"></span><span class="f">sequence</span>
+<span class="c"> * </span><span class="g">├─ </span><span class="n">scan_files</span>                   <span class="d">walk and hash</span>
+<span class="c"> * </span><span class="g">├─ </span><span class="n">ingest_all</span>                   <span class="f">map</span>:<span class="d"> 4 at a time</span>
+<span class="c"> * </span><span class="g">│  └─ </span><span class="f">sequence</span>
+<span class="c"> * </span><span class="g">│     ├─ </span><span class="f">checkpoint</span>             <span class="d">by file sha</span>
+<span class="c"> * </span><span class="g">│     │  └─ </span><span class="n">extract_text</span>        <span class="f">step</span><span class="d"></span>
+<span class="c"> * </span><span class="g">│     ├─ </span><span class="n">chunk_text</span>             <span class="f">step</span><span class="d"></span>
+<span class="c"> * </span><span class="g">│     ├─ </span><span class="f">checkpoint</span>             <span class="d">by file sha</span>
+<span class="c"> * </span><span class="g">│     │  └─ </span><span class="n">embed_chunks</span>        <span class="f">step</span><span class="d"></span>
+<span class="c"> * </span><span class="g">│     └─ </span><span class="n">write_note</span>             <span class="f">step</span><span class="d"></span>
+<span class="c"> * </span><span class="g">├─ </span><span class="n">recompute_clusters</span>           <span class="f">step</span><span class="d"></span>
+<span class="c"> * </span><span class="g">├─ </span><span class="n">regen_views</span>                  <span class="f">step</span><span class="d"></span>
+<span class="c"> * </span><span class="g">└─ </span><span class="n">synthesize_all</span>               <span class="f">map</span>:<span class="d"> 2 at a time</span>
+<span class="c"> * </span><span class="g">   └─ </span><span class="f">checkpoint</span>                <span class="d">by cluster and state</span>
+<span class="c"> * </span><span class="g">      └─ </span><span class="n">synthesis</span>              <span class="f">compose</span>:<span class="d"> up to 3 rounds</span>
+<span class="c"> * </span><span class="g">         ├─ </span><span class="p">build</span>  <span class="m">synthesizer</span>  <span class="f">model_step</span><span class="d">, the bigger model</span>
+<span class="c"> * </span><span class="g">         └─ </span><span class="p">critique</span>  <span class="m">auditor</span>   <span class="f">model_step</span><span class="d">, a small cheap model</span>
+<span class="c"> */</span></pre></div>
+        <div class="legend">
+          <div><span class="n">scan_files</span> a named step, the unit you read, test and trace</div>
+          <div><span class="f">sequence</span> a fascicle composer that wires steps together</div>
+          <div><span class="m">synthesizer</span> a model stage, made by a factory from <code>stages/</code></div>
+          <div><span class="d">'by file sha'</span> a description, which the header tree prints</div>
+        </div>
+      </div>
+      <div class="codewin"><div class="tab">flow.ts <span>the code</span></div><pre class="hl"><span class="k">import</span> { <span class="f">adversarial</span>, <span class="f">checkpoint</span>, <span class="f">map</span>, <span class="f">sequence</span>, <span class="f">step</span>, <span class="k">type</span> <span class="t">Engine</span>, <span class="k">type</span> <span class="t">Step</span> } <span class="k">from</span> <span class="s">&#x27;fascicle&#x27;</span>
+
+<span class="k">import</span> { chunk_text, embed_chunks, extract_text, scan_files, write_note } <span class="k">from</span> <span class="s">&#x27;./ingest.js&#x27;</span>
+<span class="k">import</span> { recompute_clusters, regen_views } <span class="k">from</span> <span class="s">&#x27;./views.js&#x27;</span>
+<span class="k">import</span> { <span class="m">make_auditor_step</span> } <span class="k">from</span> <span class="s">&#x27;./stages/auditor.js&#x27;</span>
+<span class="k">import</span> { <span class="m">make_synthesizer_step</span> } <span class="k">from</span> <span class="s">&#x27;./stages/synthesizer.js&#x27;</span>
+<span class="k">import</span> <span class="k">type</span> { <span class="t">CortexRun</span>, <span class="t">FlowEnv</span>, <span class="t">FlowModels</span>, <span class="t">IngestReport</span> } <span class="k">from</span> <span class="s">&#x27;./types.js&#x27;</span>
+
+<span class="k">export</span> <span class="k">function</span> <span class="fn">build_flow</span>(engine: <span class="t">Engine</span>, models: <span class="t">FlowModels</span>, env: <span class="t">FlowEnv</span>): <span class="t">Step</span>&lt;<span class="t">CortexRun</span>, <span class="t">IngestReport</span>&gt; {
+  <span class="k">const</span> <span class="m">synthesizer</span> = <span class="m">make_synthesizer_step</span>(engine, models.synth)
+  <span class="k">const</span> <span class="m">auditor</span> = <span class="m">make_auditor_step</span>(engine, models.audit)
+
+  <span class="k">const</span> ingest_file = <span class="f">sequence</span>([
+    <span class="f">checkpoint</span>(<span class="f">step</span>('<span class="n">extract_text</span>', extract_text), { <span class="p">key</span>: (f) =&gt; <span class="s">\`extract:\${f.sha}\`</span>, <span class="p">description</span>: <span class="d">&#x27;by file sha&#x27;</span> }),
+    <span class="f">step</span>('<span class="n">chunk_text</span>', chunk_text),
+    <span class="f">checkpoint</span>(<span class="f">step</span>('<span class="n">embed_chunks</span>', embed_chunks), { <span class="p">key</span>: (d) =&gt; <span class="s">\`embed:\${d.file.sha}\`</span>, <span class="p">description</span>: <span class="d">&#x27;by file sha&#x27;</span> }),
+    <span class="f">step</span>('<span class="n">write_note</span>', (d) =&gt; write_note(env.cortex_root, d)),
+  ])
+
+  <span class="k">const</span> synthesize_cluster = <span class="f">checkpoint</span>(
+    <span class="f">adversarial</span>({
+      <span class="p">name</span>: '<span class="n">synthesis</span>', <span class="p">build</span>: <span class="m">synthesizer</span>, <span class="p">critique</span>: <span class="m">auditor</span>,
+      <span class="p">accept</span>: (c) =&gt; c.verdict === <span class="s">&#x27;pass&#x27;</span>, <span class="p">max_rounds</span>: <span class="nm">3</span>, <span class="p">description</span>: <span class="d">&#x27;up to 3 rounds&#x27;</span>,
+    }),
+    { <span class="p">key</span>: (t) =&gt; <span class="s">\`synth:\${t.cluster_id}:\${t.state_hash}\`</span>, <span class="p">description</span>: <span class="d">&#x27;by cluster and state&#x27;</span> },
+  )
+
+  <span class="k">return</span> <span class="f">sequence</span>([
+    <span class="f">step</span>('<span class="n">scan_files</span>', scan_files, { <span class="p">description</span>: <span class="d">&#x27;walk and hash&#x27;</span> }),
+    <span class="f">map</span>({ <span class="p">name</span>: '<span class="n">ingest_all</span>', <span class="p">items</span>: (s) =&gt; s.files, <span class="p">do</span>: ingest_file, <span class="p">concurrency</span>: <span class="nm">4</span>, <span class="p">description</span>: <span class="d">&#x27;4 at a time&#x27;</span> }),
+    <span class="f">step</span>('<span class="n">recompute_clusters</span>', recompute_clusters),
+    <span class="f">step</span>('<span class="n">regen_views</span>', regen_views),
+    <span class="f">map</span>({ <span class="p">name</span>: '<span class="n">synthesize_all</span>', <span class="p">items</span>: (t) =&gt; t, <span class="p">do</span>: synthesize_cluster,
+          <span class="p">concurrency</span>: <span class="nm">2</span>, <span class="p">description</span>: <span class="d">&#x27;2 at a time&#x27;</span> }),
+  ])
+}</pre></div>
+    </div>
+  </div><div class="num"></div></section>`);
+
+/* who owns what */
+const OWN=[['Drafting a first plan for a person to accept','storyboard','builder'],['Intent: what must hold, and why','keyframes (read-only to agents)','foundation'],['A build’s plan: steps, seams, stops, effort','plumbbob','builder'],['Scheduling: frontier, locks, merge queue, budgets','runciter, as the one scheduler','control'],['Landing; promotion to main','runciter; promotion is always a person','control'],['Building one step: builder, critic, tester','volley','builder'],['Composition: ensembles, tournaments, loops','fascicle','foundation'],['Choosing the model for a role','penfield','control'],['Done','checkride, exit 0','foundation'],['Pictures of a change','atis, which informs and never blocks','control'],['Memory and lessons','runciter writes; lodestar reads','control']];
+S.push(`<section class="slide" data-title="Who owns what">
+  <div class="pad">
+    <h2 class="h2">One owner for every job</h2>
+    <p class="sub">When I reviewed every repo’s notes, several jobs were claimed twice. Now each job has exactly one owner, and every other tool reads from it or calls it.</p>
+    <table class="tbl" style="margin-top:26px;font-size:19px">
+      <tr><th style="width:48%">Job</th><th>Owner</th></tr>
+      ${OWN.map(([j,o,l])=>`<tr><td style="font-weight:400">${j}</td><td><span class="chip" style="background:${LAYERS[l].col};margin-right:10px;vertical-align:-1px"></span><b>${o}</b></td></tr>`).join('')}
+    </table>
+    <p class="note" style="margin-top:14px">Three projects were retired deliberately: ridgeline, night-shift and dopesheet.</p>
+  </div><div class="num"></div></section>`);
+
+/* the plugs */
+const PLUGS=[
+  {t:'Hand a builder one job',w:'JSON in on stdin, one JSON result out. Any program that does this can be a runciter agent.',c:'runciter.run/1',from:'runciter',to:'volley, a CLI agent, your script',st:'shipped'},
+  {t:'Hand over a plan',w:'The steps, the files each may touch, where to stop for a person, and how each is proven done.',c:'plan.json (runciter.plan/2)',from:'plumbbob',to:'runciter',st:'shipped'},
+  {t:'Ask “is it done?”',w:'Every check’s result in one file, and one exit code: 0 done, 1 not done, 2 broken.',c:'.check/summary.json',from:'checkride',to:'plumbbob, volley, runciter, atis',st:'shipped'},
+  {t:'Check the intent file',w:'Whether keyframes.md is well formed and every citation points at a real item.',c:'keyframes check --json',from:'keyframes',to:'storyboard, runciter, your harness',st:'shipped'},
+  {t:'Give an agent the rules that apply',w:'Just the principles, constraints and scenarios that apply to the paths it is about to touch.',c:'keyframes context <path>',from:'keyframes',to:'any agent harness',st:'shipped'},
+  {t:'See what a change reaches',w:'The map of a change, and how far it ripples, before or after it is made.',c:'atis map.json, atis reach --json',from:'atis',to:'plumbbob, PR comments, MCP',st:'built'},
+  {t:'See where a build is',w:'Which step is running, what has landed, and what is waiting on a person.',c:'plumbbob status --json',from:'plumbbob',to:'dashboards, runciter',st:'shipped'},
+  {t:'Reach any model at one address',w:'Point any OpenAI- or Anthropic-format client at it and ask for “auto”.',c:'OpenAI and Anthropic formats',from:'your client',to:'penfield',st:'specced'},
+  {t:'Use it from an editor or agent',w:'Flows and tools show up as MCP tools or as an agent in the editor’s panel.',c:'MCP and ACP',from:'fascicle, volley, lodestar',to:'Claude Code, Zed, any MCP client',st:'shipped'},
+];
+const plugIcon=st=>svg(64,64,R('<rect x="6" y="6" width="50" height="50" rx="10"/>',st==='shipped'?C.lblue:(st==='built'?C.lyellow:C.white))+L('<path d="M23 18 v14 M39 18 v14"/>',C.ink,4)+L('<circle cx="31" cy="43" r="4"/>',C.ink,3),{width:56,height:56});
+const plugCard=p=>`<div class="plug">
+        ${plugIcon(p.st)}
+        <div>
+          <h3>${p.t}</h3>
+          <p class="pw">${p.w}</p>
+          <div class="pc"><code>${p.c.replace(/</g,'&lt;')}</code></div>
+          <div class="pf"><b>${p.from}</b><span class="arr">→</span>${p.to}</div>
+          <span class="state ${p.st}" style="font-size:12.5px">${{shipped:'shipped',built:'built, not on npm yet',specced:'specced'}[p.st]}</span>
+        </div></div>`;
+/* the contracts: ownership and the five plugs that carry the main line */
+S.push(`<section class="slide" data-title="The contracts">
+  <div class="pad">
+    <h2 class="h2">One owner per job, joined by small contracts</h2>
+    <p class="sub">The tools never import each other. Each job has exactly one owner, and the owners pass small files with a fixed format. Anything that reads or writes that format can plug in at either end, including your own tools.</p>
+    <div class="plugs big">
+      ${[0,1,2,4,5].map(i=>plugCard(PLUGS[i])).join('')}
+      <div class="plug"><div><p class="pw" style="color:var(--ink2)">Under each plug: who writes it → who reads it. The full ownership table and all nine plugs are in the appendix.</p></div></div>
+    </div>
+  </div><div class="num"></div></section>`);
+
+S.push(`<section class="slide" data-title="The plugs">
+  <div class="pad">
+    <h2 class="h2">The plugs: how outside tools connect</h2>
+    <p class="sub" style="font-size:21px;margin-top:8px">Each plug is a small file or command with a fixed format. Anything that reads or writes that format can plug in at either end, including your own tools. Each one shows who writes it → who reads it.</p>
+    <div class="plugs">
+      ${PLUGS.map(plugCard).join('')}
+    </div>
+  </div><div class="num"></div></section>`);
+
+/* ways in */
+S.push(`<section class="slide" data-title="Ways in">
+  <div class="pad">
+    <h2 class="h2">Ways in, smallest first</h2>
+    <p class="sub">You don’t have to adopt the whole stack. Each step is useful by itself, and you can stop there or go on to the next.</p>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:26px;margin-top:64px">
+      ${[['A definition of done','Give any repo, and any agent, one gate.','pnpm add -D checkride\npnpm exec checkride init','an afternoon'],
+         ['Intent agents can read','Add keyframes.md beside AGENTS.md.','npx @robmclarty/keyframes init\nnpx @robmclarty/keyframes check','a day'],
+         ['Attention-first building','Plan, then build one checked step at a time.','/plugin install\n  plumbbob@robmclarty','a week of habit'],
+         ['Your own agents','Write flows as plain values; serve them over MCP or ACP.','pnpm add fascicle','when you need one'],
+         ['Your agent under supervision','Anything that reads JSON on stdin and writes a result can be a runciter agent.','runner: process\n# speaks runciter.run/1','when work runs in parallel']]
+        .map(([h,p,c,t],i)=>`<div>
+          <div style="font-family:var(--display);font-weight:800;font-size:76px;line-height:1;color:${[C.green,C.blue,C.red,C.brown,C.plum][i]}">${i+1}</div>
+          <h3 style="font-family:var(--display);font-size:29px;line-height:1.1;margin:10px 0 12px">${h}</h3>
+          <p style="font-size:21px;line-height:1.4;margin:0 0 18px;min-height:118px">${p}</p>
+          <pre style="font-size:14.5px;white-space:pre-wrap">${c}</pre>
+          <p class="note" style="margin-top:16px;font-size:18px">Takes: ${t}</p></div>`).join('')}
+    </div>
+  </div><div class="num"></div></section>`);
+
+/* comparisons */
+const CMP=[['fascicle','LangGraph, Mastra, vendor agent SDKs','A flow is a plain value with no lifecycle or hidden state. It runs on eight providers, including local models, and can use a whole Claude Code session as one step.'],
+  ['checkride','ESLint, Nx tasks, pre-commit, SonarQube','It sits above the linters you already have. It gives one exit code across every tool, keeps a baseline that can only shrink, and writes the agent instructions for you.'],
+  ['plumbbob','Plan mode, Ralph loops, a TODO file','The tool enforces its limits and doesn’t rely on the model behaving well. There is an approval latch, one commit per step, and no checkpoint while the check is red.'],
+  ['volley','Critic agents in AutoGen or CrewAI','The deterministic check runs first, the critic is read-only with a validated verdict, and each task has a cost cap.'],
+  ['runciter','Paperclip, Linear with agents','It is one process and one SQLite file, event-sourced with a single writer. Every runner works in its own worktree and must pass the check.'],
+  ['lodestar','Mem0, Zep, Letta','Newer claims supersede older ones on write, and history stays queryable with asOf.'],
+  ['penfield','LiteLLM, OpenRouter auto','It routes by intent and knows which model is loaded on which local machine. It holds no subscription credentials.']];
+S.push(`<section class="slide" data-title="Why not something off the shelf">
+  <div class="pad">
+    <h2 class="h2">Why not something off the shelf?</h2>
+    <p class="sub">Every tool here has close neighbours. The difference is a handful of design choices that all of them share.</p>
+    <table class="tbl" style="margin-top:22px;font-size:17.5px">
+      <tr><th style="width:12%">Tool</th><th style="width:26%">Closest existing</th><th>What is different</th></tr>
+      ${CMP.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join('')}
+    </table>
+    <p class="note" style="margin-top:14px">These comparisons are as of November 2026 and come from each project’s own notes. They are not a formal survey.</p>
+  </div><div class="num"></div></section>`);
+
+/* lessons */
+S.push(`<section class="slide" data-title="What I learned">
+  <div class="pad">
+    <h2 class="h2">What I learned building it</h2>
+    <div class="lessons" style="display:grid;grid-template-columns:1fr 1fr;gap:64px 90px;margin-top:64px;font-size:25px;line-height:1.45">
+      <div><h3 style="font-family:var(--display);font-size:36px;margin:0 0 12px">Verify the verifier.</h3>Ridgeline never ran its check, and an LLM simply said pass. Early checkride reported green while one of its tools exited 0 with findings. Exit codes are the contract, so the contract now has its own tests.</div>
+      <div><h3 style="font-family:var(--display);font-size:36px;margin:0 0 12px">Green is not the same as good.</h3>A fresh reviewer found blocking defects under a passing check in five of seven reviews, so every step keeps a critic who didn’t write the code.</div>
+      <div><h3 style="font-family:var(--display);font-size:36px;margin:0 0 12px">One owner per job.</h3>Parallel work breaks where two tools both think they own something. Writing the ownership table settled more than any code did.</div>
+      <div><h3 style="font-family:var(--display);font-size:36px;margin:0 0 12px">Retire early, keep the lesson.</h3>The best commit of the spring deleted 4,100 lines when ridgeline moved onto fascicle. Trellis, ridgeline and night-shift are gone, but their ideas live on in the tools that replaced them.</div>
+    </div>
+  </div><div class="num"></div></section>`);
+
+/* status and next */
+S.push(`<section class="slide" data-title="Where it stands">
+  <div class="pad">
+    <h2 class="h2">Where it stands, and what’s next</h2>
+    <p class="sub">Built in about nine months, mostly by agents I directed: more than 5,000 commits across roughly 40 repositories.</p>
+    <div class="cols" style="grid-template-columns:1.1fr 1fr;margin-top:34px">
+      <div>
+        ${[['shipped','shipped, on npm or the marketplace',['fascicle','checkride','keyframes','storium','plumbbob','volley','shinbun','jig']],
+           ['built','built, not on npm yet',['runciter','atis','storyboard','lodestar']],
+           ['specced','specced, being built',['penfield']]].map(([k,l,ids])=>`<div style="margin-bottom:26px"><span class="state ${k}" style="font-size:16px">${l}</span>
+          <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px">${ids.map(id=>`<div style="text-align:center;width:76px">${svg(100,100,GL[id](),{width:58,height:58})}<div style="font-size:14px;font-weight:600">${NODES.find(n=>n.id===id).label}</div></div>`).join('')}</div></div>`).join('')}
+        <p style="font-size:18px;line-height:1.5;color:var(--ink2);margin:6px 0 0">npm downloads in the week to 23 November: checkride 1,406, plumbbob 591, fascicle 498. Registry counts include mirrors and bots, so read them as an order of magnitude.</p>
+      </div>
+      <div>
+        <h3 style="font-family:var(--display);font-size:26px;margin:0 0 14px">The big-jobs builder, in four moves</h3>
+        ${[['Make one step cheap and good','volley 0.12','done',C.lgreen],['Make the plan schedulable','plumbbob 0.17','done',C.lgreen],['The smallest real scheduler','runciter','next',C.lyellow],['Real work: the system builds the next tool','penfield as the first target','later','#fff']]
+          .map(([a,b,c,f],i)=>`<div style="display:flex;gap:18px;align-items:center;margin-bottom:22px">${svg(56,56,box(4,4,44,44,String(i+1),f,{z:22}),{width:64,height:64})}<div><div style="font-size:23px;font-weight:700">${a}</div><div class="note" style="font-size:17px">${b}, ${c}</div></div></div>`).join('')}
+      </div>
+    </div>
+  </div><div class="num"></div></section>`);
+
+/* close */
+S.push(`<section class="slide cover" data-title="Close">
+  <div class="pad" style="display:flex;flex-direction:column;justify-content:center">
+    <p class="big" style="font-size:96px">People decide.<br>Machines check.</p>
+    <p class="sub" style="font-size:28px;margin-top:36px;max-width:1000px">Small tools that each do one job, joined by contracts you can read, so people spend their attention where it counts.</p>
+    <p class="sub" style="font-size:20px;margin-top:60px">github.com/robmclarty</p>
+  </div><div class="num"></div></section>`);
+
+/* appendix: names */
+S.push(`<section class="slide" data-title="Appendix: the names">
+  <div class="pad">
+    <h2 class="h2">Appendix: what the names mean</h2>
+    <p class="sub">The names come in families, and the family says what kind of job the tool does.</p>
+    <table class="tbl" style="margin-top:24px;font-size:18px">
+      <tr><th style="width:14%">Family</th><th>Names, and why they fit</th></tr>
+      <tr><td>Flying</td><td><b>checkride</b>: the practical exam a pilot passes or fails, with no partial credit. <b>atis</b>: the recorded airport weather broadcast; it informs the pilot and never gives orders.</td></tr>
+      <tr><td>Animation</td><td><b>keyframes</b>: the key poses; everything between is drawn to fit. <b>storyboard</b>: drawn broad before the keyframes, then tightened.</td></tr>
+      <tr><td>Workshop</td><td><b>plumbbob</b>: the weight on a string that finds true vertical before you build. <b>jig</b>: a guide that makes the same cut every time.</td></tr>
+      <tr><td>Thread</td><td><b>fascicle</b>: a bundle of fibres, or one instalment of a book published in parts. <b>trellis</b>: the lattice a plant climbs.</td></tr>
+      <tr><td>Philip K. Dick</td><td><b>runciter</b>: from <i>Ubik</i>, the firm that supervises agents with powers. <b>penfield</b>: the mood organ in <i>Do Androids Dream of Electric Sheep?</i>; dial a setting, get the state you need.</td></tr>
+      <tr><td>Plain words</td><td><b>volley</b>: the back-and-forth of builder and critic. <b>lodestar</b>: the star you steer by. <b>shinbun</b> (新聞): Japanese for newspaper. <b>storium</b>: storage with a suffix. <b>ridgeline</b>: the long high route you commit to.</td></tr>
+    </table>
+  </div><div class="num"></div></section>`);
+
+/* ------------------------------------------------------------------
+   Deck mechanics.
+------------------------------------------------------------------- */
+/* ------------------------------------------------------------------
+   The running order. Slides are defined above in any order; these two
+   lists decide what is shown and where. MAIN is the talk. APPENDIX
+   comes after the close, for questions and for readers.
+------------------------------------------------------------------- */
+const MAIN=['Title','The problem','The idea','The workshop map','Where it came from','Waves and weaves','The tools',
+  'fascicle','checkride','keyframes','storyboard','plumbbob','volley','runciter','atis','Also in the workshop',
+  'Composed: the long-horizon builder','The contracts','What I learned','Where it stands','Ways in','Close'];
+const APPENDIX=['Composed: one step up close','Composed: a flow you can read','Who owns what','The plugs','Why not something off the shelf','A year',
+  'storium','penfield','lodestar','shinbun','agent-tools','Appendix: the names'];
+const BY_TITLE=Object.fromEntries(S.map(h=>[h.match(/data-title="([^"]*)"/)[1],h]));
+const pick=t=>{if(!BY_TITLE[t])throw new Error('No slide titled '+t);return BY_TITLE[t];};
+S.length=0;
+MAIN.forEach(t=>S.push(pick(t)));
+APPENDIX.forEach(t=>S.push(pick(t).replace('<section class="slide','<section data-appendix="1" class="slide')));
+
+const deck=document.getElementById('deck');
+deck.innerHTML=S.join('');
+const slides=[...deck.querySelectorAll('.slide')];
+const mainCount=slides.filter(s=>!s.dataset.appendix).length;
+slides.forEach((s,i)=>{const n=s.querySelector('.num'),ax=s.dataset.appendix; if(n) n.textContent=ax?`appendix ${i+1-mainCount}`:`${i+1} / ${mainCount}`;
+  if(ax) s.insertAdjacentHTML('beforeend','<div class="apx">Appendix</div>');});
+let cur=0;
+function show(i){cur=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,k)=>s.classList.toggle('on',k===cur));
+  history.replaceState(null,'','#'+(cur+1));document.title=`${slides[cur].dataset.title} · Build with AI, stay in charge`;}
+function fit(){const s=Math.min(innerWidth/1600,innerHeight/900);deck.style.transform=`scale(${s})`;}
+addEventListener('resize',fit);fit();
+addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' ','Enter'].includes(e.key)){e.preventDefault();show(cur+1);}
+  else if(['ArrowLeft','PageUp','Backspace'].includes(e.key)){e.preventDefault();show(cur-1);}
+  else if(e.key==='Home')show(0); else if(e.key==='End')show(slides.length-1);
+  else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();}
+});
+deck.addEventListener('click',e=>{if(e.target.closest('a,.hood'))return;const r=deck.getBoundingClientRect();(e.clientX-r.left)>r.width/2?show(cur+1):show(cur-1);});
+show(parseInt(location.hash.slice(1)||'1',10)-1);
+</script>
+</body>
+</html>
